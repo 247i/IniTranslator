@@ -1,0 +1,333 @@
+'Smarty Uninstaller Pro'
+
+English language file
+
+[lang info]
+language=English
+createdby=WINner Tweak Software
+contactinfo=info@winnertweak.com
+fontcharset=238
+
+[tips]
+tipscount=22
+1=You can use Context Menu (Right click on installed program icon) to get fast access to the Smarty Uninstaller commands.
+2=If you don't like to see these tips at startup, uncheck apppropriate option. Click Help > 'Show Tips on Startup' to enable/disable these tips.
+3=Before using 'Force Uninstall' feature try to uninstall application in regular way by clicking 'Uninstall' button.
+4=With 'Advanced Details...' command you can get more information about installed application. To open 'Advanced Details' window you should choose 'Advanced Details...' command in main menu.
+5=With Smarty Analyzer you can analyze selected information and detect traces of this application on your hard drive and registry. Select application and choose 'Full Analyze' command in menu.
+6=You can detect and remove traces left by application in your system separately by choosing appropriate command in menu ('Detect Files', 'Detect Registry Entries', 'Detect Shortcuts).
+7=You can edit application's details in registry. Use the 'Advanced details...' command.
+8=Regular 'Uninstall' command in Smarty Uninstaller allows you to uninstall programs on your computer and check for the traces left in your Computer after uninstallation.
+9=You can get more details about application by moving cursor to the application's icon in Smarty Uninstaller. Also you can disable this feature in menu. Click View > Show Info Tips to  disable or enable this feature.
+10=You can refresh application's list anytime by selecting 'Refresh' button in the toolbar, context or main menu.
+11='Force Uninstall' command will uninstall application with broken uninstaller or clean-up traces when application incorrectly removed.
+12=You can make your system settings backup by creating the registry backup or system restore point (depending on your operating system). These commands available directly in Smarty Uninstaller menu (File > Create Backup).
+13=You can create html formatted report about applications installed on your computer by choosing 'File > Create Report' command in main menu.
+14=You can choose different views for your applications in Smarty Uninstaller. Click 'View' command and select appropriate way to display application's list (Icons, Details, Details (No Groups)).
+15=In 'Possible Broken' category you can see applications that for some reasons (in most cases applications that has been removed without using uninstaller) selected by Smarty Uninstaller as invalid.
+16=In 'System (hidden) components' category you can see applications entries that have been created for use by system.
+17=If you have some questions or you need help with Smarty Uninstaller please read the Help file first before contacting support team.
+18=You can contact support team at support@winnertweak.com. We will be happy to answer your request as soon as possible.
+19=You can submit your comments about Smarty Uninstaller to us at info@winnertweak.com
+20=If you want to see, new features in the next version of the Smarty Uninstller, please describe these features and email us at info@winnertweak.com
+21=Smarty Uninstaller the smartest uninstaller in the World! And in the future versions it will receive more smartest functions!
+22=You can search for application installed on your computer (you can define the name and size of application or both as search criteria).
+
+[main menu]
+1=Backup System settings
+2=Restore
+3=Registry Backup...
+4=Create Restore Point...
+5=System Restore...
+6=Create report...
+7=Exit
+8=Show
+9=Uninstall
+10=Force Uninstall
+11=Full Analyze
+12=Detect Registry Entries
+13=Detect Shortcuts
+14=Detect Files
+15=Advanced Details
+16=Advanced Details
+17=Icons
+18=Details (No Groups)
+19=View
+20=Show Info Tips
+21=Refresh
+22=Menu Style
+23=Smarty Default
+24=Xp Style
+25=Light Black
+26=This Windows
+27=Help Topics...
+28=Show Tips on Start-up
+29=Web site
+30=Purchase
+31=About
+32=Contact us
+33=&File
+34=&Uninstall
+35=&Analyze
+36=&Tools
+37=&View
+38=&Help
+39=Next Application
+40=&Stop
+41=Clean Up
+42=Close
+43=Report
+44=Language
+45=New language successfully applied! Please restart Smarty Uninstaller.
+46=Uninstall with Smarty Uninstaller
+47=Full Refresh (Delete Smarty Cache)
+48=Display Tips Window
+49=Set Double Click Action
+50=Show Advanced Details
+51=Launch Uninstall...
+52=Launch Analyze...
+53=Repair
+54=Select valid path...
+55=Groups
+56=Create new group...
+57=Remove group...
+58=Default
+59=Remove
+60=Change icon...
+61=Don't Show Windows Updates
+62=Don't Show Hidden Components
+63=Move to Group
+64=Broken Installation
+65=Menu Font...
+
+[main window]
+0=Always clean and safe uninstall                                          
+1=Loading
+2=Close
+3=Registry clean-up:
+4=Please wait...Smarty Clean-up in progress
+5=Program files clean-up:
+6=Shortcuts clean-up:
+7=Smarty Uninstaller > Clean-Up
+8=&Search
+9=MB
+10=than
+11=Refresh
+12=Uninstall
+13=Uninstall Menu
+14=Information
+15=Licensed to:
+16=Possible Broken Installations:
+17=System (Hidden) Components:
+18=Programs Installed:
+19=Recently installed applications:
+20=Programs detected:
+21=Smarty Uninstaller > Loading
+22=Analyzing installed software...
+23=Search Results
+24=Close Search
+25=Save
+26=Delete
+27=Command
+28=Title
+29=professional software manager for Windows
+30=Smarty Uninstaller Pro
+31=Application size
+32=more than
+33=less than
+34=Show applications with unknown size
+35=Resume selected
+36=Resume All
+37=Cancel selected
+38=Cancel All
+
+[about window]
+1=OK
+2=Running on Windows XP
+3=Language:
+4=Translated by:
+
+[add window]
+1=Cancel
+2=Save Changes
+3=Smarty Uninstaller > Edit Registry
+4=Name
+5=Value
+
+[analyze window]       
+1=Detected shortcuts
+2=Detected registry entries
+3=Detected files
+4=Smarty Analyzer
+5=Analyzing Hard Drive...
+6=Clean up
+7=Delete All
+8=Old Path
+9=New Path
+10=Description
+11=Shortcut file
+12=Entire Folder
+
+[backup window]                                                     
+1=Cancel
+2=Create
+3=Smarty Uninstaller > Create the Restore Point
+4=Smarty Uninstaller > Create the Registry Backup
+
+[details window]   
+1=Version
+2=Publisher
+3=Help
+4=Web site       
+5=Telephone
+6=Double click on the list item to change it.This feature only for Advanced users, change it on your own risc!
+7=Advanced details
+8=Close
+9=Support link
+10=Update link
+
+                                              
+[splash window]                                                
+1=Activate
+2=Clear
+3=Close
+4=Enter your name
+5=Activation code
+6=The easiest way to enter your user name and registration code correctly is to copy it to clipboard and then paste it into the Activation dialog edit box (using Ctrl+V).
+7=Continue
+8=Exit
+9=To purchase the license click on
+10=If you wish to continue using it after the expiration of evaluation period, you have to purchase the license.
+11=This software may be installed and evaluated for 15 days to insure that it meets your needs.
+12=Order Now
+13=Enter Unlock Code
+14=Trial Expired
+15=UNREGISTERED
+
+[tip window]                                              
+1=&Next Tip
+2=Did you know...
+3=OK
+4=Tip of the Day
+
+[wait window]                                                 
+1=Hide
+2=Stop
+3=Loading...
+4=Waiting for application's uninstaller...
+
+[shortcut cleaner]
+0=Shortcut Cleaner 
+1=found invalid shortcut(s).
+2=Shortcut Name
+3=Points to
+4=Path
+5=Cleaun-Up Checked
+6=Check/Uncheck All
+7=Selected Disk Drive
+8=Start Menu
+9=Click Analyze button to start the Shortcut Cleaner.
+
+[messages]
+1=Operating system:
+2=About
+3=Changes were successfully saved!
+4=Shortcuts
+5=Registry Keys
+6=Value Name
+7=Data
+8=Detected File(s)
+9=Do you want to stop analyzing process?
+10=Registry analyzing...Phase 1 of 4
+11=Registry analyzing...Phase 2 of 4
+12=Registry analyzing...Phase 3 of 4
+13=Registry analyzing...Phase 4 of 4
+14=Default
+15=Entire Sub Key
+16=n/a
+17=Successfully analyzed
+18=No entries detected
+19=This action will remove selected elements of
+20=Do you wish to continue?
+21=This action will remove junk entries of
+22=found after Uninstall. Do you wish to continue?
+23=This action will force uninstall of
+24=In progress
+25=Canceled
+26=Finished
+27=All selected traces succesfully removed
+28=Files were not deleted
+29=Some files were not deleted! This files can be used by another process. Smarty Uninstaller will delete them later.
+30=Processing application
+31=of
+32=uninstall analyze
+33=No traces found! Your application has been successfully uninstalled!
+34=No traces found for selected application!
+35=Please enter backup name!
+36=Restore point:
+37=were successfully created
+38=Restore Point creation Failed! Maybe System Resore disabled on your PC!
+39=Setting
+40=Value
+41=Version
+42=Evaluation Left:
+43=day(s)
+44=Smarty Uninstaller Pro
+45=No search results!
+46=Unfortunaly Smarty Uninstaller were unable to detect this program automatically
+47=Do you want to load all installed software list and find it manually?
+48=Name
+49=Uninstall Key
+50=Publisher
+51=Size
+52=in Bytes
+53=Version
+54=Installed
+55=Accessed
+56=Modified
+57=Install Location
+58=System (hidden)  components
+59=Installed software
+60=Possible Broken Installations
+61=Applications found
+62=new
+63=Smarty Uninstaller has detected
+64=new installed application(s) since last check! These applications are painted in blue color.
+65=This is a system component (used by system). Uninstallation of these components is not recommended!
+66=Do you want to uninstall this component?
+67=It seems you canceled software deinstallation! Click 'Yes' button if you canceled deinstallation!
+68=If not, press 'No' button when deinstallation will be completed to start garbage analyzer!
+69=Select Item!
+70=Do you wish to delete this entry from Uninstall list?
+71=Note: This action will not remove application files, shortcuts, registry entries!
+72=Please select item to save!
+73=Do you want to save changes in
+74=Changes have been successfully saved
+75=This is a system component (used by system). Uninstallation of these components is not recommended!
+76=Do you want to uninstall this component?
+77=Licensed to:
+78=Caching apps list...
+79=Windows updates
+80=Please select correct path!
+81=Are you sure that
+82=is a valid path for
+83=Changes have been successfully applied!
+84=Registry Backup saved to:
+85=A group with this name already exists. Please choose another name!
+86=The new group has been successfully created!
+87=Are you sure you want to remove this group?
+88=All Applications
+89=Only selected Application(s)
+90=Columns
+91=Would you like to point these shortcuts to the new location?
+92=Repaired shortcuts
+93=Failed to repair
+94=No shortcuts have been found for this application!
+95=Would you like to search and point shortcuts for this application to the new location?
+96=Path to uninstaller has been repaired!
+97=This application has invalid uninstaller path!
+98=Would you like to fix it to the new one?
+99=Incomplete Uninstallations...
+100=Dear user. You have incomplete uninstallations. You may see them in the list below.
+101=You have no incomplete uninstallations!
+102=Quick Links

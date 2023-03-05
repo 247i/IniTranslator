@@ -1,0 +1,61 @@
+NOTE: this is only for people building the sources themselves!
+
+Changes for Toolbar2000, version 2.1.8
+--------------------------------------
+To get the program to display menu shortcuts the way other programs do (i.e in the order Ctrl+Shift+Alt), you need to make some modifications to TB2Item.pas.
+
+
+TB2Item.pas:
+============
+
+* Add the following just above the implementation keyword:
+
+function MyShortCutToText(ShortCut: TShortCut): string;
+
+
+* Change the uses clause in the implementation section to include the Consts unit:
+
+uses
+  MMSYSTEM, TB2Consts, TB2Common, IMM, TB2Acc, Types, Consts;
+
+
+* Add the following somewhere within the units implementation section:
+
+// this does the same as ShortCutToText with the only
+// difference that the modifier keys are returned in the 
+// order ctrl+shift+alt instead of shift+ctrl+alt
+function MyShortCutToText(ShortCut: TShortCut): WideString;
+var
+  ACtrl, AShift, AAlt: WideString;
+  i:integer;
+begin
+  Result := ShortCutToText(ShortCut);
+  if Pos('+',Result) > 0 then
+  begin
+    if Pos(SmkcShift, Result) > 0 then
+      AShift := SmkcShift
+    else
+      AShift := '';
+    if Pos(SmkcCtrl, Result) > 0 then
+      ACtrl := SmkcCtrl
+    else
+      ACtrl := '';
+    if Pos(SmkcAlt, Result) > 0 then
+      AAlt := SmkcAlt
+    else
+      AAlt := '';
+    for i := Length(Result) downto 1 do
+      if Result[i] = '+' then
+        Break;
+    Result := ACtrl + AShift + AAlt + Copy(Result, i + 1, Maxint);
+  end;
+end;
+
+
+
+* Change all "ShortCutToText" into "MyShortCutToText"
+
+If you don't want to modify your standard Tb2k source, copy TB2Item to the IniTranslator /src folder and make the changes there. Note that this will not work if you are building IniTranslator with run-time packages.
+
+
+

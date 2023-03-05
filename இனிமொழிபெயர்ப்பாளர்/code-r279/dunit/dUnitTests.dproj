@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{f4f4a088-ddd7-4d7d-bb1b-0c10feaaf7dc}</ProjectGuid>
+    <MainSource>dUnitTests.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>..\dcu\dUnitTests.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_TypedAtParameter>True</DCC_TypedAtParameter>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_Description>Tnt Unicode Controls</DCC_Description>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_TypedAtParameter>True</DCC_TypedAtParameter>
+    <DCC_Define>DEBUG;</DCC_Define>
+    <DCC_ExeOutput>..\dcu</DCC_ExeOutput>
+    <DCC_DcuOutput>..\bin</DCC_DcuOutput>
+    <DCC_ObjOutput>..\bin</DCC_ObjOutput>
+    <DCC_HppOutput>..\bin</DCC_HppOutput>
+    <DCC_UnitSearchPath>..\src</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\src</DCC_ResourcePath>
+    <DCC_ObjPath>..\src</DCC_ObjPath>
+    <DCC_IncludePath>..\src</DCC_IncludePath>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">2</VersionInfo><VersionInfo Name="MinorVer">2</VersionInfo><VersionInfo Name="Release">5</VersionInfo><VersionInfo Name="Build">1</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1033</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">2.2.5.1</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">2.2.5.1</VersionInfoKeys></VersionInfoKeys><Excluded_Packages></Excluded_Packages><Source><Source Name="MainSource">dUnitTests.dpr</Source></Source></Delphi.Personality><UnitTesting><TestFramework>DUnit / Delphi Win32</TestFramework><TestRunner>GUI</TestRunner></UnitTesting></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="dUnitTests.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\src\ApplicationServices.pas" />
+    <DCCReference Include="..\src\AppUtils.pas" />
+    <DCCReference Include="..\src\BaseForm.pas" />
+    <DCCReference Include="..\src\ColorsFrm.pas" />
+    <DCCReference Include="..\src\CommentsFrm.pas" />
+    <DCCReference Include="..\src\CommonUtils.pas" />
+    <DCCReference Include="..\src\DictEditFrm.pas" />
+    <DCCReference Include="..\src\Dictionary.pas" />
+    <DCCReference Include="..\src\DictTranslationSelectDlg.pas" />
+    <DCCReference Include="..\src\EditItemFrm.pas" />
+    <DCCReference Include="..\src\ExtToolsFrm.pas" />
+    <DCCReference Include="..\src\FileMonitor.pas" />
+    <DCCReference Include="..\src\FindReplaceFrm.pas" />
+    <DCCReference Include="..\src\ImportExportFrm.pas" />
+    <DCCReference Include="..\src\KbdCfgFrame.pas" />
+    <DCCReference Include="..\src\KbdCfgFrm.pas" />
+    <DCCReference Include="..\src\MainFrm.pas" />
+    <DCCReference Include="..\src\MsgTranslate.pas" />
+    <DCCReference Include="..\src\OptionsFrm.pas" />
+    <DCCReference Include="..\src\OrphansFrm.pas" />
+    <DCCReference Include="..\src\PromptArgsFrm.pas" />
+    <DCCReference Include="..\src\SuspiciousConfigFrm.pas" />
+    <DCCReference Include="..\src\ToolItems.pas" />
+    <DCCReference Include="..\src\TranslateFile.pas" />
+    <DCCReference Include="..\src\UndoList.pas" />
+    <DCCReference Include="..\src\WideIniFiles.pas" />
+    <DCCReference Include="TestApplicationServices.pas" />
+    <DCCReference Include="TestAppUtils.pas" />
+    <DCCReference Include="TestBaseForm.pas" />
+    <DCCReference Include="TestColorsFrm.pas" />
+    <DCCReference Include="TestCommentsFrm.pas" />
+    <DCCReference Include="TestCommonUtils.pas" />
+    <DCCReference Include="TestDictEditFrm.pas" />
+    <DCCReference Include="TestDictionary.pas" />
+    <DCCReference Include="TestDictTranslationSelectDlg.pas" />
+    <DCCReference Include="TestEditItemFrm.pas" />
+    <DCCReference Include="TestExtToolsFrm.pas" />
+    <DCCReference Include="TestFileMonitor.pas" />
+    <DCCReference Include="TestFindReplaceFrm.pas" />
+    <DCCReference Include="TestImportExportFrm.pas" />
+    <DCCReference Include="TestKbdCfgFrame.pas" />
+    <DCCReference Include="TestKbdCfgFrm.pas" />
+    <DCCReference Include="TestMainFrm.pas" />
+    <DCCReference Include="TestMsgTranslate.pas" />
+    <DCCReference Include="TestOptionsFrm.pas" />
+    <DCCReference Include="TestOrphansFrm.pas" />
+    <DCCReference Include="TestPromptArgsFrm.pas" />
+    <DCCReference Include="TestSuspiciousConfigFrm.pas" />
+    <DCCReference Include="TestToolItems.pas" />
+    <DCCReference Include="TestTranslateFile.pas" />
+    <DCCReference Include="TestUndoList.pas" />
+    <DCCReference Include="TestWideIniFiles.pas" />
+  </ItemGroup>
+</Project>

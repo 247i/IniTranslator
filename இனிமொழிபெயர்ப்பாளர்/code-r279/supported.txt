@@ -1,0 +1,23 @@
+This is a (incomplete) list of programs that recommend Ini Translator or can be translated with Ini Translator:
+
+-Ini Translator itself (initranslator.sourceforge.net) 
+-Inno Setup (www.jrsoftware.org)
+-ISTool (www.istool.org)
+-Wallpaper Sequencer (www.wallpapersequencer.com)
+-FlashGet (www.amazesoft.com)
+-Opera (www.opera.com)
+-FlaskMPEG (flaskmpeg.sourceforge.net)
+-Page Promoter (pagepromoter.com)
+-Earth Navigator (www.earthnavigator.com)
+-Ad-aware (www.lavasoftUSA.com)
+-Unired (unired.sourceforge.net)
+-Ghost Installer (www.ginstaller.com)
+-Link Commander (www.resortlabs.com)
+-Balmsoft Polyglot (www.balmsoft.com)
+-X-Force: Fight For Destiny (http://www.xforce-online.de/translations.php)
+-MySQL-Front (http://www.mysqlfront.de)
+-Yabber (www.yabber.org)
+-GnucDNA Delphi (gnucdnadelphi.sourceforge.net)
+-MyIE2 (now called Maxthon) (www.maxthon.com)
+
+If you use Ini Translator to translate other programs or know of other programs that uses the ini-style language files, let me know by sending a mail to peter3 at sourceforge.net

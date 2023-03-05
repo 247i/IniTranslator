@@ -1,0 +1,1882 @@
+[_main_]
+name=English (EN)
+langid=1033
+
+
+[TTips2]
+actCopyContent.Caption='Copy all content'
+actCopySelection.Caption='Copy selection'
+actSelectAll.Caption='Select all'
+actZoomin.Caption='Zoom in (Ctrl+Mouse wheel up)'
+actZoomout.Caption='Zoom out (Ctrl+Mouse wheel down)'
+lblBottom.Caption='Press <SHIFT> button and move over the mouse for focus '
+lblBottomDrag.Caption='Drag here to move window - right click for options'
+
+
+[TfrmCopyVerses]
+Caption='Copy verses'
+groupStep1.Caption='Step 1: select the range of verses you want to copy'
+groupStep1.sbFrom.Caption='From:'
+groupStep1.sbTo.Caption='To:'
+cmdResetRange.Hint='Click to clear range verse references'
+groupStep1.lblRangeCount.Caption='0 verse(s)'
+groupStep2.Caption='Step 2: select translation and book names format'
+groupStep2.lblVolD.Caption='Translation:'
+groupStep2.chkAlias.Caption='Short book names'
+groupStep3.Caption='Step 3: select the format of the header '
+groupStep3.lblHeaderFormat.Caption='Format:'
+groupStep3.lblHeaderFormatTip.Caption='Allowed placeholders: %r for range, %t for translation, %n for new line'
+groupStep3.chkHeader.Caption='Show header'
+groupStep4.Caption='Step 4: select the format of the verses'
+groupStep4.TntLabel3.Caption='Predefined formats:'
+groupStep4.TntLabel4.Caption='Before each verse:'
+groupStep4.TntLabel5.Caption='After each verse:'
+groupStep4.lblVerseFormatTip.Caption='Allowed placeholders: %b for book name, %c for chapter number, %v for verse number, %t for translation, %n for new line'
+groupPreview.Caption='Preview'
+mnuFmtBook.Caption='Book (%b)'
+mnuFmtCh.Caption='Chapter number (%c)'
+mnuFmtVs.Caption='Verse number (%v)'
+mnuFmtTrans.Caption='Translation (%t)'
+mnuFmtNL.Caption='New line (%n)'
+mnuFmtHRange.Caption='Range (%r)'
+mnuFmtHTrans.Caption='Translation (%t)'
+mnuFmtHNL.Caption='New line (%n)'
+lblQuickHelpTitle.Caption='Quick help on formatting'
+lblQuickHelp.Caption='You can control the format of the copied verses and the header by manually entering a combination of text and "placeholders" in the above text boxes (or click on the arrow next to them to see a list of them). A "placeholder" is a percentage character (%) followed by a letter (e.g. %b) and represents a piece of text that is substituted as the verses are copied.'#13'For example, the %b placeholder represents the book name of the Bible that a verse belongs to.'#13'To get a better idea of how these placeholders can be combined, choose one of the "Predefined formats" and notice the values in the textboxes below and the corresponding preview pane'
+cmdCopy.Caption='&Copy'
+cmdCancel.Caption='Cancel'
+cmdCopyAndClose.Caption='Copy and C&lose'
+cmbFormats.Items.Strings='1. Verse reference before each verse','2. Verse reference and translation before each verse with paragraph','3. Verse reference after each verse','4. Verse reference after each verse with paragraph','5. Only chapter:verse before each verse','6. Only chapter:verse before each verse with paragraphs','7. Single block of text','8. Single block of text with new lines','9. Single block of text with paragraphs','10. Single block of text with verse reference before each verse','11. Verses on a new line with verse reference before each verse','12. Verses as paragraphs with verse reference before each verse','13. Verses on a new line with chapter/verse reference before each verse','14. Verses as paragraphs with chapter/verse reference before each verse','15. Custom (user defined)'
+FormatPatterns.Items.Strings='(%b %c:%v) |%n%n','(%b %c:%v [%t])%n|%n%n','| (%b %c:%v)%n','| (%b %c:%v)%n%n','(%c:%v) | ','(%c:%v) |%n%n','|','|%n','|%n%n','%v | ','%v) |%n','%v. |%n%n','%c:%v |%n','%c:%v |%n%n'
+
+
+[TfrmOptions]
+Caption='Bible view options'
+lblTop.Caption='Click on a category to set corresponding options'
+lblGeneral.Caption='The options you set here will apply to the current Bible view (the one that was active just before this dialog appeared). When a new Bible view is created, it "inherits" automatically all options of the currently active Bible view.'
+cmdCancel.Caption='Cancel'
+cmdCancel.Hint='Click to close this dialog without applying the settings'
+cmdOK.Caption='OK'
+cmdOK.Hint='Click to apply the settings and close this dialog'
+cmdApply.Caption='Apply'
+cmdApply.Hint='Click to apply the setting without closing this dialog'
+Categories.Items.Strings='Fonts colors and styles','General behaviour and Parallel view options','Paragraphs and headings','Strong''s and morph.','Footnotes and Cross references','Commentary links','Inline commentaries','Word lookup dictionaries'
+#page Bible
+
+lblBFontAndColors.Caption='Reader font, colors and Bible text formatting'
+lblBDefFontColor.Caption='Default font color:'
+lblBDefBackColor.Caption='Default background color:'
+lblBLinkColor.Caption='Default link color:'
+lblBHoverColor.Caption='Default links hover color:'
+lblBHeaderColor.Caption='Header and verse numbers color:'
+lblBDefFont.Caption='Default Bible text font:'
+cmbBDefFont.Hint='This font will be used for the Bible text itself,'#13'chapter headings and footnotes'
+lblBDefFont.Hint='This font will be used for the Bible text itself, chapter'#13'headings and footnotes'
+chkBOthersFont.Caption='Use different font for non-Biblical text elements in Bible view:'
+cmbBOthersFont.Hint='This font will be used for the header and footer of the Bible'#13'view, the cross references and the commentary links'
+chkBOthersFont.Hint='This font will be used for the header and footer of the Bible'#13'view, the cross references and the commentary links'
+lblBHeaderFooter.Caption='Header && footer, words of Jesus, words added by translators'
+chkBHeaderFooter.Caption='Show header and footer (chapter number links and links at the bottom)'
+chkBHeaderFooter.Hint='Header: includes the current chapter label at the top of the'#13'viewer and the links for the chapter numbers of current book.'#13'Footer: includes the links at the bottom of the chapter that point to'#13'the next and previous chapters and to the top of the page.'
+chkBWOJ.Caption='Show words of Jesus in different color:'
+chkBWOJ.Hint='Check this options if you want the words of Jesus to appear in a'#13'different color. Please notice that this option only has effect'#13'for specific Bible modules (the ones that have this information)'
+chkBAdded.Caption='Display words added by translator with different style'
+chkBAdded.Hint='Some translations contain some words that are not in the original'#13'texts but are used to provide a better rendering of the meaning of the'#13'text. Check this option if you want these words to use a different style'#13'(notice that this option does not apply to all Bible modules but only to'#13'those that contain this kind of information)'
+chkBAddedItalic.Caption='render words added by translator using italic style'
+chkBAddedItalic.Hint='Check if you want the ''added'' words to appear in italic font'
+chkBAddedBrackets.Caption='render words added by translator within square brackets'
+chkBAddedBrackets.Hint='Check if you want the ''added'' words to'#13'appear between square brackets'
+lblBAddedColor.Caption='Text color for added words:'
+lblBAddedColor.Hint='Select the color for ''added'' words'
+#page general and parallel view
+
+lblBBehaviourAndGeneral.Caption='Behaviour and general options'
+chkBUserHighlighting.Caption='Show user formatting/highlighting on Bible text'
+chkBUserHighlighting.Hint='Whether to show the formatting/highlighting you'#13'have applied to the Bible text'
+chkBMWheelMovesVerse.Caption='Mouse wheel move to previous and next verse (instead of scrolling the view)'
+chkBMWheelMovesVerse.Hint='Check if you want to navigate across Bible (next/previous verse) using the mouse wheel'
+chkBVerseInView.Caption='Bring selected/current verse into view'
+chkBVerseInView.Hint='Check if you want to automatically scroll the Bible'#13'view in order to bring the current verse in view'
+optBVerseCenter.Caption='bring selected in the center of screen (vertically)'
+optBVerseTop.Caption='bring selected verse at the top of screen (vertically)'
+optBVerseInView.Caption='bring selected verse in view with minimum scrolling (up or down)'
+lblBParallelView.Caption='Parallel view options'
+lblBParallelArrange.Caption='Arrange Bible texts:'
+optBParHor.Caption='in columns, one verse beside the other, for each translation'
+optBParVer.Caption='in rows, one verse below the other, for each translation'
+chkBParHeader.Caption='Show floating header in parallel view '
+chkBParHeader.Hint='Check if you want the flashing header to appear when in Parallel view.'#13'Useful if you want to know which column belongs to which translation'
+chkBParAltClr.Caption='Use alternate color every second line:'
+chkBParHideVol.Caption='Hide Bible modules that do not contain the chapter currently visible'
+chkBParHideVol.Hint='It is possible that some translations do not contain the whole'#13'Bible but only part of it (e.g. only the New Testament).'#13'Check this option if you want to hide the columns that correspond to such'#13'translations when you are viewing a chapter that is not contained in this translation'
+#page Bible Headings
+
+lblBTextDisplay.Caption='Text display'
+optBNormalMode.Caption='display each verse in a separate line, with the verse number in front'
+optBParagraphMode.Caption='display the whole chapter as a single paragraph (paragraph more)'
+lblBParas.Caption='Paragraphs (line breaks)'
+chkBParas.Caption='Show translator''s paragraphs (line breaks)'
+chkBParasPara.Caption='Display them only in paragraph mode'
+optBParasNo.Caption='Don''t show paragraphs if the Bible module does not have paragraphs of it''s own'
+optBParasFrom.Caption='If the module does not have paragraphs, then use "Alternate paragraphs":'
+optBParasAlways.Caption='Always use "Alternate paragraphs":'
+lblBParasAlternate.Caption='Alternate paragraphs:'
+cmbBParasFrom.Hint='This list contains those Bible texts that contain'#13'paragraphs within themselves and other stand-alone'#13'paragraph-sets. Select the one that you want to use, and apply'#13'it to the current text'
+lblBHeadings.Caption='Chapter headings'
+lblBHeadingsColor.Caption='Color:'
+chkBHeadings.Caption='Show chapter headings'
+chkBHeadingsPara.Caption='Show chapter headings only in paragraph mode'
+optBHeadingsNo.Caption='Don''t show headings if the Bible module does not have headings of it''s own'
+optBHeadingsFrom.Caption='If the module does not have chapter headings, then use "Alternate headings":'
+optBHeadingsAlways.Caption='Always use "Alternate headings":'
+lblBHeadingsAlternate.Caption='Alternate headings:'
+cmbBHeadingsFrom.Hint='This list contains those Bible texts that contain'#13'chapter headings within themselves and other stand-alone'#13'chapter-headings-sets. Select the one that you want to use, and apply'#13'it to the current text'
+#Page: strong's and morph
+
+lblBStrongs.Caption='Strong''s numbers'
+lblBStrongsDct.Caption='Use the following dictionary module to lookup Strong''s numbers:'
+lblBStrongsColor.Caption='Color of text for strong''s numbers:'
+lblBMorph.Caption=' Greek morphology codes'
+lblBMorphDct.Caption='Use the following dictionary module to lookup morphological codes:'
+lblBMorphColor.Caption='Color of text for morphology codes:'
+chkBStrongs.Caption='Show Strong''s numbers'
+chkBMorph.Caption='Show greek morphology codes'
+chkBStrongsCTRL.Caption='Show Strong''s definitions on a popup window only when CTRL is pressed'
+chkBMorphCTRL.Caption='Show Morphological  code descriptions on a popup window only when CTRL is pressed'
+chkBStrongsInstead.Caption='Instead of showing the Strong''s number, show:'
+optBStrongsInsteadText.Caption='the following letter/text:'
+optBStrongsInsteadOrig.Caption='original word (only if supported by Strong''s dictionary module)'
+chkUseOrigFont.Caption='use greek/hebrew font for original word'
+chkUseOrigFont.Hint='Check this option if you want the original words to be'#13'rendered using the default Greek and Hebrew fonts'
+chkBMorphInstead.Caption='Instead of showing Morphological codes, show the following:'
+#page: footnotes and cross-references
+
+lblBFootnotes.Caption='Translator''s footnotes'
+chkBFootnotes.Caption='Show translator''s footnotes/inline notes'
+lblBFootnotesPos.Caption='Position:'
+cmbBFootnotes.Items.Strings='As links (when mouse moves over the links, the note appears)','Inline with the text','After each verse','After each verse in a new line','At the end of the chapter'
+lblBFootnotesColor.Caption='Text color for footnotes:'
+lblBXrefs.Caption='Cross references'
+chkBXrefs.Caption='Show cross references'
+chkBXrefs.Hint='Check this option to show cross-references'#13'inline with the Bible text'
+cmbBXRefs.Hint='Select where the cross-references appear,'#13'in context with the Bible text'
+lblBXrefsPos.Caption='Position:'
+cmbBXrefs.Items.Strings='As links with a "star" ("*"), inline the verse','As links with the full verse reference, inline the verse','At the end of each verse (using a numeric index in the verse)','At the end of each verse with no index in the verse'
+lblBXrefsColor.Caption='Text color for cross-references:'
+chkBXRefsBidi.Caption='Cross references are bi-directional '
+chkBXRefsBidi.Hint='Select this option if you want to have the referenced verse'#13'link back to the original verse. For example, if you add a cross'#13'reference for John 1:1  to Mark 1:1, selecting this option will also'#13'show the cross reference when you navigate to the Mark 1:1 verse'#13'(obviously, the initial verse will be displayed then, e.g. John 1:1)'
+lblBXrefsBackChar.Caption='Format of back-referencing cross references:'
+txtBXrefsBackChar.Hint='You can use as a cross-ref placeholder the "%s" symbol.'#13'For example, if you want the back-referenced cross reference'#13'to appear in paranthesis, enter here (without the quotes): "(%s)"'
+chkBXrefsOverlay.Caption='Overlay the following set(s) of cross-references:'
+chkBXrefsOverlay.Hint='Select this option if you want to show cross references'#13'even if the Bible module does not have any by itself'
+lblXrefsOverlayList.Caption='Select xrefs sets:'
+lstBXrefs.Hint='This is the list of all available cross references. '
+optBXrefsOverlayAlways.Caption='overlay always'
+optBXrefsOverlayAlways.Hint='Select this option if you want the selected'#13'cross-references set to be overlayed all the times'
+chkBXrefsHideOriginal.Caption='hide original xrefs (if any)'
+chkBXrefsHideOriginal.Hint='Check this option to hide any cross-references that may exist'#13'in the Bible module. This is useful if you would like to ignore the'#13'cross-references of the module and always display your pesonal set(s).'
+optBXrefsOverlayOnly.Caption='overlay only if the module does not have xrefs of its own'
+optBXrefsOverlayOnly.Hint='Select this option if you want to overlay the selected'#13'cross-references sets only if the Bible module has no'#13'cross-references by itself'
+lblXRefsOverlayTip.Caption='Please notice, that "Position" of cross references is ignored when overlaying from a different set; in that case, overlayed cross references appear at the end of the verse'
+cmdOrganizeXrefs.Caption='Organize...'
+cmdOrganizeXrefs.Hint='Click to organize your cross-references'
+#page commentary links
+
+lblBCmtLinks.Caption='Commentary links'
+chkBCmtLinks.Caption='Show commentary links after each verse'
+lblBCmtLinksPopup.Caption='Show the content of the commentary in a popup window:'
+cmbBCmtLinksPopup.Items.Strings='Never','when the mouse moves over the commentary link','when the mouse moves over the commentary link and CTRL is pressed'
+lblBCmtsLinksColor.Caption='Color of text for commentary links:'
+optBAllCmtLinks.Caption='Lookup all available commentaries'
+optBGivenCmtLinks.Caption='Lookup only specific commentaries'
+lblCmtLinksChoose.Caption='Check the commentaries that you want to lookup (drag with the mouse to rearrange):'
+#page inline commentaries
+
+lblBCmts.Caption='Inline commentaries'
+chkBCmts.Caption='Show inline commentaries'
+optBCmtsAfter.Caption='After each verse'
+optBCmtsBeside.Caption='at the right of each verse (table)'
+chkBCmtMerge.Caption='merge empty cells for Bible text'
+lblBCmtIndent.Caption='Left and right indent of commentary text (pixels):'
+chkBCmtLighten.Caption='Lighten color of commentary text:'
+chkBCmtBackcolor.Caption='Use background/alternate color of commentary text:'
+chkBCmtsTitle.Caption='Show title before each entry'
+lblBCmtBackcolorTitle.Caption='Background color of title:'
+lblBCmtColorTitle.Caption='Text color for title:'
+chkBCmtsHeader.Caption='Show floating header '
+lblBCmtChooseCmts.Caption='Show the following commentaries inline with the text (drag with the mouse to rearrange):'
+lblBCmtNotice.Caption='Please, notice that inline commentaries only display entries that are associated with a given verse and not with a book or chapter. For example, if you have a commentary with an entry on "Genesis, ch 1", this will not show up when displayed inline. You will need to have an entry for "Genesis 1:1" to show along the corresponding verse.'
+#page word definition dictionaries
+
+lblBDcts.Caption='Word definition dictionaries'
+chkBDcts.Caption='Lookup words in dictionaries as mouse moves over Bible viewer'
+optBDctsSame.Caption='Use the same dictionaries set for all Bible modules'
+optBDctsSeparate.Caption='Use separate dictionaries sets for one or more Bible modules'
+lblBDctsDelay.Caption='Delay popup with definition (in milliseconds):'
+chkBDctsCtrl.Caption='Show definitions only when CTRL is pressed'
+chkBDctsAll.Caption='If more than one dictionaries match, show all of them, not just the first one'
+lblBDctsModule.Caption='For this module...'
+lblBDctsLookup.Caption='...lookup words in these dictionaries:'
+lblBDctsModules.Caption='Check the dictionaries that you want to look up when the mouse moves over a word. Drag entries with your mouse to rearrange them.'
+lblBDctsNotice.Caption='You can define a default set of dictionaries to use for all Bible modules for which you have not defined a specific set. The default set is the one that you choose/assign when you select "All modules" at the "From this module..." combo box.'
+cmbBDcts.Items.Strings='All modules'
+
+#MAIN FORM
+#Title
+
+[TMainReaderForm]
+Caption='In the beginning was the Word'
+
+#toolbar captions
+
+tlbxMainMenu.Caption='Main menu'
+tlbxApp.Caption='View options'
+tlbxFmt.Caption='Bible text formatting'
+tlbxVerseRef.Caption='Verse reference'
+tlbxBkm.Caption='Bookmarks'
+
+#Main menu bar
+
+actFile.Caption='&File'
+actFile.Hint='Generic functions and options'
+actView.Caption='&View'
+actView.Hint='Options concerning the appearence of the program and the visibility of windows/toolbars'
+actTools.Caption='&Tools'
+actTools.Hint='Several tools and option dialogs'
+actWindow.Caption='&Window'
+actWindow.Hint='Manage windows (views)'
+actHelp.Caption='&Help'
+actHelp.Hint='Information about the program and installed Bible texts'
+
+#window menu
+
+cmdWindowClose.Caption='Close'
+
+#File menu
+
+mnuLangs.Caption='&Language'
+mnuLangs.Hint='Select the language of program menus and messages'
+actExit.Caption='&Exit'
+actExit.Hint='Click to exit the program'
+actOptions.Caption='&Preferences...'
+actOptions.Hint='Click to change several program settings and'#13'to set Bibles'' visibility, order and font settings'
+actCopyVerses.Caption='&Copy verses...'
+actCopyVerses.Hint='Select to copy one or more verses'
+actExportNotes.Caption='&Export notes...'
+actExportNotes.Hint='Click to export all your personal notes in a separate file'
+actWebUpdate.Caption='&Auto update...'
+actWebUpdate.Hint='Check if there is a newer version of the program available'
+
+#tray icon only
+
+mnuRestore.Caption='Restore'
+trayIcon.Hint='In the Beginning was the Word'
+
+#Help menu
+
+actTWHelp.Caption='"The Word" Help'
+actInternetHelp.Caption='Help on the &Internet...'
+actInternetBibles.Caption='Get more &Bible translations...'
+actCompactDB.Caption='&Repair/Compact notes...'
+actCompactDB.Hint='Select to shrink the file (user.edb) where all your personal notes are saved'
+actAbout.Caption='&About...'
+actAbout.Hint='Program version and other information'
+mnuBibleInfo.Caption='&Bible info'
+mnuBibleInfo.Hint='Information on the Bible texts you have installed'
+cmdDonate.Caption='Donate...'
+
+#View menu
+
+actViewBibleTree.Caption='Bible &tree'
+actViewBibleTree.Hint='Show/hide Bible tree'
+mnuViewSearch.Caption='&Search'
+mnuViewSearch.Hint='Show/hide quick search window. Ctrl+Click to create new search window'
+mnuViewMainBibleView.Caption='&Bible view'
+mnuViewMainBibleView.Hint='View/hide Bible text windows'
+actViewNotes.Caption='&Notes'
+actViewNotes.Hint='Show/hide notes window'
+cmdViewToolbars.Caption='Toolbars'
+cmdViewToolbars.Hint='Show/hide toolbars'
+cmdViewTlbVerseRef.Caption='Verse reference'
+cmdViewTlbOptions.Caption='View options'
+cmdViewTlbBFmt.Caption='Bible text formatting'
+cmdViewTlbBkms.Caption='Bookmarks'
+actMaximizeBibleView.Caption='Maximize/restore Bible window'
+actMaximizeBibleView.Hint='Maximize/restore Bible window'
+actMaximizeNotes.Caption='Maximize/restore personal notes window'
+actMaximizeNotes.Hint='Maximize/restore personal notes window'
+cmdLFX.Caption='Theme'
+cmdLFX.Hint='Click to select from 4 different themes for the appearence of the program'
+mnuLayout.Caption='Layout'
+mnuLayout.Hint='Save the current layout of the program (windows, sizes, etc) or quickly jump to another layout'#13#13'You may hide the ''Predefined layouts'' by going to File->Preferences => General => View options'
+
+#tools menu
+
+actOrganizeXRefs.Caption='Organize &cross references...'
+actOrganizeXRefs.Hint='Click to organize/explore Biblical cross references'
+
+
+
+cmdNewView.Caption='New view'
+cmdNewView.Hint='Click to create a new view/window'
+actNewBibleView.Caption='New Bible view'
+actNewSearchView.Caption='New search view'
+actNewBookView.Caption='New study view'
+
+#view toolbar
+
+actSearch.Hint='Click to search the Bible'#13'Hold down the Ctrl key and click here to create a new search window'
+actSearch.Caption='Search'
+cmdViewMainBibleView.Hint='Show/hide Bible text window'
+actShowHideDockCaptions.Caption='Show/hide windows captions'
+actShowHideDockCaptions.Hint='Show/hide the caption of the all windows within the main window.'#13#13'TIP:'#13'You can drag a window from it''s title and relocate it in any other position'#13'within the main window. Keeping the ''Ctrl'' key pressed while dragging'#13'the window will prevent it from docking/glueing on the main window' 
+cmdLF.Caption='&Theme'
+cmdLF.Hint='Click to select from 4 different themes for the appearence of the program'
+cmdLFOfficeXP.Caption='Default'
+cmdLFOffice2003.Caption='Office XP'
+cmdLFMiranda.Caption='Classic'
+cmdLFStripes.Caption='Stripes'
+
+#view toolbar: layout specific  (layout specific messages in section [Messages] start with rc_lyt_):
+
+cmdLayout.Caption='L&ayout'
+cmdLayout.Hint='Save the current layout of the program (windows, sizes, etc) or quickly jump to another layout'#13#13'You may hide the ''Predefined layouts'' by going to File->Preferences => General => View options'
+lblLtUser.Caption='My layouts'
+lblLtDefault.Caption='Predefined layouts'
+actLtBeginner.Caption='Beginner'
+actLtSimple.Caption='Simple'
+actLtFull.Caption='Full'
+actLtStudy.Caption='Study'
+lblLtActions.Caption='Actions'
+cmdRenameLayout.Caption='Rename a layout'
+cmdRenameLayout.Hint='Rename one of the layouts you have previously saved'
+cmdDeleteLayout.Caption='Delete a layout'
+cmdDeleteLayout.Hint='Delete one of the layouts you have previously saved. You will be asked for confirmation.'
+cmdSaveCurrentLayout.Caption='Save current layout'
+txtLtSave.EditCaption='or as:'
+lblLtReplace.Caption='or, replace the following:'
+
+#verse reference toolbar
+
+txtVRef.Hint='Enter a verse reference to go directly to a specific verse in the Bible'
+txtVRef.EditButton.Hint='Direct access menu to a specific verse'
+tlbxLblVerse.Caption='Verse: '
+cmdGo2Verse.Hint='Direct access menu to a specific verse'
+
+#bible formatting toolbar
+
+actFmtToggle.hint='Show/hide user formatting of Bible texts'
+actFmtToggle.Caption='Show/hide user formatting'
+actFmtBackColor.Hint='Background color'
+actFmtBackColor.Hint=
+actFmtForeColor.Hint=
+actFmtForeColor.Hint='Foreground(text) color'
+actFmtBold.Hint='Bold'
+actFmtBold.Hint=
+actFmtItalic.Hint='Italic'
+actFmtItalic.Hint=
+actFmtUnderline.Hint='Simple underline'
+actFmtUnderline.Hint=
+actFmtUnderlineDashed.Hint=
+actFmtUnderlineDashed.Hint='Dashed underline'
+actFmtUnderlineDotted.Hint='Dotted underline'
+actFmtUnderlineDotted.Hint=
+
+
+actFmtBackColorNone.Caption='None'
+lblFmtBackColorPredefined.Caption='Predefined colors'
+lblFmtBackColorLastUsed.Caption='Last used colors'
+actFmtBackColorOther.Caption='Other color...'
+actFmtBackColorClear.Caption='Clear ''last used colors''...'
+
+
+actFmtForeColorNone.Caption='None'
+lblFmtForeColorPredefined.Caption='Predefined colors'
+lblFmtForeColorLastUsed.Caption='Last used colors'
+actFmtForeColorOther.Caption='Other color...'
+actFmtForeColorClear.Caption='Clear ''last used colors''....'
+
+
+actFmtUnderlineNone.Caption='None'
+lblFmtUnderlinePredefined.Caption='Predefined colors'
+lblFmtUnderlineLastUsed.Caption='Last used colors'
+actFmtUnderlineOther.Caption='Other color...'
+actFmtUnderlineClear.Caption='Clear ''last used colors''...'
+
+
+lblFmtUnderlineDashedPredefined.Caption='Predefined colors'
+lblFmtUnderlineDashedLastUsed.Caption='Last used colors'
+actFmtUnderlineDashedOther.Caption='Other color...'
+actFmtUnderlineDashedClear.Caption='Clear ''last used colors''...'
+
+
+lblFmtUnderlineDottedPredefined.Caption='Predefined colors'
+lblFmtUnderlineDottedLastUsed.Caption='Last used colors'
+actFmtUnderlineDottedOther.Caption='Other color...'
+actFmtUnderlineDottedClear.Caption='Clear ''last used colors''...'
+
+#bookmarks toolbar
+
+actAddBkm.Hint='Add bookmark'
+actGotoBkm.Hint='View bookmark'
+actDelAllBkm.Hint='Delete all bookmarks'
+actAddBkmTo.Hint='Add bookmark to specified index (Ctrl+Shift+[0-9])'
+
+#bible tree panel
+
+bTree.Hint='Right click for direct access to a chapter or verse'
+cmdSyncTree.Hint='Synchronize the tree with the current verse'
+cmdCollapseAll.Hint='Reload tree'#13'Select to collapse all nodes of the Bible tree'
+cmdTreeHighlight.Hint='Toggles highlight of nodes for which there are notes'
+cmdTreeHighlightVerseNotes.Caption='according to verse notes'
+cmdTreeHighlightFootNotes.Caption='according to foot notes'
+cmdBibleTreeOptions.Hint='Display options for the Bible tree'#13'You may choose the format of the names of the books and the visibility of the icons'
+cmdBTreeOptBookNames.Caption='Book names'
+cmdBTreeOptBookNames.Hint='Choose if you want to see the full names of the Bible books or short names'
+cmdBibleTreeNamesDefault.Caption='Full'
+cmdBibleTreeNamesShort.Caption='Short'
+cmdBibleTreeShowIcons.Caption='Show icons'
+cmdBibleTreeShowIcons.Hint='Choose if you want to display icons at the nodes of the Bible tree'
+cmdBibleTreeNumbering.Caption='Book numbering'
+cmdBibleTreeNumbering.Hint='Select whether you want numbers (1-66) displayed with the books. You can set a custom format by using the modifiers "%d" for the book number and "%s" for the book description/title'
+cmdBibleTreeNumberingActive.Caption='Active'
+edtBibleTreeNumberingFormat.EditCaption='Format (use "%d" and "%s"):'
+cmdBibleTreeNumberingFormatRestore.Caption='Restore default format'
+
+#search panel
+
+lvSearch.Hint='Enter a word or phrase to search for'
+dckPnlSearch.Caption='Search (F10)'
+cmdQuickSearchClose.Hint='Clear search results'
+cmdSearch.Hint='Begin search'
+cmdFilterSearch.Hint='Result filtering:'#13#10'Select after your search to filter the results for one book'
+txtQuickSearch.Hint='Quick search: enter one or more words and press <enter>.'#13#10'You may also use any valid regular expression for advanced searching.'
+
+
+dckPnlNotes.Caption='Personal notes (F12)'
+
+#verse notes toolbar
+
+actNotesHistoryBack.Hint='Go Back'
+actNotesHistoryNext.Hint='Go Forward'
+actNotesPrint.Hint='Print content of notes'' window'
+actNotesEdit.Hint='Edit notes (F2)'#13'Click to add/edit personal notes on the current verse'
+actNotesDelete.Hint='Delete notes'#13'Click to delete any notes on the current verse'
+actNotesIndex.Hint='Contents (Ctrl+W)'#13'Click to see a list of all verses for which you have added notes'
+actNotesZoomIn.Hint='Zoom in - Increase font size'
+actNotesZoomOut.Hint='Zoom out - Decrease font size'
+cmbAllNotes.Hint='Select one of the verses for which you have added notes to display them'
+
+#subject notes toolbar
+
+actSubNew.Hint='New subject'#13'Click to add notes for a new subject/chapter/book'
+actSubRename.Hint='Rename subject'#13'Click to change the title of an existing subject'
+actSubEdit.Hint='Edit notes (F2)'#13'Click to add/edit notes on the current subject/chapter/book'
+actSubDelete.Hint='Delete subject'#13'Click to delete the current subject or any notes on the current chapter/book'
+actSubIndex.Hint='Contents (Ctrl+W)'#13'Click to see a list of all the subjects/chapter/books for which you have entered personal notes'
+cmbAllSubjects.Hint='Choose a subject title to see it'
+
+
+rolCat.Caption='Categories'
+rolCat.Hint='You can use the Categories to create a structured, logical structure (similar'#13'to a table-of-contents) where on each level you will be able to relate/link any'#13'subject note you have created on a general subject, chapter or book of the Bible.'#13#13'With this function you will be able to group similar subjects under common titles'#13'in order to have easier access to them, and also to arrange them according to their content'
+cmdLinkCatAndAdd.Hint='Add new category and link with subject'#13'Click to add a new category and link it at the same time with the current subject'#13'Initially, the name of the new category will be the same with the current subject'#13'but you can change it later'#13#13'Categories that are linked with a subject appear with blue color'
+cmdLinkCat.Hint='Link subject with category'#13'Click to link the current category (active node in tree) with the current subject.'#13'If this category is already linked with a subject, then the previous'#13'relation will be lost'#13#13'Categories that are linked with a subject appear with blue color'
+cmdUnlinkCat.Hint='Unlink subject from category'#13'Click to un-link (break relationship) the current category (active node in tree)'#13'with it''s associated subject'#13#13'Categories that are linked with a subject appear with blue color'
+cmdAddCat.Hint='New category'#13'Click to create/add a new category. The new category will be created at the same level with the currently'#13'active category/tree node'#13#13'You can create arbitrary hierarchies of categories and link them with your subject notes, thus creating a logical structure'#13'similar to a table-of-contents'
+cmdAddCatBelow.Hint='New sub-category'#13'Click to create a new sub-category. The new sub-category will be created below the currently active'#13'category/tree node.'#13#13'You may use your mouse to rearrange categories using the drag-n-drop technique (click'#13'with your mouse on a category and drag it while holding down the left-mouse button).'
+cmdDelCat.Hint='Delete category'#13'Click to delete the currently active category/tree node'#13'Any existing relationship with a subject will also be lost'
+cmdRenameCat.Hint='Rename category'#13'Click to change the name/title of currently active category/tree node'
+cmdLoadCat.Hint='Reload categories'
+tabSubW.Tabs.Strings='Verses','Subjects','Chapters','Books'
+
+
+[TfmVerseList]
+Hint='Verse list'
+cmdVLNew.Hint='New verse list'#13'Click to create a new verse list'
+cmdVLSave.Hint='Save verse list'#13'Click to save any changes to the current verse list'
+cmdVLRename.Hint='Rename verse list'#13'Click to change the title of the current verse list'
+cmdPrint.Hint='Print current verse list'
+cmdVLContents.Hint='Contents (Ctrl+W)'#13'Click to see all verse lists you have created'
+cmdVL1Column.Hint='One column'#13'Click to format the current verse list vertically on a single column (one verse below the other)'
+cmdVL2Column.Hint='Two columns'#13'Click to format the current verse list vertically in two (2) columns'
+cmdVL3Column.Hint='Three columns'#13'Click to format the current verse list vertically in three (3) columns'
+cmdVLClear.Hint='Erase verse list'#13'Click to remove the current verse list'
+cmdVLZoomIn.Hint='Zoom in - Increase font size'
+cmdVLZoomOut.Hint='Zoom out - Decrease font size'
+cmbVL.Hint='Select a verse list to view'
+cmdCopy.Hint='Copy content or verse references'
+cmdCopySelection.Caption='Copy selection'
+cmdCopyContent.Caption='Copy content of list as is'
+cmdCopyRefs.Caption='Copy only verse references'
+cmdDuplicateList.Caption='Create a copy of this list with a new name'
+
+
+[TfmBibleView]
+actBibleHistoryBack.Caption='Go Back (Ctrl+Left arrow)'
+actBibleHistoryNext.Caption='Go Forward (Ctrl+Right arrow)'
+actBibleZoomIn.Caption='Increase font size'
+actBibleZoomOut.Caption='Decrease font size'
+actBiblePrevBook.Caption='Previous book (Alt+Left arrow)'
+actBiblePrevChapter.Caption='Previous chapter (Left arrow)'
+cmdBiblePrevVerse.Caption='Previous verse (Up arrow)'
+cmdBibleNextVerse.Caption='Next verse (Down arrow)'
+actBibleNextChapter.Caption='Next chapter(Right arrow)'
+actBibleNextBook.Caption='Next book (Alt+Right Arrow)'
+actEditFootnotes.Caption='Edit footnotes|Click to toggle visibility of footnotes along with the Bible text, between or on the right of each verse'
+actToggleFootnotes.Caption='View/hide footnotes'
+actFootnotesBottom.Caption='Footnotes below verse'
+actFootnotesRight.Caption='Footnotes beside verse'
+cmdFootnotesFontColor.Caption='Footnotes'' font color'
+actBiblePrintText.Caption='Print preview/Print'
+actBiblePrintText.Hint='Print|Print contents of Bible text window (with preview)'
+actParallelSelect.Caption='Select Bible texts for parallel view...'
+actParallelSelect.Hint='Select the texts you want to be visible in the Bible view (as well as the order)'
+actParHorizontal.Caption='Arrange modules one beside the other (in columns)'
+actParHorizontal.Hint='Arrange each module in a table column, one next to the other (in columns)'
+actParVertical.Caption='Arrange modules one below the other (in rows)'
+actParVertical.Hint='Arrange each module in a table row, one below to the other (in rows)'
+tbitemTabContext.Hint='Current Bible options, and general options of current window and bible toolbar'
+actOptions.Caption='Bible view &options...'
+actOptions.Hint='Set options for the Bible view'
+#options submenu
+
+actChapterHeadings.Caption='Chapter headings'
+actFootnotes.Caption='Footnotes (translator''s)'
+cmdShowUserFormatting.Caption='Bible highlighting (user formatting)'
+actWOJ.Caption='Highlight words of Jesus'
+actParagraphMode.Caption='Paragraph mode'
+actParagraphMode.Hint='Toggles Bible text view between paragraph and verse-per-line mode'
+actXRefs.Caption='Cross references'
+actStrongs.Caption='Strong''s numbers'
+actMorph.Caption='Morphological codes (grammatical)'
+actHeaderFooter.Caption='Header and footer (for viewer)'
+actCmtLinks.Caption='Commentary links'
+cmdInlineCmts.Caption='Inline commentaries'
+cmdInlineCmtsNone.Caption='Do not show'
+cmdInlineCmtsBelow.Caption='Show below each verse'
+cmdInlineCmtsBesides.Caption='Show beside each verse'
+cmdChooseCommentaries.Caption='Choose commentaries to show inline...'
+actDcts.Caption='Word definitions (dictionary lookups)'
+actNewWindow.Caption='New Bible Window'
+actNewWindow.Hint='Click to create a new Bible window which will be '#13'similar to the current/active Bible window'
+
+
+
+#parallel bible select
+
+[TfrmParallelSelect]
+cmdParSelUp.Hint='Move up'
+cmdParSelDown.Hint='Move down'
+cmdParSelCheck.Hint='Select all'
+cmdParSelUncheck.Hint='Deselect all'
+cmdParSelOK.Hint='Save'
+lblHor.Caption='Select Bibles to display when they are arranged in columns'
+chkHor.Caption='Use the selected Bible module also when the modules are arranged in rows'
+lblVer.Caption='Select Bibles to display when they are arranged in rows'
+chkVer.Caption='Use the selected Bible module also when the modules are arranged in columns'
+
+
+[TfrmEditNotes]
+Caption='Comments'
+cmdClose.Caption='Close (Esc)'
+cmdClose.Hint='Close (Esc)'
+cmdSave.Caption='Save (F2)'
+cmdSave.Hint='Click to save your notes and close this window'
+cmdInsertEditLinkFrom.Caption='From (F3)'
+cmdInsertEditLinkFrom.Hint='Click to add a verse reference as a link'
+cmdEditLinkTo.Caption='Unto (F4)'
+cmdEditLinkTo.Hint='Click to modify a verse reference in order to include more than one consecutive verses'#13'You need to place the cursor within the verse reference you wish to modify (between the <a href=...> and </a>)'
+actSync.Caption='Preview (F5)'
+actSync.Hint='Click in order to preview on the right window your notes as you type them'
+lblInsertVerse.Caption=' Insert verse link: '
+
+
+[TFrmSelectVerse]
+Caption='Select verse'
+lblDescr.Caption='Select ''Default'' if you want the verse reference to be taken from you default Bible'
+cmdOK.Caption='&OK'
+cmdCancel.Caption='Cancel'
+lblOT.Caption='Old Testament'
+lblNT.Caption='New Testament'
+chkDefault.Caption='Default'
+
+
+[TfrmWait]
+Caption='Work in progress'
+lblWait.Caption='Please, wait...'
+
+
+[TfrmSplash]
+Caption='About'
+lblVerse.Caption='And all things [are] of the God who has reconciled us to himself by [Jesus] Christ, and given to us the ministry of that reconciliation: how that God was in Christ, reconciling the world to himself, not reckoning to them their offences; and putting in us the word of that reconciliation. We are ambassadors therefore for Christ, God as [it were] beseeching by us, we entreat for Christ, Be reconciled to God. Him who knew not sin he has made sin for us, that *we* might become God''s righteousness in him. (2 Cor 5:18-21)'
+lblCopyright.Caption='This computer program is only provided free of charge. It is forbidden to sell copies or use this software in any way to make profit. You are allowed to copy, distribute and install this software wherever you want as many times as you like. This software is provied ''AS IS'' with no warranty of any kind.'
+cmdOK.Caption='OK'
+lblLink.Caption='Web: www.theword.gr'
+lblMail.Caption='Mail: root@theword.gr'
+lblTitle.Caption='In the beginning was the Word'
+
+
+[TFrmStartup]
+lblCopyright.Caption='This computer program is only provided free of charge. It is forbidden to sell copies or use this software in any way to make profit. You are allowed to copy, distribute and install this software wherever you want as many times as you like. This software is provied ''AS IS'' with no warranty of any kind.'
+lblStatus.Caption='Initializing. Please, wait...'
+
+
+[TfrmClipboardViewer]
+cmdDropMenu.Hint='Parsed verses'' list'
+cmdNext.Hint='Next verse'
+cmdPrev.Hint='Previous verse'
+cmdZoomOut.Hint='Zoom out - Decrease font size'
+cmdZoomIn.Hint='Zoom in - Increase font size'
+cmdClose.Hint='Close clipboard monitor window'
+cmdOptions.Hint='Clipboard monitor preferences'
+cmdOptions.Caption='Preferences...'
+cmdAppendToVerseList.Hint='Add all verses to current/active verse list'
+prg.Hint='Click to cancel auto-close'
+
+
+[TfrmAutoUpdate]
+Caption='Auto update'
+lblCurVerD.Caption='Current version: '
+grp.Caption='Latest version information '
+grp.lblVerD.Caption='Version number:'
+grp.lblDateD.Caption='Date:'
+grp.lblSizeD.Caption='Size of update file:'
+cmdGetFile.Caption='Start download...'
+cmdViewInfo.Caption='View change log...'
+cmdAbort.Caption='Abort download'
+
+
+[TfrmHtmlViewer]
+Caption='Information'
+pnlBottom.lblVerInfo.Caption='New version features: '
+pnlBottom.cmdClose.Caption='Close'
+
+
+[TfrmClipViewOptions]
+Caption='Preferences'
+cmdOK.Caption='&OK'
+cmdCancel.Caption='Cancel'
+
+#general tab
+
+tabGeneral.Caption='General'
+lblStartupOptions.Caption='Startup options'
+lblSearchD.Caption='Maximum verses when searching:'
+chkAutoStart.Caption='Startup program with Windows'
+chkTrayIcon.Caption='Minimize window to tray icon'
+chkAutoStartMinimized.Caption='start minimized'
+chkGrkKeyb.Visible=false
+lblAutoUpdateOptions.Caption='Auto-update options'
+chkAutoUpdateApp.Caption='Automatically check for newer version of the program and Bible texts'' corrections'
+lblViewOptions.Caption='View options'
+chkBlinkActiveBibleView.Caption='Blink Bible view on activation'
+chkInactiveBibleViewShadedBack.Caption='Inactive views have a shaded background'
+chkHidePredefLaytous.Caption='Hide ''predefined'' layouts from the ''Layouts'' list'
+chkMouseWheelActivate.Caption='Mouse wheel scrolls and activates window under cursor'
+
+#clipboard monitor tab
+
+tabClip.Caption='Clipboard monitoring'
+Label1.Caption='Maximum clipboard text size (KB):'
+Label2.Caption='Bible text:'
+Label3.Caption='Clipboard windows placement:'
+Label4.Caption='seconds'
+Label5.Caption='Background color:'
+Label6.Caption='Moving the mouse over the clipboard monitor window cancel this operation'
+cmbVol.Items.Strings=Default,'Current Bible text'
+cmbPlacement.Items.Strings='Lower right corner','Lower left corner','Upper right corner','Upper left corner','Current position of mouse','Previous position'
+chkAutoClose.Caption='Auto close clipboard monitor window after   '
+chkCancelOnMouse.Caption='Cancel auto close if mouse hovers over window'
+chkDisable.Caption='Disable clipboard monitoring'
+chkCloseOnMouse.Caption='Auto close window on mouse movement (pressing the Ctrl key cancels closing)'
+btnBackColor.CaptionOther='Other...'
+btnBackColor.CaptionDefault='Default'
+
+#bible texts tab
+
+tabTexts.Caption='Bible texts'
+lblBibleTextBottom1.Caption='- Select the Bible texts you want to be visible and their order'
+lblBibleTextBottom2.Caption='- Click on the "Title" and "Font" columns to change their values'
+lblBibleTextsTop.Caption='Order/Visibility of Bible Texts, Font and Title selection'
+chkSaveOrder.Caption='Save order of texts'
+chkSaveOrder.Hint='Check if you want to save the current order of the Bible texts as it appears in the'#13#10'above list. You can use the "up" and "down" buttons to change the relevant order'
+
+#fonts tab
+
+tabFonts.Caption='Fonts'
+lblBibleFont.Caption='Bible text:'
+lblNotesFont.Caption='Notes:'
+lblTipFont.Caption='Verse tooltip:'
+lblClpFont.Caption='Clipboard monitor:'
+lblFont.Caption='Font'
+lblFSize.Caption='Size'
+lblGreekFont.Caption='Default Greek font:'
+lblHebrewFont.Caption='Default Hebrew font:'
+lblStudyViewFont.Caption='Default study view font:'
+
+
+[TfmBibleTexts]
+vt.Header.Columns.(0).Text='Visible'
+vt.Header.Columns.(1).Text='Title'
+vt.Header.Columns.(2).Text='Description'
+vt.Header.Columns.(3).Text='Font'
+actUp.Hint='Move Up'
+actDown.Hint='Move Down'
+actSelAll.Hint='Check all'
+actDelAll.Hint='Uncheck all'
+cmdSetAsDefault.Caption='Set as default'
+
+
+[TfrmExportNotes]
+Caption='Export notes'
+lblInfo1.Caption='You may choose the output format (txt or html) '
+lblInfo2.Caption='in the ''Save As'' dialog after choosing ''Export...'''
+cmdExport.Caption='Export...'
+cmdCancel.Caption='Cancel'
+tabNotes.Caption='Verses'' - Foot notes'''
+grpFormat.Caption='Format'
+grpFormat.lblTitleDescr.Caption='(%r = verse reference, %n = empty line)'
+grpFormat.lblPrefixDescr.Caption='(%r = reference)'
+grpFormat.optVpl.Caption='One file, one line per verse'
+grpFormat.chkVplEmptyLines.Caption='Empty lines for verses without notes'
+grpFormat.optAsIs.Caption='Multiple lines per verse notes (as is)'
+grpFormat.chkVplRef.Caption='Prefix:'
+grpFormat.chkAsIsRef.Caption='Title: '
+grpFormat.edtTitle.Text='%nNotes on verse: [%r]'
+grpFormat.edtPrefix.Text='%r: '
+grpWhat.Caption=' Which:  '
+grpWhat.Label1.Caption='Count:'
+grpWhat.optSimpleNotes.Caption='Verses'''
+grpWhat.optFootNotes.Caption='Foot notes'
+grpHow.Caption=' Range'
+grpHow.cmdNotesFrom.Caption='From... :'
+grpHow.lblNotesFrom.Caption='<- [click to select verse]'
+grpHow.lblNotesTo.Caption='<- [click to select verse]'
+grpHow.cmdNotesTo.Caption='To... :'
+grpHow.Label3.Caption='Count:'
+grpHow.optNotesAll.Caption='All'
+grpHow.optNotesOT.Caption='Old Testament'
+grpHow.optNotesNT.Caption='New Testament'
+grpHow.optNotesCustom.Caption='Custom:'
+
+
+tabSubjects.Caption='Subject/Chapters''/Books'' notes'
+grp2What.Caption=' Type:  '
+grp2What.Label4.Caption='Count:'
+grp2What.optSubjects.Caption='Subjects'
+grp2What.optChapters.Caption='Chapters'
+grp2What.optBooks.Caption='Books'
+grp2How.Caption=' Range '
+grp2How.lblSubjTitle.Caption='(%r = chapter/book reference, %n = empty line)'
+grp2How.optSubjAll.Caption='All'
+grp2How.optSubjOne.Caption='Choose one:'
+grp2How.chkSubjTitle.Caption='Title: '
+grp2How.txtSubjTitle.Text='%n[ %t ]'
+saveDialog.Title='Export notes - Choose file'
+saveDialog.Filter='Plain text (*.txt)|*.txt|Web page (*.htm)|*.htm'
+
+
+
+[TfrmNewUpdates]
+Caption='Bible texts updates'
+lblTitle.Caption='There are new updates for some Bible texts'
+lblMsg.Caption='<html><body>Some new corrections on one or more of the Bible texts you have installed have been made. These corrections have <u>already</u> been downloaded to your computer. <br>Please, review them and press <b>"Continue"</b> in order to be applied. <br> If you have added any formatting on the following verses, it may be "moved" if the new text contains corrections that affect the length of the text.</body></html>'
+cmdContinue.Caption='Continue'
+cmdCancel.Caption='Cancel'
+
+
+[TFmBibleSearch]
+tabFast.Caption='Fast'
+tabFast.Hint='Just enter a search or phrase in the text box and hit enter'
+tabDetailed.Caption='Detailed'
+tabDetailed.Hint='You can perform advanced searches with the help of several options from this page.'#13'Notice that these options also apply to the "Fast" search'
+tabOptions.Caption='Options'
+tabOptions.Hint='Set options for this search view and globally'
+vt.Header.Columns.(0).Text='Verse'
+vt.Header.Columns.(1).Text='Count'
+vt.Header.Columns.(2).Text='Graph'
+Hint='Enter one or more words to search for'#13'Use double quotes (") for phrase search'
+lblParsed.Caption='Is this what you are looking for?'
+lblMatchCount.Caption='0 matches'
+cmdHistory.Caption='Search history'
+cmdHistory.Hint='Search history'
+cmdSearchHistoryClear.Caption='Clear search history'
+cmdExpandAll.Caption='Expand/Collapse tree nodes'
+cmdExpandAll.Hint='Expand/Collapse all tree nodes'
+cmdShowText.Caption='Show verse text inline'
+cmdShowText.Hint='Show verse text next to the verse reference'#13#13'Tip:'#13'To change the font size of the verses'' text,'#13'use the mouse wheel while holding down the Ctrl key'
+cmdOptions.Caption='More'
+cmdOptions.Hint='Click to access more functions' 
+cmdVirtualKeyboard.Caption='Virtual keyboard...'
+cmdVirtualKeyboard.Hint='You can use it to enter letters in the language of the active Bible translation'
+cmdNewWindow.Caption='New search window...'
+cmdNewWindow.Hint='Create new search window'
+cmdZoomIn.Caption='Zoom in (Ctrl+mouse wheel down)'
+cmdZoomIn.Hint='Increase the font size when verse text is shown inline the search results'
+cmdZoomOut.Caption='Zoom Out (Ctrl+mouse wheel up)'
+cmdZoomOut.Hint='Decrease the font size when verse text is shown inline the search results'
+cmdClear.Caption='Clear search results'
+cmdClear.Hint='Clear search results'
+cmdDetailedSearch.Hint='Begin search'#13'Hold down the CTRL key to perform search in a new window'
+cmdOpAND.Caption='And'
+cmdOpAND.Hint='Use the "AND" operator if you want both '#13'expressions/words on the right and left to match.'#13''#13'Example:'#13'  Jesus AND Christ '#13'will match those verses that contain both words '#13'"Jesus" and "Christ" '#13''#13'TIP: You can use the "&" character instead of '#13'the word "AND" '
+cmdOpOR.Caption='Or'
+cmdOpOR.Hint='Use the "OR" operator if you want at least one of '#13'the expressions/words on the right and left to match.'#13''#13'Example:'#13'  Jesus OR Christ '#13'will match those verses that contain either of the words '#13'"Jesus" or "Christ" '#13''#13'TIP: You can use the [pipe] ([vertical bar]) character '#13'instead of the word "OR" '
+cmdOpNot.Caption='Not'
+cmdOpNot.Hint='Use the "NOT" operator if you want to negate the '#13'expression/word following it'#13''#13'Example:'#13'  NOT Jesus'#13'will match those verses that do NOT contain the word'#13'"Jesus"'#13''#13'TIP: You can use the "~" character instead of '#13'the word "NOT" '
+cmdOpNear.Caption='Near'
+cmdOpNear.Hint='Use the "NEAR" operator if you want both '#13'expressions/words on the right and left to match in '#13'adjacent verses. By default, the number of consecutive'#13'verses being examined is 3 (you can set this on the '#13'options tab). If you put a number after the "NEAR" '#13'operator (for example "NEAR8"), then the number of '#13'consecutive verses being examined will match this number.'#13''#13'Example 1:'#13'  Jesus NEAR Christ'#13'will match if both words "Jesus" and "Christ" are found'#13'within 3 consecutive verses.'#13''#13'Example 2:'#13'  Jesus NEAR10 Christ'#13'will match if both words "Jesus" and "Christ" are found'#13'within 10 consecutive verses (the number after the "NEAR"'#13'operator defines the span of the consecutive verses being'#13'examined).'#13''#13'TIP: You can use the "#" character instead of the '#13'word "NEAR" (and the "#8" instead of "NEAR8", for example) '
+cmdOpXor.Caption='Xor'
+cmdOpXor.Hint='Use the "XOR" operator if you want exactly one of the'#13'expressions/words on the right and left to match.'#13''#13'Example:'#13'  Jesus XOR Christ'#13'will match those verses that contain the word "Jesus" '#13'but not the word "Christ", or those verses that contain'#13'the word "Christ" but not the word "Jesus"'#13''#13'TIP: You can use the "^" character instead of the '#13'word "XOR"'
+cmdOpPar.Caption='( )'
+cmdOpPar.Hint='Use parenthesis "( ... )" to group sub-expressions'#13'and apply priorities to the operators. By default, all'#13'operators are evaluated left to right. By using '#13'parenthesis you can change that order.'#13''#13'Example 1:'#13'  (Jesus AND Christ) OR (Peter AND Paul)'#13'will match those verses that contain either both words'#13'"Jesus" and "Christ", or both words "Peter" and "Paul"'#13''#13'Example 2:'#13'  (Jesus NEAR5 Peter) AND NOT (Jesus NEAR10 John)'#13'will match those verses/passages where the word '#13'"Jesus" appears within 5 verses (maximum) away from the '#13'word "Peter", and at the same time the word "John" '#13'does not appear within the next/previous 10 verses along '#13'with the word "Jesus"'
+cmdOpPhrase.Caption='"..."'
+cmdOpPhrase.Hint='Use double quotes " ... " to enclose more than one'#13'word if you want them to be considered as a phrase.'#13''#13'Example:'#13'  "Jesus Christ is Lord"'#13'will match those verses that contain this exact phrase.'#13'If you have omitted the double quotes, then (depending'#13'on the default operator AND or OR) the above phrase would'#13'be equivalent with "Jesus OR Christ OR is OR Lord" or'#13'"Jesus AND Christ AND is AND Lord"'
+cmdOpClear.Caption='Clear all'
+cmdOpClear.Hint='Clear search results'
+optBoolean.Caption='Boolean'
+optBoolean.Hint='Select to perform a boolean search using the operators AND, OR, NOT, NEAR, XOR, ( ), "..."'
+optDefOR.Caption='default "OR" (match any word)'
+optDefOR.Hint='Select if you want your search to match verses that contain'#13'ANY of the words you enter, if no other operator is defined'
+optDefAND.Caption='default "AND" (match all words)'
+optDefAND.Hint='Select if you want your search to match verses that contain'#13'ALL of the words you enter, if no other operator is defined'
+chkBreakNEAR.Caption='"NEAR" operator breaks on:'
+chkBreakNEAR.Hint='Select if you want to avoid the NEAR operator to search for'#13'verses that span more than one book or chapter (select below)'
+optBreakBKs.Caption='books'
+optBreakBKs.Hint='Select if you want to avoid the NEAR operator to span more'#13'than one consecutive books of the Bible'
+optBreakCHs.Caption='chapters'
+optBreakCHs.Hint='Select if you want to avoid the NEAR operator to span more'#13'than one consecutive chapters of the Bible'
+chkWholeWord.Caption='Whole words only'
+chkWholeWord.Hint='Select if you only want to match whole words (for example, if you select this option, "esus" will NOT match "Jesus")'
+optRegEx.Caption='Regular expression'
+optRegEx.Hint='Select if you want to enter a pattern that follows the regular expression syntax'
+chkIgnoreCase.Caption='Ignore case and diacritics'
+chkIgnoreCase.Hint='Select if you want the search to ignore capitals and diacritics (for'#13'example, if you select this option, "jesus" will match "Jesus", "JESUS", etc)'
+lnkRange.Caption='Range (click for custom):'
+lnkRange.Hint='Click here to define a custom range to search in'
+RangeItems.Caption='"Entire Bible","Old Testament","  Pentateuch (OT)","  Historical (OT)","  Wisdom (OT)","  Major Prophets (OT)","  Minor Prophets (OT)","New Testament","  Gospels && Acts (NT)","  Paul""s Epistles (NT)","  General epistles && Revelation (NT)","Just current book"'
+cmbRange.Hint='Select a part of the Bible to search into'#13'You can define a custom range by clicking on the link above'
+
+
+lblGeneralOptions.Caption='General Options'
+chkAutoExpand.Caption='Auto expand/collapse tree nodes on results'
+chkAutoExpand.Hint='Select this option if you want the nodes of the search results tree'#13'to expand automatically when you click on a top level node (e.g. one'#13'that represents a book)'
+chkTooltips.Caption='Show verses as tooltips on results tree'
+chkTooltips.Hint='Select this option if you want the actual verse of the text to appear'#13'on a floating window (tooltip) when you hover the mouse over the'#13'verse reference node in the results tree'
+chkNoTooltipsInTextMode.Caption='No tooltips in results if verse text is visible'
+chkNoTooltipsInTextMode.Hint='Select this option if you don''t want the tooltip window to'#13'appear when you have selected the "show text" option (e.g. when'#13'the actual text is shown on the tree itself)'
+chkShortBookNames.Caption='Short book names in results'
+chkShortBookNames.Hint='Select this option if you want to use the abbreviated book names in the result tree'
+chkCopyAllVersesFromRanges.Caption='Copy all verses from ranges, not only the first one'
+chkCopyAllVersesFromRanges.Hint='Select this option if you want all verses from a range to'#13'be copied to the clipboard from the result tree. This option is'#13'only meaningful when you have used the NEAR operator,'#13'and the search has resulted in ranges that contain your search words.'#13'In that case, the result''s tree will contain some entries like'#13'"Mark 2:3-4" -range-, etc'
+chkSyncVerseText.Caption='Synchronize verses'' text and tooltips with Bible view'
+chkSyncVerseText.Hint='Select this option if you want the tooltips that show the verse text'#13'when you hover your mouse over the search results tree, as well'#13'as the text of the verse that may appear on the tree (if selected) to be'#13'synchronized with the Bible translation of the active Bible view'
+chkJumpToOrig.Caption='Jump to searched Bible when clicking on a verse'
+chkJumpToOrig.Hint='Select this option if you want the active Bible view to change to the'#13'translation that you originally searched for, when you click'#13'on a verse node of the search results tree.'
+lblNearRange.Caption='Default range for NEAR clause: '
+lblNearRange.Hint='This is the default verse span that will be used for the NEAR'#13'operator if you do not enter one.'#13'Valid values are from 1 to 999.'#13#13'For example, if you set this value to "3" and search for "Jesus NEAR Christ",'#13'then all passages that contain both the words'#13'"Jesus" and "Christ" not more than "X" verses "away" will match.'
+txtNearRange.Hint='This is the default verse span that will be used for the NEAR'#13'operator if you do not enter one.'#13'Valid values are from 1 to 999.'#13#13'For example, if you set this value to "3" and search for "Jesus NEAR Christ",'#13'then all passages that contain both the words'#13'"Jesus" and "Christ" not more than "X" verses "away" will match.'
+lblSearchHistoryOptions.Caption='Search history options'
+cmdSearchHistorySeparate.Caption='Separate history for each window'
+cmdSearchHistorySeparate.Hint='Select this option if you want to have a separate search history'#13'for each search window'#13#13'In that case, closing a search window/view will cause the local history'#13'of the window to be cleared.'#13'In case you don''t select this option, the search history will be'#13'global (e.g. one history for all searches you do in all search windows) and'#13'you will be able it to save it globally'
+cmdSearchHistorySave.Caption='Save history on exit'
+cmdSearchHistorySave.Hint='Select this option if you want the search history to be saved'#13'when you exit the program.'#13'If you don''t select this option, the history will be clear on program exit'
+lblSearchHistoryItems.Caption='Maximum history items:'
+lblSearchHistoryItems.Hint='Enter a number between 3 and 99 that corresponds to the maximum searches'#13'that will be saved in history.'
+txtSearchHistoryItems.Hint='Enter a number between 3 and 99 that corresponds to the maximum searches'#13'that will be saved in history.'
+
+#this form is used to define a custom search range
+#see also messages starting with "rc_searchrange_" and "rc_copy_verse_" for
+#messages used in this dialog
+
+[TfrmDefineRange]
+Caption='Define custom range'
+cmdOK.Caption='&OK'
+cmdCancel.Caption='Cancel'
+lblTitle.Caption='Click on the from/until buttons to define the range'
+cmdResetRange.Hint='Click to clear the values of the from/until buttons'
+grpSave.Caption='Save this range'
+chkSave.Caption='Name'
+grpDelete.Caption='Delete saved range'
+cmdDelete.Caption='Select range to delete...'
+cmdDelete.Hint='Click to select one of the already saved ranges to delete'
+
+
+[TfrmAddXref]
+Caption='Add cross reference'
+lblVerse.Hint='This is the verse for which you are adding the'#13'cross-reference for (the one you right-clicked on)'
+lblSet.Caption='Cross reference set:'
+lblTip.Caption='*you may add a cross-reference to a continuous set (max 255) of verses. Use the dash "-" to define a range'
+lblRefVerse.Caption='Referenced verse (or range*):'
+cmdOK.Hint='Click ''OK'' to add the selected cross-reference and close this dialog. '
+cmdOK.Caption='OK'
+cmdCancel.Hint='Click to cancel this operation and close this dialog'
+cmdCancel.Caption='Cancel'
+cmbSets.Hint='This is the list of the cross-references sets you have created.'#13'Choose the one that you want this cross-reference to be stored into.'#13'Click on the "..." button to explore the cross references of the selected set'
+txtVRefFrom.Hint='Enter a verse reference (e.g. Jn 3:16) or a verse range (e.g. Jn 3:16-4:2).'#13'Select from the list the entry you want and press enter'
+cmdOrganize.Hint='Click to organize your cross-references'
+cmdOrganize.Caption='Organize...'
+cmdExplore.Hint='Click here to explore all the cross references of the selected set'
+cmdExplore.Caption='...'
+
+
+[TfrmDelXRef]
+Caption='Delete cross reference'
+lblTop.Caption='You are about to delete the cross reference:'
+lblXref.Hint='This is the cross reference you are about to delete'
+lblList.Caption='This cross reference appears in the following cross-reference sets:'
+lblMsg1.Caption='Please, select (check) the cross-references set(s) from which you want this cross-reference to be deleted and press OK.'
+lblMsg2.Caption='Notice that cross-reference sets that are not currently visible are NOT checked in the above list'
+cmdCancel.Hint='Click to cancel this operation'
+cmdCancel.Caption='Cancel'
+cmdOK.Hint='Click here to delete the cross-reference and close this dialog'
+cmdOK.Caption='OK'
+lstXRefs.Hint='It is possible that the cross reference you are about'#13'to delete appears in more than one cross-reference sets.'#13'Select from this list (by clicking on the checkbox on the left)'#13' the sets that you want to delete this cross-reference from.'#13'Initially, the sets that are unchecked are the ones that were not'#13'visible when this dialog was invoked.'
+
+
+[TfrmOrganizeXRefs]
+Caption='Organize cross references'
+lblRename.Caption='Insert the new name in the text box and press enter'
+editRename.EditCaption='New name:'
+lblRenameCancel.Caption='(press ''Escape'' to cancel rename operation)'
+lblCopyFrom.Caption='Copy from the following set:'
+lblTip.Caption='Click on one or more of the sets in the list and then'#13'click on a button on the right.  Double click to see the path of the file'#13'it is stored into.'
+lblSets.Caption='Cross references sets'
+lst.Hint='This is the list of all available cross reference sets.'#13'Click on an item (set) and then select an action from the right'
+cmdNew.Hint='Click to add a new cross reference set'
+cmdNew.Caption='New...'
+cmdDelete.Hint='Click to delete the selected cross reference set'
+cmdDelete.Caption='Delete...'
+cmdRename.Hint='Click to rename the selected cross reference set'
+cmdRename.Caption='Rename...'
+cmdStatistics.Hint='Click to explore/navigate the selected cross reference set.'#13'You will be able to see statistics and also delete selected cross-references'
+cmdStatistics.Caption='Explore...'
+cmdOK.Hint='Click to close this dialog'
+cmdOK.Caption='Close'
+cmdCopy.Hint='Click to copy into the selected cross reference set'#13'all cross references from a different set'
+cmdCopy.Caption='Copy from'
+cmdClear.Hint='Click to delete all the cross references from'#13'the selected cross reference set'
+cmdClear.Caption='Clear...'
+cmdManageFiles.Hint='Click to add or remove external cross-reference files'
+cmdManageFiles.Caption='Manage files...'
+
+
+[TfrmNewXRefSet]
+Caption='New cross-references set'
+lblGeneral.Caption='To add a new set of cross-references you need to define 3 things:'
+lblName.Caption='Select a name for the new set:'
+lblPath.Caption='Select where you want this set to be saved:'
+lblEmptyOrCopy.Caption='Do you want an empty set or create a copy of an existing one?'
+txtName.Hint='Enter a ''friendly'' name here that it will be used'#13'to refer to the newly created cross-references set'
+optExisting.Hint='Select this option to store the new cross-references set in an existing file.'#13'Notice that you can store as many cross-references set as you want in a single file.'
+optExisting.Caption='Store this set in the following existing file:'
+lstPaths.Hint='If filename is not fully visible,'#13'double click on it to display it in a message box'
+optNew.Hint='Select this option to store the newly created'#13'cross-references set in a new file'
+optNew.Caption='Create a new file to store this set'
+cmdBrowse.Hint='Click here to choose the folder and name of the new file'
+cmdBrowse.Caption='Browse...'
+cmdCancel.Hint='Click here to cancel this operation'
+cmdCancel.Caption='Cancel'
+cmdOK.Hint='Click here to create the new cross-references set'#13'and close this dialog'
+cmdOK.Caption='OK'
+cmbSets.Hint='Select one of the existing cross-references set'#13'from which you want to copy all the entries to the newly created one'
+optNewSet.Hint='Select this option to create an empty cross-references set'
+optNewSet.Caption='Create a new, empty cross-references set'
+optCopySet.Hint='Select this option if you want the newly created'#13' cross-references set to be a copy of an existing one'
+optCopySet.Caption='Create a new set as a copy of the following:'
+
+
+[TfrmManageXrefsFiles]
+Caption='Manage cross-references files'
+lblFiles.Caption='The following files contain user cross references'
+lblPath.Caption='Click on one or more of the sets in the list and'#13'then click on a button on the right.  Double click to see the path'#13'of the file it is stored into.'
+lstPaths.Hint='This is the list of the files that contain cross-references'#13'and are currently in use by the program. Double click'#13'on an entry to see the full path of the file (if not visible)'
+cmdAdd.Hint='Click to add an external file that contain cross-references.'#13'The program will use this file from its current location (the file will not be copied)'
+cmdAdd.Caption='Add new file...'
+cmdStop.Hint='Click to stop using the selected file.'#13'The file will not be deleted but the cross-references'#13'it contain will not be used by the program'
+cmdStop.Caption='Stop using file...'
+cmdClose.Hint='Click to close this dialog'
+cmdClose.Caption='Close'
+
+
+[TfrmViewXRefs]
+Caption='Cross references Statistics'
+cmdDelete.Caption='Delete...'
+lblTips.Caption='Tips'
+lblTipsContent.Caption='- Use the tree to navigate the cross references.'#13'- Right click on a node to delete cross-references (only for user cross-references). If you will be deleting many cross-references, it would be good to hide the statistics (click on the "Hide Statistics" button), so the program is not wasting time re-calculating them upon every delete action'#13'- This dialog is resizable! Drag it from it''s edges to enlarge it'
+cmdClose.Hint='Click here to close this dialog'
+cmdClose.Caption='Close'
+grpStats.Caption='Statistics'
+lblTotals.Caption='Total number of cross references:'
+lblOTTotals.Caption='in Old Testament:'
+lblNTTotals.Caption='in New Testament:'
+lblBkTotals.Caption='Books with cross references:'
+lblChTotals.Caption='Chapters with cross references:'
+lblVsTotals.Caption='Verses with cross references:'
+lblTotalsHeader.Caption='Totals'
+lblAvgHeader.Caption='Averages'
+lblBkAvg.Caption='cross references per book:'
+lblChAvg.Caption='cross references per chapter:'
+lblVsAvg.Caption='cross references per verse:'
+cmdHideStats.Hint='Click here to hide the statistics on the right area of this dialog. You will have more "space" to navigate the cross-references this way.'
+cmdHideStats.Caption='Hide statistics'
+cmdShowStats.Hint='Click here to show the statistics'
+cmdShowStats.Caption='Show statistics'
+chkPopupVerses.Hint='Select this option if you want the content of the verse to appear in a popup window as you move the mouse over the above list'
+chkPopupVerses.Caption='Popup verse when mouse hovers over the tree'
+
+#Shown in verse list view with the click of the button on the vertical toolbar
+
+[TfrmAddVerse]
+lblVerse.Caption='Enter verse reference:'
+lblTip.Caption='(press escape to cancel)'
+vse.Hint='Enter a verse reference (e.g. Jn 3:16) or a verse range (e.g. Jn 3:16-4:2).'#13'Select from the list the entry you want and press enter'
+
+
+[TfrmPrintPreview]
+Caption='Print preview'
+cmdPrint.Caption='&Print...'
+cmdPrint.Hint='Open the print dialog box to print this document'
+cmdPageSetup.Caption='Page &setup...'
+cmdPageSetup.Hint='Setup margins, header and footer'
+cmdZoom100.Hint='Actual size'
+cmdZoomPageWidth.Hint='Fit width'
+cmdZoomWholePage.Hint='Fit whole page'
+cmdFirst.Hint='First page'
+cmdPrev.Hint='Previous page'
+cmbPages.Hint='Pages: click to jump to a page'
+cmdNext.Hint='Next page'
+cmdLast.Hint='Last page'
+cmdClose.Caption='&Close'
+cmdClose.Hint='Close this dialog'
+lblFontSize.Caption='&Font size:'
+lblFontSize.Hint='Increase/decrease the font size.'
+trackBar.Hint='Drag the slider with the mouse to increase/decrease the font size'
+chkSelection.Hint='Print only the selected text (enabled only if there'#13'was a selection when this dialog appeared)'
+chkSelection.Caption='Print selection'
+chkBHeaderFooter.Caption='Bible &header/footer'
+
+
+[TfrmPageSetup]
+Caption='Page setup'
+cmdCancel.Caption='Cancel'
+cmdOK.Caption='OK'
+pageLayout.Caption='Page la&yout'
+grpMargins.Caption=' &Margins (millimeters) '
+lblTop.Caption='&Top:'
+lblBottom.Caption='&Bottom:'
+lblLeft.Caption='&Left:'
+lblRight.Caption='&Right:'
+seTop.Hint='Distance between the top of the page and the top of the first line on the page'
+seBottom.Hint='Distance between the bottom of the page and'#13'the bottom of the last line on the page'
+seLeft.Hint='Distance between the left edge of the page and the'#13'left edge of left-aligned, unindented lines'
+seRight.Hint='Distance between the right edge of the page and the'#13'right edge of right-aligned, unindented lines'
+chkMirrorMargins.Hint='Margins are mirrored for odd and even pages'
+chkMirrorMargins.Caption='Mirror mar&gins'
+grpOrientation.Caption='Orientation'
+imgPortrait.Hint='Prints a document with the short edge of the paper at the top of the page'
+imgLandscape.Hint='Prints a document with the long edge of the paper at the top of the page'
+optPortrait.Hint='Prints a document with the short edge of the paper at the top of the page'
+optPortrait.Caption='&Portrait'
+optLandscape.Hint='Prints a document with the long edge of the paper at the top of the page'
+optLandscape.Caption='Lan&dscape'
+grpPaper.Caption='Paper'
+lblSize.Caption='Si&ze:'
+lblSource.Caption='&Source:'
+pageHeaderFooter.Caption='&Header and Footer'
+lblSpecial.Caption='Special character combinations:'
+lblSpecialDetails.Caption='%p: page number; %P: count of pages; %d: current date; %t: current time'
+grpHeader.Caption='Header'
+lblHeaderText.Hint='Enter a text that will appear on the header of each page.'#13'You can use the %p, %P, %d and %t special character combinations.'#13'For example, to print page numbers enter: "- %p -",  or "Page %p of %P" or'#13'any other combination'
+lblHeaderText.Caption='&Text:'
+lblHeaderPosition.Caption='Position:'
+txtHeader.Hint='Enter a text that will appear on the header of each page.'#13'You can use the %p, %P, %d and %t special character combinations.'#13'For example, to print page numbers enter: "- %p -",  or "Page %p of %P" or'#13'any other combination'
+optHL.Caption='&Left'
+optHC.Caption='&Center'
+optHR.Caption='&Right'
+grpFooter.Caption='Footer'
+lblFooterText.Caption='Te&xt:'
+lblFooterPosition.Caption='Position:'
+optFL.Caption='L&eft'
+optFC.Caption='Ce&nter'
+optFR.Caption='Ri&ght'
+
+#valid values are 'en' and 'el'. Do not use other values!
+
+[Messages]
+rc_autoupdate_lang='en'
+
+#context menu for bible view (right click on tabs)
+
+rc_tabvolume_mnu_optionsfor='Options for: [%s]'
+#set tab icon submenu
+
+rc_tabvolume_mnu_seticon='Set tab icon'
+rc_tabvolume_mnu_setcoloredicon='Use the following colored icon:'
+rc_tabvolume_mnu_setflag='or use the following flag:'
+rc_tabvolume_mnu_setbibleflag='country of Bible''s language'
+rc_tabvolume_mnu_setotherflag='or choose another flag...'
+rc_tabvolume_mnu_setothericon='or use another icon:'
+rc_tabvolume_mnu_browseforicon='browse for icon...'
+rc_tabvolume_mnu_noicontitle='or,'
+rc_tabvolume_mnu_noicon='don''t use an icon'
+#general options and below
+
+rc_tabvolume_mnu_generaloptions='General options and actions'
+rc_tabvolume_mnu_tlbcolor='Bibles'' bar background color'
+rc_tabvolume_mnu_title='Title: '
+rc_tabvolume_make_default='Set as default (%s)'
+rc_tabvolume_info='Info...'
+rc_tabvolume_multiline='Tabs in multiple rows'
+rc_tabvolume_taboptions='Tab options'
+rc_tabvolume_tabsinsinglerow='When tabs in single row'
+rc_tabvolume_moveuseditems='Move used items in front'
+rc_tabvolume_parallel_sticky='[Compare] tab always visible'
+rc_tabvolume_list_sticky='[List] tab always visible'
+#actions
+
+rc_tabvolume_mnu_iconactions='Actions for icons'
+rc_tabvolume_mnu_assignflags='Auto-assign flag icons to all tabs...'
+rc_tabvolume_mnu_removeallicons='Remove all icons for all tabs...'
+rc_tabvolume_assignflags_confirm='All icons of the Bible tabs will be replaced with new flag icons.'#13'Are you sure you want to continue?'
+rc_tabvolume_removeallicons_confirm='All icons of the Bible tabs will be removed.'#13'Are you sure you want to continue?'
+#final menu items
+
+rc_tabvolume_vertical_popup='Use vertical popup for non-visible tabs'
+rc_tabvolume_useicons='Use icons on tabs'
+rc_tabvolume_selbibles='Show/hide, reorder Bible texts...'
+
+
+rc_tabvolume_toolbar='Show/hide viewer icons'
+rc_select_inline_cmts='Would you like to select the commentaries to show inline now?'
+rc_select_lookup_dcts='Would you like to select the lookup dictionaries now?'
+
+#html message on edit notes
+
+rc_hmsg_choose_chapter='<b>Choose the chapter you wish to add notes</b><p>'
+rc_hmsg_choose_book='<b>Choose the book you wish to add notes</b>'
+rc_hmsg_notes_index='Verse notes contents<br><font size=-1>(hold the Ctrl key to edit notes)</font>'
+rc_hmsg_subject_index='Subject notes contents<br><font size=-1>(hold the Ctrl key to edit notes)</font>'
+rc_hmsg_chapter_index='Chapter notes contents<br><font size=-1>(hold the Ctrl key to edit notes)</font>'
+rc_hmsg_book_index='Book notes contents<br><font size=-1>(hold the Ctrl key to edit notes)</font>'
+rc_hmsg_add_subject_notes='Add new subject'
+rc_hmsg_add_chapter_notes='Add chapter notes'
+rc_hmsg_add_book_notes='Add book notes'
+rc_hmsg_no_notes_on_verse='There are no notes for this verse.'
+rc_hmsg_notes_add='Add notes'
+rc_hmsg_format_html='Format as html'
+rc_hmsg_format_text='Format as text'
+rc_hmsg_format_auto='Auto detect'
+
+#Verse list
+
+rc_vl_list='Verse list'
+rc_msg_clear_vl='Are you sure you want to clear the list "%s"?'#13#13'WARNING'#13'You cannot undo this action!'
+rc_vl_default_prefix='List'
+rc_msg_vl_save_title='Verse list title'
+rc_msg_vl_save_body='Enter a title for verse list'
+rc_msg_vl_save_title_exists='Title "%s" already exists. Please, choose another one.'
+rc_msg_vl_save_prompt_body='Verse list has changed. Would you like to save?'
+rc_msg_vl_save_prompt_title='Save changes'
+rc_msg_vl_rename_body='Enter a new title for verse list'
+rc_msg_vl_rename_title='Rename verse list'
+rc_msg_vl_rename_exists='Title already exists. Please, choose another one.'
+rc_msg_vl_rename_failRO='Program instance is read-only.'#13'You cannot rename the list.'
+rc_msg_vl_copy_not_allowed='The maximum allowed verses to copy from the Bible translation'#13'"%s" is %d.'#13 'This lists contains more than this allowed number of verses from'#13'this translation. Either change the translation of one or more'#13'verses or remove some verses from the list.'#13#13'Please, notice that verses within a range are counted independently'#13'(e.g. John 3:16-18 counts for 3 verses)'
+
+#verse list: popup menu on verse
+
+rc_vl_mnu_view='View Bible text'
+rc_vl_mnu_move='Move'
+rc_vl_mnu_up='up'
+rc_vl_mnu_down='down'
+rc_vl_mnu_top='to top'
+rc_vl_mnu_bottom='to bottom'
+rc_vl_mnu_passage='Set passage until...'
+rc_vl_mnu_delete='Delete'
+rc_vl_mnu_change_bible='Change translation for this verse'
+rc_vl_mnu_change_bible_all='Change translation for all verses of the list'
+rc_msg_change_bible_all_confirm='Are you sure you want to use the "%s" translation for all verses of this list?'
+
+
+rc_msg_add_first_verses='Current list already contains %d verses and you are attempting to add another %d vesres'#13''#13'Would you like to add only the first %d verses?'
+rc_msg_too_many_verses_body='A verse list cannot contain more than %d verses.'#13''
+rc_msg_too_many_verses_title='Add verses to list'
+
+#bible tabs messages
+
+rc_tab_volumes_parallel='Compare'
+rc_tab_volumes_list='List'
+rc_app_message_title='In the beginning was the Word'
+rc_msg_readonly_body='You will not be able to make any changes at all to personal notes or/and verse list'#13' on this program instance because there is already another instance running.'#13''#13'All other functionallity is normally available.'
+rc_msg_generic_failRO='Program instance is read-only.'
+rc_tab_nt_only='New Testament only'
+rc_tab_ot_only='Old Testament only'
+rc_tab_ont='Old and New Testament'
+rc_tab_hint_default='Default'
+
+#search
+
+rc_search_vkeyb='Virtual keyboard'
+rc_search_vkeyb_delete='Backspace/Delete'
+rc_search_vkeyb_close='Close'
+
+
+rc_verse_ref_text='Verse reference (F4)'
+rc_no_verses_in_bible='This edition of the Bible does not contain the specified verses'
+rc_search_quick='Quick search (F3)'
+
+#rc_search_filter_all_books='All books'
+#rc_search_filter_ot='Old Testament'
+#rc_search_filter_nt='New Testament'
+#rc_search_filter_1verse='verse'
+#rc_search_filter_verses='verses'
+#rc_search_too_many_results='More than %d matches of your phrase found in %d distinct verses.'#13'Only these verses will be shown (there may be more verse containing this phrase).'
+#rc_search_no_results='No verses found'
+
+#search context menu
+
+rc_main_mnu_footnotes='[%s]: edit footnotes...'
+rc_mnu_search_view='View'
+rc_mnu_search_filter='Filter'
+rc_mnu_search_move_to_list='Paste to list'
+rc_mnu_search_copy='Copy'
+rc_mnu_search_select_all='Select all'
+rc_mnu_search_clear='Clear'
+rc_mnu_copy_to_list='Add [%s] to current verse list...'
+rc_mnu_search_options='Options'
+rc_mnu_search_book_names='Book names'
+rc_mnu_search_book_names_long='Full'
+rc_mnu_search_book_names_short='Short'
+rc_mnu_search_icons='Use icons'
+
+
+rc_hmsg_invalid_verse_link='<font color=red>The link you have defined is invalid.</font><br>You can correct it from the edit-notes window'
+
+#bookmarks
+
+rc_msg_bm_exists='You already have a bookmark on "%s"'#13'Would you like to add another one?'
+rc_msg_bm_confirm_overwrite='You already have a bookmark in this position. Would you like to overwrite?'
+rc_msg_bm_no_more_vacancies='No more bookmarks allowed. Please, delete some bookmark first and try again.'
+rc_msg_bm_confirm_deleteall='Are you sure you want to delete all your bookmarks?'
+rc_bm_mnu_bm_delete='Delete bookmark "%s"'
+rc_bm_none_hint='[no bookmark defined - press Ctrl+Shift+%s to set this bookmark]'
+
+#history menu (for entries)
+
+rc_mnu_history_verse='verses'
+rc_mnu_history_subject='subject'
+rc_mnu_history_chapter='chapters'
+rc_mnu_history_book='books'
+
+#subjects
+
+rc_msg_new_subject_title='New subject'
+rc_msg_new_subject_body='Please, enter subject title'
+rc_msg_new_subject_exists='Subject title already exists.'#13'Please choose another one.'
+rc_msg_new_subject_failRO='Program instance is read-only.'#13'You cannot add a subject'
+rc_msg_choose_subject_to_edit='Choose a subject from the list to add/edit notes.'
+rc_edit_subject_caption_prefix='Subject notes'
+rc_msg_no_rename_subject_now='You cannot rename the current subject while you edit notes on it.'#13'Please, close the edit-notes window and try again.'
+rc_msg_rename_subject_title='Rename subject'
+rc_msg_rename_subject_body='Enter a title for current subject'
+rc_msg_rename_failRO='Program instance is read-only.'#13'You cannot rename a subject.'
+rc_msg_no_delete_subject_now='You cannot delete the current subject while you edit notes on it!'#13'Please, close the edit-notes window and try again.'
+rc_msg_delete_subject_confirm='Are you sure you want to delete the subject "%s"?'#13''#13'WARNING'#13'You cannot undo this action!'
+rc_msg_no_comments_on_subject='There are no notes on this subject.'
+rc_msg_add_comments_on_subject='Add note'
+
+
+rc_msg_notes_finish_edit='Finish you current editing in order to start a new'
+rc_msg_notes_select_verse='Choose a verse from the bible text to add/edit notes.'
+
+
+rc_edit_notes_caption_prefix='Notes on'
+rc_msg_notes_confirm_del_body='Are you sure you want to delete your notes on verse %s?'
+rc_msg_notes_confirm_del_title='Confirm deletion'
+rc_msg_notes_delete_failRO='Program instance is read-only.'#13'You cannot delete data'
+rc_msg_notes_save_failRO='Program instance is read-only.'#13'You cannot save notes'
+rc_main_mnu_chapter='chapter'
+rc_main_mnu_find='Find "%s"'
+rc_main_mnu_addxef='Add a cross reference on %s...'
+rc_main_mnu_delxref='Delete cross reference [%s]...'
+rc_main_mnu_copy='Copy'
+rc_main_mnu_copy_until='Copy "%s" until verse'
+rc_main_mnu_copy_special='Copy verses...'
+rc_main_mnu_copy_selection='Copy selection'
+rc_main_mnu_moveto_notes='Paste "%s" to notes'
+rc_main_mnu_moveto_notes_aslink='Paste "%s" to notes as link'
+rc_main_mnu_moveto_notes_select='Paste selection to notes'
+rc_edit_fnotes_caption_prefix='Notes on'
+
+#categories
+
+rc_msg_cat_choose_cat_subcat='Please, choose a category in order to add a sub-category'
+rc_msg_new_cat_title='New category'
+rc_msg_new_cat_body='New category title:'
+rc_msg_new_subcat_title='New sub-category'
+rc_msg_new_subcat_body='New sub-category title:'
+rc_msg_delete_cat_confirm='Are you sure you want to delete category "%s" and ALL its sub-categories?'#13''#13'WARNING'#13'You cannot undo this action!'
+rc_msg_no_title_for_cat='You didn''t select a title for the category'
+rc_msg_select_sub_for_cat='Please, choose a subject to link with the category'
+rc_msg_select_cat_for_sub='Please, choose a category to link with the subject'
+rc_msg_cat_failRO='Program instance is read-only'#13'You cannot make changes to categories.'
+
+#options dialog. Custom bible font selection -> default font on font combo when clicking on the font column
+
+rc_msg_use_def_font='[ Use default font ]'
+rc_msg_default_always_visible='The default Bible translation must always be visible.'#13'If you want to hide this translation, set another translation as the ''default'' one first.'
+
+#general
+
+rc_msg_no_bible_found='No installed Bible texts found.'#10'You should install at least one Bible text for the program to function properly.'#13#13'If you have downloaded and installed any Bible texts in another location on you hard disk, you may set it now.'#13'Would you like to do it?'
+rc_msg_bible_files_path='Select the folder that contains the files (*.nt, *.ot, *.ont) with the Bible translations'
+rc_bibleview_title='Bible view'
+rc_main_bibleview_title='Main Bible view'
+rc_bible_view_title_ctrl='Ctrl'
+rc_statusbar_active='Active'
+rc_statusbar_main='Main'
+rc_error_opening_bible_file='There was an error opening the Bible file %s:'#13'%s'
+rc_msg_no_valid_bibles='No valid Bible modules found.'#13'The program will not exit'
+rc_bibletreeview_title='Bible tree (F9)'
+
+#search view specific
+
+rc_searchview_title='Search view [%d] (Ctrl+F10)'
+rc_searchview_searching='Searching...'
+rc_searching_verses='Verses: %d'
+rc_searchview_matches='%d matches'
+rc_searchview_noverses='No verses found'
+rc_searchview_parsed_expr_prefix='Search {\cf1\b %s} for:'
+rc_searchview_fasthelp_rtf='\par\par\f2\fs16\cf7 {\b Fast help; Use:}\par -{\cf2 AND} to search for \b1ALL \b0 words, e.g.:\par     {\cf5 Jesus {\cf2 AND} Christ}\par -{\cf2 OR} to search for \b1ANY \b0 word, e.g.:\par     {\cf5 Jesus {\cf2 OR} Christ}\par -double quotes ({\cf2\b "}) for phrase search, e.g.:\par     \cf5{\cf2\b "}Jesus Christ{\cf2\b "}'
+rc_searchview_bookhint=' Total number of matched verses: %d '#13' Number of matched verses in [%s]: %d '#13' Percentage of matches in [%s]: %d%% '
+#search results tree context menu
+
+rc_searchview_ctxmenu_view='Views %s'
+rc_searchview_ctxmenu_selectall='Select all'
+rc_searchview_ctxmenu_copyone='Copy [%s]'
+rc_searchview_ctxmenu_copyall='Copy all [%d] verse(s) from book of [%s]'
+rc_searchview_ctxmenu_copy_selbooks='Copy all [%d] verse(s) from the [%d] selected books'
+rc_searchview_ctxmenu_copy_selected='Copy all [%d] selected verse(s)'
+rc_searchview_ctxmenu_pasteone='Paste [%s] to list'
+rc_searchview_ctxmenu_pasteall='Paste all [%d] verse(s) from book of [%s] to list'
+rc_searchview_ctxmenu_paste_selbooks='Paste all [%d] verse(s) from the [%d] selected books to list'
+rc_searchview_ctxmenu_paste_selected='Paste all [%d] selected verse(s) to list'
+rc_searchview_ctxmenu_clear='Clear'
+
+#edit notes form
+
+rc_edit_notes_changed='Notes changed. Save changes?'
+
+#html inline
+
+rc_btext_chapter='chapter'
+rc_btext_start_of_chapter='Beginning of chapter'
+rc_btext_prev_chapter='Previous chapter'
+rc_btext_next_chapter='Next chapter'
+rc_html_parallel_notes='Footnotes'
+rc_html_parallel_no_bible='[Compare] Bible view is <b>not</b> available because:<ul><li>you have not selected (a) Bible(s) for this view, or<li>the Bible(s) you have selected does(do) not contain the specified verse</ul><br><div align=center><a href=cmd:parallelSelectBible>Select Bible texts</a></div>'
+rc_html_verse_list_default='<html><body><font color=black>Use your mouse to drag verses here from:<ul><li>the search result list (<b>one</b> or <b>more</b> selected verses)<li>the Bible tree: <b>one</b> verse<li>the Bible tree: a <b>whole</b> chapter</ul><p><p>To <b>create a continuous range of verses</b>: <ul><li>use the mouse wheel while holding down the CTRL and SHIFT buttons, when over the active (the one surrounded with the rounded rectangle) verse.<li>right click on the verse of the list and select "Select passage until..."</ul><p><p>To <b>move a verse up or down</b> in the list:<ul><li>use the mouse wheel while holding down the SHIFT button, when over the active verse<li>right click on the verse of the list and select "Move->..."</ul></font></body></html>'
+#auto update messages
+
+rc_autoupdate_msg1='You have already downloaded the update file for version %s.'#13'Would you like to use this file?'
+rc_autoupdate_msg2='The auto-update feature needs a working Internet connection.'#13'The program will automatically connect to the site "www.theword.gr"'#13'where it will search for any updates.'#13#13'Would you like to continue?'
+rc_autoupdate_msg3='You already use the latest version of the program.'
+rc_autoupdate_msg4='An unexpected error occured during the auto-update procedure.'#13'Please, make sure you are connected to the Internet and try again.'
+rc_autoupdate_msg5='An unexpected error occured during the downloading of the update file.'#13'The auto-update did not complete succesfully.'
+rc_autoupdate_msg6='The size of the update file is different than expected.'#13'This indicates a possible error during the download.'#13#13'The auto-update of the program cannot continue. Please, try again.'
+rc_autoupdate_msg7='The download of the update file completed succesfully.'#13#13'Would you like to update the program now?'#13'(if you choose "No", you may run the update procedure at any'#13'time in the future without downloading the file again)'
+rc_autoupdate_msg8='Please wait...'
+rc_autoupdate_msg9='A newer version of the program is available.'#13'Would you like to upgrade now?'
+rc_autoupdate_msg10='The program will ask you again if you want to update it in, about, one week from now.'#13#13'(if you don''t want the program to automatically check for newer versions, you can'#13'uncheck the appropriate option from the menu "File->Preferences...")'
+rc_autoupdate_msg11='Are you sure you want to cancel the corrections on the Bible texts?'#13'This function will only take some seconds and will correct critical'#13'errors in one or more of the Bible texts you already have installed!'#13#13'(if you don''t want the program to automatically check for corrections'#13' on installed Bible texts, you can uncheck the appropriate option'#13'from the menu "File->Preferences...")'
+rc_autoupdate_msg12='There are instances of the program currently running.'#13#13'Please, close all other instances to continue with the update.'
+rc_autoupdate_msg13='Some of the corrections were not applied due to some internal error.'#13'Possible cause is that there is another instance of the program already running'
+
+#clipboard viewer messages
+
+rc_clip_truncate='Clipboard truncated to '
+rc_confirm_disable_clip='Are you sure you wish to stop monitoring the Clipboard?'
+rc_sel_one_text='Please, choose at least one Bible text.'
+rc_clip_gotoverse='Go'
+rc_clip_pastetolist='to List'
+
+#splash screen messages
+
+rc_splash_init='Initializing. Please, wait...'
+rc_splash_build_index='Building index for'
+rc_splash_change_db='Updating personal notes file...'
+rc_version='Version'
+
+#export notes messages
+
+rc_custom_range_error='The range you selected is incorrect:'#13'- make sure you have selected the "From" and/or "To" verses'#13'- check that the "From" refers to a previous verse that "To"'
+rc_write_error='There was an error during the export.'#13#13'Make sure that the file is not in use or read only and try again.'
+rc_export_done_msg='The export completed succesfully.'#13#13'Output file is:'#13
+
+#copy verse messages
+
+rc_copy_verse_from='From [click to select verse] ...'
+rc_copy_verse_to='To [click to select verse] ...'
+rc_copy_verse_verses='verses'
+rc_copy_verse_from_with='From: [%s]'
+rc_copy_verse_to_with='To: [%s]'
+
+#define range dialog message (for searches)
+#be ware that the messages of the 'copy verse dialog' (the ones above) are also used in this dialog
+#for the similar buttons
+
+rc_searchrange_entername='[enter a name for the range]'
+rc_searchrange_confirm_delete='Are you sure you want to delete this range?'#13#13'Be careful: You cannot undo this action!'
+rc_searchrange_confirm_duplicate='You have already have saved a similar range under the name "%s"'#13'Are you sure you want to save this one also?'
+
+#html formatting
+
+rc_msg_clear_used_colors='Are you sure you want to clear the Last-used-colors list?'
+
+#layout specific messages
+
+rc_lyt_user_layout='User layout %d'
+rc_lyt_as='as: '
+rc_lyt_confirm_delete='Are you sure you want to delete the layout "%s"?'
+rc_lyt_no_empty='You cannot use an empty name for your layout. Please, enter something'
+rc_lyt_rename_exists='The name you chose for the layout already exists. Please, choose another one'
+
+#add xref dialog
+
+rc_addxref_range_too_big='Verse range cannot exceed 255 consecutive verses'
+rc_addxref_error='Unexpected error adding cross reference.'
+
+#Organize xrefs dialog (and new set dialog)
+#this is the description of the default set of cross references of the user
+
+rc_xref_user_description='My cross-references'
+rc_xref_confirm_delete='Are you sure you want to delete the cross-references set [%s]?'
+rc_xref_confirm_clear='All cross-references of the set [%s] will be deleted.'#13'Are you sure you want to continue?'
+rc_xref_confirm_copy='You are about to copy all cross references from the set "%s" into the set "%s"'#13'Are you sure you want to continue?'
+rc_xref_confirm_delete2='You are about to delete %d cross-reference(s)'#13'Are you sure you want to continue?'
+#the following 2 message appear in the list with the xrefs in the organize xrefs dialogs
+
+rc_xrefs_list_usersets='User sets'
+rc_xrefs_list_bmodssets='Bible modules sets'
+#the following message appear in the 'save as' dialog when creating a new set in a new file
+
+rc_xrefs_files='Cross reference files'
+
+
+rc_xref_invalid_file='%s does not appear to be a valid cross-references file'
+rc_xref_stop_using_confirm='Are you sure you want to stop using the file:'#13'%s ?'#13#13'(the file will NOT be deleted, you may add it again later if you want to)'
+rc_xref_cannot_stop_using='You cannot stop using a file that resides on your default user'#13' directory (%s).'#13'If you want to do so, please move this file out of this folder or delete it.'
+rc_verselists_user_description='Verse lists'
+rc_biblehl_user_description='Bible formatting'
+
+#context menu of windows
+
+rc_wctx_dockto='Dock to'
+rc_wctx_floating='Floating'
+rc_wctx_caption_color='Caption color'
+rc_wctx_cc_no='No colors and border'
+rc_wctx_cc_sch1='Color scheme 1'
+rc_wctx_cc_sch2='Color scheme 2'
+rc_wctx_cc_sch3='Color scheme 3'
+rc_wctx_cc_scg4='Color scheme 4'
+rc_wctx_minmax='Show minimize/maximize buttons'
+rc_wctx_dock_left='Left column'
+rc_wctx_dock_right='Right column'
+rc_wctx_dock_top='Top row'
+rc_wctx_dock_bottom='Bottom row'
+rc_wctx_dock_middle='Middle area'
+###############################################
+
+#alias 1 is the basic. alias 2 is an alternative. alias 3 is the short names
+#Now, only 1 and 3 are used
+
+[Books]
+rc_bk_def_alias='1'
+
+
+rc_bk_alias1_1='Genesis'
+rc_bk_alias1_2='Exodus'
+rc_bk_alias1_3='Leviticus'
+rc_bk_alias1_4='Numbers'
+rc_bk_alias1_5='Deuteronomy'
+rc_bk_alias1_6='Joshua'
+rc_bk_alias1_7='Judges'
+rc_bk_alias1_8='Ruth'
+rc_bk_alias1_9='1Samuel'
+rc_bk_alias1_10='2 Samuel'
+rc_bk_alias1_11='1 Kings'
+rc_bk_alias1_12='2 Kings'
+rc_bk_alias1_13='1 Chronicles'
+rc_bk_alias1_14='2 Chronicles'
+rc_bk_alias1_15='Ezra'
+rc_bk_alias1_16='Nehemiah'
+rc_bk_alias1_17='Esther'
+rc_bk_alias1_18='Job'
+rc_bk_alias1_19='Psalms'
+rc_bk_alias1_20='Proverbs'
+rc_bk_alias1_21='Ecclesiastes'
+rc_bk_alias1_22='Song of Solomon'
+rc_bk_alias1_23='Isaiah'
+rc_bk_alias1_24='Jeremiah'
+rc_bk_alias1_25='Lamentations'
+rc_bk_alias1_26='Ezekiel'
+rc_bk_alias1_27='Daniel'
+rc_bk_alias1_28='Hosea'
+rc_bk_alias1_29='Joel'
+rc_bk_alias1_30='Amos'
+rc_bk_alias1_31='Obadiah'
+rc_bk_alias1_32='Jonah'
+rc_bk_alias1_33='Micah'
+rc_bk_alias1_34='Nahum'
+rc_bk_alias1_35='Habakkuk'
+rc_bk_alias1_36='Zephaniah'
+rc_bk_alias1_37='Haggai'
+rc_bk_alias1_38='Zechariah'
+rc_bk_alias1_39='Malachi'
+rc_bk_alias1_40='Matthew'
+rc_bk_alias1_41='Mark'
+rc_bk_alias1_42='Luke'
+rc_bk_alias1_43='John'
+rc_bk_alias1_44='Acts'
+rc_bk_alias1_45='Romans'
+rc_bk_alias1_46='1 Corinthians'
+rc_bk_alias1_47='2 Corinthians'
+rc_bk_alias1_48='Galatians'
+rc_bk_alias1_49='Ephesians'
+rc_bk_alias1_50='Philippians'
+rc_bk_alias1_51='Colossians'
+rc_bk_alias1_52='1 Thessalonians'
+rc_bk_alias1_53='2 Thessalonians'
+rc_bk_alias1_54='1 Timothy'
+rc_bk_alias1_55='2 Timothy'
+rc_bk_alias1_56='Titus'
+rc_bk_alias1_57='Philemon'
+rc_bk_alias1_58='Hebrews'
+rc_bk_alias1_59='James'
+rc_bk_alias1_60='1 Peter'
+rc_bk_alias1_61='2 Peter'
+rc_bk_alias1_62='1 John'
+rc_bk_alias1_63='2 John'
+rc_bk_alias1_64='3 John'
+rc_bk_alias1_65='Jude'
+rc_bk_alias1_66='Revelation'
+
+# short name
+
+rc_bk_alias2_1='Gen'
+rc_bk_alias2_2='Exod'
+rc_bk_alias2_3='Lev'
+rc_bk_alias2_4='Num'
+rc_bk_alias2_5='Deut'
+rc_bk_alias2_6='Josh'
+rc_bk_alias2_7='Judg'
+rc_bk_alias2_8='Ruth'
+rc_bk_alias2_9='I Sam'
+rc_bk_alias2_10='II Sam'
+rc_bk_alias2_11='I Kin'
+rc_bk_alias2_12='II Kin'
+rc_bk_alias2_13='I Chr'
+rc_bk_alias2_14='II Chr'
+rc_bk_alias2_15='Ezra'
+rc_bk_alias2_16='Neh'
+rc_bk_alias2_17='Esth'
+rc_bk_alias2_18='Job'
+rc_bk_alias2_19='Psa'
+rc_bk_alias2_20='Prov'
+rc_bk_alias2_21='Eccl'
+rc_bk_alias2_22='Song'
+rc_bk_alias2_23='Isa'
+rc_bk_alias2_24='Jer'
+rc_bk_alias2_25='Lam'
+rc_bk_alias2_26='Ezek'
+rc_bk_alias2_27='Dan'
+rc_bk_alias2_28='Hos'
+rc_bk_alias2_29='Joel'
+rc_bk_alias2_30='Amos'
+rc_bk_alias2_31='Obad'
+rc_bk_alias2_32='Jonah'
+rc_bk_alias2_33='Mic'
+rc_bk_alias2_34='Nah'
+rc_bk_alias2_35='Hab'
+rc_bk_alias2_36='Zeph'
+rc_bk_alias2_37='Hag'
+rc_bk_alias2_38='Zech'
+rc_bk_alias2_39='Mal'
+rc_bk_alias2_40='Mat'
+rc_bk_alias2_41='Mark'
+rc_bk_alias2_42='Luke'
+rc_bk_alias2_43='John'
+rc_bk_alias2_44='Acts'
+rc_bk_alias2_45='Rom'
+rc_bk_alias2_46='I Cor'
+rc_bk_alias2_47='II Cor'
+rc_bk_alias2_48='Gal'
+rc_bk_alias2_49='Eph'
+rc_bk_alias2_50='Philip'
+rc_bk_alias2_51='Col'
+rc_bk_alias2_52='I Thes'
+rc_bk_alias2_53='II Thes'
+rc_bk_alias2_54='I Tim'
+rc_bk_alias2_55='II Tim'
+rc_bk_alias2_56='Titus'
+rc_bk_alias2_57='Philem'
+rc_bk_alias2_58='Heb'
+rc_bk_alias2_59='Jam'
+rc_bk_alias2_60='I Pet'
+rc_bk_alias2_61='II Pet'
+rc_bk_alias2_62='I Jo'
+rc_bk_alias2_63='II Jo'
+rc_bk_alias2_64='III Jo'
+rc_bk_alias2_65='Jude'
+rc_bk_alias2_66='Rev'
+
+# shorter name
+
+rc_bk_alias3_1='Gen'
+rc_bk_alias3_2='Exod'
+rc_bk_alias3_3='Lev'
+rc_bk_alias3_4='Num'
+rc_bk_alias3_5='Deut'
+rc_bk_alias3_6='Josh'
+rc_bk_alias3_7='Judg'
+rc_bk_alias3_8='Ruth'
+rc_bk_alias3_9='1Sam'
+rc_bk_alias3_10='2Sam'
+rc_bk_alias3_11='1Kgs'
+rc_bk_alias3_12='2Kgs'
+rc_bk_alias3_13='1Chr'
+rc_bk_alias3_14='2Chr'
+rc_bk_alias3_15='Ezra'
+rc_bk_alias3_16='Neh'
+rc_bk_alias3_17='Esth'
+rc_bk_alias3_18='Job'
+rc_bk_alias3_19='Ps'
+rc_bk_alias3_20='Prov'
+rc_bk_alias3_21='Eccl'
+rc_bk_alias3_22='Song'
+rc_bk_alias3_23='Isa'
+rc_bk_alias3_24='Jer'
+rc_bk_alias3_25='Lam'
+rc_bk_alias3_26='Ezek'
+rc_bk_alias3_27='Dan'
+rc_bk_alias3_28='Hos'
+rc_bk_alias3_29='Joel'
+rc_bk_alias3_30='Amos'
+rc_bk_alias3_31='Obad'
+rc_bk_alias3_32='Jonah'
+rc_bk_alias3_33='Mic'
+rc_bk_alias3_34='Nah'
+rc_bk_alias3_35='Hab'
+rc_bk_alias3_36='Zeph'
+rc_bk_alias3_37='Hag'
+rc_bk_alias3_38='Zech'
+rc_bk_alias3_39='Mal'
+rc_bk_alias3_40='Matt'
+rc_bk_alias3_41='Mark'
+rc_bk_alias3_42='Luke'
+rc_bk_alias3_43='John'
+rc_bk_alias3_44='Acts'
+rc_bk_alias3_45='Rom'
+rc_bk_alias3_46='1Cor'
+rc_bk_alias3_47='2Cor'
+rc_bk_alias3_48='Gal'
+rc_bk_alias3_49='Eph'
+rc_bk_alias3_50='Phil'
+rc_bk_alias3_51='Col'
+rc_bk_alias3_52='1Thess'
+rc_bk_alias3_53='2Thess'
+rc_bk_alias3_54='1Tim'
+rc_bk_alias3_55='2Tim'
+rc_bk_alias3_56='Titus'
+rc_bk_alias3_57='Phlm'
+rc_bk_alias3_58='Heb'
+rc_bk_alias3_59='Jas'
+rc_bk_alias3_60='1Pet'
+rc_bk_alias3_61='2Pet'
+rc_bk_alias3_62='1John'
+rc_bk_alias3_63='2John'
+rc_bk_alias3_64='3John'
+rc_bk_alias3_65='Jude'
+rc_bk_alias3_66='Rev'
+   
+# search patterns. Order is important!!!
+#  Format is '<search_patter>|<book_number>'
+#  where <book_number> is from 1 to 66
+#NOTICE!!!: P0hilemon|57: there is an extra zero (0) after P:
+#this will give Philemon less priority than Philippians, when
+#parsing the reference "Phi" (and so Philippians will appear)
+Genesis|1
+Exodus|2
+Leviticus|3
+Numbers|4
+Deuteronomy|5
+Joshua|6
+Judges|7
+Ruth|8
+1Samuel1|9
+2Samuel2|10
+1Kings1|11
+2Kings2|12
+1Chronicles1|13
+2Chronicles2|14
+Ezra|15
+Nehemiah|16
+Esther|17
+Job|18
+Psalms|19
+Proverbs|20
+Ecclesiastes|21
+Song of Solomon|22
+Isaiah|23
+Jeremiah|24
+Lamentations|25
+Ezekiel|26
+Daniel|27
+Hosea|28
+Joel|29
+Amos|30
+Obadiah|31
+Jonah|32
+Micah|33
+Nahum|34
+Habakkuk|35
+Zephaniah|36
+Haggai|37
+Zechariah|38
+Malachi|39
+Matthew|40
+Mark|41
+Luke|42
+John|43
+Acts|44
+Romans|45
+1Corinthians1|46
+2Corinthians2|47
+Galatians|48
+Ephesians|49
+Philippians|50
+Colossians|51
+1Thessallonnians1|52
+2Thessallonnians2|53
+1Timothy1|54
+2Timothy2|55
+Titus|56
+P0hilemon|57
+Hebrews|58
+James|59
+1Peter1|60
+2Peter2|61
+1John1|62
+2John2|63
+3John3|64
+Jude|65
+Revelation|66
+
+ISamuelI|9
+IISamuelII|10
+IKingsI|11
+IIKingsII|12
+IChroniclesI|13
+IIChroniclesII|14
+ICorinthiansI|46
+IICorinthiansII|47
+IThessallonniansI|52
+IIThessallonniansII|53
+ITimothyI|54
+IITimothyII|55
+IPeterI|60
+IIPeterII|61
+IJohnI|62
+IIJohnII|63
+IIIJohnIII|64
+
+
+Samuel1|9
+Kings1|11
+Chronicles1|13
+Corinthians1|46
+Thessallonnians1|52
+Timothy1|54
+Peter1|60
+John1|62
+
+SamuelI|9
+KingsI|11
+ChroniclesI|13
+CorinthiansI|46
+ThessallonniansI|52
+TimothyI|54
+PeterI|60
+JohnI|62
+
+01|1
+02|2
+03|3
+04|4
+05|5
+06|6
+07|7
+08|8
+09|9
+10|10
+11|11
+12|12
+13|13
+14|14
+15|15
+16|16
+17|17
+18|18
+19|19
+20|20
+21|21
+22|22
+23|23
+24|24
+25|25
+26|26
+27|27
+28|28
+29|29
+30|30
+31|31
+32|32
+33|33
+34|34
+35|35
+36|36
+37|37
+38|38
+39|39
+40|40
+41|41
+42|42
+43|43
+44|44
+45|45
+46|46
+47|47
+48|48
+49|49
+50|50
+51|51
+52|52
+53|53
+54|54
+55|55
+56|56
+57|57
+58|58
+59|59
+60|60
+61|61
+62|62
+63|63
+64|64
+65|65
+66|66
+dummy=dummy
+
+ 	  	 
+

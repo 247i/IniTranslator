@@ -1,0 +1,14 @@
+Subject: ANN: IniTranslator <version> released
+
+New version of IniTranslator released. 
+======================================
+
+Ini Translator is a small Windows tool to simplify the translation of ini style language files (as used by programs like FlashGet, ISTool, Inno Setup and Wallpaper Sequencer to name a few) and the GUI is similar to that of poEdit (a translation editor for gnu gettext). Using a plugin interface, the program can also import and export language files from and to a variety of formats.
+
+The program and the sources are hosted at sourceforge and are released subject to the MPL 1.1 license.
+
+For more information and download, see http://sourceforge.net/projects/initranslator or http://initranslator.sourceforge.net
+
+-- 
+Regards, 
+Peter Thornqvist

@@ -1,0 +1,10 @@
+open upload.sourceforge.net
+anonymous
+peter3@users.sourceforge.net
+binary
+hash
+cd /incoming
+literal PASV
+prompt
+mput *.exe
+quit

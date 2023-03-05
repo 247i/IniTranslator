@@ -1,0 +1,118 @@
+.pageBreakBefore {
+	PAGE-BREAK-BEFORE: always
+}
+.pageBreakAfter {
+	PAGE-BREAK-AFTER: always
+}
+
+BODY {
+	FONT-SIZE: 70%; BACKGROUND: #ffffff; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H1 {
+	MARGIN-LEFT: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H2 {
+	MARGIN-LEFT: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H3 {
+	MARGIN-LEFT: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H4 {
+	MARGIN-LEFT: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H1 {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-WEIGHT: bold; FONT-SIZE: 145%; BACKGROUND: #003366; MARGIN-BOTTOM: 25px; PADDING-BOTTOM: 12px; WIDTH: 99%; COLOR: #ffffff; PADDING-TOP: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal
+}
+H2 {
+	MARGIN-TOP: 1em; FONT-SIZE: 130%; MARGIN-BOTTOM: 0.6em
+}
+H3 {
+	MARGIN-TOP: 1em; FONT-SIZE: 115%; MARGIN-BOTTOM: 0.6em
+}
+H4 {
+	MARGIN-TOP: 1em; FONT-SIZE: 100%; MARGIN-BOTTOM: 0.6em
+}
+HR {
+	DISPLAY: none
+}
+HR {
+	DISPLAY: block; COLOR: #000080; noshade: 
+}
+UL P {
+	MARGIN-LEFT: 0em
+}
+OL P {
+	MARGIN-LEFT: 0em
+}
+DL P {
+	MARGIN-LEFT: 0em
+}
+P {
+	MARGIN-TOP: 0.6em; MARGIN-BOTTOM: 0.6em
+}
+DL {
+	MARGIN-TOP: 0em
+}
+DD {
+	MARGIN-BOTTOM: 0em; MARGIN-LEFT: 1.9em
+}
+DT {
+	MARGIN-TOP: 0.6em; FONT-WEIGHT: bold
+}
+UL {
+	MARGIN-TOP: 0.6em; MARGIN-BOTTOM: 0em
+}
+OL {
+	MARGIN-TOP: 0.6em; MARGIN-BOTTOM: 0em
+}
+OL {
+	MARGIN-LEFT: 1.9em
+}
+UL {
+	MARGIN-LEFT: 1.9em; LIST-STYLE-TYPE: disc
+}
+LI {
+	MARGIN-BOTTOM: 0.6em
+}
+UL OL {
+	LIST-STYLE-TYPE: lower-alpha
+}
+OL OL {
+	LIST-STYLE-TYPE: lower-alpha
+}
+PRE {
+	FONT: 100% Courier New, Courier, mono; COLOR: #660000
+}
+CODE {
+	FONT: 100% Courier New, Courier, mono; COLOR: #660000
+}
+PRE I {
+	COLOR: navy
+}
+TABLE {
+	MARGIN-TOP: 0.6em; BACKGROUND: #999999; MARGIN-BOTTOM: 0.3em; WIDTH: 90%
+}
+TH {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 70%; BACKGROUND: #cccccc; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: bottom; PADDING-TOP: 4px; TEXT-ALIGN: left
+}
+TD {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 70%; BACKGROUND: #ffffff; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; PADDING-TOP: 4px
+}
+BLOCKQUOTE {
+	MARGIN: 0.6em 3.8em
+}
+SUP {
+	FONT-SIZE: smaller; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #0066ff
+}
+A:visited {
+	COLOR: #996600
+}
+A:hover {
+	COLOR: #cc9900
+}
+.heading {
+	BORDER-RIGHT: #555555 1px ridge; PADDING-RIGHT: 12px; BORDER-TOP: #555555 1px ridge; MARGIN-TOP: 25px; PADDING-LEFT: 12px; FONT-SIZE: 145%; BACKGROUND: #223399; MARGIN-BOTTOM: 25px; PADDING-BOTTOM: 12px; BORDER-LEFT: #555555 1px ridge; WIDTH: 99%; COLOR: #ffffff; PADDING-TOP: 12px; BORDER-BOTTOM: #555555 1px ridge; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}

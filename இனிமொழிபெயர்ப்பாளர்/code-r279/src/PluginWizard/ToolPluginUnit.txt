@@ -1,0 +1,141 @@
+{
+  Copyright © 2003-2006 by Peter Thornqvist; all rights reserved
+
+  Developer(s):
+    p3 - peter3 att users dott sourceforge dott net
+
+  Status:
+   The contents of this file are subject to the Mozilla Public License Version
+   1.1 (the "License"); you may not use this file except in compliance with the
+   License. You may obtain a copy of the License at http://www.mozilla.org/MPL/MPL-1.1.html
+
+   Software distributed under the License is distributed on an "AS IS" basis,
+   WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
+   the specific language governing rights and limitations under the License.
+}
+
+// $Id: $
+
+unit %unit%;
+
+interface
+uses
+  TransIntf;
+
+type
+  %pluginclassname%s = class(TInterfacedObject, IUnknown, IToolItems)
+  public
+    function Count: Integer; safecall;
+    function ToolItem(Index: Integer; out ToolItem: IToolItem): HRESULT; safecall;
+  end;
+
+  %pluginclassname% = class(TInterfacedObject, IUnknown, IToolItem, ILocalizable)
+  private
+    FCount: integer;
+    FAppServices:IApplicationServices;
+    function Translate(const Value:WideString):WideString;
+  public
+    { IToolItem }
+    function About: WideString; safecall;
+    function DisplayName: WideString; safecall;
+    function Execute(const Items, Orphans: ITranslationItems; var SelectedItem: ITranslationItem): HRESULT; safecall;
+    function Icon: Cardinal; safecall;
+    procedure Init(const ApplicationServices: IApplicationServices); safecall;
+    function Status(const Items, Orphans: ITranslationItems; const SelectedItem: ITranslationItem): Integer; safecall;
+    { ILocalizable }
+    function GetString(out Section: WideString; out Name: WideString;
+      out Value: WideString): WordBool; safecall;
+  end;
+
+implementation
+uses
+  Windows, SysUtils;
+  
+const
+  cAbout = 'About %pluginclassname%...';
+  cDisplayName = 'Execute %pluginclassname%';
+  cSectionName = '%pluginclassname%';
+  
+{ %pluginclassname%s }
+
+function %pluginclassname%s.Count: Integer;
+begin
+  Result := 1;
+end;
+
+function %pluginclassname%s.ToolItem(Index: Integer;
+  out ToolItem: IToolItem): HRESULT;
+begin
+  Result := S_FALSE;
+  if Index = 0 then
+  begin
+    ToolItem := %pluginclassname%.Create;
+    Result := S_OK;
+  end;
+end;
+
+{ %pluginclassname% }
+
+function %pluginclassname%.About: WideString;
+begin
+  Result := Translate(cAbout);
+end;
+
+function %pluginclassname%.DisplayName: WideString;
+begin
+  Result := Translate(cDisplayName);
+end;
+
+function %pluginclassname%.Translate(const Value:WideString):WideString;
+begin
+  if FAppServices <> nil then
+    Result := FAppServices.Translate(ClassName, Value, Value)
+  else
+    Result := Value;
+end;
+
+function %pluginclassname%.Execute(const Items, Orphans: ITranslationItems; var SelectedItem: ITranslationItem): HRESULT;
+begin
+  Result := S_FALSE;
+  // TODO
+end;
+
+function %pluginclassname%.GetString(out Section, Name, Value: WideString): WordBool;
+begin
+  Result := true;
+  case FCount of
+    0: Value := cDisplayName;
+    1: Value := cAbout;
+    // TODO: add more strings here
+  else
+    Result := false;
+  end;
+
+  if Result then
+  begin
+    Inc(FCount);
+    Section := cSectionName;
+    Name := Value;
+  end
+  else
+    FCount := 0;
+end;
+
+function %pluginclassname%.Icon: Cardinal;
+begin
+  Result := LoadIcon(hInstance, MakeIntResource('mainicon'));
+end;
+
+procedure %pluginclassname%.Init(const ApplicationServices: IApplicationServices);
+begin
+  FAppServices := ApplicationServices;
+end;
+
+function %pluginclassname%.Status(const Items, Orphans: ITranslationItems; const SelectedItem: ITranslationItem): Integer;
+begin
+  Result := TOOL_VISIBLE;
+  if Items.Count > 0 then
+    Result := Result or TOOL_ENABLED;
+end;
+
+end.

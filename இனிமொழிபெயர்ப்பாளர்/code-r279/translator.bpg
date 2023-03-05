@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = IniTranslatorPluginWizard.bpl DCPPParser.dll FoxitParser.dll \
+  IBForumsParser.dll KeePassParser.dll MozillaDTDParser.dll \
+  MozillaPropsParser.dll MSDictBuild.exe MSDictParser.dll MsTermBuild.exe \
+  OlegParser.dll OOGSIParser.dll PHPNukeParser.dll PHPParser.dll \
+  PolyGlotParser.dll POParser.dll ResXParser.dll SciTEParser.dll TMXParser.dll \
+  ToolConsistency.dll ToolKeyCheck.dll ToolListEdit.dll ToolPropertiesView.dll \
+  ToolTreeView.dll ToolTrim.dll WixParser.dll XLIFFParser.dll XilisoftParser.dll \
+  SDFSplit.exe translator.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+translator.exe: src\translator.dpr
+  $(DCC)
+
+FoxitParser.dll: src\FoxitPlugin\FoxitParser.dpr
+  $(DCC)
+
+POParser.dll: src\POPlugin\POParser.dpr
+  $(DCC)
+
+PHPParser.dll: src\PHPPlugin\PHPParser.dpr
+  $(DCC)
+
+PHPNukeParser.dll: src\PHPNukePlugin\PHPNukeParser.dpr
+  $(DCC)
+
+MozillaDTDParser.dll: src\MozillaPlugin\MozillaDTDParser.dpr
+  $(DCC)
+
+MozillaPropsParser.dll: src\MozillaPlugin\MozillaPropsParser.dpr
+  $(DCC)
+
+IBForumsParser.dll: src\IBForumsPlugin\IBForumsParser.dpr
+  $(DCC)
+
+SciTEParser.dll: src\SciTEPlugin\SciTEParser.dpr
+  $(DCC)
+
+OOGSIParser.dll: src\OpenOfficeGSIPlugin\OOGSIParser.dpr
+  $(DCC)
+
+OlegParser.dll: src\OlegPlugin\OlegParser.dpr
+  $(DCC)
+
+MSDictParser.dll: src\MSDictPlugin\MSDictParser.dpr
+  $(DCC)
+
+MSDictBuild.exe: src\MsDictBuild\MSDictBuild.dpr
+  $(DCC)
+
+TMXParser.dll: src\TMXPlugin\TMXParser.dpr
+  $(DCC)
+
+PolyGlotParser.dll: src\PolyglotPlugin\PolyGlotParser.dpr
+  $(DCC)
+
+ToolTreeView.dll: src\ToolTreeView\ToolTreeView.dpr
+  $(DCC)
+
+ToolListEdit.dll: src\ToolListEdit\ToolListEdit.dpr
+  $(DCC)
+
+XLIFFParser.dll: src\XLIFFPlugin\XLIFFParser.dpr
+  $(DCC)
+
+ToolPropertiesView.dll: src\ToolPropertiesView\ToolPropertiesView.dpr
+  $(DCC)
+
+MsTermBuild.exe: src\MsTermBuild\MsTermBuild.dpr
+  $(DCC)
+
+XilisoftParser.dll: src\XilisoftPlugin\XilisoftParser.dpr
+  $(DCC)
+
+ToolConsistency.dll: src\ToolConsistency\ToolConsistency.dpr
+  $(DCC)
+
+ToolKeyCheck.dll: src\ToolKeyCheck\ToolKeyCheck.dpr
+  $(DCC)
+
+ToolTrim.dll: src\ToolTrim\ToolTrim.dpr
+  $(DCC)
+
+SDFSplit.exe: src\SDFSplit\SDFSplit.dpr
+  $(DCC)
+
+KeePassParser.dll: src\KeePassPlugin\KeePassParser.dpr
+  $(DCC)
+
+WixParser.dll: src\WixPlugin\WixParser.dpr
+  $(DCC)
+
+DCPPParser.dll: src\DCPPPlugin\DCPPParser.dpr
+  $(DCC)
+
+IniTranslatorPluginWizard.bpl: src\PluginWizard\IniTranslatorPluginWizard.dpk
+  $(DCC)
+
+ResXParser.dll: src\ResXPlugin\ResXParser.dpr
+  $(DCC)
+
+

@@ -1,0 +1,1069 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Reader>
+<Menus>
+<menu id="128">
+<popup id="|0" text="&amp;Файл">
+<menuitem id="57601" text="&amp;Открыть...\tCtrl+O"/>
+<menuitem id="33111" text="&amp;Преобразовать PDF..."/>
+<menuitem id="57602" text="&amp;Закрыть\tCtrl+W"/>
+<menuitem id="57603" text="Сохранить\tCtrl+S"/>
+<menuitem id="32932" text="Сохранить как...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Печать...\tCtrl+P"/>
+<menuitem id="57606" text="&amp;Настройка печати..."/>
+<menuitem id="57616" text="Недавний файл"/>
+<menuitem id="32776" text="&amp;Свойства..."/>
+<menuitem id="57665" text="Выход\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="&amp;Правка">
+<menuitem id="33112" text="&amp;Правка содержимого..."/>
+<menuitem id="57634" text="&amp;Копировать\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Найти текст...\tCtrl+F"/>
+<menuitem id="32903" text="Найти далее\tF3"/>
+<menuitem id="32985" text="&amp;Настройки...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="&amp;Вид">
+<menuitem id="32782" text="&amp;Закладка\tAlt+1"/>
+<menuitem id="32783" text="&amp;Полноэкранный режим\tAlt+2"/>
+<menuitem id="32787" text="Увеличить\tCtrl+Num +"/>
+<menuitem id="32788" text="Уменьшить\tCtrl+Num -"/>
+<menuitem id="32789" text="Указать...\tCtrl+M"/>
+<menuitem id="32790" text="Исходный размер\tCtrl+1"/>
+<menuitem id="32791" text="Страница целиком\tCtrl+2"/>
+<menuitem id="32792" text="По ширине страницы\tCtrl+3"/>
+<popup id="|2|12" text="&amp;Макет страницы">
+<menuitem id="32925" text="&amp;Одна страница"/>
+<menuitem id="32926" text="&amp;Непрерывный"/>
+<menuitem id="32938" text="&amp;Книжный"/>
+<menuitem id="32939" text="&amp;Книжный непрерывный"/>
+</popup>
+<popup id="|2|14" text="&amp;Поворот">
+<menuitem id="32935" text="По часовой стрелке\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Против часовой стрелки\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Поменять местами"/>
+<menuitem id="32930" text="&amp;Рекламное объявление"/>
+<popup id="|2|20" text="&amp;Панели инструментов">
+<menuitem id="33043" text="&amp;Файл"/>
+<menuitem id="33044" text="&amp;Навигация"/>
+<menuitem id="33045" text="&amp;Поворот"/>
+<menuitem id="33046" text="&amp;Масштаб"/>
+<menuitem id="33042" text="&amp;Стандартная"/>
+<menuitem id="33104" text="&amp;Справка"/>
+<menuitem id="33065" text="&amp;Просмотр текста"/>
+<menuitem id="33048" text="&amp;Сброс панелей\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Пристыковать все панели\tCtrl+F8"/>
+<menuitem id="33053" text="Скрыть панели\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Строка меню"/>
+<menuitem id="59393" text="&amp;Строка состояния"/>
+</popup>
+<popup id="|3" text="&amp;Язык">
+<menuitem id="40801" text="&amp;По умолчанию"/>
+</popup>
+<popup id="|4" text="&amp;Документ">
+<menuitem id="32777" text="Первая страница\tHome"/>
+<menuitem id="32778" text="&amp;Предыдущая страница\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Следующая страница\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Последняя страница\tEnd"/>
+<menuitem id="33097" text="Предыдущий вид\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Следующий вид\tAlt+Right Arrow"/>
+<menuitem id="32781" text="Перейти к странице...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|5" text="&amp;Сервис">
+<menuitem id="32784" text="Перелистывание\tAlt+3"/>
+<menuitem id="32785" text="Уменьшение масштаба\tAlt+4"/>
+<menuitem id="32786" text="Увеличение масштаба\tAlt+5"/>
+<menuitem id="32977" text="Выделение текста\tAlt+6"/>
+<menuitem id="32987" text="Снимок\tAlt+7"/>
+<menuitem id="32793" text="Просмотр текста\tAlt+9"/>
+<menuitem id="33110" text="JavaScript"/>
+</popup>
+<popup id="|7" text="&amp;Окно">
+<menuitem id="57648" text="&amp;Новое окно"/>
+<menuitem id="57650" text="&amp;Каскадом"/>
+<menuitem id="57651" text="&amp;Плиткой"/>
+<menuitem id="57649" text="&amp;Упорядочить значки"/>
+<menuitem id="57602" text="&amp;Закрыть"/>
+<menuitem id="32795" text="Закрыть все\tCtrl+Shift+W"/>
+</popup>
+<popup id="|8" text="&amp;Справка">
+<menuitem id="32969" text="&amp;Связать с PDF-файлами"/>
+<menuitem id="32774" text="&amp;Веб-страница Foxit Software"/>
+<menuitem id="57664" text="&amp;О программе Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="159">
+<popup id="|0" text="Панели">
+<menuitem id="33043" text="&amp;Файл"/>
+<menuitem id="33044" text="&amp;Навигация"/>
+<menuitem id="33045" text="&amp;Поворот"/>
+<menuitem id="33046" text="&amp;Масштаб"/>
+<menuitem id="33042" text="&amp;Стандартная"/>
+<menuitem id="33104" text="&amp;Справка"/>
+<menuitem id="33065" text="&amp;Просмотр текста"/>
+<menuitem id="33048" text="&amp;Сброс панелей\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Пристыковать все панели\tCtrl+F8"/>
+<menuitem id="33053" text="Скрыть панели\tF8"/>
+<menuitem id="32930" text="&amp;Рекламное объявление"/>
+<menuitem id="32898" text="&amp;Строка меню"/>
+<menuitem id="59393" text="&amp;Панель состояния"/>
+</popup>
+</menu>
+<menu id="164">
+<popup id="|0" text="Справка">
+<menuitem id="32969" text="&amp;Связать с PDF-файлами"/>
+<menuitem id="32774" text="&amp;Веб-страница Foxit Software"/>
+<menuitem id="57664" text="&amp;О программе Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="266">
+<popup id="|0" text="Выделение текста">
+<menuitem id="57634" text="&amp;Копировать\tCtrl+C"/>
+</popup>
+</menu>
+<menu id="245">
+<popup id="|0" text="&amp;Вид">
+<menuitem id="32782" text="&amp;Закладка\tAlt+1"/>
+<popup id="|0|2" text="&amp;Инструмент">
+<menuitem id="32784" text="&amp;Перелистывание\tAlt+3"/>
+<menuitem id="32785" text="Уменьшить\tAlt+4"/>
+<menuitem id="32786" text="Увеличить\tAlt+5"/>
+<menuitem id="32977" text="&amp;Выделение текста\tAlt+6"/>
+<menuitem id="32987" text="&amp;Снимок\tAlt+7"/>
+</popup>
+<menuitem id="32930" text="&amp;Рекламное объявление"/>
+<menuitem id="32787" text="&amp;Увеличить\tCtrl+Num +"/>
+<menuitem id="32788" text="&amp;Уменьшить\tCtrl+Num -"/>
+<menuitem id="32789" text="&amp;Указать...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Исходный размер\tCtrl+1"/>
+<menuitem id="32791" text="&amp;Страница целиком\tCtrl+2"/>
+<menuitem id="32792" text="&amp;По ширине страницы\tCtrl+3"/>
+<popup id="|0|14" text="&amp;Макет страницы">
+<menuitem id="32925" text="&amp;Одна страница"/>
+<menuitem id="32926" text="&amp;Непрерывный"/>
+<menuitem id="32938" text="&amp;Книжный"/>
+<menuitem id="32939" text="&amp;Книжный непрерывный"/>
+</popup>
+<popup id="|0|16" text="&amp;Поворот">
+<menuitem id="32935" text="&amp;По часовой стрелке\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="&amp;Против часовой стрелки\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Поменять местами"/>
+</popup>
+</menu>
+<menu id="623">
+<popup id="|0" text="Просмотр текста">
+<menuitem id="57643" text="&amp;Отменить\tCtrl+Z"/>
+<menuitem id="57635" text="Вырезать\tCtrl+X"/>
+<menuitem id="57634" text="&amp;Копировать\tCtrl+C"/>
+<menuitem id="57637" text="&amp;Вставить\tCtrl+V"/>
+<menuitem id="32901" text="&amp;Очистить\tDel"/>
+<menuitem id="57636" text="&amp;Найти...\tCtrl+F"/>
+<menuitem id="32903" text="Найти далее...\tF3"/>
+<menuitem id="57641" text="&amp;Заменить...\tCtrl+H"/>
+<menuitem id="57642" text="Выделить все\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="720">
+<popup id="|0" text="Просмотр текста">
+<menuitem id="57634" text="&amp;Копировать\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Найти...\tCtrl+F"/>
+<menuitem id="32903" text="&amp;Найти далее...\tF3"/>
+<menuitem id="57642" text="&amp;Выделить все\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="653">
+<popup id="|0" text="Панели инструментов">
+<popup id="|0|0" text="Показывать подписи кнопок">
+<menuitem id="33050" text="&amp;По умолчанию"/>
+<menuitem id="33051" text="&amp;Все названия"/>
+<menuitem id="33052" text="&amp;Без названий"/>
+</popup>
+</popup>
+</menu>
+<menu id="163">
+<popup id="|0" text="&amp;Вид">
+<menuitem id="32782" text="&amp;Закладка\tAlt+1"/>
+<menuitem id="32783" text="&amp;Полноэкранный режим\tAlt+2"/>
+<popup id="|0|2" text="&amp;Сервис">
+<menuitem id="32784" text="&amp;Перелистывание\tAlt+3"/>
+<menuitem id="32785" text="&amp;Уменьшить\tAlt+4"/>
+<menuitem id="32786" text="&amp;Увеличить\tAlt+5"/>
+<menuitem id="32977" text="&amp;Выделение текста\tAlt+6"/>
+<menuitem id="32987" text="&amp;Снимок\tAlt+7"/>
+<menuitem id="32793" text="&amp;Просмотр текста\tAlt+9"/>
+</popup>
+<menuitem id="32787" text="&amp;Увеличить\tCtrl+Num +"/>
+<menuitem id="32788" text="&amp;Уменьшить\tCtrl+Num -"/>
+<menuitem id="32789" text="&amp;Указать...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Исходный размер\tCtrl+1"/>
+<menuitem id="32791" text="&amp;Страница целиком\tCtrl+2"/>
+<menuitem id="32792" text="&amp;По ширине страницы\tCtrl+3"/>
+<popup id="|0|12" text="&amp;Макет страницы">
+<menuitem id="32925" text="&amp;Одна страница"/>
+<menuitem id="32926" text="&amp;Непрерывный"/>
+<menuitem id="32938" text="&amp;Книжный"/>
+<menuitem id="32939" text="&amp;Книжный непрерывный"/>
+</popup>
+<popup id="|0|14" text="&amp;Поворот">
+<menuitem id="32935" text="&amp;По часовой стрелке\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="&amp;Против часовой стрелки\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Поменять местами"/>
+<menuitem id="32930" text="&amp;Рекламное объявление"/>
+<popup id="|0|20" text="&amp;Панели инструментов">
+<menuitem id="33043" text="&amp;Файл"/>
+<menuitem id="33044" text="&amp;Навигация"/>
+<menuitem id="33045" text="&amp;Поворот"/>
+<menuitem id="33046" text="&amp;Масштаб"/>
+<menuitem id="33042" text="&amp;Стандартная"/>
+<menuitem id="33104" text="&amp;Справка"/>
+<menuitem id="33065" text="&amp;Просмотр текста"/>
+<menuitem id="33048" text="&amp;Сброс панелей\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Пристыковать все панели\tCtrl+F8"/>
+<menuitem id="33053" text="Скрыть панели\tF8"/>
+</popup>
+<menuitem id="59393" text="&amp;Строка состояния"/>
+<menuitem id="32898" text="&amp;Строка меню"/>
+</popup>
+</menu>
+<menu id="160">
+<popup id="|0" text="Увеличить">
+<menuitem id="32865" text="%1600"/>
+<menuitem id="32866" text="%800"/>
+<menuitem id="32867" text="%400"/>
+<menuitem id="32868" text="%200"/>
+<menuitem id="32869" text="%150"/>
+<menuitem id="32870" text="%125"/>
+<menuitem id="32871" text="%100"/>
+</popup>
+</menu>
+<menu id="161">
+<popup id="|0" text="Уменьшить">
+<menuitem id="32871" text="%100"/>
+<menuitem id="32873" text="%50"/>
+<menuitem id="32874" text="%25"/>
+<menuitem id="32875" text="%12.5"/>
+<menuitem id="32876" text="%8.33"/>
+</popup>
+</menu>
+<menu id="129">
+<popup id="|1" text="&amp;Файл">
+<menuitem id="57601" text="&amp;Открыть...\tCtrl+O"/>
+<menuitem id="33111" text="&amp;Преобразовать PDF..."/>
+<menuitem id="57602" text="&amp;Закрыть\tCtrl+W"/>
+<menuitem id="57603" text="Сохранить\tCtrl+S"/>
+<menuitem id="32932" text="&amp;Сохранить как...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Печать...\tCtrl+P"/>
+<menuitem id="57606" text="&amp;Настройка печати..."/>
+<menuitem id="57616" text="Недавний файл"/>
+<menuitem id="32776" text="&amp;Свойства..."/>
+<menuitem id="57665" text="&amp;Выход\tCtrl+Q"/>
+</popup>
+<popup id="|2" text="&amp;Правка">
+<menuitem id="33112" text="&amp;Правка содержимого..."/>
+<menuitem id="57634" text="&amp;Копировать\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Найти текст...\tCtrl+F"/>
+<menuitem id="32903" text="&amp;Найти далее\tF3"/>
+<menuitem id="32985" text="&amp;Настройки...\tCtrl+K"/>
+</popup>
+<popup id="|3" text="&amp;Вид">
+<menuitem id="32782" text="&amp;Закладка\tAlt+1"/>
+<menuitem id="32783" text="&amp;Полноэкранный режим\tAlt+2"/>
+<menuitem id="32787" text="&amp;Увеличить\tCtrl+Num +"/>
+<menuitem id="32788" text="&amp;Уменьшить\tCtrl+Num -"/>
+<menuitem id="32789" text="&amp;Указать...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Исходный размер\tCtrl+1"/>
+<menuitem id="32791" text="&amp;Страница целиком\tCtrl+2"/>
+<menuitem id="32792" text="&amp;По ширине страницы\tCtrl+3"/>
+<popup id="|3|12" text="&amp;Макет страницы">
+<menuitem id="32925" text="&amp;Одна страница"/>
+<menuitem id="32926" text="&amp;Непрерывный"/>
+<menuitem id="32938" text="&amp;Книжный"/>
+<menuitem id="32939" text="&amp;Книжный непрерывный"/>
+</popup>
+<popup id="|3|14" text="&amp;Поворот">
+<menuitem id="32935" text="&amp;По часовой стрелке\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="&amp;Против часовой стрелки\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Поменять местами"/>
+<menuitem id="32930" text="&amp;Рекламное объявление"/>
+<popup id="|3|20" text="&amp;Панели инструментов">
+<menuitem id="33043" text="&amp;Файл"/>
+<menuitem id="33044" text="&amp;Навигация"/>
+<menuitem id="33045" text="&amp;Поворот"/>
+<menuitem id="33046" text="&amp;Масштаб"/>
+<menuitem id="33042" text="&amp;Стандартная"/>
+<menuitem id="33104" text="&amp;Справка"/>
+<menuitem id="33065" text="&amp;Просмотр текста"/>
+<menuitem id="33048" text="&amp;Сброс панелей\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Пристыковать все панели\tCtrl+F8"/>
+<menuitem id="33053" text="Скрыть панели\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Строка меню"/>
+<menuitem id="59393" text="&amp;Строка состояния"/>
+</popup>
+<popup id="|4" text="&amp;Язык">
+<menuitem id="40801" text="&amp;По умолчанию"/>
+</popup>
+<popup id="|5" text="&amp;Документ">
+<menuitem id="32777" text="&amp;Первая страница\tHome"/>
+<menuitem id="32778" text="&amp;Предыдущая страница\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Следующая страница\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Последняя страница\tEnd"/>
+<menuitem id="33097" text="&amp;Предыдущий вид\tAlt+Left Arrow "/>
+<menuitem id="33098" text="&amp;Следующий вид\tAlt+Right Arrow"/>
+<menuitem id="32781" text="&amp;Перейти к странице...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|6" text="&amp;Сервис">
+<menuitem id="32784" text="&amp;Перелистывание\tAlt+3"/>
+<menuitem id="32785" text="&amp;Уменьшение масштаба\tAlt+4"/>
+<menuitem id="32786" text="&amp;Увеличение масштаба\tAlt+5"/>
+<menuitem id="32977" text="&amp;Выделение текста\tAlt+6"/>
+<menuitem id="32987" text="&amp;Снимок\tAlt+7"/>
+<menuitem id="32793" text="&amp;Просмотр текста\tAlt+9"/>
+<menuitem id="33110" text="&amp;JavaScript"/>
+</popup>
+<popup id="|8" text="&amp;Окно">
+<menuitem id="57648" text="&amp;Новое окно"/>
+<menuitem id="57650" text="&amp;Каскадом"/>
+<menuitem id="57651" text="&amp;Плиткой"/>
+<menuitem id="57649" text="&amp;Упорядочить значки"/>
+<menuitem id="57602" text="&amp;Закрыть"/>
+<menuitem id="32795" text="&amp;Закрыть все\tCtrl+Shift+W"/>
+</popup>
+<popup id="|9" text="&amp;Справка">
+<menuitem id="32969" text="&amp;Связать с PDF-файлами"/>
+<menuitem id="32774" text="&amp;Веб-страница Foxit Software"/>
+<menuitem id="57664" text="&amp;О программе Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="209">
+<popup id="|0" text="&amp;Файл">
+<menuitem id="57601" text="&amp;Открыть...\tCtrl+O"/>
+<menuitem id="57602" text="&amp;Закрыть\tCtrl+W"/>
+<menuitem id="57603" text="Сохранить\tCtrl+S"/>
+<menuitem id="32932" text="&amp;Сохранить как...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Печать...\tCtrl+P"/>
+<menuitem id="57606" text="&amp;Настройка печати..."/>
+<menuitem id="57616" text="Недавний файл"/>
+<menuitem id="32776" text="&amp;Свойства..."/>
+<menuitem id="57665" text="&amp;Выход\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="&amp;Правка">
+<menuitem id="57634" text="&amp;Копировать\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Найти текст...\tCtrl+F"/>
+<menuitem id="32903" text="&amp;Найти далее\tF3"/>
+<menuitem id="32985" text="&amp;Настройки...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="&amp;Вид">
+<menuitem id="32782" text="&amp;Закладка\tAlt+1"/>
+<menuitem id="32783" text="&amp;Полноэкранный режим\tAlt+2"/>
+<menuitem id="32787" text="&amp;Увеличить\tCtrl+Num +"/>
+<menuitem id="32788" text="&amp;Уменьшить\tCtrl+Num -"/>
+<menuitem id="32789" text="&amp;Указать...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Исходный размер\tCtrl+1"/>
+<menuitem id="32791" text="&amp;Страница целиком\tCtrl+2"/>
+<menuitem id="32792" text="&amp;По ширине страницы\tCtrl+3"/>
+<popup id="|2|12" text="&amp;Макет страницы">
+<menuitem id="32925" text="&amp;Одна страница"/>
+<menuitem id="32926" text="&amp;Непрерывный"/>
+<menuitem id="32938" text="&amp;Книжный"/>
+<menuitem id="32939" text="&amp;Книжный непрерывный"/>
+</popup>
+<popup id="|2|14" text="&amp;Поворот">
+<menuitem id="32935" text="&amp;По часовой стрелке\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="&amp;Против часовой стрелки\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Поменять местами"/>
+<menuitem id="32930" text="&amp;Рекламное объявление"/>
+<popup id="|2|20" text="&amp;Панели инструментов">
+<menuitem id="33043" text="&amp;Файл"/>
+<menuitem id="33044" text="&amp;Навигация"/>
+<menuitem id="33045" text="&amp;Поворот"/>
+<menuitem id="33046" text="&amp;Масштаб"/>
+<menuitem id="33042" text="&amp;Стандартная"/>
+<menuitem id="33104" text="&amp;Справка"/>
+<menuitem id="33065" text="&amp;Просмотр текста"/>
+<menuitem id="33048" text="&amp;Сброс панелей\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Пристыковать все панели\tCtrl+F8"/>
+<menuitem id="33053" text="Скрыть панели\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Строка меню"/>
+<menuitem id="59393" text="&amp;Строка состояния"/>
+</popup>
+<popup id="|3" text="&amp;Документ">
+<menuitem id="32777" text="&amp;Первая страница\tHome"/>
+<menuitem id="32778" text="&amp;Предыдущая страница\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Следующая страница\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Последняя страница\tEnd"/>
+<menuitem id="33097" text="&amp;Предыдущий вид\tAlt+Left Arrow "/>
+<menuitem id="33098" text="&amp;Следующий вид\tAlt+Right Arrow"/>
+<menuitem id="32781" text="&amp;Перейти к странице...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="&amp;Сервис">
+<menuitem id="32784" text="&amp;Перелистывание\tAlt+3"/>
+<menuitem id="32785" text="&amp;Уменьшение масштаба\tAlt+4"/>
+<menuitem id="32786" text="&amp;Увеличение масштаба\tAlt+5"/>
+<menuitem id="32977" text="&amp;Выделение текста\tAlt+6"/>
+<menuitem id="32987" text="&amp;Снимок\tAlt+7"/>
+<menuitem id="32793" text="&amp;Просмотр текста\tAlt+9"/>
+</popup>
+<popup id="|5" text="&amp;Окно">
+<menuitem id="57648" text="&amp;Новое окно"/>
+<menuitem id="57650" text="&amp;Каскадом"/>
+<menuitem id="57651" text="&amp;Плиткой"/>
+<menuitem id="57649" text="&amp;Упорядочить значки"/>
+<menuitem id="57602" text="&amp;Закрыть"/>
+<menuitem id="32795" text="&amp;Закрыть все\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="&amp;Справка">
+<menuitem id="32969" text="&amp;Связать с PDF-файлами"/>
+<menuitem id="32774" text="&amp;Веб-страница Foxit Software"/>
+<menuitem id="57664" text="&amp;О программе Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="205">
+<popup id="|0" text="&amp;Файл">
+<menuitem id="57601" text="&amp;Открыть...\tCtrl+O"/>
+<menuitem id="57602" text="&amp;Закрыть\tCtrl+W"/>
+<menuitem id="57603" text="Сохранить\tCtrl+S"/>
+<menuitem id="32932" text="&amp;Сохранить как...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Печать...\tCtrl+P"/>
+<menuitem id="57606" text="&amp;Настройка печати..."/>
+<menuitem id="57616" text="Недавний файл"/>
+<menuitem id="32776" text="&amp;Свойства..."/>
+<menuitem id="57665" text="&amp;Выход\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="&amp;Правка">
+<menuitem id="57634" text="&amp;Копировать\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Найти текст...\tCtrl+F"/>
+<menuitem id="32903" text="&amp;Найти далее\tF3"/>
+<menuitem id="32985" text="&amp;Настройки...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="&amp;Вид">
+<menuitem id="32782" text="&amp;Закладка\tAlt+1"/>
+<menuitem id="32783" text="&amp;Полноэкранный режим\tAlt+2"/>
+<menuitem id="32787" text="&amp;Увеличить\tCtrl+Num +"/>
+<menuitem id="32788" text="&amp;Уменьшить\tCtrl+Num -"/>
+<menuitem id="32789" text="&amp;Указать...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Исходный размер\tCtrl+1"/>
+<menuitem id="32791" text="&amp;Страница целиком\tCtrl+2"/>
+<menuitem id="32792" text="&amp;По ширине страницы\tCtrl+3"/>
+<popup id="|2|12" text="&amp;Макет страницы">
+<menuitem id="32925" text="&amp;Одна страница"/>
+<menuitem id="32926" text="&amp;Непрерывный"/>
+<menuitem id="32938" text="&amp;Книжный"/>
+<menuitem id="32939" text="&amp;Книжный непрерывный"/>
+</popup>
+<popup id="|2|14" text="&amp;Поворот">
+<menuitem id="32935" text="&amp;По часовой стрелке\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="&amp;Против часовой стрелки\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Поменять местами"/>
+<menuitem id="32930" text="&amp;Рекламное объявление"/>
+<popup id="|2|20" text="&amp;Панели инструментов">
+<menuitem id="33043" text="&amp;Файл"/>
+<menuitem id="33044" text="&amp;Навигация"/>
+<menuitem id="33045" text="&amp;Поворот"/>
+<menuitem id="33046" text="&amp;Масштаб"/>
+<menuitem id="33042" text="&amp;Стандартная"/>
+<menuitem id="33104" text="&amp;Справка"/>
+<menuitem id="33065" text="&amp;Просмотр текста"/>
+<menuitem id="33048" text="&amp;Сброс панелей\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Пристыковать все панели\tCtrl+F8"/>
+<menuitem id="33053" text="Скрыть панели\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Строка меню"/>
+<menuitem id="59393" text="&amp;Строка состояния"/>
+</popup>
+<popup id="|3" text="&amp;Документ">
+<menuitem id="32777" text="&amp;Первая страница\tHome"/>
+<menuitem id="32778" text="&amp;Предыдущая страница\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Следующая страница\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Последняя страница\tEnd"/>
+<menuitem id="33097" text="&amp;Предыдущий вид\tAlt+Left Arrow "/>
+<menuitem id="33098" text="&amp;Следующий вид\tAlt+Right Arrow"/>
+<menuitem id="32781" text="&amp;Перейти к странице...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="&amp;Сервис">
+<menuitem id="32784" text="&amp;Перелистывание\tAlt+3"/>
+<menuitem id="32785" text="&amp;Уменьшение масштаба\tAlt+4"/>
+<menuitem id="32786" text="&amp;Увеличение масштаба\tAlt+5"/>
+<menuitem id="32977" text="&amp;Выделение текста\tAlt+6"/>
+<menuitem id="32987" text="&amp;Снимок\tAlt+7"/>
+<menuitem id="32793" text="&amp;Просмотр текста\tAlt+9"/>
+</popup>
+<popup id="|5" text="&amp;Окно">
+<menuitem id="57648" text="&amp;Новое окно"/>
+<menuitem id="57650" text="&amp;Каскадом"/>
+<menuitem id="57651" text="&amp;Плиткой"/>
+<menuitem id="57649" text="&amp;Упорядочить значки"/>
+<menuitem id="57602" text="&amp;Закрыть"/>
+<menuitem id="32795" text="&amp;Закрыть все\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="&amp;Справка">
+<menuitem id="32969" text="&amp;Связать с PDF-файлами"/>
+<menuitem id="32774" text="&amp;Веб-страница Foxit Software"/>
+<menuitem id="57664" text="&amp;О программе Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="9032">
+<popup id="|0" text="Гориз. масштаб">
+<menuitem id="9061" text="%200"/>
+<menuitem id="9067" text="%150"/>
+<menuitem id="9066" text="%125"/>
+<menuitem id="9062" text="%100"/>
+<menuitem id="9063" text="%75"/>
+<menuitem id="9064" text="%50"/>
+<menuitem id="9065" text="Еще..."/>
+</popup>
+</menu>
+</Menus>
+<Dialogs>
+<Dialog id="147">
+<dlgitem id="1002" text="Сохранить весь документ"/>
+<dlgitem id="1003" text="Сохранить текущую страницу"/>
+<dlgitem id="1004" text="Сохранить диапазон страниц с:"/>
+<dlgitem id="1191" text="до"/>
+<dlgitem id="1190" text="Сохранять:"/>
+</Dialog>
+<Dialog id="727" text="Состояние">
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="1256" text="Действие1"/>
+<dlgitem id="1255" text="Найти..."/>
+</Dialog>
+<Dialog id="274" text="Найти текст">
+<dlgitem id="1192" text="&amp;Что искать:"/>
+<dlgitem id="1067" text="&amp;Только слово целиком"/>
+<dlgitem id="1068" text="&amp;Учитывать регистр"/>
+<dlgitem id="1193" text="Направление"/>
+<dlgitem id="1069" text="&amp;Вверх"/>
+<dlgitem id="1070" text="&amp;Вниз"/>
+<dlgitem id="1153" text="&amp;Найти далее"/>
+<dlgitem id="2" text="&amp;Отмена"/>
+</Dialog>
+<Dialog id="157" text="Переход на страницу">
+<dlgitem id="1194" text="&amp;Страница:"/>
+<dlgitem id="1195" text="из"/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+</Dialog>
+<Dialog id="130" text="Пароль:">
+<dlgitem id="1196" text="Введите пароль:"/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="1121" text="Этот файл защищен. Для открытия документа необходимо ввести пароль."/>
+</Dialog>
+<Dialog id="276">
+<dlgitem id="1197" text="Цветовые настройки документа"/>
+<dlgitem id="1074" text="&amp;Изменить цвета документа"/>
+<dlgitem id="1075" text="&amp;Использовать цветовую схему Windows"/>
+<dlgitem id="1076" text="&amp;Выбрать цвета:"/>
+<dlgitem id="1102" text="&amp;Фон страницы:"/>
+<dlgitem id="1103" text="&amp;Текст документа:"/>
+<dlgitem id="1078" text="&amp;Изменять цвет только для черно-белых документов"/>
+</Dialog>
+<Dialog id="300">
+<dlgitem id="1198" text="Выделение"/>
+<dlgitem id="1108" text="&amp;Делать снимки указанного разрешения"/>
+<dlgitem id="1200" text="&amp;Разрешение:"/>
+<dlgitem id="1199" text="Принтер"/>
+<dlgitem id="1253" text="&amp;Печатать текст как изображение (без подстановки шрифтов)"/>
+</Dialog>
+<Dialog id="278">
+<dlgitem id="1201" text="Отображение страниц"/>
+<dlgitem id="1202" text="&amp;Режим страниц:"/>
+<dlgitem id="1101" text="&amp;Показывать сетку прозрачности"/>
+<dlgitem id="1105" text="&amp;Количество страниц для режима 'Книжный'"/>
+<dlgitem id="1204" text="Страницы"/>
+<dlgitem id="1252" text="&amp;Величина отступа"/>
+<dlgitem id="1205" text="Точек"/>
+<dlgitem id="1111" text="Отображать текст в режиме для LCD-мониторов"/>
+<dlgitem id="1203" text="Масштаб"/>
+<dlgitem id="1206" text="&amp;Исходный масштаб:"/>
+<dlgitem id="1207" text="&amp;Максимальное увеличение:"/>
+</Dialog>
+<Dialog id="275" text="Параметры">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="1104" text="Объект:"/>
+</Dialog>
+<Dialog id="778" text="Состояние">
+<dlgitem id="1152" text="Действие1"/>
+<dlgitem id="1255" text="Печать..."/>
+<dlgitem id="2" text="Отмена"/>
+</Dialog>
+<Dialog id="530" text="Принтер">
+<dlgitem id="1199" text="Принтер"/>
+<dlgitem id="1208" text="&amp;Имя:"/>
+<dlgitem id="1120" text="&amp;свойства"/>
+<dlgitem id="1209" text="Состояние:"/>
+<dlgitem id="1141" text="Готовность"/>
+<dlgitem id="1122" text="&amp;Печать в файл"/>
+<dlgitem id="1210" text="Тип:"/>
+<dlgitem id="1142" text="Принтер Foxit PDF"/>
+<dlgitem id="1139" text="&amp;Советы"/>
+<dlgitem id="1140" text="&amp;Дополнительно"/>
+<dlgitem id="1211" text="Диапазон печати"/>
+<dlgitem id="1123" text="&amp;Все"/>
+<dlgitem id="1127" text="&amp;Текущее представление"/>
+<dlgitem id="1130" text="&amp;Текущая страница"/>
+<dlgitem id="1216" text="&amp;Диапазон страниц с:"/>
+<dlgitem id="1191" text="&amp;до:"/>
+<dlgitem id="1212" text="&amp;Набор:"/>
+<dlgitem id="1226" text="&amp;В обратном порядке"/>
+<dlgitem id="1213" text="Параметры печати"/>
+<dlgitem id="1214" text="&amp;Копий:"/>
+<dlgitem id="1163" text="&amp;Поля:"/>
+<dlgitem id="1228" text="дюймов"/>
+<dlgitem id="1229" text="&amp;По порядку"/>
+<dlgitem id="1215" text="&amp;Масштаб:"/>
+<dlgitem id="1217" text="&amp;Выравн.:"/>
+<dlgitem id="1219" text="&amp;Поворот:"/>
+<dlgitem id="1164" text="&amp;Порядок страниц:"/>
+<dlgitem id="1165" text="&amp;Стр. на листе:"/>
+<dlgitem id="1166" text="&amp;на"/>
+<dlgitem id="1133" text="&amp;Авто-поворот "/>
+<dlgitem id="1151" text="&amp;Авто-центр"/>
+<dlgitem id="1156" text="&amp;Печатать границу страницы"/>
+<dlgitem id="1221" text="&amp;Печатать:"/>
+<dlgitem id="1135" text="&amp;Выбирать бумагу по размеру страницы PDF"/>
+<dlgitem id="1154" text="Предварительный просмотр"/>
+<dlgitem id="1222" text="Документ:"/>
+<dlgitem id="1223" text="Бумага:"/>
+<dlgitem id="1225" text="Единицы:"/>
+<dlgitem id="1144" text="Статика"/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="1143" text="Показать страницу"/>
+</Dialog>
+<Dialog id="791" text="Foxit Reader">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="1227" text="В вашем PDF-документе имеются восточные символы (Китайские/Японские/Корейские).
+Для их верного отображения необходимо установить файл FPDFCJK.BIN (поместите его
+в папку с Foxit Reader)."/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com/pdf/rd_intro.php"/>
+<dlgitem id="1228" text="Вы можете загрузить этот файл со страницы "/>
+</Dialog>
+<Dialog id="723" text="Foxit Reader">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="1227" text="Спасибо Вам за использование Foxit Reader! Это оценочная версия программы со следующими ограничениями:"/>
+<dlgitem id="1231" text="Для приобретения лицензии на Foxit Reader посетите наш сайт "/>
+<dlgitem id="1232" text="или напишите на адрес sales@foxitsoftware.com."/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com"/>
+<dlgitem id="1106" text="Не показывать это сообщение снова"/>
+</Dialog>
+<Dialog id="252" text="Foxit Reader">
+<dlgitem id="1064" text="Всегда выполнять эту проверку при запуске Foxit Reader."/>
+<dlgitem id="1" text="&amp;Да"/>
+<dlgitem id="2" text="&amp;Нет"/>
+<dlgitem id="1065" text="В данный момент Foxit Reader не зарегистрирован в системе в качестве средства просмотра для файлов PDF. Вы хотите установить Foxit Reader в качестве стандартного средства просмотра для файлов PDF."/>
+<dlgitem id="1228" text="После этого вы сможете открывать файлы PDF дважды щелкая по ним мышью в окне Проводника, а также в браузере Internet Explorer."/>
+<dlgitem id="1229" text="Чтобы отменить связь Foxit Reader с PDF-файлами запустите другой просмотрщик."/>
+</Dialog>
+<Dialog id="285" text="Foxit Reader">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="1065" text="Выделенная область скопирована в буфер обмена."/>
+<dlgitem id="1106" text="Не показывать это сообщение снова"/>
+</Dialog>
+<Dialog id="150" text="Свойства">
+<dlgitem id="1244" text="Общие"/>
+<dlgitem id="1032" text="Статика"/>
+<dlgitem id="1201" text="Статика"/>
+<dlgitem id="1241" text="Дополнительно"/>
+<dlgitem id="1243" text="Число страниц:"/>
+<dlgitem id="1057" text="Версия PDF:"/>
+<dlgitem id="1208" text="Еще..."/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="1242" text="Размер страницы:"/>
+<dlgitem id="1233" text="Название:"/>
+<dlgitem id="1234" text="Тема:"/>
+<dlgitem id="1235" text="Автор:"/>
+<dlgitem id="1238" text="Ключевые слова:"/>
+<dlgitem id="1236" text="Редактор:"/>
+<dlgitem id="1237" text="Издатель:"/>
+<dlgitem id="1239" text="Создан:"/>
+<dlgitem id="1240" text="Изменен:"/>
+<dlgitem id="1205" text="Статика"/>
+<dlgitem id="1207" text="Статика"/>
+<dlgitem id="1203" text="Статика"/>
+</Dialog>
+<Dialog id="788" text="Foxit Reader">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="1245" text="Спасибо Вам за использование Foxit Reader  "/>
+<dlgitem id="1246" text="Данное действие относится к Профессиональной версии Foxit Reader. Вы можете воспользоваться им, однако, после сохранения файла PDF, отредактированные страницы будут содержать рекламную информацию."/>
+<dlgitem id="1106" text="Не показывать это сообщение снова"/>
+<dlgitem id="1057" text="(Стандартная версия)."/>
+<dlgitem id="1228" text="После приобретения Профессиональной версии Foxit Reader данная рекламная информация больше не будет доавляться. "/>
+<dlgitem id="1270" text="Пожалуйста, посетите сайт Foxit Software (www.foxitsoftware.com) для большей информации о приобретении лицензии на Профессиональную версию Foxit Reader."/>
+</Dialog>
+<Dialog id="786" text="Foxit Reader">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="1245" text="Спасибо Вам за использование Foxit Reader  "/>
+<dlgitem id="1228" text="Данное действие относится к Профессиональной версии Foxit Reader и недоступно для пользователей Стандартной версии.  "/>
+<dlgitem id="1106" text="Не показывать это сообщение снова"/>
+<dlgitem id="1057" text="(Стандартная версия)."/>
+<dlgitem id="1270" text="Пожалуйста, посетите сайт Foxit Software (www.foxitsoftware.com) для большей информации о приобретении лицензии на Профессиональную версию Foxit Reader."/>
+</Dialog>
+<Dialog id="787" text="Foxit Reader">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="1245" text="Спасибо Вам за использование Foxit Reader  "/>
+<dlgitem id="1246" text="Вы внесли изменения в документ и можете сохранить его, однако, отредактированные страницы в этом случае будут содержать рекламную информацию."/>
+<dlgitem id="1106" text="Не показывать это сообщение снова"/>
+<dlgitem id="1057" text="(Стандартная версия)."/>
+<dlgitem id="1228" text="После приобретения Профессиональной версии Foxit Reader данная рекламная информация больше не будет доавляться. "/>
+<dlgitem id="1270" text="Пожалуйста, посетите сайт Foxit Software (www.foxitsoftware.com) для большей информации о приобретении лицензии на Профессиональную версию Foxit Reader."/>
+</Dialog>
+<Dialog id="165" text="Цвета текстового просмотра">
+<dlgitem id="1254" text="Текст"/>
+<dlgitem id="1251" text="Крас:"/>
+<dlgitem id="1202" text="Движок1"/>
+<dlgitem id="1252" text="Зел:"/>
+<dlgitem id="1206" text="Движок1"/>
+<dlgitem id="1253" text="Син:"/>
+<dlgitem id="1204" text="Движок1"/>
+<dlgitem id="1084" text="Фон"/>
+<dlgitem id="1255" text="Крас:"/>
+<dlgitem id="1210" text="Движок1"/>
+<dlgitem id="1256" text="Зел:"/>
+<dlgitem id="1212" text="Движок1"/>
+<dlgitem id="1257" text="Син:"/>
+<dlgitem id="1214" text="Движок1"/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+</Dialog>
+<Dialog id="708"/>
+<Dialog id="673" text="Шрифт PDF...">
+<dlgitem id="1048" text="Список1"/>
+<dlgitem id="1258" text="Цель:"/>
+<dlgitem id="1051" text="Предварительный просмотр"/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+</Dialog>
+<Dialog id="672" text="Настройки текстового просмотра">
+<dlgitem id="1259" text="Ширина текущей страницы"/>
+<dlgitem id="1264" text="Минимальная:"/>
+<dlgitem id="1043" text="Автоматическая"/>
+<dlgitem id="1045" text="Авто-поворот"/>
+<dlgitem id="1242" text="Сохранять столбец"/>
+<dlgitem id="1260" text="Ширина текущего документа"/>
+<dlgitem id="1263" text="Минимальная:"/>
+<dlgitem id="1058" text="Автоматическая"/>
+<dlgitem id="1061" text="Авто-поворот"/>
+<dlgitem id="1060" text="Сохранять столбец"/>
+<dlgitem id="1261" text="Ширина по умолчанию"/>
+<dlgitem id="1262" text="Минимальная:"/>
+<dlgitem id="1240" text="Автоматическая"/>
+<dlgitem id="1062" text="Авто-поворот"/>
+<dlgitem id="1056" text="Сохранять столбец"/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+</Dialog>
+<Dialog id="158" text="Увеличение">
+<dlgitem id="1203" text="&amp;Увеличение:"/>
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+</Dialog>
+<Dialog id="9026" text="Межзнаковый интервал">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="9018" text="Разряженный"/>
+<dlgitem id="9011" text="Уплотненный"/>
+<dlgitem id="9027" text="На:"/>
+<dlgitem id="9029" text="На:"/>
+<dlgitem id="9014" text="Предварительный просмотр"/>
+<dlgitem id="9021" text="Вы можете сузить или расширить текстовую строку с помощью различных межзнаковых интервалов:"/>
+<dlgitem id="9023" text="Точка"/>
+<dlgitem id="9025" text="Точка"/>
+</Dialog>
+<Dialog id="9024" text="Горизонтальный масштаб">
+<dlgitem id="1" text="ОК"/>
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="9008" text="Предварительный просмотр"/>
+<dlgitem id="9031" text="&amp;Масштаб:"/>
+<dlgitem id="9033" text="%"/>
+</Dialog>
+<Dialog id="9054" text="Символ">
+<dlgitem id="1" text="&amp;Вставить"/>
+<dlgitem id="2" text="&amp;Отмена"/>
+</Dialog>
+<Dialog id="9020" text="Настройки внешнего вида">
+<dlgitem id="1" text="&amp;ОК"/>
+<dlgitem id="2" text="&amp;Отмена"/>
+<dlgitem id="9035" text="&amp;Название шрифта:"/>
+<dlgitem id="9039" text="&amp;Размер шрифта:"/>
+<dlgitem id="9047" text="&amp;Цвет фона:"/>
+<dlgitem id="9010" text="&amp;Изменить"/>
+<dlgitem id="9041" text="&amp;Горизонтальный масштаб:"/>
+<dlgitem id="65535" text="%"/>
+<dlgitem id="9043" text="&amp;Разрядка:"/>
+<dlgitem id="9045" text="&amp;Цвет шрифта:"/>
+<dlgitem id="9017" text="&amp;Изменить"/>
+<dlgitem id="9037" text="Начертание:"/>
+<dlgitem id="9005" text="&amp;Полужирный"/>
+<dlgitem id="9019" text="&amp;Курсивный"/>
+</Dialog>
+<Dialog id="9022">
+<dlgitem id="9049" text="Шрифт:"/>
+</Dialog>
+<Dialog id="793" text="Обновление Foxit Reader">
+<dlgitem id="1185" text="&amp;Загрузить"/>
+<dlgitem id="2" text="&amp;Отмена"/>
+<dlgitem id="1178" text="Действие1"/>
+<dlgitem id="1187" text="Имя файла:"/>
+<dlgitem id="1188" text="Размещение:"/>
+<dlgitem id="1189" text="Оставшееся время:"/>
+<dlgitem id="1186" text="Описание:"/>
+</Dialog>
+<Dialog id="792" text="Отсутствует требуемый компонент">
+<dlgitem id="1" text="&amp;Да"/>
+<dlgitem id="2" text="&amp;Нет"/>
+<dlgitem id="1186" text="Для верного отображения данного файла PDF требуется специальный компонент. Вы можете загрузить этот компонент с нашего сайта."/>
+<dlgitem id="1226" text="Вы хотите посетить наш сайт для получения дополнительной информации?"/>
+</Dialog>
+<Dialog id="796" text="Foxit Reader ">
+<dlgitem id="1" text="Загрузить"/>
+<dlgitem id="2" text="Отмена"/>
+<dlgitem id="1265" text="Текущее обновление:"/>
+<dlgitem id="1266" text="Выбранное обновление"/>
+<dlgitem id="1269" text="(0.0 Кб)"/>
+<dlgitem id="1169" text="&amp;Добавить"/>
+<dlgitem id="1170" text="&amp;Удалить"/>
+<dlgitem id="1186" text="Описание:"/>
+<dlgitem id="1209" text="Состояние:"/>
+<dlgitem id="1267" text="Размер:"/>
+<dlgitem id="1174" text="Действие1"/>
+</Dialog>
+</Dialogs>
+<Strings>
+<string id="100" text="Сбой инициализации OLE. Проверьте правильность версий библиотек OLE."/>
+<string id="128" text="Foxit Reader 1.3"/>
+<string id="129" text="\nFoxit Reader\nPDF\nФайлы PDF (*.pdf)\n.pdf\nFoxitReader.Document\nДокумент PDF"/>
+<string id="1022" text="                                                  "/>
+<string id="2015" text="2005-2006 Foxit Software"/>
+<string id="2016" text="1.3 Build 1625"/>
+<string id="2017" text="Чтобы отменить связь Foxit Reader с PDF-файлами запустите другой просмотрщик."/>
+<string id="2020" text=" защищен. Введите пароль на открытие документа."/>
+<string id="2021" text="Щелкните здесь, чтобы узнать о дополнительных возможностях Foxit Reader!"/>
+<string id="2022" text="Щелкните, чтобы узнать о БЕСПЛАТНОЙ возможности ввода текста в PDF-документы!"/>
+<string id="2023" text="Щелкните, чтобы узнать о том как редактировать PDF-файлы!"/>
+<string id="2024" text="Теперь вы можете БЕСПЛАТНО воспользоваться средством ввода текста в любой документ PDF.\n\nДля этого нажмите кнопку &quot;Ввод текста&quot; на панели инструментов или выберите команду &quot;Ввод текста&quot;\nв меню &quot;Правка&quot;, после чего щелкните в любом месте документа и введите текст!\n\nВы также можете распечатать отредактированный документ."/>
+<string id="2025" text="Перед тем как выполнять операции печати\n\nнеобходимо установить принтер."/>
+<string id="2026" text="При открытии документа возникла ошибка. Файл поврежден и не может быть восстановлен.  "/>
+<string id="2027" text="Не удается найти страницу:"/>
+<string id="2028" text="Невозможно запустить приложение."/>
+<string id="2029" text="В документе не существует страницы с номером '%s'."/>
+<string id="2031" text="Copyright (C)"/>
+<string id="2032" text="Интернет: www.FoxitSoftware.com"/>
+<string id="2033" text="Все права защищены"/>
+<string id="2034" text="Версия"/>
+<string id="2035" text="Не удается найти строку "/>
+<string id="2036" text="Поиск в документе завершен."/>
+<string id="2037" text="Простите, но печать данного документа запрещена.\n\nПричина: возможность печати отключена автором документа."/>
+<string id="2038" text="Простите, но копирование текста из данного документа запрещено.\n\nПричина: возможность копирования текста отключена автором документа."/>
+<string id="2039" text="Простите, но сохранение данного документа запрещено.\n\nПричина: возможность сохранения отключена автором документа."/>
+<string id="2040" text="Документ не может быть сохранен. Данный файл уже используется."/>
+<string id="2041" text="Перед тем как выполнять операции печати (настройка печати и сама печать)\n\nнеобходимо установить принтер."/>
+<string id="2042" text="Документ не может быть сохранен. Данный файл может иметь атрибут &quot;только для чтения&quot;, либо уже использоваться другим пользователем. Тем не менее вы можете сохранить документ под другим именем, либо в другой папке."/>
+<string id="2043" text="Документ"/>
+<string id="2044" text="Документ и Аннотации"/>
+<string id="2045" text="Документ и Аннотации"/>
+<string id="2046" text="Документ"/>
+<string id="2047" text="Вы хотите сохранить внесенные изменения в '%s' перед закрытием?"/>
+<string id="2050" text="Одна страница"/>
+<string id="2051" text="Непрерывный"/>
+<string id="2052" text="Книжный"/>
+<string id="2053" text="Последовательно - разворотами"/>
+<string id="2054" text="Исходный размер"/>
+<string id="2055" text="По размеру страницы"/>
+<string id="2056" text="По ширине"/>
+<string id="2057" text="Панель Файл"/>
+<string id="2058" text="Панель Навигация"/>
+<string id="2059" text="Панель Масштаб"/>
+<string id="2060" text="Панель Поворот"/>
+<string id="2061" text="Панель Стандартная"/>
+<string id="2062" text="Просмотр текста"/>
+<string id="2063" text="Полноэкранный режим"/>
+<string id="2064" text="Справка"/>
+<string id="2070" text="Отстутствует необходимый компонент(%s) Foxit Reader. Вы можете загрузить этот компонент с нашего сайта."/>
+<string id="2072" text="Проверка обновлений..."/>
+<string id="2073" text="Загрузка обновления"/>
+<string id="2074" text="Установка обновления"/>
+<string id="2075" text="&amp;Пауза"/>
+<string id="2076" text="&amp;Продолжить"/>
+<string id="2077" text="&amp;Готово"/>
+<string id="2078" text="часов"/>
+<string id="2079" text="минут"/>
+<string id="2080" text="секунд"/>
+<string id="2081" text="Профессиональная версия"/>
+<string id="2082" text="занят"/>
+<string id="2083" text="открыта дверца"/>
+<string id="2084" text="в состоянии сбоя"/>
+<string id="2085" text="запускается"/>
+<string id="2086" text="в состоянии ввода/вывода"/>
+<string id="2087" text="в состоянии ручной подачи"/>
+<string id="2088" text="кончился тонер"/>
+<string id="2089" text="недоступен для печати"/>
+<string id="2090" text="отключен"/>
+<string id="2091" text="нехватка памяти"/>
+<string id="2092" text="буфер вывода заполнен"/>
+<string id="2093" text="печать текущей страницы невозможна"/>
+<string id="2094" text="застряла бумага"/>
+<string id="2095" text="нет бумаги"/>
+<string id="2096" text="проблема с бумагой"/>
+<string id="2097" text="приостановлен"/>
+<string id="2098" text="удаляет задания"/>
+<string id="2099" text="в режиме энергосбережения"/>
+<string id="2100" text="идет печать"/>
+<string id="2101" text="обрабатывает задание"/>
+<string id="2102" text="состояние неизвестно"/>
+<string id="2103" text="кончается тонер"/>
+<string id="2104" text="ошибка, требующая вмешательства пользователя"/>
+<string id="2105" text="ожидание"/>
+<string id="2106" text="прогрев"/>
+<string id="2107" text="готовность"/>
+<string id="2108" text="Закладки"/>
+<string id="2109" text="Страница"/>
+<string id="2110" text="Скрыть панель инструментов"/>
+<string id="2111" text="Панель инструментов"/>
+<string id="2112" text="Файл PDF"/>
+<string id="2113" text="Все файлы"/>
+<string id="2114" text="Стандартные средства"/>
+<string id="2115" text="Средства аннотирования"/>
+<string id="2116" text="Средства формы"/>
+<string id="2117" text="Средства маркировки"/>
+<string id="2118" text="Средства ввода текста"/>
+<string id="2119" text="Общие"/>
+<string id="2120" text="Цвета документа"/>
+<string id="2121" text="Отображение страниц"/>
+<string id="2122" text="Подогнать под формат листа"/>
+<string id="2123" text="Исходный размер"/>
+<string id="2124" text="Нет"/>
+<string id="2125" text="Несколько страниц на листе"/>
+<string id="2126" text="Обычно"/>
+<string id="2127" text="По часовой стрелке"/>
+<string id="2128" text="Против часовой стрелки"/>
+<string id="2129" text="дюймов"/>
+<string id="2130" text="Все страницы диапазона"/>
+<string id="2131" text="Только нечетные"/>
+<string id="2132" text="Только четные"/>
+<string id="2133" text="Выбранные..."/>
+<string id="2134" text="Значение увеличения должно быть 'Исходный размер', 'Страница целиком', 'По ширине страницы', либо между %s и %s."/>
+<string id="2135" text="Введите значение от %s до %s."/>
+<string id="2136" text="Файл"/>
+<string id="16640" text="Щелкните, чтобы узнать больше!\nЩелкните здесь"/>
+<string id="32773" text="Спасибо за приобретение продукции Foxit Software!\nЗаказать"/>
+<string id="32774" text="Посетить веб-страницу Foxit Software."/>
+<string id="32775" text="Обратиться в службу поддержки Foxit Software."/>
+<string id="32776" text="Показать свойства файла PDF\nСвойства"/>
+<string id="32777" text="Первая страница\nПервая страница"/>
+<string id="32778" text="Предыдущая страница\nПредыдущая страница"/>
+<string id="32779" text="Следующая страница\nСледующая страница"/>
+<string id="32780" text="Последняя страница\nПоследняя страница"/>
+<string id="32782" text="Установить/Убрать закладку\nЗакладка"/>
+<string id="32783" text="Полноэкранный режим\nПолный экран"/>
+<string id="32784" text="Инструмент перелистывания страниц\nПерелистывание"/>
+<string id="32785" text="Уменьшение масштаба\nУменьшить"/>
+<string id="32786" text="Увеличение масштаба\nУвеличить"/>
+<string id="32787" text="Увеличение\nУвеличить"/>
+<string id="32788" text="Уменьшить\nУменьшить"/>
+<string id="32789" text="Указать масштаб\nМасштаб..."/>
+<string id="32790" text="Исходный размер\nИсходный размер"/>
+<string id="32791" text="Страница целиком\nСтраница целиком  "/>
+<string id="32792" text="По ширине страницы\nПо ширине страницы "/>
+<string id="32793" text="Просмотр текста\nПросмотр текста"/>
+<string id="32795" text="Закрыть все документы\nЗакрыть все"/>
+<string id="32796" text="Просмотр текста\nПросмотр текста"/>
+<string id="32802" text="Выбор нового шрифта для документа\nШрифт"/>
+<string id="32862" text="Сохранение текущего документа под другими именем\nСохранить как"/>
+<string id="32898" text="Отображение строки меню\nСтрока меню"/>
+<string id="32925" text="Постраничный режим отображения\nПостранично"/>
+<string id="32926" text="Непрерывный режим отображения\nНепрерывно"/>
+<string id="32932" text="Сохранение текущего документа под другими именем\nСохранить как"/>
+<string id="32935" text="Поворот по часовой стрелке\nПо часовой стрелке  "/>
+<string id="32938" text="Режим отображения в виде разворота\nРазворот"/>
+<string id="32939" text="Режим отображения в виде непрерывного разворота\nРазворот - непрерывно"/>
+<string id="32941" text="Повернуть против часовой стрелки\nПротив часовой стрелки  "/>
+<string id="32942" text="Отразить\nОтразить"/>
+<string id="32977" text="Средство выделения текста\nВыделение текста"/>
+<string id="32985" text="Настройки\nНастройки"/>
+<string id="32987" text="Средство снимка документа\nСнимок"/>
+<string id="33060" text="Полужирный\nПолужирный"/>
+<string id="33061" text="Курсив\nКурсив"/>
+<string id="33064" text="Настройки просмотра текста\nНастройки"/>
+<string id="33066" text="Шрифт текста\nШрифт"/>
+<string id="33069" text="Цвет\nЦвет"/>
+<string id="33071" text="Шрифт PDF\nШрифт PDF"/>
+<string id="33097" text="Предыдущий вид\nПредыдущий вид"/>
+<string id="33098" text="Следующий вид\nСледующий вид"/>
+<string id="57344" text="Foxit Reader"/>
+<string id="57345" text="Готовность"/>
+<string id="57600" text="Создание нового документа\nСоздать"/>
+<string id="57601" text="Открытие существующего документа\nОткрыть"/>
+<string id="57602" text="Закрытие текущего документа\nЗакрыть"/>
+<string id="57603" text="Сохранение текущего документа\nСохранить"/>
+<string id="57604" text="Сохранение текущего документа под другими именем\nСохранить как"/>
+<string id="57605" text="Изменение параметров печати\nНастройка печати"/>
+<string id="57606" text="Изменение настроек принтера и печати\nПараметры страницы"/>
+<string id="57607" text="Печать текущего документа\nПечать"/>
+<string id="57609" text="Предварительный просмотр перед печатью документа\nПредварительный просмотр"/>
+<string id="57616" text="Открытие документа"/>
+<string id="57617" text="Открытие документа"/>
+<string id="57618" text="Открытие документа"/>
+<string id="57619" text="Открытие документа"/>
+<string id="57620" text="Открытие документа"/>
+<string id="57621" text="Открытие документа"/>
+<string id="57622" text="Открытие документа"/>
+<string id="57623" text="Открытие документа"/>
+<string id="57624" text="Открытие документа"/>
+<string id="57625" text="Открытие документа"/>
+<string id="57626" text="Открытие документа"/>
+<string id="57627" text="Открытие документа"/>
+<string id="57628" text="Открытие документа"/>
+<string id="57629" text="Открытие документа"/>
+<string id="57630" text="Открытие документа"/>
+<string id="57631" text="Открытие документа"/>
+<string id="57632" text="Удаление выделенной области\nОчистить"/>
+<string id="57633" text="Удаление всего\nОчистить все"/>
+<string id="57634" text="Копирование выделения в буфер обмена\nКопировать"/>
+<string id="57635" text="Удаление выделения в буфер обмена\nВырезать"/>
+<string id="57636" text="Поиск заданного текста\nПоиск"/>
+<string id="57637" text="Вставка содержимого буфера обмена\nВставить"/>
+<string id="57640" text="Повтор последнего действия\nПовторить"/>
+<string id="57641" text="Замена заданного текста другим\nЗаменить"/>
+<string id="57642" text="Выделение всего документа\nВыделить все"/>
+<string id="57643" text="Отмена последнего действия\nОтменить"/>
+<string id="57644" text="Возврат ранее отмененного действия\nВернуть"/>
+<string id="57648" text="Открытие нового окна с текущим документов\nНовое окно"/>
+<string id="57649" text="Упорядочивание значков внизу окна\nУпорядочить значки"/>
+<string id="57650" text="Выстраивание окон с перекрытием\nОкна каскадом"/>
+<string id="57651" text="Выстраивание окон без перекрытия\nОкна плиткой"/>
+<string id="57652" text="Выстраивание окон без перекрытия\nОкна плиткой"/>
+<string id="57653" text="Разделение активного окна на области\nРазделить"/>
+<string id="57664" text="Показ сведений о программе, номере версии и авторских правах\nО программе "/>
+<string id="57665" text="Закрытие программы с запросом на сохранение документов\nВыход  "/>
+<string id="57680" text="Переход в следующую область окна\nСледующая область"/>
+<string id="57681" text="Переход в предыдущую область окна\nПредыдущая область"/>
+<string id="59136" text="РАСШ"/>
+<string id="59137" text="CAP"/>
+<string id="59138" text="NUM"/>
+<string id="59139" text="SCRL"/>
+<string id="59140" text="ЗАМ"/>
+<string id="59141" text="ЗАП"/>
+<string id="59392" text="Отображение панели инструментов\nПанель инструментов"/>
+<string id="59393" text="Отображение строки состояния\nСтрока состояния"/>
+<string id="61184" text="Изменение размеров окна"/>
+<string id="61185" text="Изменение положения окна"/>
+<string id="61186" text="Свертывание окна в значок"/>
+<string id="61187" text="Развертывание окна до максимального размера"/>
+<string id="61188" text="Переход в окно следующего документа"/>
+<string id="61189" text="Переход в окно предыдущего документа"/>
+<string id="61190" text="Закрытие активного окна с запросом на сохранение документов"/>
+<string id="61202" text="Восстановление обычного размера окна"/>
+<string id="61203" text="Активизация списка задач"/>
+<string id="61215" text="Активизация окна"/>
+<string id="61445" text="Закрытие режима предварительного просмотра\nОтменить просмотр"/>
+</Strings>
+</Reader>

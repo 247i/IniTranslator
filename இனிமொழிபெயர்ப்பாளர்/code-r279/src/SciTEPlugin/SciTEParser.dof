@@ -1,0 +1,58 @@
+[FileVersion]
+Version=7.0
+[Compiler]
+UnsafeType=0
+UnsafeCode=0
+UnsafeCast=0
+[Linker]
+MapFile=3
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=1048576
+ImageBase=462422016
+ExeDescription=SciTE Plugin for IniTranslator
+[Directories]
+OutputDir=..\..\bin\plugins
+UnitOutputDir=..\..\dcu
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=
+Packages=vcl;rtl;vclx;inet;xmlrtl;vclie;inetdbbde;inetdbxpress;dbrtl;dsnap;dsnapcon;vcldb;bdertl;vcldbx;webdsnap;websnap;teeui;teedb;tee;dss;visualclx;vclshlctrls;IntrawebDB_50_70;Intraweb_50_70;Rave50CLX;Rave50VCL;dclOfficeXP;tb2k_d7;TntUnicodeVcl_R70;indy;FB20DXGButtonEdit;dxPSLnksD7;dxPSCoreD7;dxPSTeeChartD7;dxPScxGridLnkD7;cxGridVCLD7;cxLibraryVCLD7;dxThemeD7;cxEditorsVCLD7;cxDataD7;dxPSDBTeeChartD7;cxExtEditorsVCLD7;cxGridUtilsVCLD7;adortl;ibxpress;dbexpress;soaprtl;VclSmp;dbxcds;inetdb;visualdbclx;vclactnband;JvCoreD7R;JvSystemD7R;JvStdCtrlsD7R;JvCtrlsD7R;JvCustomD7R;JvPageCompsD7R;JvCmpD7R;tbx_d7;SpTBXLib_d7;JvDlgsD7R;JvAppFrmD7R
+Conditionals=
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=
+HostApplication=
+Launcher=
+UseLauncher=0
+DebugCWD=
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=9
+Release=0
+Build=51
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=1
+Locale=1033
+CodePage=1252
+[Version Info Keys]
+CompanyName=IniTranslator
+FileDescription=SciTE Plugin for IniTranslator
+FileVersion=1.9.0.51
+InternalName=SciTEParser.dll
+LegalCopyright=Copyright (c) 2003-2004 by Peter Thornqvist; all rights reserved
+LegalTrademarks=
+OriginalFilename=SciTEParser.dll
+ProductName=SciTE Plugin for IniTranslator
+ProductVersion=1.9.0.50
+Comments=Latest version at http://initranslator.sourceforge.net
+CompileDate=den 27 december 2006 00:13

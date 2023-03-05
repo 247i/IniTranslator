@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Reader>
+<Menus>
+<menu id="128">
+<popup id="|0" text="&amp;File">
+<menuitem id="57601" text="&amp;Open...\tCtrl+O"/>
+<menuitem id="33111" text="&amp;Convert PDF..."/>
+<menuitem id="57602" text="&amp;Close\tCtrl+W"/>
+<menuitem id="57603" text="Save\tCtrl+S"/>
+<menuitem id="32932" text="Save &amp;As...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Print...\tCtrl+P"/>
+<menuitem id="57606" text="P&amp;rint Setup..."/>
+<menuitem id="57616" text="Recent File"/>
+<menuitem id="32776" text="Proper&amp;ties..."/>
+<menuitem id="57665" text="E&amp;xit\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="&amp;Edit">
+<menuitem id="33112" text="&amp;Modify Content..."/>
+<menuitem id="57634" text="&amp;Copy\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Find Text...\tCtrl+F"/>
+<menuitem id="32903" text="Find &amp;Next\tF3"/>
+<menuitem id="32985" text="&amp;Preferences...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="&amp;View">
+<menuitem id="32782" text="&amp;Bookmark\tAlt+1"/>
+<menuitem id="32783" text="&amp;Full Screen\tAlt+2"/>
+<menuitem id="32787" text="Zoom &amp;In\tCtrl+Num +"/>
+<menuitem id="32788" text="Zoom &amp;Out\tCtrl+Num -"/>
+<menuitem id="32789" text="Zoom &amp;To...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Actual Size\tCtrl+1"/>
+<menuitem id="32791" text="Fit &amp;Page\tCtrl+2"/>
+<menuitem id="32792" text="Fit &amp;Width\tCtrl+3"/>
+<popup id="|2|12" text="Page La&amp;yout">
+<menuitem id="32925" text="Sin&amp;gle Page"/>
+<menuitem id="32926" text="&amp;Continuous"/>
+<menuitem id="32938" text="&amp;Facing"/>
+<menuitem id="32939" text="Con&amp;tinuous Facing"/>
+</popup>
+<popup id="|2|14" text="Rotate &amp;View">
+<menuitem id="32935" text="&amp;Clockwise\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Counterclock&amp;wise\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Reverse View"/>
+<menuitem id="32930" text="&amp;Advertisement"/>
+<popup id="|2|20" text="&amp;Toolbars">
+<menuitem id="33043" text="&amp;File"/>
+<menuitem id="33044" text="Na&amp;vigation"/>
+<menuitem id="33045" text="Rotate Vie&amp;w"/>
+<menuitem id="33046" text="&amp;Zoom"/>
+<menuitem id="33042" text="Ba&amp;sic"/>
+<menuitem id="33104" text="&amp;Help"/>
+<menuitem id="33065" text="Te&amp;xt Viewer"/>
+<menuitem id="33048" text="&amp;Reset Toolbars\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Dock All Toolbars\tCtrl+F8"/>
+<menuitem id="33053" text="Hide Toolbars\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Menu Bar"/>
+<menuitem id="59393" text="&amp;Status Bar"/>
+</popup>
+<popup id="|3" text="&amp;Language">
+<menuitem id="40801" text="&amp;Default"/>
+</popup>
+<popup id="|4" text="&amp;Document">
+<menuitem id="32777" text="&amp;First Page\tHome"/>
+<menuitem id="32778" text="&amp;Previous Page\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Next Page\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Last Page\tEnd"/>
+<menuitem id="33097" text="Previous &amp;View\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Next Vie&amp;w\tAlt+Right Arrow"/>
+<menuitem id="32781" text="&amp;Go to Page...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|5" text="&amp;Tools">
+<menuitem id="32784" text="&amp;Hand Tool\tAlt+3"/>
+<menuitem id="32785" text="Zoom &amp;Out Tool\tAlt+4"/>
+<menuitem id="32786" text="Zoom &amp;In Tool \tAlt+5"/>
+<menuitem id="32977" text="Se&amp;lect Text\tAlt+6"/>
+<menuitem id="32987" text="&amp;Snapshot\tAlt+7"/>
+<menuitem id="32793" text="Text &amp;Viewer\tAlt+9"/>
+</popup>
+<popup id="|6" text="&amp;Advanced">
+<menuitem id="33118" text="JavaScript &amp;Console..."/>
+<menuitem id="33117" text="&amp;Document Javascript..."/>
+<popup id="|6|3" text="&amp;Form Utilities">
+<popup id="|6|3|0" text="&amp;Export form data">
+<menuitem id="33132" text="To &amp;form data file (FDF) ..."/>
+<menuitem id="33133" text="To &amp;E-mail address ..."/>
+</popup>
+<menuitem id="33120" text="&amp;Import form data ..."/>
+<menuitem id="33121" text="&amp;Reset form ..."/>
+<menuitem id="33122" text="Set calculation order ..."/>
+</popup>
+</popup>
+<popup id="|7" text="&amp;Window">
+<menuitem id="57648" text="&amp;New Window"/>
+<menuitem id="57650" text="&amp;Cascade"/>
+<menuitem id="57651" text="&amp;Tile"/>
+<menuitem id="57649" text="&amp;Arrange Icons"/>
+<menuitem id="57602" text="Cl&amp;ose"/>
+<menuitem id="32795" text="Close Al&amp;l\tCtrl+Shift+W"/>
+</popup>
+<popup id="|8" text="&amp;Help">
+<menuitem id="32969" text="&amp;Set to Default PDF Reader"/>
+<menuitem id="33116" text="Check for Updates Now..."/>
+<menuitem id="32774" text="Foxit Software &amp;Home Page"/>
+<menuitem id="57664" text="&amp;About Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="159">
+<popup id="|0" text="Bars">
+<menuitem id="33043" text="&amp;File"/>
+<menuitem id="33044" text="Na&amp;vigation"/>
+<menuitem id="33045" text="Rotate Vie&amp;w"/>
+<menuitem id="33046" text="&amp;Zoom"/>
+<menuitem id="33042" text="Ba&amp;sic"/>
+<menuitem id="33104" text="&amp;Help"/>
+<menuitem id="33065" text="Te&amp;xt Viewer"/>
+<menuitem id="33048" text="&amp;Reset Toolbars\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Dock All Toolbars\tCtrl+F8"/>
+<menuitem id="33053" text="Hide Toolbars\tF8"/>
+<menuitem id="32930" text="&amp;Advertisement"/>
+<menuitem id="32898" text="&amp;MenuBar"/>
+<menuitem id="59393" text="&amp;StatusBar"/>
+</popup>
+</menu>
+<menu id="164">
+<popup id="|0" text="Help">
+<menuitem id="32969" text="&amp;Set to Default PDF Reader"/>
+<menuitem id="32774" text="Foxit Software &amp;Home Page"/>
+<menuitem id="57664" text="&amp;About Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="266">
+<popup id="|0" text="Select Text">
+<menuitem id="57634" text="&amp;Copy              \tCtrl+C"/>
+</popup>
+</menu>
+<menu id="245">
+<popup id="|0" text="&amp;View">
+<menuitem id="32782" text="&amp;Bookmark\tAlt+1"/>
+<popup id="|0|2" text="S&amp;creen Tools">
+<menuitem id="32784" text="&amp;Hand Tool\tAlt+3"/>
+<menuitem id="32785" text="Zoom &amp;Out\tAlt+4"/>
+<menuitem id="32786" text="Zoom &amp;In\tAlt+5"/>
+<menuitem id="32977" text="&amp;Select Text\tAlt+6"/>
+<menuitem id="32987" text="&amp;Snapshot\tAlt+7"/>
+</popup>
+<menuitem id="32930" text="&amp;Advertisement"/>
+<menuitem id="32787" text="Zoom &amp;In\tCtrl+Num +"/>
+<menuitem id="32788" text="Zoom &amp;Out\tCtrl+Num -"/>
+<menuitem id="32789" text="Zoom &amp;To...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Actual Size\tCtrl+1"/>
+<menuitem id="32791" text="Fit &amp;Page\tCtrl+2"/>
+<menuitem id="32792" text="Fit &amp;Width\tCtrl+3"/>
+<popup id="|0|14" text="Page La&amp;yout">
+<menuitem id="32925" text="Sin&amp;gle Page"/>
+<menuitem id="32926" text="&amp;Continuous"/>
+<menuitem id="32938" text="&amp;Facing"/>
+<menuitem id="32939" text="Con&amp;tinuous Facing"/>
+</popup>
+<popup id="|0|16" text="Rotate &amp;View">
+<menuitem id="32935" text="&amp;Clockwise\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Counterclock&amp;wise\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Reverse View"/>
+</popup>
+</menu>
+<menu id="623">
+<popup id="|0" text="TextView">
+<menuitem id="57643" text="&amp;Undo\tCtrl+Z"/>
+<menuitem id="57635" text="Cu&amp;t\tCtrl+X"/>
+<menuitem id="57634" text="&amp;Copy\tCtrl+C"/>
+<menuitem id="57637" text="&amp;Paste\tCtrl+V"/>
+<menuitem id="32901" text="&amp;Delete\tDel"/>
+<menuitem id="57636" text="&amp;Find...\tCtrl+F"/>
+<menuitem id="32903" text="Find &amp;Next...\tF3"/>
+<menuitem id="57641" text="&amp;Replace...\tCtrl+H"/>
+<menuitem id="57642" text="Selete &amp;All\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="720">
+<popup id="|0" text="TextView">
+<menuitem id="57634" text="&amp;Copy\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Find...\tCtrl+F"/>
+<menuitem id="32903" text="Find &amp;Next...\tF3"/>
+<menuitem id="57642" text="Selete &amp;All\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="653">
+<popup id="|0" text="Toolbars">
+<popup id="|0|0" text="Show Button Labels">
+<menuitem id="33050" text="&amp;Default Labels"/>
+<menuitem id="33051" text="&amp;All Labels"/>
+<menuitem id="33052" text="&amp;No Labels"/>
+</popup>
+</popup>
+</menu>
+<menu id="163">
+<popup id="|0" text="&amp;View">
+<menuitem id="32782" text="&amp;Bookmark\tAlt+1"/>
+<menuitem id="32783" text="&amp;Full Screen\tAlt+2"/>
+<popup id="|0|2" text="Too&amp;ls">
+<menuitem id="32784" text="&amp;Hand Tool\tAlt+3"/>
+<menuitem id="32785" text="Zoom &amp;Out\tAlt+4"/>
+<menuitem id="32786" text="Zoom &amp;In\tAlt+5"/>
+<menuitem id="32977" text="&amp;Select Text\tAlt+6"/>
+<menuitem id="32987" text="&amp;Snapshot\tAlt+7"/>
+<menuitem id="32793" text="Text &amp;Viewer\tAlt+9"/>
+</popup>
+<menuitem id="32787" text="Zoom &amp;In\tCtrl+Num +"/>
+<menuitem id="32788" text="Zoom &amp;Out\tCtrl+Num -"/>
+<menuitem id="32789" text="Zoom &amp;To...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Actual Size\tCtrl+1"/>
+<menuitem id="32791" text="Fit &amp;Page\tCtrl+2"/>
+<menuitem id="32792" text="Fit &amp;Width\tCtrl+3"/>
+<popup id="|0|12" text="Page La&amp;yout">
+<menuitem id="32925" text="Sin&amp;gle Page"/>
+<menuitem id="32926" text="&amp;Continuous"/>
+<menuitem id="32938" text="&amp;Facing"/>
+<menuitem id="32939" text="Con&amp;tinuous Facing"/>
+</popup>
+<popup id="|0|14" text="Rotate &amp;View">
+<menuitem id="32935" text="&amp;Clockwise\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Counterclock&amp;wise\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Reverse View"/>
+<menuitem id="32930" text="&amp;Advertisement"/>
+<popup id="|0|20" text="&amp;Toolbars">
+<menuitem id="33043" text="&amp;File"/>
+<menuitem id="33044" text="Na&amp;vigation"/>
+<menuitem id="33045" text="Rotate Vie&amp;w"/>
+<menuitem id="33046" text="&amp;Zoom"/>
+<menuitem id="33042" text="Ba&amp;sic"/>
+<menuitem id="33104" text="&amp;Help"/>
+<menuitem id="33065" text="Te&amp;xt Viewer"/>
+<menuitem id="33048" text="&amp;Reset Toolbars\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Dock All Toolbars\tCtrl+F8"/>
+<menuitem id="33053" text="Hide Toolbars\tF8"/>
+</popup>
+<menuitem id="59393" text="&amp;Status Bar"/>
+<menuitem id="32898" text="&amp;Menu Bar"/>
+</popup>
+</menu>
+<menu id="160">
+<popup id="|0" text="ZoomIn">
+<menuitem id="32865" text="1600%"/>
+<menuitem id="32866" text="800%"/>
+<menuitem id="32867" text="400%"/>
+<menuitem id="32868" text="200%"/>
+<menuitem id="32869" text="150%"/>
+<menuitem id="32870" text="125%"/>
+<menuitem id="32871" text="100%"/>
+</popup>
+</menu>
+<menu id="161">
+<popup id="|0" text="ZoomOut">
+<menuitem id="32871" text="100%"/>
+<menuitem id="32873" text="50%"/>
+<menuitem id="32874" text="25%"/>
+<menuitem id="32875" text="12.5%"/>
+<menuitem id="32876" text="8.33%"/>
+</popup>
+</menu>
+<menu id="129">
+<popup id="|1" text="&amp;File">
+<menuitem id="57601" text="&amp;Open...\tCtrl+O"/>
+<menuitem id="33111" text="&amp;Convert PDF..."/>
+<menuitem id="57602" text="&amp;Close\tCtrl+W"/>
+<menuitem id="57603" text="Save\tCtrl+S"/>
+<menuitem id="32932" text="Save &amp;As...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Print...\tCtrl+P"/>
+<menuitem id="57606" text="P&amp;rint Setup..."/>
+<menuitem id="57616" text="Recent File"/>
+<menuitem id="32776" text="Proper&amp;ties..."/>
+<menuitem id="57665" text="E&amp;xit\tCtrl+Q"/>
+</popup>
+<popup id="|2" text="&amp;Edit">
+<menuitem id="33112" text="&amp;Modify Content..."/>
+<menuitem id="57634" text="&amp;Copy\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Find Text...\tCtrl+F"/>
+<menuitem id="32903" text="Find &amp;Next\tF3"/>
+<menuitem id="32985" text="&amp;Preferences...\tCtrl+K"/>
+</popup>
+<popup id="|3" text="&amp;View">
+<menuitem id="32782" text="&amp;Bookmark\tAlt+1"/>
+<menuitem id="32783" text="&amp;Full Screen\tAlt+2"/>
+<menuitem id="32787" text="Zoom &amp;In\tCtrl+Num +"/>
+<menuitem id="32788" text="Zoom &amp;Out\tCtrl+Num -"/>
+<menuitem id="32789" text="Zoom &amp;To...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Actual Size\tCtrl+1"/>
+<menuitem id="32791" text="Fit &amp;Page\tCtrl+2"/>
+<menuitem id="32792" text="Fit &amp;Width\tCtrl+3"/>
+<popup id="|3|12" text="Page La&amp;yout">
+<menuitem id="32925" text="Sin&amp;gle Page"/>
+<menuitem id="32926" text="&amp;Continuous"/>
+<menuitem id="32938" text="&amp;Facing"/>
+<menuitem id="32939" text="Con&amp;tinuous Facing"/>
+</popup>
+<popup id="|3|14" text="Rotate &amp;View">
+<menuitem id="32935" text="&amp;Clockwise\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Counterclock&amp;wise\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Reverse View"/>
+<menuitem id="32930" text="&amp;Advertisement"/>
+<popup id="|3|20" text="&amp;Toolbars">
+<menuitem id="33043" text="&amp;File"/>
+<menuitem id="33044" text="Na&amp;vigation"/>
+<menuitem id="33045" text="Rotate Vie&amp;w"/>
+<menuitem id="33046" text="&amp;Zoom"/>
+<menuitem id="33042" text="Ba&amp;sic"/>
+<menuitem id="33104" text="&amp;Help"/>
+<menuitem id="33065" text="Te&amp;xt Viewer"/>
+<menuitem id="33048" text="&amp;Reset Toolbars\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Dock All Toolbars\tCtrl+F8"/>
+<menuitem id="33053" text="Hide Toolbars\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Menu Bar"/>
+<menuitem id="59393" text="&amp;Status Bar"/>
+</popup>
+<popup id="|4" text="&amp;Language">
+<menuitem id="40801" text="&amp;Default"/>
+</popup>
+<popup id="|5" text="&amp;Document">
+<menuitem id="32777" text="&amp;First Page\tHome"/>
+<menuitem id="32778" text="&amp;Previous Page\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Next Page\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Last Page\tEnd"/>
+<menuitem id="33097" text="Previous &amp;View\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Next Vie&amp;w\tAlt+Right Arrow"/>
+<menuitem id="32781" text="&amp;Go to Page...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|6" text="&amp;Tools">
+<menuitem id="32784" text="&amp;Hand Tool\tAlt+3"/>
+<menuitem id="32785" text="Zoom &amp;Out Tool\tAlt+4"/>
+<menuitem id="32786" text="Zoom &amp;In Tool \tAlt+5"/>
+<menuitem id="32977" text="Se&amp;lect Text\tAlt+6"/>
+<menuitem id="32987" text="&amp;Snapshot\tAlt+7"/>
+<menuitem id="32793" text="Text &amp;Viewer\tAlt+9"/>
+</popup>
+<popup id="|7" text="&amp;Advanced">
+<menuitem id="33118" text="JavaScript &amp;Console..."/>
+<menuitem id="33117" text="Document Javascript..."/>
+<popup id="|7|3" text="&amp;Form Utilities">
+<popup id="|7|3|0" text="&amp;Export form data">
+<menuitem id="33132" text="To &amp;form data file (FDF) ..."/>
+<menuitem id="33133" text="To &amp;E-mail address ..."/>
+</popup>
+<menuitem id="33120" text="&amp;Import form data from ..."/>
+<menuitem id="33121" text="&amp;Reset form ..."/>
+<menuitem id="33122" text="Set calculation order ..."/>
+</popup>
+</popup>
+<popup id="|8" text="&amp;Window">
+<menuitem id="57648" text="&amp;New Window"/>
+<menuitem id="57650" text="&amp;Cascade"/>
+<menuitem id="57651" text="&amp;Tile"/>
+<menuitem id="57649" text="&amp;Arrange Icons"/>
+<menuitem id="57602" text="Cl&amp;ose"/>
+<menuitem id="32795" text="Close Al&amp;l\tCtrl+Shift+W"/>
+</popup>
+<popup id="|9" text="&amp;Help">
+<menuitem id="32969" text="&amp;Set to Default PDF Reader"/>
+<menuitem id="33116" text="Check for Updates Now..."/>
+<menuitem id="32774" text="Foxit Software &amp;Home Page"/>
+<menuitem id="57664" text="&amp;About Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="209">
+<popup id="|0" text="&amp;File">
+<menuitem id="57601" text="&amp;Open...\tCtrl+O"/>
+<menuitem id="57602" text="&amp;Close\tCtrl+W"/>
+<menuitem id="57603" text="Save\tCtrl+S"/>
+<menuitem id="32932" text="Save &amp;As...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Print...\tCtrl+P"/>
+<menuitem id="57606" text="P&amp;rint Setup..."/>
+<menuitem id="57616" text="Recent File"/>
+<menuitem id="32776" text="Proper&amp;ties..."/>
+<menuitem id="57665" text="E&amp;xit\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="&amp;Edit">
+<menuitem id="57634" text="&amp;Copy\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Find Text...\tCtrl+F"/>
+<menuitem id="32903" text="Find &amp;Next\tF3"/>
+<menuitem id="32985" text="&amp;Preferences...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="&amp;View">
+<menuitem id="32782" text="&amp;Bookmark\tAlt+1"/>
+<menuitem id="32783" text="&amp;Full Screen\tAlt+2"/>
+<menuitem id="32787" text="Zoom &amp;In\tCtrl+Num +"/>
+<menuitem id="32788" text="Zoom &amp;Out\tCtrl+Num -"/>
+<menuitem id="32789" text="Zoom &amp;To...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Actual Size\tCtrl+1"/>
+<menuitem id="32791" text="Fit &amp;Page\tCtrl+2"/>
+<menuitem id="32792" text="Fit &amp;Width\tCtrl+3"/>
+<popup id="|2|12" text="Page La&amp;yout">
+<menuitem id="32925" text="Sin&amp;gle Page"/>
+<menuitem id="32926" text="&amp;Continuous"/>
+<menuitem id="32938" text="&amp;Facing"/>
+<menuitem id="32939" text="Con&amp;tinuous Facing"/>
+</popup>
+<popup id="|2|14" text="Rotate &amp;View">
+<menuitem id="32935" text="&amp;Clockwise\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Counterclock&amp;wise\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Reverse View"/>
+<menuitem id="32930" text="&amp;Advertisement"/>
+<popup id="|2|20" text="&amp;Toolbars">
+<menuitem id="33043" text="&amp;File"/>
+<menuitem id="33044" text="Na&amp;vigation"/>
+<menuitem id="33045" text="Rotate Vie&amp;w"/>
+<menuitem id="33046" text="&amp;Zoom"/>
+<menuitem id="33042" text="Ba&amp;sic"/>
+<menuitem id="33104" text="&amp;Help"/>
+<menuitem id="33065" text="Te&amp;xt Viewer"/>
+<menuitem id="33048" text="&amp;Reset Toolbars\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Dock All Toolbars\tCtrl+F8"/>
+<menuitem id="33053" text="Hide Toolbars\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Menu Bar"/>
+<menuitem id="59393" text="&amp;Status Bar"/>
+</popup>
+<popup id="|3" text="&amp;Document">
+<menuitem id="32777" text="&amp;First Page\tHome"/>
+<menuitem id="32778" text="&amp;Previous Page\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Next Page\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Last Page\tEnd"/>
+<menuitem id="33097" text="Previous &amp;View\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Next Vie&amp;w\tAlt+Right Arrow"/>
+<menuitem id="32781" text="&amp;Go to Page...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="&amp;Tools">
+<menuitem id="32784" text="&amp;Hand Tool\tAlt+3"/>
+<menuitem id="32785" text="Zoom &amp;Out Tool\tAlt+4"/>
+<menuitem id="32786" text="Zoom &amp;In Tool \tAlt+5"/>
+<menuitem id="32977" text="Se&amp;lect Text\tAlt+6"/>
+<menuitem id="32987" text="&amp;Snapshot\tAlt+7"/>
+<menuitem id="32793" text="Text &amp;Viewer\tAlt+9"/>
+</popup>
+<popup id="|5" text="&amp;Window">
+<menuitem id="57648" text="&amp;New Window"/>
+<menuitem id="57650" text="&amp;Cascade"/>
+<menuitem id="57651" text="&amp;Tile"/>
+<menuitem id="57649" text="&amp;Arrange Icons"/>
+<menuitem id="57602" text="Cl&amp;ose"/>
+<menuitem id="32795" text="Close Al&amp;l\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="&amp;Help">
+<menuitem id="32969" text="&amp;Set to Default PDF Reader"/>
+<menuitem id="32774" text="Foxit Software &amp;Home Page"/>
+<menuitem id="57664" text="&amp;About Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="205">
+<popup id="|0" text="&amp;File">
+<menuitem id="57601" text="&amp;Open...\tCtrl+O"/>
+<menuitem id="57602" text="&amp;Close\tCtrl+W"/>
+<menuitem id="57603" text="Save\tCtrl+S"/>
+<menuitem id="32932" text="Save &amp;As...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="&amp;Print...\tCtrl+P"/>
+<menuitem id="57606" text="P&amp;rint Setup..."/>
+<menuitem id="57616" text="Recent File"/>
+<menuitem id="32776" text="Proper&amp;ties..."/>
+<menuitem id="57665" text="E&amp;xit\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="&amp;Edit">
+<menuitem id="57634" text="&amp;Copy\tCtrl+C"/>
+<menuitem id="57636" text="&amp;Find Text...\tCtrl+F"/>
+<menuitem id="32903" text="Find &amp;Next\tF3"/>
+<menuitem id="32985" text="&amp;Preferences...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="&amp;View">
+<menuitem id="32782" text="&amp;Bookmark\tAlt+1"/>
+<menuitem id="32783" text="&amp;Full Screen\tAlt+2"/>
+<menuitem id="32787" text="Zoom &amp;In\tCtrl+Num +"/>
+<menuitem id="32788" text="Zoom &amp;Out\tCtrl+Num -"/>
+<menuitem id="32789" text="Zoom &amp;To...\tCtrl+M"/>
+<menuitem id="32790" text="&amp;Actual Size\tCtrl+1"/>
+<menuitem id="32791" text="Fit &amp;Page\tCtrl+2"/>
+<menuitem id="32792" text="Fit &amp;Width\tCtrl+3"/>
+<popup id="|2|12" text="Page La&amp;yout">
+<menuitem id="32925" text="Sin&amp;gle Page"/>
+<menuitem id="32926" text="&amp;Continuous"/>
+<menuitem id="32938" text="&amp;Facing"/>
+<menuitem id="32939" text="Con&amp;tinuous Facing"/>
+</popup>
+<popup id="|2|14" text="Rotate &amp;View">
+<menuitem id="32935" text="&amp;Clockwise\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Counterclock&amp;wise\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="&amp;Reverse View"/>
+<menuitem id="32930" text="&amp;Advertisement"/>
+<popup id="|2|20" text="&amp;Toolbars">
+<menuitem id="33043" text="&amp;File"/>
+<menuitem id="33044" text="Na&amp;vigation"/>
+<menuitem id="33045" text="Rotate Vie&amp;w"/>
+<menuitem id="33046" text="&amp;Zoom"/>
+<menuitem id="33042" text="Ba&amp;sic"/>
+<menuitem id="33104" text="&amp;Help"/>
+<menuitem id="33065" text="Te&amp;xt Viewer"/>
+<menuitem id="33048" text="&amp;Reset Toolbars\tAlt+F8"/>
+<menuitem id="33049" text="&amp;Dock All Toolbars\tCtrl+F8"/>
+<menuitem id="33053" text="Hide Toolbars\tF8"/>
+</popup>
+<menuitem id="32898" text="&amp;Menu Bar"/>
+<menuitem id="59393" text="&amp;Status Bar"/>
+</popup>
+<popup id="|3" text="&amp;Document">
+<menuitem id="32777" text="&amp;First Page\tHome"/>
+<menuitem id="32778" text="&amp;Previous Page\tLeft Arrow"/>
+<menuitem id="32779" text="&amp;Next Page\tRight Arrow"/>
+<menuitem id="32780" text="&amp;Last Page\tEnd"/>
+<menuitem id="33097" text="Previous &amp;View\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Next Vie&amp;w\tAlt+Right Arrow"/>
+<menuitem id="32781" text="&amp;Go to Page...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="&amp;Tools">
+<menuitem id="32784" text="&amp;Hand Tool\tAlt+3"/>
+<menuitem id="32785" text="Zoom &amp;Out Tool\tAlt+4"/>
+<menuitem id="32786" text="Zoom &amp;In Tool \tAlt+5"/>
+<menuitem id="32977" text="Se&amp;lect Text\tAlt+6"/>
+<menuitem id="32987" text="&amp;Snapshot\tAlt+7"/>
+<menuitem id="32793" text="Text &amp;Viewer\tAlt+9"/>
+</popup>
+<popup id="|5" text="&amp;Window">
+<menuitem id="57648" text="&amp;New Window"/>
+<menuitem id="57650" text="&amp;Cascade"/>
+<menuitem id="57651" text="&amp;Tile"/>
+<menuitem id="57649" text="&amp;Arrange Icons"/>
+<menuitem id="57602" text="Cl&amp;ose"/>
+<menuitem id="32795" text="Close Al&amp;l\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="&amp;Help">
+<menuitem id="32969" text="&amp;Set to Default PDF Reader"/>
+<menuitem id="32774" text="Foxit Software &amp;Home Page"/>
+<menuitem id="57664" text="&amp;About Foxit Reader..."/>
+</popup>
+</menu>
+<menu id="9032">
+<popup id="|0" text="HorzScale">
+<menuitem id="9061" text="200%"/>
+<menuitem id="9067" text="150%"/>
+<menuitem id="9066" text="125%"/>
+<menuitem id="9062" text="100%"/>
+<menuitem id="9063" text="75%"/>
+<menuitem id="9064" text="50%"/>
+<menuitem id="9065" text="More..."/>
+</popup>
+</menu>
+<menu id="828">
+<popup id="|0" text="highlight">
+<menuitem id="33131" text="&amp;All Fields"/>
+<menuitem id="33129" text="&amp;Combo Box"/>
+<menuitem id="33125" text="C&amp;heck Box"/>
+<menuitem id="33130" text="&amp;List Box"/>
+<menuitem id="33126" text="P&amp;ush Button"/>
+<menuitem id="33127" text="&amp;Radio Button"/>
+<menuitem id="33128" text="&amp;Text Field"/>
+</popup>
+</menu>
+</Menus>
+<Dialogs>
+<Dialog id="147">
+<dlgitem id="1002" text="Save whole document"/>
+<dlgitem id="1003" text="Save current page"/>
+<dlgitem id="1004" text="Save page in range:"/>
+<dlgitem id="1191" text="to"/>
+<dlgitem id="1190" text="Save What:"/>
+</Dialog>
+<Dialog id="727" text="Progress">
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="1255" text="Search..."/>
+</Dialog>
+<Dialog id="274" text="Find Text">
+<dlgitem id="1192" text="Fi&amp;nd What:"/>
+<dlgitem id="1067" text="Match &amp;whole word only"/>
+<dlgitem id="1068" text="Match &amp;case"/>
+<dlgitem id="1193" text="Direction"/>
+<dlgitem id="1069" text="&amp;Up"/>
+<dlgitem id="1070" text="&amp;Down"/>
+<dlgitem id="1153" text="&amp;Find Next"/>
+<dlgitem id="2" text="&amp;Cancel"/>
+</Dialog>
+<Dialog id="157" text="Go to  Page">
+<dlgitem id="1194" text="&amp;Page:"/>
+<dlgitem id="1195" text="of"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+</Dialog>
+<Dialog id="130" text="Password">
+<dlgitem id="1196" text="Enter Password:"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="1121" text="This file is protected. Please enter a Document Open Password."/>
+</Dialog>
+<Dialog id="276">
+<dlgitem id="1197" text="Document Colors Options"/>
+<dlgitem id="1074" text="&amp;Replace Document Colors"/>
+<dlgitem id="1075" text="Use &amp;Windows Colors Scheme"/>
+<dlgitem id="1076" text="&amp;Custom Color:"/>
+<dlgitem id="1102" text="Page &amp;Background:"/>
+<dlgitem id="1103" text="Document &amp;Text:"/>
+<dlgitem id="1078" text="Change &amp;only  the color of black / white content"/>
+</Dialog>
+<Dialog id="300">
+<dlgitem id="1198" text="Selection"/>
+<dlgitem id="1108" text="Use fixed resolution for s&amp;napshots"/>
+<dlgitem id="1200" text="Resol&amp;ution:"/>
+<dlgitem id="1199" text="Printer"/>
+<dlgitem id="1253" text="Print texts as &amp;graphics (ignore font substitution)"/>
+</Dialog>
+<Dialog id="278">
+<dlgitem id="1201" text="Page Display"/>
+<dlgitem id="1202" text="Default page l&amp;ayout:"/>
+<dlgitem id="1101" text="Display &amp;transparency grid"/>
+<dlgitem id="1105" text="Custom Fa&amp;cing"/>
+<dlgitem id="1204" text="Pages"/>
+<dlgitem id="1252" text="Custom &amp;Margin"/>
+<dlgitem id="1205" text="Pixels"/>
+<dlgitem id="1111" text="Display texts optimized for LCD screen"/>
+<dlgitem id="1203" text="Magnification"/>
+<dlgitem id="1206" text="Default &amp;zoom:"/>
+<dlgitem id="1207" text="Max Fit &amp;Visible Zoom:"/>
+</Dialog>
+<Dialog id="275" text="Preferences">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="1104" text="Item:"/>
+</Dialog>
+<Dialog id="778" text="Progress">
+<dlgitem id="1152" text="Progress1"/>
+<dlgitem id="1255" text="Printing..."/>
+<dlgitem id="2" text="Cancel"/>
+</Dialog>
+<Dialog id="530" text="Printer">
+<dlgitem id="1199" text="Printer"/>
+<dlgitem id="1208" text="&amp;Name:"/>
+<dlgitem id="1120" text="&amp;Properties"/>
+<dlgitem id="1209" text="Status:"/>
+<dlgitem id="1141" text="Prepared"/>
+<dlgitem id="1122" text="Print to &amp;file"/>
+<dlgitem id="1210" text="Type:"/>
+<dlgitem id="1142" text="Foxit PDF Printer"/>
+<dlgitem id="1139" text="Printing &amp;Tips"/>
+<dlgitem id="1140" text="A&amp;dvanced"/>
+<dlgitem id="1211" text="Print Range"/>
+<dlgitem id="1123" text="&amp;All"/>
+<dlgitem id="1127" text="Current &amp;view"/>
+<dlgitem id="1130" text="C&amp;urrent page"/>
+<dlgitem id="1216" text="Pa&amp;ge from:"/>
+<dlgitem id="1191" text="&amp;to:"/>
+<dlgitem id="1212" text="Su&amp;bset:"/>
+<dlgitem id="1226" text="R&amp;everse pages"/>
+<dlgitem id="1213" text="Print Handing"/>
+<dlgitem id="1214" text="&amp;Copies:"/>
+<dlgitem id="1163" text="&amp;Margins:"/>
+<dlgitem id="1228" text="in"/>
+<dlgitem id="1229" text="C&amp;ollate"/>
+<dlgitem id="1215" text="Page &amp;Scaling:"/>
+<dlgitem id="1217" text="Page A&amp;rrange:"/>
+<dlgitem id="1219" text="Page &amp;Rotate:"/>
+<dlgitem id="1164" text="Page Or&amp;der:"/>
+<dlgitem id="1165" text="Pages per &amp;sheet:"/>
+<dlgitem id="1166" text="b&amp;y"/>
+<dlgitem id="1133" text="Auto-&amp;Rotate "/>
+<dlgitem id="1151" text="Auto-Cen&amp;ter"/>
+<dlgitem id="1156" text="Print Page &amp;Border"/>
+<dlgitem id="1221" text="Print &amp;What:"/>
+<dlgitem id="1135" text="Choose Paper Source by PDF page si&amp;ze"/>
+<dlgitem id="1154" text="Preview"/>
+<dlgitem id="1222" text="Document:"/>
+<dlgitem id="1223" text="Paper:"/>
+<dlgitem id="1225" text="Units:"/>
+<dlgitem id="1144" text="Static"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="1143" text="Show Page"/>
+</Dialog>
+<Dialog id="791" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1227" text="Your PDF document uses CJK(chinese/Japanese/Korean) characters.
+You need to install FPDFCJK.BIN file in your Foxit application folder ,otherwise sometimes 
+some of those CJK characters can&apos;t be displayed correctly."/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com/pdf/rd_intro.php"/>
+<dlgitem id="1228" text="You can download that file from "/>
+</Dialog>
+<Dialog id="723" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1227" text="Thanks for using Foxit Reader ! This is an evaluation version with the following limitations:"/>
+<dlgitem id="1231" text="If you would like to purchase a license copy of Foxit Reader, please visit our website at "/>
+<dlgitem id="1232" text="or write to sales@foxitsoftware.com."/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com"/>
+<dlgitem id="1106" text="Do not show this message again"/>
+</Dialog>
+<Dialog id="252" text="Foxit Reader">
+<dlgitem id="1064" text="Always perform this check when starting Foxit Reader."/>
+<dlgitem id="1" text="&amp;Yes"/>
+<dlgitem id="2" text="&amp;No"/>
+<dlgitem id="1065" text="Currently Foxit Reader is not the default viewer for PDF files in your system. Do you want to set Foxit Reader as your default PDF viewer."/>
+<dlgitem id="1228" text="After setting Foxit Reader as the default PDF viewer, you will be able to double click  on PDF files to launch Foxit Reader automatically, or view PDF files on the web within Internet Explorer."/>
+<dlgitem id="1229" text="To reset the default PDF reader to other reader, you need to run the other reader, and set the default PDF reader over there."/>
+</Dialog>
+<Dialog id="285" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1065" text="The selected area has been copied to the clipboard."/>
+<dlgitem id="1106" text="Do not show this message again"/>
+</Dialog>
+<Dialog id="150" text="Properties">
+<dlgitem id="1244" text="General"/>
+<dlgitem id="1032" text="Static"/>
+<dlgitem id="1201" text="Static"/>
+<dlgitem id="1241" text="Advanced"/>
+<dlgitem id="1243" text="Number of Pages:"/>
+<dlgitem id="1057" text="PDF Version:"/>
+<dlgitem id="1208" text="More..."/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="1242" text="Page Size:"/>
+<dlgitem id="1233" text="Title:"/>
+<dlgitem id="1234" text="Subject:"/>
+<dlgitem id="1235" text="Author:"/>
+<dlgitem id="1238" text="Keywords:"/>
+<dlgitem id="1236" text="Creator:"/>
+<dlgitem id="1237" text="Producer:"/>
+<dlgitem id="1239" text="Created:"/>
+<dlgitem id="1240" text="Modified:"/>
+<dlgitem id="1205" text="Static"/>
+<dlgitem id="1207" text="Static"/>
+<dlgitem id="1203" text="Static"/>
+</Dialog>
+<Dialog id="788" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1245" text="Thanks  for  using  Foxit  Reader."/>
+<dlgitem id="1246" text="The  feature  you  want  to  use  now,  is  a  part  of  Foxit  Reader  Pro Pack.  You  can  still  use  it  here,  however,  if  you  want  to  save  the  PDF  file,  the  modified  pages  will  contain  some  evaluation  marks."/>
+<dlgitem id="1106" text="Do not show this message again"/>
+<dlgitem id="1228" text="When  you  purchase  Foxit  Reader,  Professional  Version,  you  will  be  able  to  get  rid  of  those  evaluation  marks  easily. "/>
+<dlgitem id="1270" text="Please  visit  Foxit  Software  website  ( www.foxitsoftware.com) for  more  information  about  how  you  can  purchase  a  license  of  Foxit  Reader  Pro Pack."/>
+</Dialog>
+<Dialog id="786" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1245" text="Thanks  for  using  Foxit  Reader."/>
+<dlgitem id="1228" text="The feature you want to use now, is a part of Foxit Reader Pro Pack. It&apos;s not enabled for your copy of Foxit Reader. When you purchase Foxit Reader Pro Pack, you will be able to use this feature."/>
+<dlgitem id="1106" text="Do not show this message again"/>
+<dlgitem id="1270" text="Please  visit  Foxit  Software  website  (www.foxitsoftware.com)  for  more  information  about  how  you  can  purchase  a  license  of  Foxit  Reader  Pro Pack."/>
+</Dialog>
+<Dialog id="787" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1245" text="Thanks  for  using  Foxit  Reader.  "/>
+<dlgitem id="1246" text="You have modified this document, you can save it here, however, since you don&apos;t have a separate license for Foxit Reader Pro Pack, the modified pages will contain some evaluation marks."/>
+<dlgitem id="1106" text="Do not show this message again"/>
+<dlgitem id="1228" text="You can delete those marks later when you purchase and install a license for Foxit Reader Pro Pack."/>
+<dlgitem id="1270" text="Please visit Foxit Software website (www.foxitsoftware.com) for more information about how you can purchase a license of Foxit Reader Pro Pack."/>
+</Dialog>
+<Dialog id="165" text="Text Viewer Colors">
+<dlgitem id="1254" text="Foreground"/>
+<dlgitem id="1251" text="red:"/>
+<dlgitem id="1202" text="Slider1"/>
+<dlgitem id="1252" text="green:"/>
+<dlgitem id="1206" text="Slider1"/>
+<dlgitem id="1253" text="blue:"/>
+<dlgitem id="1204" text="Slider1"/>
+<dlgitem id="1084" text="Background"/>
+<dlgitem id="1255" text="red:"/>
+<dlgitem id="1210" text="Slider1"/>
+<dlgitem id="1256" text="green:"/>
+<dlgitem id="1212" text="Slider1"/>
+<dlgitem id="1257" text="blue:"/>
+<dlgitem id="1214" text="Slider1"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+</Dialog>
+<Dialog id="708"/>
+<Dialog id="673" text="PDF Font...">
+<dlgitem id="1048" text="List1"/>
+<dlgitem id="1258" text="Target:"/>
+<dlgitem id="1051" text="Preview"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+</Dialog>
+<Dialog id="672" text="Text Viewer Settings">
+<dlgitem id="1259" text="Current page width"/>
+<dlgitem id="1264" text="Minimal width:"/>
+<dlgitem id="1043" text="Auto Width"/>
+<dlgitem id="1045" text="Auto Rotate"/>
+<dlgitem id="1242" text="Keep Column"/>
+<dlgitem id="1260" text="Current document width"/>
+<dlgitem id="1263" text="Minimal width:"/>
+<dlgitem id="1058" text="Auto Width"/>
+<dlgitem id="1061" text="Auto Rotate"/>
+<dlgitem id="1060" text="Keep Column"/>
+<dlgitem id="1261" text="System default width"/>
+<dlgitem id="1262" text="Minimal width:"/>
+<dlgitem id="1240" text="Auto Width"/>
+<dlgitem id="1062" text="Auto Rotate"/>
+<dlgitem id="1056" text="Keep Column"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+</Dialog>
+<Dialog id="158" text="ZoomTo">
+<dlgitem id="1203" text="&amp;Magnification:"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+</Dialog>
+<Dialog id="9026" text="Character Spacing">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="9018" text="Expanded"/>
+<dlgitem id="9011" text="Condensed"/>
+<dlgitem id="9027" text="By:"/>
+<dlgitem id="9029" text="By:"/>
+<dlgitem id="9014" text="Preview"/>
+<dlgitem id="9021" text="You can expand or condense the text line by using different character spacing:"/>
+<dlgitem id="9023" text="Point"/>
+<dlgitem id="9025" text="Point"/>
+</Dialog>
+<Dialog id="9024" text="Horizontal Scale">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="9008" text="Preview"/>
+<dlgitem id="9031" text="&amp;Horizontal Scale:"/>
+<dlgitem id="9033" text="%"/>
+</Dialog>
+<Dialog id="9054" text="Symbol">
+<dlgitem id="1" text="&amp;Insert"/>
+<dlgitem id="2" text="&amp;Cancel"/>
+</Dialog>
+<Dialog id="9020" text="Preference Settings">
+<dlgitem id="1" text="&amp;OK"/>
+<dlgitem id="2" text="Ca&amp;ncel"/>
+<dlgitem id="9035" text="Default font &amp;name:"/>
+<dlgitem id="9039" text="Default font &amp;size:"/>
+<dlgitem id="9047" text="Bac&amp;kground color:"/>
+<dlgitem id="9010" text="Chan&amp;ge"/>
+<dlgitem id="9041" text="Default &amp;Horzscale:"/>
+<dlgitem id="65535" text="%"/>
+<dlgitem id="9043" text="Default &amp;char space:"/>
+<dlgitem id="9045" text="Default char c&amp;olor:"/>
+<dlgitem id="9017" text="Ch&amp;ange"/>
+<dlgitem id="9037" text="Default font style:"/>
+<dlgitem id="9005" text="&amp;Bold"/>
+<dlgitem id="9019" text="&amp;Italic"/>
+</Dialog>
+<Dialog id="9022">
+<dlgitem id="9049" text="Font:"/>
+</Dialog>
+<Dialog id="793" text="Foxit Reader Update Manager">
+<dlgitem id="1185" text="&amp;Download"/>
+<dlgitem id="2" text="&amp;Cancel"/>
+<dlgitem id="1178" text="Progress1"/>
+<dlgitem id="1187" text="File Name:"/>
+<dlgitem id="1188" text="Location:"/>
+<dlgitem id="1189" text="Time Remaining:"/>
+<dlgitem id="1186" text="Description:"/>
+</Dialog>
+<Dialog id="792" text="Missing Component Found">
+<dlgitem id="1" text="&amp;Yes"/>
+<dlgitem id="2" text="&amp;No"/>
+<dlgitem id="1186" text="Prompt:"/>
+<dlgitem id="1226" text="Do you want Foxit Reader to get more information about this component and show up the Download Manager? "/>
+<dlgitem id="1273" text="NOTE: this will require Internet access to Foxit server."/>
+</Dialog>
+<Dialog id="796" text="Foxit Reader Updates">
+<dlgitem id="1" text="&amp;Install"/>
+<dlgitem id="2" text="&amp;Cancel"/>
+<dlgitem id="1265" text="&amp;Available Update:"/>
+<dlgitem id="1266" text="Se&amp;lected Updates:"/>
+<dlgitem id="1269" text="(0.0 KB)"/>
+<dlgitem id="1169" text="&amp;Add"/>
+<dlgitem id="1170" text="&amp;Remove"/>
+<dlgitem id="1186" text="&amp;Description:"/>
+<dlgitem id="1267" text="Si&amp;ze:"/>
+<dlgitem id="1274" text="Static"/>
+</Dialog>
+<Dialog id="815" text="Calculation Order">
+<dlgitem id="1312" text="Form fields:"/>
+<dlgitem id="1287" text="&amp;Up"/>
+<dlgitem id="1288" text="&amp;Down"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="Cancel"/>
+</Dialog>
+<Dialog id="810" text="Progress">
+</Dialog>
+<Dialog id="812" text="Foxit Reader">
+<dlgitem id="2" text="Cancel"/>
+<dlgitem id="1313" text="Checking for updates..."/>
+</Dialog>
+<Dialog id="816">
+<dlgitem id="1290" text="Highlight fields"/>
+<dlgitem id="1312" text="This document contains interactive form fields."/>
+</Dialog>
+<Dialog id="814" text="JavaScript Editor">
+<dlgitem id="1317" text="Create and Edit JavaScripts:"/>
+<dlgitem id="1286" text="&amp;Font ..."/>
+<dlgitem id="1285" text="&amp;Reload"/>
+<dlgitem id="1284" text="&amp;Save"/>
+<dlgitem id="1283" text="&amp;Close"/>
+</Dialog>
+<Dialog id="813" text="Java Script Functions">
+<dlgitem id="2" text="&amp;Close"/>
+<dlgitem id="1275" text="Script &amp;Name:"/>
+<dlgitem id="1279" text="&amp;Add"/>
+<dlgitem id="1280" text="&amp;Edit"/>
+<dlgitem id="1281" text="&amp;Delete"/>
+</Dialog>
+<Dialog id="819">
+<dlgitem id="1314" text="Highlight Color"/>
+<dlgitem id="1301" text="&amp;Highlight all fields"/>
+<dlgitem id="1303" text="C&amp;heck Box"/>
+<dlgitem id="1302" text="&amp;Combo Box"/>
+<dlgitem id="14009" text="&amp;Radio Button"/>
+<dlgitem id="14010" text="&amp;List Box"/>
+<dlgitem id="14011" text="&amp;Text Field"/>
+<dlgitem id="14012" text="P&amp;ush Button"/>
+<dlgitem id="1316" text="Classified fields highlight :"/>
+<dlgitem id="1315" text="O&amp;pacity:"/>
+<dlgitem id="1304" text="Slider1"/>
+<dlgitem id="1319" text="Set highlight la&amp;yer:"/>
+</Dialog>
+</Dialogs>
+<Strings>
+<string id="100" text="OLE initialization failed.  Make sure that the OLE libraries are the correct version."/>
+<string id="128" text="Foxit Reader 2.0"/>
+<string id="129" text="\nFoxit Reader\nPDF\nPDF Files(*.pdf)\n.pdf\nFoxitReader.Document\nPDF Document"/>
+<string id="2015" text="2005-2006 Foxit Software"/>
+<string id="2016" text="2.0 Build 0912"/>
+<string id="2017" text="To reset the default PDF reader to other reader, you need to run the other reader, and set the default PDF reader over there."/>
+<string id="2020" text=" is protected.Please enter a Document Open Password."/>
+<string id="2021" text="Click here to learn how you can make use of advanced features provided by Foxit Reader !"/>
+<string id="2022" text="Click here to learn how you can use our FREE typewriter feature to type on any PDF document!"/>
+<string id="2023" text="Click here to learn how you can modify any existing PDF files!"/>
+<string id="2024" text="Now you can use our FREE typewriter feature to type on any PDF document.\n\nJust press the &quot;Typewriter&quot; button on the toolbar,or, select &quot;Typewriter&quot;\nfrom &quot;Edit&quot; menu,then click anywhere on the document, and start typing!\n\nYou can also print the document with your typing on it."/>
+<string id="2026" text="There was an error opening this document. The file is damaged and could not be repaired.  "/>
+<string id="2027" text="Cannot  find page:"/>
+<string id="2028" text="Cannot start the application."/>
+<string id="2029" text="There is no page numbered &apos;%s&apos; in this document."/>
+<string id="2031" text="Copyright (C)"/>
+<string id="2032" text="Website:http://www.foxitsoftware.com"/>
+<string id="2033" text="All Rights Reserved"/>
+<string id="2034" text="Version"/>
+<string id="2035" text="Cannot find the string "/>
+<string id="2036" text="Foxit Reader has finished searching the document ."/>
+<string id="2037" text="Sorry, printing this document is not allowed.\n\nReason: the security permission in this document prohibits printing."/>
+<string id="2038" text="Sorry, copying text from this document is not allowed.\n\nReason: the security permission in this document prohibits copying text."/>
+<string id="2039" text="Sorry, save this document is not allowed.You will only be saving a copy of the original document. \n\nReason: the security permission in this document prohibits save."/>
+<string id="2040" text="The document could not be saved. This file is already open."/>
+<string id="2041" text="Before you can perform print-related tasks such as page setup or printing a\ndocument, you need to install a printer.\n"/>
+<string id="2042" text="The document could not be saved.The file may be read-only,or another user\nmay have it open. please save the document with a different name or in a\ndifferent folder."/>
+<string id="2043" text="Document"/>
+<string id="2044" text="Document and Annotations"/>
+<string id="2045" text="Document and Annotations"/>
+<string id="2046" text="Document"/>
+<string id="2047" text="Do you want to save changes to &apos;%s&apos; before closing ?"/>
+<string id="2050" text="Single Page"/>
+<string id="2051" text="Continuous"/>
+<string id="2052" text="Facing"/>
+<string id="2053" text="Continuous - Facing"/>
+<string id="2054" text="Actual Size"/>
+<string id="2055" text="Fit Page"/>
+<string id="2056" text="Fit Width"/>
+<string id="2057" text="File ToolBar"/>
+<string id="2058" text="Navigation"/>
+<string id="2059" text="Zoom ToolBar"/>
+<string id="2060" text="Rotate View ToolBar"/>
+<string id="2061" text="Basic ToolBar"/>
+<string id="2062" text="Text Viewer"/>
+<string id="2063" text="Full Screen"/>
+<string id="2064" text="Help"/>
+<string id="2070" text="There is certain component(%s) missing for Foxit Reader.You might need to download update from our website to display your file correctly."/>
+<string id="2071" text="Fail to download..."/>
+<string id="2072" text="Checking for updates..."/>
+<string id="2073" text="Downloading Update"/>
+<string id="2074" text="Installing Update"/>
+<string id="2075" text="&amp;Pause"/>
+<string id="2076" text="&amp;Continue"/>
+<string id="2077" text="&amp;Done"/>
+<string id="2078" text="hours"/>
+<string id="2079" text="minutes"/>
+<string id="2080" text="seconds"/>
+<string id="2081" text="Professional  Version"/>
+<string id="2082" text="busy"/>
+<string id="2083" text="door is open"/>
+<string id="2084" text="in an error state"/>
+<string id="2085" text="initializing"/>
+<string id="2086" text="in an active input/output state"/>
+<string id="2087" text="in a manual feed state"/>
+<string id="2088" text="out of toner"/>
+<string id="2089" text="not available for printing"/>
+<string id="2090" text="offline"/>
+<string id="2091" text="run out of memory"/>
+<string id="2092" text="output bin is full"/>
+<string id="2093" text="cannot print the current page"/>
+<string id="2094" text="Paper is jammed in the printer"/>
+<string id="2095" text="out of paper"/>
+<string id="2096" text="has a paper problem"/>
+<string id="2097" text="paused"/>
+<string id="2098" text="deleting a print job"/>
+<string id="2099" text="in power save mode"/>
+<string id="2100" text="printing"/>
+<string id="2101" text="processing a print job"/>
+<string id="2102" text="status is unknown"/>
+<string id="2103" text="low on toner"/>
+<string id="2104" text="has an error that requires the user to do something"/>
+<string id="2105" text="waiting"/>
+<string id="2106" text="warming up"/>
+<string id="2107" text="ready"/>
+<string id="2108" text="Bookmarks"/>
+<string id="2109" text="Page"/>
+<string id="2110" text="Hide Toolbar"/>
+<string id="2111" text="Show Toolbar"/>
+<string id="2112" text="PDF File"/>
+<string id="2113" text="All File"/>
+<string id="2114" text="Basic Tools"/>
+<string id="2115" text="Commenting Tools"/>
+<string id="2116" text="Form Tools"/>
+<string id="2117" text="Drawing Markup Tools"/>
+<string id="2118" text="Smart Text Tools"/>
+<string id="2119" text="General"/>
+<string id="2120" text="Document Colors"/>
+<string id="2121" text="Page Display"/>
+<string id="2122" text="Fit to Paper"/>
+<string id="2123" text="Actual Size"/>
+<string id="2124" text="None"/>
+<string id="2125" text="Multiple pages per sheet"/>
+<string id="2126" text="Normal"/>
+<string id="2127" text="Clockwise"/>
+<string id="2128" text="Counterclockwise"/>
+<string id="2129" text="Inches"/>
+<string id="2130" text="All pages in range"/>
+<string id="2131" text="Odd pages in only"/>
+<string id="2132" text="Even pages only"/>
+<string id="2133" text="Custom..."/>
+<string id="2134" text="The value of the magnification must be &apos;Actual Size&apos;,&apos;Fit Page&apos;,&apos;Fit Width&apos;,or it must be a value between %s and %s."/>
+<string id="2135" text="Please enter a value between %s and %s."/>
+<string id="2136" text="File"/>
+<string id="2137" text="&amp;About Foxit Reader..."/>
+<string id="2138" text="&amp;About Foxit Reader Pro..."/>
+<string id="2139" text="Horizontal"/>
+<string id="2140" text="Horizontal Reversed"/>
+<string id="2141" text="Vertical"/>
+<string id="2142" text="Vertical Reversed"/>
+<string id="2143" text="Searching %d of %d "/>
+<string id="2144" text="Printing %d of %d : %d "/>
+<string id="2145" text="Converting files"/>
+<string id="2146" text="The document is trying to connect to the site:\n\n%s\n\nIf you trust the site, click &quot;Yes&quot;, otherwise click &quot;No&quot;\n"/>
+<string id="2147" text="Security Warning"/>
+<string id="2148" text="Please press &apos;Download&apos; button to start."/>
+<string id="2149" text="Update installing process finished,please press &apos;Done&apos; button to close the window."/>
+<string id="2150" text="Fail to install."/>
+<string id="2151" text="file error: not found or could not be opened."/>
+<string id="2152" text="format error: not a PDF or corrupted."/>
+<string id="2153" text="Invalid password. Please input again."/>
+<string id="2154" text="This document is encrypted by some unsupported security handler. "/>
+<string id="2155" text="Cannot open the file or file is not found!"/>
+<string id="2156" text="Error"/>
+<string id="2157" text="Cannot open the form data file or file is not found!"/>
+<string id="2158" text="Export the form data to the following file:\n\n%s\n\nsuccessfully!"/>
+<string id="2159" text="Information"/>
+<string id="2160" text="Cannot export or access the form data!"/>
+<string id="2161" text="Import the form data from the following file:\n\n%s\n\nsuccessfully!"/>
+<string id="2162" text="Cannot import or access the form data!"/>
+<string id="2163" text="Confirmation"/>
+<string id="2164" text="This option will reset all the form fields to the default values.\nYou may lose some data. Are you sure?\n\nPress &quot;Yes&quot; button to accept, or &quot;No&quot; button to deny."/>
+<string id="2165" text="Cannot reset or access the form data!"/>
+<string id="2166" text="Forms"/>
+<string id="2167" text="*Critical Update"/>
+<string id="2168" text="At default position"/>
+<string id="2169" text="Below field"/>
+<string id="2170" text="Above field"/>
+<string id="16640" text="Click here to learn more!\nClick here"/>
+<string id="32773" text="Thank you for ordering Foxit Software products!\nOrder"/>
+<string id="32774" text="Visit the Foxit Software homepage."/>
+<string id="32775" text="Get support from Foxit Software web."/>
+<string id="32776" text="Display PDF file properties\nProperties"/>
+<string id="32777" text="First Page\nFirst Page"/>
+<string id="32778" text="Previous Page\nPrevious Page"/>
+<string id="32779" text="Next Page\nNext Page"/>
+<string id="32780" text="Last Page\nLast Page"/>
+<string id="32782" text="Show/Hide Bookmark\nBookmark"/>
+<string id="32783" text="Full screen\nFull Screen"/>
+<string id="32784" text="Hand Tool\nHand"/>
+<string id="32785" text="Zoom out tool\nZoomOut"/>
+<string id="32786" text="Zoom in tool\nZoomIn"/>
+<string id="32787" text="Zoom in\n Zoom In"/>
+<string id="32788" text="Zoom out\nZoom Out"/>
+<string id="32789" text="Zoom to\nZoomTo"/>
+<string id="32790" text="Actual Size\nActual Size"/>
+<string id="32791" text="Fit Page\n  Fit Page  "/>
+<string id="32792" text="Fit Width\n Fit Width "/>
+<string id="32793" text="Text Viewer\nText Viewer"/>
+<string id="32795" text="Close the all documents\nClose All"/>
+<string id="32796" text="text viewer\nTextViewer"/>
+<string id="32802" text="Change the  document with a new font\nFont"/>
+<string id="32862" text="Save the active document with a new name\nSave As"/>
+<string id="32898" text="Show or hide the menu bar\nToggle MenuBar"/>
+<string id="32925" text="Single Page\nSingle Page"/>
+<string id="32926" text="Continuous\nContinuous"/>
+<string id="32932" text="Save the active document with a new name\nSave As"/>
+<string id="32935" text="Rotate Clockwise\nRotate Clockwise  "/>
+<string id="32938" text="Facing\nFacing"/>
+<string id="32939" text="Continuous-Facing\nContinuous-Facing"/>
+<string id="32941" text="Rotate Counterclockwise\nRotate Counterclockwise  "/>
+<string id="32942" text="Reverse\nReverse"/>
+<string id="32977" text="Select text tool\nSelect Text"/>
+<string id="32985" text="Preferences\nPreferences"/>
+<string id="32987" text="Snapshot  tool\nSnapshot"/>
+<string id="33060" text="Bold\nBold"/>
+<string id="33061" text="Italic\nItalic"/>
+<string id="33064" text="Text Viewer Preference Settings\nPreference Settings"/>
+<string id="33066" text="Text Font\nFont"/>
+<string id="33069" text="Color\nColor"/>
+<string id="33071" text="PDF Font\nPDF Font"/>
+<string id="33097" text="Previous View\nPrevious View"/>
+<string id="33098" text="Next View\nNext View"/>
+<string id="33124" text="Highlight\nHighlight"/>
+<string id="57344" text="Foxit Reader"/>
+<string id="57345" text="Ready"/>
+<string id="57600" text="Create a new document\nNew"/>
+<string id="57601" text="Open an existing document\nOpen"/>
+<string id="57602" text="Close the active document\nClose"/>
+<string id="57603" text="Save the active document\nSave"/>
+<string id="57604" text="Save the active document with a new name\nSave As"/>
+<string id="57605" text="Change the printing options\nPage Setup"/>
+<string id="57606" text="Change the printer and printing options\nPrint Setup"/>
+<string id="57607" text="Print the active document\nPrint"/>
+<string id="57609" text="Display full pages\nPrint Preview"/>
+<string id="57616" text="Open this document"/>
+<string id="57617" text="Open this document"/>
+<string id="57618" text="Open this document"/>
+<string id="57619" text="Open this document"/>
+<string id="57620" text="Open this document"/>
+<string id="57621" text="Open this document"/>
+<string id="57622" text="Open this document"/>
+<string id="57623" text="Open this document"/>
+<string id="57624" text="Open this document"/>
+<string id="57625" text="Open this document"/>
+<string id="57626" text="Open this document"/>
+<string id="57627" text="Open this document"/>
+<string id="57628" text="Open this document"/>
+<string id="57629" text="Open this document"/>
+<string id="57630" text="Open this document"/>
+<string id="57631" text="Open this document"/>
+<string id="57632" text="Erase the selection\nErase"/>
+<string id="57633" text="Erase everything\nErase All"/>
+<string id="57634" text="Copy the selection and put it on the Clipboard\nCopy"/>
+<string id="57635" text="Cut the selection and put it on the Clipboard\nCut"/>
+<string id="57636" text="Find the specified text\nSearch"/>
+<string id="57637" text="Insert Clipboard contents\nPaste"/>
+<string id="57640" text="Repeat the last action\nRepeat"/>
+<string id="57641" text="Replace specific text with different text\nReplace"/>
+<string id="57642" text="Select the entire document\nSelect All"/>
+<string id="57643" text="Undo the last action\nUndo"/>
+<string id="57644" text="Redo the previously undone action\nRedo"/>
+<string id="57648" text="Open another window for the active document\nNew Window"/>
+<string id="57649" text="Arrange icons at the bottom of the window\nArrange Icons"/>
+<string id="57650" text="Arrange windows so they overlap\nCascade Windows"/>
+<string id="57651" text="Arrange windows as non-overlapping tiles\nTile Windows"/>
+<string id="57652" text="Arrange windows as non-overlapping tiles\nTile Windows"/>
+<string id="57653" text="Split the active window into panes\nSplit"/>
+<string id="57664" text="Display program information, version number and copyright\n About "/>
+<string id="57665" text="Quit the application; prompts to save documents\n   Exit  "/>
+<string id="57680" text="Switch to the next window pane\nNext Pane"/>
+<string id="57681" text="Switch back to the previous window pane\nPrevious Pane"/>
+<string id="59136" text="EXT"/>
+<string id="59137" text="CAP"/>
+<string id="59138" text="NUM"/>
+<string id="59139" text="SCRL"/>
+<string id="59140" text="OVR"/>
+<string id="59141" text="REC"/>
+<string id="59392" text="Show or hide the toolbar\nToggle ToolBar"/>
+<string id="59393" text="Show or hide the statusbar\nToggle StatusBar"/>
+<string id="61184" text="Change the window size"/>
+<string id="61185" text="Change the window position"/>
+<string id="61186" text="Reduce the window to an icon"/>
+<string id="61187" text="Enlarge the window to full size"/>
+<string id="61188" text="Switch to the next document window"/>
+<string id="61189" text="Switch to the previous document window"/>
+<string id="61190" text="Close the active window and prompts to save the documents"/>
+<string id="61202" text="Restore the window to normal size"/>
+<string id="61203" text="Activate Task List"/>
+<string id="61215" text="Activate this window"/>
+<string id="61445" text="Close print preview mode\nCancel Preview"/>
+</Strings>
+</Reader>

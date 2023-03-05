@@ -1,0 +1,7 @@
+OPENORIG ".\languages\default.lng"
+OPENTRANS "languages\svenska.lng"
+OPENDICT  .\dictionaries\en_se.dct
+USEDICT
+SAVETRANS ".\languages\svenska_new.lng"
+QUIT
+

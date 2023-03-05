@@ -1,0 +1,1075 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Reader>
+<Menus>
+<menu id="128">
+<popup id="|0" text="Archivo(&amp;F)">
+<menuitem id="57601" text="Abrir...(&amp;O)\tCtrl+O"/>
+<menuitem id="33111" text="Convertir PDF...(&amp;C)"/>
+<menuitem id="57602" text="Cerrar(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="Guardar\tCtrl+S"/>
+<menuitem id="32932" text="Guardar como...(&amp;A)\tCtrl+Shift+S"/>
+<menuitem id="57607" text="Imprimir...(&amp;P)\tCtrl+P"/>
+<menuitem id="57606" text="Configurar impresión(&amp;r)"/>
+<menuitem id="57616" text="Archivos recientes"/>
+<menuitem id="32776" text="Propiedades...(&amp;t)"/>
+<menuitem id="57665" text="Salir(&amp;x)\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="Editar(&amp;E)">
+<menuitem id="33112" text="Modificar contenido(&amp;M)"/>
+<menuitem id="57634" text="Copiar(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="Buscar texto...(&amp;F)\tCtrl+F"/>
+<menuitem id="32903" text="Buscar siguiente(&amp;N)\tF3"/>
+<menuitem id="32985" text="Preferencias...(&amp;P)\tCtrl+K"/>
+</popup>
+<popup id="|2" text="Ver(&amp;V)">
+<menuitem id="32782" text="Marcador(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="Pantalla completa(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="Acercar(&amp;I)\tCtrl+Num +"/>
+<menuitem id="32788" text="Alejar(&amp;O)\tCtrl+Num -"/>
+<menuitem id="32789" text="Austar Zoom(&amp;T)\tCtrl+M"/>
+<menuitem id="32790" text="Tamaño real(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="Ajustar a página(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="Ajustar al Ancho(&amp;W)\tCtrl+3"/>
+<popup id="|2|12" text="Vista de página(&amp;y)">
+<menuitem id="32925" text="Página Única(&amp;g)"/>
+<menuitem id="32926" text="Páginas Contínuas(&amp;C)"/>
+<menuitem id="32938" text="Páginas Enfrentadas(&amp;F)"/>
+<menuitem id="32939" text="Páginas Enfrentadas Sucesivas(&amp;t)"/>
+</popup>
+<popup id="|2|14" text="Rotar la vista(&amp;V)">
+<menuitem id="32935" text="Rotar hacia la derecha(&amp;C)\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Rotar hacia la izquierda(&amp;w)\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="Vista inversa(&amp;R)"/>
+<menuitem id="32930" text="Publicidad(&amp;A)"/>
+<popup id="|2|20" text="Barras de herramientas(&amp;T)">
+<menuitem id="33043" text="Archivo(&amp;F)"/>
+<menuitem id="33044" text="Navegación(&amp;v)"/>
+<menuitem id="33045" text="Girar Documento(&amp;w)"/>
+<menuitem id="33046" text="Zoom(&amp;Z)"/>
+<menuitem id="33042" text="Básico(&amp;s)"/>
+<menuitem id="33104" text="Ayuda(&amp;H)"/>
+<menuitem id="33065" text="Vista de texto(&amp;x)"/>
+<menuitem id="33048" text="Barras de Herramientas por Defecto(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="Anclar todas las barras de herramientas(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="Ocultar barras de herramientas\tF8"/>
+</popup>
+<menuitem id="32898" text="Barra de menú(&amp;M)"/>
+<menuitem id="59393" text="Barra de estado(&amp;S)"/>
+</popup>
+<popup id="|3" text="Idioma(&amp;L)">
+<menuitem id="40801" text="Estado inicial(&amp;D)"/>
+</popup>
+<popup id="|4" text="Documento(&amp;D)">
+<menuitem id="32777" text="Primera página(&amp;F)\tHome"/>
+<menuitem id="32778" text="Página anterior(&amp;P)\tLeft Arrow"/>
+<menuitem id="32779" text="Página siguiente(&amp;N)\tRight Arrow"/>
+<menuitem id="32780" text="Última página(&amp;L)\tEnd"/>
+<menuitem id="33097" text="Ver anterior(&amp;V)\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Ver siguiente(&amp;w)\tAlt+Right Arrow"/>
+<menuitem id="32781" text="Ir a la página...(&amp;G)\tShift+Ctrl+N"/>
+</popup>
+<popup id="|5" text="Herramientas(&amp;T)">
+<menuitem id="32784" text="Herramienta mano(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="Herramienta reducir zoom(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="Herramienta aumentar zoom(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="Seleccionar texto(&amp;l)\tAlt+6"/>
+<menuitem id="32987" text="Capturar imagen(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="Visor de texto(&amp;V)\tAlt+9"/>
+<menuitem id="33110" text="JavaScript(&amp;J)"/>
+</popup>
+<popup id="|7" text="Ventana(&amp;W)">
+<menuitem id="57648" text="Nueva Ventana(&amp;N)"/>
+<menuitem id="57650" text="Cascada(&amp;C)"/>
+<menuitem id="57651" text="Mosaico(&amp;T)"/>
+<menuitem id="57649" text="Ordenar iconos(&amp;A)"/>
+<menuitem id="57602" text="Cerrar(&amp;o)"/>
+<menuitem id="32795" text="Cerrar todo(&amp;l)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|8" text="Ayuda(&amp;H)">
+<menuitem id="32969" text="Establecer Foxit Reader como visor PDF por defecto(&amp;S)"/>
+<menuitem id="32774" text="Web oficial de Foxit Software(&amp;H)"/>
+<menuitem id="57664" text="Sobre Foxit Reader...(&amp;A)"/>
+</popup>
+</menu>
+<menu id="159">
+<popup id="|0" text="Barras">
+<menuitem id="33043" text="Archivo(&amp;F)"/>
+<menuitem id="33044" text="Navegación(&amp;v)"/>
+<menuitem id="33045" text="Girar Documento(&amp;w)"/>
+<menuitem id="33046" text="Zoom(&amp;Z)"/>
+<menuitem id="33042" text="Básico(&amp;s)"/>
+<menuitem id="33104" text="Ayuda(&amp;H)"/>
+<menuitem id="33065" text="Vista de texto(&amp;x)"/>
+<menuitem id="33048" text="Barras de Herramientas por Defecto(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="Anclar todas las barras de herramientas(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="Ocultar barras de herramientas\tF8"/>
+<menuitem id="32930" text="Publicidad(&amp;A)"/>
+<menuitem id="32898" text="Barra del menú(&amp;M)"/>
+<menuitem id="59393" text="Barra de estado(&amp;S)"/>
+</popup>
+</menu>
+<menu id="164">
+<popup id="|0" text="Ayuda">
+<menuitem id="32969" text="Establecer Foxit Reader como visor PDF por defecto(&amp;S)"/>
+<menuitem id="32774" text="Web oficial de Foxit Software(&amp;H)"/>
+<menuitem id="57664" text="Sobre Foxit Reader...(&amp;A)"/>
+</popup>
+</menu>
+<menu id="266">
+<popup id="|0" text="Seleccionar texto">
+<menuitem id="57634" text="Copiar(&amp;C)\tCtrl+C"/>
+</popup>
+</menu>
+<menu id="245">
+<popup id="|0" text="Ver(&amp;V)">
+<menuitem id="32782" text="Marcador(&amp;B)\tAlt+1"/>
+<popup id="|0|2" text="Herramientas en Pantalla(&amp;c)">
+<menuitem id="32784" text="Herramienta mano(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="Alejar(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="Acercar(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="Seleccionar Texto(&amp;S)\tAlt+6"/>
+<menuitem id="32987" text="Capturar imagen(&amp;S)\tAlt+7"/>
+</popup>
+<menuitem id="32930" text="Publicidad(&amp;A)"/>
+<menuitem id="32787" text="Acercar(&amp;I)\tCtrl+Num +"/>
+<menuitem id="32788" text="Alejar(&amp;O)\tCtrl+Num -"/>
+<menuitem id="32789" text="Austar Zoom(&amp;T)\tCtrl+M"/>
+<menuitem id="32790" text="Tamaño real(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="Ajustar a página(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="Ajustar al Ancho(&amp;W)\tCtrl+3"/>
+<popup id="|0|14" text="Vista de página(&amp;y)">
+<menuitem id="32925" text="Página Única(&amp;g)"/>
+<menuitem id="32926" text="Páginas Contínuas(&amp;C)"/>
+<menuitem id="32938" text="Páginas Enfrentadas(&amp;F)"/>
+<menuitem id="32939" text="Páginas Enfrentadas Sucesivas(&amp;t)"/>
+</popup>
+<popup id="|0|16" text="Rotar la vista(&amp;V)">
+<menuitem id="32935" text="Rotar hacia la derecha(&amp;C)\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Rotar hacia la izquierda(&amp;w)\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="Vista inversa(&amp;R)"/>
+</popup>
+</menu>
+<menu id="623">
+<popup id="|0" text="ver texto">
+<menuitem id="57643" text="deshacer(&amp;U)\tCtrl+Z"/>
+<menuitem id="57635" text="cortar(&amp;t)\tCtrl+X"/>
+<menuitem id="57634" text="Copiar(&amp;C)\tCtrl+C"/>
+<menuitem id="57637" text="pegar(&amp;P)\tCtrl+V"/>
+<menuitem id="32901" text="Borrar(&amp;D)\tDel"/>
+<menuitem id="57636" text="Buscar...(&amp;F)\tCtrl+F"/>
+<menuitem id="32903" text="Buscar Siguiente(&amp;N)\tF3"/>
+<menuitem id="57641" text="reemplazar(&amp;R)\tCtrl+H"/>
+<menuitem id="57642" text="seleccionar todo(&amp;A)\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="720">
+<popup id="|0" text="ver texto">
+<menuitem id="57634" text="Copiar(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="Buscar...(&amp;F)\tCtrl+F"/>
+<menuitem id="32903" text="Buscar Siguiente(&amp;N)\tF3"/>
+<menuitem id="57642" text="seleccionar todo(&amp;A)\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="653">
+<popup id="|0" text="Barras de herramientas">
+<popup id="|0|0" text="mostrar etiquetas de botones">
+<menuitem id="33050" text="etiquetas por defecto(&amp;D)"/>
+<menuitem id="33051" text="todas las etiquetas(&amp;A)"/>
+<menuitem id="33052" text="sin etiquetas(&amp;N)"/>
+</popup>
+</popup>
+</menu>
+<menu id="163">
+<popup id="|0" text="Ver(&amp;V)">
+<menuitem id="32782" text="Marcador(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="Pantalla completa(&amp;F)\tAlt+2"/>
+<popup id="|0|2" text="herramientas(&amp;l)">
+<menuitem id="32784" text="Herramienta mano(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="Alejar(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="Acercar(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="Seleccionar Texto(&amp;S)\tAlt+6"/>
+<menuitem id="32987" text="Capturar imagen(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="Visor de texto(&amp;V)\tAlt+9"/>
+</popup>
+<menuitem id="32787" text="Acercar(&amp;I)\tCtrl+Num +"/>
+<menuitem id="32788" text="Alejar(&amp;O)\tCtrl+Num -"/>
+<menuitem id="32789" text="Austar Zoom(&amp;T)\tCtrl+M"/>
+<menuitem id="32790" text="Tamaño real(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="Ajustar a página(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="Ajustar al Ancho(&amp;W)\tCtrl+3"/>
+<popup id="|0|12" text="Vista de página(&amp;y)">
+<menuitem id="32925" text="Página Única(&amp;g)"/>
+<menuitem id="32926" text="Páginas Contínuas(&amp;C)"/>
+<menuitem id="32938" text="Páginas Enfrentadas(&amp;F)"/>
+<menuitem id="32939" text="Páginas Enfrentadas Sucesivas(&amp;t)"/>
+</popup>
+<popup id="|0|14" text="Rotar la vista(&amp;V)">
+<menuitem id="32935" text="Rotar hacia la derecha(&amp;C)\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Rotar hacia la izquierda(&amp;w)\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="Vista inversa(&amp;R)"/>
+<menuitem id="32930" text="Publicidad(&amp;A)"/>
+<popup id="|0|20" text="Barras de herramientas(&amp;T)">
+<menuitem id="33043" text="Archivo(&amp;F)"/>
+<menuitem id="33044" text="Navegación(&amp;v)"/>
+<menuitem id="33045" text="Girar Documento(&amp;w)"/>
+<menuitem id="33046" text="Zoom(&amp;Z)"/>
+<menuitem id="33042" text="Básico(&amp;s)"/>
+<menuitem id="33104" text="Ayuda(&amp;H)"/>
+<menuitem id="33065" text="Vista de texto(&amp;x)"/>
+<menuitem id="33048" text="Barras de Herramientas por Defecto(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="Anclar todas las barras de herramientas(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="Ocultar barras de herramientas\tF8"/>
+</popup>
+<menuitem id="59393" text="Barra de estado(&amp;S)"/>
+<menuitem id="32898" text="Barra de menú(&amp;M)"/>
+</popup>
+</menu>
+<menu id="160">
+<popup id="|0" text="acercar">
+<menuitem id="32865" text="1600%"/>
+<menuitem id="32866" text="800%"/>
+<menuitem id="32867" text="400%"/>
+<menuitem id="32868" text="200%"/>
+<menuitem id="32869" text="150%"/>
+<menuitem id="32870" text="125%"/>
+<menuitem id="32871" text="100%"/>
+</popup>
+</menu>
+<menu id="161">
+<popup id="|0" text="alejar">
+<menuitem id="32871" text="100%"/>
+<menuitem id="32873" text="50%"/>
+<menuitem id="32874" text="25%"/>
+<menuitem id="32875" text="12.5%"/>
+<menuitem id="32876" text="8.33%"/>
+</popup>
+</menu>
+<menu id="129">
+<popup id="|1" text="Archivo(&amp;F)">
+<menuitem id="57601" text="Abrir...(&amp;O)\tCtrl+O"/>
+<menuitem id="33111" text="Convertir PDF...(&amp;C)"/>
+<menuitem id="57602" text="Cerrar(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="Guardar\tCtrl+S"/>
+<menuitem id="32932" text="Guardar como...(&amp;A)\tCtrl+Shift+S"/>
+<menuitem id="57607" text="Imprimir...(&amp;P)\tCtrl+P"/>
+<menuitem id="57606" text="Configurar impresión(&amp;r)"/>
+<menuitem id="57616" text="Archivos recientes"/>
+<menuitem id="32776" text="Propiedades...(&amp;t)"/>
+<menuitem id="57665" text="Salir(&amp;x)\tCtrl+Q"/>
+</popup>
+<popup id="|2" text="Editar(&amp;E)">
+<menuitem id="33112" text="Modificar contenido(&amp;M)"/>
+<menuitem id="57634" text="Copiar(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="Buscar texto...(&amp;F)\tCtrl+F"/>
+<menuitem id="32903" text="Buscar siguiente(&amp;N)\tF3"/>
+<menuitem id="32985" text="Preferencias...(&amp;P)\tCtrl+K"/>
+</popup>
+<popup id="|3" text="Ver(&amp;V)">
+<menuitem id="32782" text="Marcador(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="Pantalla completa(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="Acercar(&amp;I)\tCtrl+Num +"/>
+<menuitem id="32788" text="Alejar(&amp;O)\tCtrl+Num -"/>
+<menuitem id="32789" text="Austar Zoom(&amp;T)\tCtrl+M"/>
+<menuitem id="32790" text="Tamaño real(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="Ajustar a página(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="Ajustar al Ancho(&amp;W)\tCtrl+3"/>
+<popup id="|3|12" text="Vista de página(&amp;y)">
+<menuitem id="32925" text="Página Única(&amp;g)"/>
+<menuitem id="32926" text="Páginas Contínuas(&amp;C)"/>
+<menuitem id="32938" text="Páginas Enfrentadas(&amp;F)"/>
+<menuitem id="32939" text="Páginas Enfrentadas Sucesivas(&amp;t)"/>
+</popup>
+<popup id="|3|14" text="Rotar la vista(&amp;V)">
+<menuitem id="32935" text="Rotar hacia la derecha(&amp;C)\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Rotar hacia la izquierda(&amp;w)\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="Vista inversa(&amp;R)"/>
+<menuitem id="32930" text="Publicidad(&amp;A)"/>
+<popup id="|3|20" text="Barras de herramientas(&amp;T)">
+<menuitem id="33043" text="Archivo(&amp;F)"/>
+<menuitem id="33044" text="Navegación(&amp;v)"/>
+<menuitem id="33045" text="Girar Documento(&amp;w)"/>
+<menuitem id="33046" text="Zoom(&amp;Z)"/>
+<menuitem id="33042" text="Básico(&amp;s)"/>
+<menuitem id="33104" text="Ayuda(&amp;H)"/>
+<menuitem id="33065" text="Vista de texto(&amp;x)"/>
+<menuitem id="33048" text="Barras de Herramientas por Defecto(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="Anclar todas las barras de herramientas(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="Ocultar barras de herramientas\tF8"/>
+</popup>
+<menuitem id="32898" text="Barra de menú(&amp;M)"/>
+<menuitem id="59393" text="Barra de estado(&amp;S)"/>
+</popup>
+<popup id="|4" text="Idioma(&amp;L)">
+<menuitem id="40801" text="Estado inicial(&amp;D)"/>
+</popup>
+<popup id="|5" text="Documento(&amp;D)">
+<menuitem id="32777" text="Primera página(&amp;F)\tHome"/>
+<menuitem id="32778" text="Página anterior(&amp;P)\tLeft Arrow"/>
+<menuitem id="32779" text="Página siguiente(&amp;N)\tRight Arrow"/>
+<menuitem id="32780" text="Última página(&amp;L)\tEnd"/>
+<menuitem id="33097" text="Ver anterior(&amp;V)\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Ver siguiente(&amp;w)\tAlt+Right Arrow"/>
+<menuitem id="32781" text="Ir a la página...(&amp;G)\tShift+Ctrl+N"/>
+</popup>
+<popup id="|6" text="Herramientas(&amp;T)">
+<menuitem id="32784" text="Herramienta mano(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="Herramienta reducir zoom(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="Herramienta aumentar zoom(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="Seleccionar texto(&amp;l)\tAlt+6"/>
+<menuitem id="32987" text="Capturar imagen(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="Visor de texto(&amp;V)\tAlt+9"/>
+<menuitem id="33110" text="JavaScript(&amp;J)"/>
+</popup>
+<popup id="|8" text="Ventana(&amp;W)">
+<menuitem id="57648" text="Nueva Ventana(&amp;N)"/>
+<menuitem id="57650" text="Cascada(&amp;C)"/>
+<menuitem id="57651" text="Mosaico(&amp;T)"/>
+<menuitem id="57649" text="Ordenar iconos(&amp;A)"/>
+<menuitem id="57602" text="Cerrar(&amp;o)"/>
+<menuitem id="32795" text="Cerrar todo(&amp;l)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|9" text="Ayuda(&amp;H)">
+<menuitem id="32969" text="Establecer Foxit Reader como visor PDF por defecto(&amp;S)"/>
+<menuitem id="32774" text="Web oficial de Foxit Software(&amp;H)"/>
+<menuitem id="57664" text="Sobre Foxit Reader...(&amp;A)"/>
+</popup>
+</menu>
+<menu id="209">
+<popup id="|0" text="Archivo(&amp;F)">
+<menuitem id="57601" text="Abrir...(&amp;O)\tCtrl+O"/>
+<menuitem id="57602" text="Cerrar(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="Guardar\tCtrl+S"/>
+<menuitem id="32932" text="Guardar como...(&amp;A)\tCtrl+Shift+S"/>
+<menuitem id="57607" text="Imprimir...(&amp;P)\tCtrl+P"/>
+<menuitem id="57606" text="Configurar impresión(&amp;r)"/>
+<menuitem id="57616" text="Archivos recientes"/>
+<menuitem id="32776" text="Propiedades...(&amp;t)"/>
+<menuitem id="57665" text="Salir(&amp;x)\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="Editar(&amp;E)">
+<menuitem id="57634" text="Copiar(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="Buscar texto...(&amp;F)\tCtrl+F"/>
+<menuitem id="32903" text="Buscar siguiente(&amp;N)\tF3"/>
+<menuitem id="32985" text="Preferencias...(&amp;P)\tCtrl+K"/>
+</popup>
+<popup id="|2" text="Ver(&amp;V)">
+<menuitem id="32782" text="Marcador(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="Pantalla completa(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="Acercar(&amp;I)\tCtrl+Num +"/>
+<menuitem id="32788" text="Alejar(&amp;O)\tCtrl+Num -"/>
+<menuitem id="32789" text="Austar Zoom(&amp;T)\tCtrl+M"/>
+<menuitem id="32790" text="Tamaño real(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="Ajustar a página(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="Ajustar al Ancho(&amp;W)\tCtrl+3"/>
+<popup id="|2|12" text="Vista de página(&amp;y)">
+<menuitem id="32925" text="Página Única(&amp;g)"/>
+<menuitem id="32926" text="Páginas Contínuas(&amp;C)"/>
+<menuitem id="32938" text="Páginas Enfrentadas(&amp;F)"/>
+<menuitem id="32939" text="Páginas Enfrentadas Sucesivas(&amp;t)"/>
+</popup>
+<popup id="|2|14" text="Rotar la vista(&amp;V)">
+<menuitem id="32935" text="Rotar hacia la derecha(&amp;C)\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Rotar hacia la izquierda(&amp;w)\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="Vista inversa(&amp;R)"/>
+<menuitem id="32930" text="Publicidad(&amp;A)"/>
+<popup id="|2|20" text="Barras de herramientas(&amp;T)">
+<menuitem id="33043" text="Archivo(&amp;F)"/>
+<menuitem id="33044" text="Navegación(&amp;v)"/>
+<menuitem id="33045" text="Girar Documento(&amp;w)"/>
+<menuitem id="33046" text="Zoom(&amp;Z)"/>
+<menuitem id="33042" text="Básico(&amp;s)"/>
+<menuitem id="33104" text="Ayuda(&amp;H)"/>
+<menuitem id="33065" text="Vista de texto(&amp;x)"/>
+<menuitem id="33048" text="Barras de Herramientas por Defecto(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="Anclar todas las barras de herramientas(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="Ocultar barras de herramientas\tF8"/>
+</popup>
+<menuitem id="32898" text="Barra de menú(&amp;M)"/>
+<menuitem id="59393" text="Barra de estado(&amp;S)"/>
+</popup>
+<popup id="|3" text="Documento(&amp;D)">
+<menuitem id="32777" text="Primera página(&amp;F)\tHome"/>
+<menuitem id="32778" text="Página anterior(&amp;P)\tLeft Arrow"/>
+<menuitem id="32779" text="Página siguiente(&amp;N)\tRight Arrow"/>
+<menuitem id="32780" text="Última página(&amp;L)\tEnd"/>
+<menuitem id="33097" text="Ver anterior(&amp;V)\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Ver siguiente(&amp;w)\tAlt+Right Arrow"/>
+<menuitem id="32781" text="Ir a la página...(&amp;G)\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="Herramientas(&amp;T)">
+<menuitem id="32784" text="Herramienta mano(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="Herramienta reducir zoom(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="Herramienta aumentar zoom(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="Seleccionar texto(&amp;l)\tAlt+6"/>
+<menuitem id="32987" text="Capturar imagen(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="Visor de texto(&amp;V)\tAlt+9"/>
+</popup>
+<popup id="|5" text="Ventana(&amp;W)">
+<menuitem id="57648" text="Nueva Ventana(&amp;N)"/>
+<menuitem id="57650" text="Cascada(&amp;C)"/>
+<menuitem id="57651" text="Mosaico(&amp;T)"/>
+<menuitem id="57649" text="Ordenar iconos(&amp;A)"/>
+<menuitem id="57602" text="Cerrar(&amp;o)"/>
+<menuitem id="32795" text="Cerrar todo(&amp;l)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="Ayuda(&amp;H)">
+<menuitem id="32969" text="Establecer Foxit Reader como visor PDF por defecto(&amp;S)"/>
+<menuitem id="32774" text="Web oficial de Foxit Software(&amp;H)"/>
+<menuitem id="57664" text="Sobre Foxit Reader...(&amp;A)"/>
+</popup>
+</menu>
+<menu id="205">
+<popup id="|0" text="Archivo(&amp;F)">
+<menuitem id="57601" text="Abrir...(&amp;O)\tCtrl+O"/>
+<menuitem id="57602" text="Cerrar(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="Guardar\tCtrl+S"/>
+<menuitem id="32932" text="Guardar como...(&amp;A)\tCtrl+Shift+S"/>
+<menuitem id="57607" text="Imprimir...(&amp;P)\tCtrl+P"/>
+<menuitem id="57606" text="Configurar impresión(&amp;r)"/>
+<menuitem id="57616" text="Archivos recientes"/>
+<menuitem id="32776" text="Propiedades...(&amp;t)"/>
+<menuitem id="57665" text="Salir(&amp;x)\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="Editar(&amp;E)">
+<menuitem id="57634" text="Copiar(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="Buscar texto...(&amp;F)\tCtrl+F"/>
+<menuitem id="32903" text="Buscar siguiente(&amp;N)\tF3"/>
+<menuitem id="32985" text="Preferencias...(&amp;P)\tCtrl+K"/>
+</popup>
+<popup id="|2" text="Ver(&amp;V)">
+<menuitem id="32782" text="Marcador(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="Pantalla completa(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="Acercar(&amp;I)\tCtrl+Num +"/>
+<menuitem id="32788" text="Alejar(&amp;O)\tCtrl+Num -"/>
+<menuitem id="32789" text="Austar Zoom(&amp;T)\tCtrl+M"/>
+<menuitem id="32790" text="Tamaño real(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="Ajustar a página(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="Ajustar al Ancho(&amp;W)\tCtrl+3"/>
+<popup id="|2|12" text="Vista de página(&amp;y)">
+<menuitem id="32925" text="Página Única(&amp;g)"/>
+<menuitem id="32926" text="Páginas Contínuas(&amp;C)"/>
+<menuitem id="32938" text="Páginas Enfrentadas(&amp;F)"/>
+<menuitem id="32939" text="Páginas Enfrentadas Sucesivas(&amp;t)"/>
+</popup>
+<popup id="|2|14" text="Rotar la vista(&amp;V)">
+<menuitem id="32935" text="Rotar hacia la derecha(&amp;C)\tShift+Ctrl+Plus"/>
+<menuitem id="32941" text="Rotar hacia la izquierda(&amp;w)\tShift+Ctrl+Minus"/>
+</popup>
+<menuitem id="32942" text="Vista inversa(&amp;R)"/>
+<menuitem id="32930" text="Publicidad(&amp;A)"/>
+<popup id="|2|20" text="Barras de herramientas(&amp;T)">
+<menuitem id="33043" text="Archivo(&amp;F)"/>
+<menuitem id="33044" text="Navegación(&amp;v)"/>
+<menuitem id="33045" text="Girar Documento(&amp;w)"/>
+<menuitem id="33046" text="Zoom(&amp;Z)"/>
+<menuitem id="33042" text="Básico(&amp;s)"/>
+<menuitem id="33104" text="Ayuda(&amp;H)"/>
+<menuitem id="33065" text="Vista de texto(&amp;x)"/>
+<menuitem id="33048" text="Barras de Herramientas por Defecto(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="Anclar todas las barras de herramientas(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="Ocultar barras de herramientas\tF8"/>
+</popup>
+<menuitem id="32898" text="Barra de menú(&amp;M)"/>
+<menuitem id="59393" text="Barra de estado(&amp;S)"/>
+</popup>
+<popup id="|3" text="Documento(&amp;D)">
+<menuitem id="32777" text="Primera página(&amp;F)\tHome"/>
+<menuitem id="32778" text="Página anterior(&amp;P)\tLeft Arrow"/>
+<menuitem id="32779" text="Página siguiente(&amp;N)\tRight Arrow"/>
+<menuitem id="32780" text="Última página(&amp;L)\tEnd"/>
+<menuitem id="33097" text="Ver anterior(&amp;V)\tAlt+Left Arrow "/>
+<menuitem id="33098" text="Ver siguiente(&amp;w)\tAlt+Right Arrow"/>
+<menuitem id="32781" text="Ir a la página...(&amp;G)\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="Herramientas(&amp;T)">
+<menuitem id="32784" text="Herramienta mano(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="Herramienta reducir zoom(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="Herramienta aumentar zoom(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="Seleccionar texto(&amp;l)\tAlt+6"/>
+<menuitem id="32987" text="Capturar imagen(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="Visor de texto(&amp;V)\tAlt+9"/>
+</popup>
+<popup id="|5" text="Ventana(&amp;W)">
+<menuitem id="57648" text="Nueva Ventana(&amp;N)"/>
+<menuitem id="57650" text="Cascada(&amp;C)"/>
+<menuitem id="57651" text="Mosaico(&amp;T)"/>
+<menuitem id="57649" text="Ordenar iconos(&amp;A)"/>
+<menuitem id="57602" text="Cerrar(&amp;o)"/>
+<menuitem id="32795" text="Cerrar todo(&amp;l)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="Ayuda(&amp;H)">
+<menuitem id="32969" text="Establecer Foxit Reader como visor PDF por defecto(&amp;S)"/>
+<menuitem id="32774" text="Web oficial de Foxit Software(&amp;H)"/>
+<menuitem id="57664" text="Sobre Foxit Reader...(&amp;A)"/>
+</popup>
+</menu>
+<menu id="9032">
+<popup id="|0" text="Escala horizontal">
+<menuitem id="9061" text="200%"/>
+<menuitem id="9067" text="150%"/>
+<menuitem id="9066" text="125%"/>
+<menuitem id="9062" text="100%"/>
+<menuitem id="9063" text="75%"/>
+<menuitem id="9064" text="50%"/>
+<menuitem id="9065" text="Más..."/>
+</popup>
+</menu>
+</Menus>
+<Dialogs>
+<Dialog id="147">
+<dlgitem id="1002" text="Guardar documento completo"/>
+<dlgitem id="1003" text="Guardar página actual"/>
+<dlgitem id="1004" text="Guardar páginas en rango:"/>
+<dlgitem id="1191" text="a"/>
+<dlgitem id="1190" text="Que guardar:"/>
+</Dialog>
+<Dialog id="727" text="Progreso">
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="1256" text="Progreso1"/>
+<dlgitem id="1255" text="Buscar..."/>
+</Dialog>
+<Dialog id="274" text="Buscar texto">
+<dlgitem id="1192" text="Que buscar:(&amp;n)"/>
+<dlgitem id="1067" text="Solo palabras completas(&amp;w)"/>
+<dlgitem id="1068" text="Mayúsculas/Minúsculas(&amp;c)"/>
+<dlgitem id="1193" text="Dirección"/>
+<dlgitem id="1069" text="Arriba(&amp;U)"/>
+<dlgitem id="1070" text="Abajo(&amp;D)"/>
+<dlgitem id="1153" text="Buscar siguiente(&amp;F)"/>
+<dlgitem id="2" text="Cancelar(&amp;C)"/>
+</Dialog>
+<Dialog id="157" text="Ir a la página">
+<dlgitem id="1194" text="Página(&amp;P)"/>
+<dlgitem id="1195" text="de"/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+</Dialog>
+<Dialog id="130" text="Contraseña">
+<dlgitem id="1196" text="Ingresar contraseña:"/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="1121" text="Archivo protegido. Ingrese la contraseña para abrir el documento"/>
+</Dialog>
+<Dialog id="276">
+<dlgitem id="1197" text="Opciones de color del documento"/>
+<dlgitem id="1074" text="Reemplazar colores del documento(&amp;R)"/>
+<dlgitem id="1075" text="Usar Esquema de Color de Windows(&amp;W)"/>
+<dlgitem id="1076" text="Color personalizado:(&amp;C)"/>
+<dlgitem id="1102" text="Fondo de página:(&amp;B)"/>
+<dlgitem id="1103" text="Texto del documento:(&amp;T)"/>
+<dlgitem id="1078" text="Cambiar solo color del contenido blanco/negro(&amp;o)"/>
+</Dialog>
+<Dialog id="300">
+<dlgitem id="1198" text="Selección"/>
+<dlgitem id="1108" text="Usar resolución fija para capturas(&amp;n)"/>
+<dlgitem id="1200" text="Resolución:(&amp;u)"/>
+<dlgitem id="1199" text="Impresora"/>
+<dlgitem id="1253" text="Imprimir texto como gráficos (ignorar sustitución de fuentes)(&amp;g)"/>
+</Dialog>
+<Dialog id="278">
+<dlgitem id="1201" text="Presentación de página"/>
+<dlgitem id="1202" text="Distribución predeterminada:(&amp;a)"/>
+<dlgitem id="1101" text="Mostrar malla transparente(&amp;t)"/>
+<dlgitem id="1105" text="Orientación propia(&amp;c)"/>
+<dlgitem id="1204" text="Páginas"/>
+<dlgitem id="1252" text="Margen propio(&amp;M)"/>
+<dlgitem id="1205" text="Píxeles"/>
+<dlgitem id="1111" text="Mostrar texto optimizado para pantalla LCD"/>
+<dlgitem id="1203" text="Ampliación"/>
+<dlgitem id="1206" text="Zoom predeterminado:(&amp;z)"/>
+<dlgitem id="1207" text="Máx. zoom visible aplicable:(&amp;V)"/>
+</Dialog>
+<Dialog id="275" text="Preferencias">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="1104" text="Ítem:"/>
+</Dialog>
+<Dialog id="778" text="Progreso">
+<dlgitem id="1152" text="Progreso1"/>
+<dlgitem id="1255" text="Imprimiendo..."/>
+<dlgitem id="2" text="Cancelar"/>
+</Dialog>
+<Dialog id="530" text="Impresora">
+<dlgitem id="1199" text="Impresora"/>
+<dlgitem id="1208" text="Nombre:(&amp;N)"/>
+<dlgitem id="1120" text="Propiedades(&amp;P)"/>
+<dlgitem id="1209" text="Estado:"/>
+<dlgitem id="1141" text="Preparado"/>
+<dlgitem id="1122" text="Imprimir a archivo(&amp;f)"/>
+<dlgitem id="1210" text="Tipo:"/>
+<dlgitem id="1142" text="Impresora Foxit PDF"/>
+<dlgitem id="1139" text="Consejos de impresión(&amp;T)"/>
+<dlgitem id="1140" text="Avanzado(&amp;d)"/>
+<dlgitem id="1211" text="Rango de impresión"/>
+<dlgitem id="1123" text="Todo(&amp;A)"/>
+<dlgitem id="1127" text="Vista actual(&amp;v)"/>
+<dlgitem id="1130" text="Página actual(&amp;u)"/>
+<dlgitem id="1216" text="Desde pág.:(&amp;g)"/>
+<dlgitem id="1191" text="a:(&amp;t)"/>
+<dlgitem id="1212" text="Subgrupo:(&amp;b)"/>
+<dlgitem id="1226" text="Orden inverso(&amp;e)"/>
+<dlgitem id="1213" text="Manejo de impresión"/>
+<dlgitem id="1214" text="Copias:(&amp;C)"/>
+<dlgitem id="1163" text="Márgenes:(&amp;M)"/>
+<dlgitem id="1228" text="en"/>
+<dlgitem id="1229" text="Recopilar(&amp;o)"/>
+<dlgitem id="1215" text="Escala de pág.:(&amp;S)"/>
+<dlgitem id="1217" text="Arreglo de pág.:(&amp;r)"/>
+<dlgitem id="1219" text="Rotar página:(&amp;R)"/>
+<dlgitem id="1164" text="Orden de pág.:(&amp;d)"/>
+<dlgitem id="1165" text="Pág. por hoja:(&amp;s)"/>
+<dlgitem id="1166" text="por(&amp;y)"/>
+<dlgitem id="1133" text="Auto-Rotar(&amp;R)"/>
+<dlgitem id="1151" text="Auto-Centrar(&amp;t)"/>
+<dlgitem id="1156" text="Imprimir borde de página(&amp;B)"/>
+<dlgitem id="1221" text="Que imprimir:(&amp;W)"/>
+<dlgitem id="1135" text="Elegir origen de papel por tamaño de pág. PDF(&amp;z)"/>
+<dlgitem id="1154" text="Vista previa"/>
+<dlgitem id="1222" text="Documento:"/>
+<dlgitem id="1223" text="Papel:"/>
+<dlgitem id="1225" text="Unidad:"/>
+<dlgitem id="1144" text="Estático"/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="1143" text="Mostrar página"/>
+</Dialog>
+<Dialog id="791" text="Foxit Reader">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="1227" text="Su documento PDF usa caracteres CJK(chino,japonés,coreano). Necesita instalar el archivo FPDFCJK.BIN en la carpeta de Foxit, de otro modo algunos de esos caracteres no se mostraran correctamente."/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com/pdf/rd_intro.php"/>
+<dlgitem id="1228" text="Puede descargar el archivo desde"/>
+</Dialog>
+<Dialog id="723" text="Foxit Reader">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="1227" text="¡Gracias por usar Foxit Reader! Esta es una versión de evaluación con las siguientes limitaciones:"/>
+<dlgitem id="1231" text="Si desea adquirir una licencia para una copia de Foxit Reader, visite nuestro sitio web en"/>
+<dlgitem id="1232" text="o escriba a sales@foxitsoftware.com."/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com"/>
+<dlgitem id="1106" text="No mostrar este mensaje otra vez"/>
+</Dialog>
+<Dialog id="252" text="Foxit Reader">
+<dlgitem id="1064" text="Realizar esta comprobación cada vez que se inicie Foxit Reader"/>
+<dlgitem id="1" text="Sí(&amp;Y)"/>
+<dlgitem id="2" text="No(&amp;N)"/>
+<dlgitem id="1065" text="Actualmente Foxit Reader no es el lector predeterminado de ficheros PDF. ¿Quiere establecer Foxit Reader como el lector predeterminado de ficheros PDF?"/>
+<dlgitem id="1228" text="Tras establecer Foxit Reader como lector PDF predeterminado, podrá aplicar doble click en archivos PDF para lanzar Foxit Reader automáticamente, o ver archivos PDF en la web con Internet Explorer."/>
+<dlgitem id="1229" text="Para cambiar el lector PDF predeterminado, necesita ejecutar el otro lector y establecerlo nuevo lector PDF predeterminado."/>
+</Dialog>
+<Dialog id="285" text="Foxit Reader">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="1065" text="El área seleccionada ha sido copiada al portapapeles."/>
+<dlgitem id="1106" text="No mostrar este mensaje otra vez"/>
+</Dialog>
+<Dialog id="150" text="Propiedades">
+<dlgitem id="1244" text="General"/>
+<dlgitem id="1032" text="Estático"/>
+<dlgitem id="1201" text="Estático"/>
+<dlgitem id="1241" text="Avanzado"/>
+<dlgitem id="1243" text="Núm. de páginas:"/>
+<dlgitem id="1057" text="Versión PDF:"/>
+<dlgitem id="1208" text="Más..."/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="1242" text="Tam. de pág.:"/>
+<dlgitem id="1233" text="Título:"/>
+<dlgitem id="1234" text="Asunto:"/>
+<dlgitem id="1235" text="Autor"/>
+<dlgitem id="1238" text="Caracteres"/>
+<dlgitem id="1236" text="Creador:"/>
+<dlgitem id="1237" text="Productor:"/>
+<dlgitem id="1239" text="Creado:"/>
+<dlgitem id="1240" text="Modificado:"/>
+<dlgitem id="1205" text="Estático"/>
+<dlgitem id="1207" text="Estático"/>
+<dlgitem id="1203" text="Estático"/>
+</Dialog>
+<Dialog id="788" text="Foxit Reader">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="1245" text="Gracias por usar Foxit Reader"/>
+<dlgitem id="1246" text="La característica que quiere usar es parte de Foxit Reader (Versión Profesional). Aún puede usarla aquí, pero si quiere guardar el archivo PDF, las página modificadas contendrán algunas marcas de evaluación."/>
+<dlgitem id="1106" text="No mostrar este mensaje otra vez"/>
+<dlgitem id="1057" text="(Versión Estándar)."/>
+<dlgitem id="1228" text="Cuando adquiera Foxit Reader, Versión Profesional, será capaz de deshacerse de esas marcas de evaluación fácilmente."/>
+<dlgitem id="1270" text="Visite el sitio web de Foxit Software (www.foxitsoftware.com) para más información acerca de como adquirir una licencia de Foxit Reader (Versión Profesional)."/>
+</Dialog>
+<Dialog id="786" text="Foxit Reader">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="1245" text="Gracias por usar Foxit Reader"/>
+<dlgitem id="1228" text="La característica que requiere es parte de Foxit Reader (Versión Profesional), y no está habilitada para usuarios de la Versión Estándar."/>
+<dlgitem id="1106" text="No mostrar este mensaje otra vez"/>
+<dlgitem id="1057" text="(Versión Estándar)."/>
+<dlgitem id="1270" text="Visite el sitio web de Foxit Software (www.foxitsoftware.com) para más información acerca de como adquirir una licencia de Foxit Reader (Versión Profesional)."/>
+</Dialog>
+<Dialog id="787" text="Foxit Reader">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="1245" text="Gracias por usar Foxit Reader"/>
+<dlgitem id="1246" text="Ha modificado este documento, aún puede guardarlo, pero las páginas modificadas contendrán algunas marcas de evaluación."/>
+<dlgitem id="1106" text="No mostrar este mensaje otra vez"/>
+<dlgitem id="1057" text="(Versión Estándar)."/>
+<dlgitem id="1228" text="Cuando adquiera Foxit Reader, Versión Profesional, será capaz de deshacerse de esas marcas de evaluación fácilmente."/>
+<dlgitem id="1270" text="Visite el sitio web de Foxit Software (www.foxitsoftware.com) para más información acerca de como adquirir una licencia de Foxit Reader (Versión Profesional)."/>
+</Dialog>
+<Dialog id="165" text="Colores de Visor de texto">
+<dlgitem id="1254" text="Fondo"/>
+<dlgitem id="1251" text="rojo:"/>
+<dlgitem id="1202" text="Barra de desplazamiento"/>
+<dlgitem id="1252" text="verde:"/>
+<dlgitem id="1206" text="Barra de desplazamiento"/>
+<dlgitem id="1253" text="azul:"/>
+<dlgitem id="1204" text="Barra de desplazamiento"/>
+<dlgitem id="1084" text="Fondo"/>
+<dlgitem id="1255" text="rojo:"/>
+<dlgitem id="1210" text="Barra de desplazamiento"/>
+<dlgitem id="1256" text="verde:"/>
+<dlgitem id="1212" text="Barra de desplazamiento"/>
+<dlgitem id="1257" text="azul:"/>
+<dlgitem id="1214" text="Barra de desplazamiento"/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+</Dialog>
+<Dialog id="708"/>
+<Dialog id="673" text="Fuente PDF...">
+<dlgitem id="1048" text="Lista"/>
+<dlgitem id="1258" text="Objetivo"/>
+<dlgitem id="1051" text="Vista previa"/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+</Dialog>
+<Dialog id="672" text="Opciones de Visor de texto">
+<dlgitem id="1259" text="Ancho de página actual"/>
+<dlgitem id="1264" text="Ancho mínimo:"/>
+<dlgitem id="1043" text="Auto-ajustar"/>
+<dlgitem id="1045" text="Auto-rotar"/>
+<dlgitem id="1242" text="Mantener columna"/>
+<dlgitem id="1260" text="Ancho de documento actual"/>
+<dlgitem id="1263" text="Ancho mínimo:"/>
+<dlgitem id="1058" text="Auto-ajustar"/>
+<dlgitem id="1061" text="Auto-rotar"/>
+<dlgitem id="1060" text="Mantener columna"/>
+<dlgitem id="1261" text="Ancho predefinido del sistema"/>
+<dlgitem id="1262" text="Ancho mínimo:"/>
+<dlgitem id="1240" text="Auto-ajustar"/>
+<dlgitem id="1062" text="Auto-rotar"/>
+<dlgitem id="1056" text="Mantener columna"/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+</Dialog>
+<Dialog id="158" text="Zoom a">
+<dlgitem id="1203" text="Aumentar(&amp;M)"/>
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+</Dialog>
+<Dialog id="9026" text="Espaciado de caracteres">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="9018" text="Expandido"/>
+<dlgitem id="9011" text="Condensado"/>
+<dlgitem id="9027" text="Por:"/>
+<dlgitem id="9029" text="Por:"/>
+<dlgitem id="9014" text="Vista previa"/>
+<dlgitem id="9021" text="Puede expandir o condensar la línea de texto usando otro espaciado de caracter:"/>
+<dlgitem id="9023" text="Punto"/>
+<dlgitem id="9025" text="Punto"/>
+</Dialog>
+<Dialog id="9024" text="Escala horizontal">
+<dlgitem id="1" text="Aceptar"/>
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="9008" text="Vista previa"/>
+<dlgitem id="9031" text="Escala horizontal:(&amp;H)"/>
+<dlgitem id="9033" text="%"/>
+</Dialog>
+<Dialog id="9054" text="Símbolo">
+<dlgitem id="1" text="Insertar(&amp;I)"/>
+<dlgitem id="2" text="Cancelar(&amp;C)"/>
+</Dialog>
+<Dialog id="9020" text="Ajustes de preferencias">
+<dlgitem id="1" text="Aceptar(&amp;O)"/>
+<dlgitem id="2" text="Cancelar(&amp;n)"/>
+<dlgitem id="9035" text="Fuente predeterminada:(&amp;n)"/>
+<dlgitem id="9039" text="Tamaño predeterminado:(&amp;s)"/>
+<dlgitem id="9047" text="Color de fondo:(&amp;k)"/>
+<dlgitem id="9010" text="Cambiar(&amp;g)"/>
+<dlgitem id="9041" text="Escala horizontal:(&amp;H)"/>
+<dlgitem id="65535" text="%"/>
+<dlgitem id="9043" text="Espacio predeterminado:(&amp;c)"/>
+<dlgitem id="9045" text="Color predeterminado:(&amp;o)"/>
+<dlgitem id="9017" text="Cambiar(&amp;a)"/>
+<dlgitem id="9037" text="Estilo predeterminado:"/>
+<dlgitem id="9005" text="Negrita(&amp;B)"/>
+<dlgitem id="9019" text="Cursiva(&amp;I)"/>
+</Dialog>
+<Dialog id="9022">
+<dlgitem id="9049" text="Fuente:"/>
+</Dialog>
+<Dialog id="793" text="Actualizador de Foxit Reader">
+<dlgitem id="1185" text="Descargar(&amp;D)"/>
+<dlgitem id="2" text="Cancelar(&amp;C)"/>
+<dlgitem id="1178" text="Progreso1"/>
+<dlgitem id="1187" text="Nombre de archivo:"/>
+<dlgitem id="1188" text="Ubicación:"/>
+<dlgitem id="1189" text="Tiempo restante:"/>
+<dlgitem id="1186" text="Descripción:"/>
+</Dialog>
+<Dialog id="792" text="Componente ausente">
+<dlgitem id="1" text="Sí(&amp;Y)"/>
+<dlgitem id="2" text="No(&amp;N)"/>
+<dlgitem id="1186" text="Falta un componente para su archivo PDF. Podría necesitar descargar una actualización desde nuestro sitio web para mostrar su archivo correctamente."/>
+<dlgitem id="1226" text="¿Desea visitar nuestro sitio web para obtener más información?"/>
+</Dialog>
+<Dialog id="796" text="Foxit Reader">
+<dlgitem id="1" text="Descargar"/>
+<dlgitem id="2" text="Cancelar"/>
+<dlgitem id="1265" text="Actualización reciente:"/>
+<dlgitem id="1266" text="Actualización seleccionada"/>
+<dlgitem id="1269" text="(0.0 KB)"/>
+<dlgitem id="1169" text="Añadir(&amp;A)"/>
+<dlgitem id="1170" text="Eliminar(&amp;R)"/>
+<dlgitem id="1186" text="Descripción:"/>
+<dlgitem id="1209" text="Estado:"/>
+<dlgitem id="1267" text="Tamaño:"/>
+<dlgitem id="1174" text="Progreso1"/>
+</Dialog>
+</Dialogs>
+<Strings>
+<string id="100" text="Falló de inicialización OLE. Compruebe que las bibliotecas OLE son de la versión correcta."/>
+<string id="128" text="Foxit Reader 1.3"/>
+<string id="129" text="\nFoxit Reader\nPDF\nArchivos PDF(*.pdf)\n.pdf\nFoxitReader.Document\nDocumento PDF"/>
+<string id="2015" text="2005-2006 Foxit Software"/>
+<string id="2016" text="1.3 Build 1625"/>
+<string id="2017" text="Para cambiar el lector PDF predeterminado, necesita ejecutar el otro lector y establecerlo nuevo lector PDF predeterminado."/>
+<string id="2020" text="está protegido. Ingrese una Contraseña para Abrir Documento."/>
+<string id="2021" text="¡Click aquí para saber como usar las características avanzadas provistas por Foxit Reader!"/>
+<string id="2022" text="¡Click aquí para saber como usar la característica GRATUITA typewriter para tipear en documentos PDF!"/>
+<string id="2023" text="¡Click aquí para asber como modificar cualquier documento PDF!"/>
+<string id="2024" text="Ahora puede usar nuestra característica GRATUITA typewriter para tipear\n\ncualquier documento PDF. Pulse el botón \&quot;Typewriter\&quot; en la barra, o elija\n\&quot;Typewriter\&quot; en el menú \&quot;Edición\&quot;, ¡click al documento y comience a tipear!\n\n. Y puede imprimir el documento con lo tipeado en él."/>
+<string id="2025" text="Antes de hacer tareas relativas a impresión como configurar página o imprimir\n\nun documento, debe instalar una impresora."/>
+<string id="2026" text="Hay un error abriendo este documento. El archivo está dañado y no puede ser reparado."/>
+<string id="2027" text="No se encuentra la página ;)"/>
+<string id="2028" text="No se inició la aplicación."/>
+<string id="2029" text="No hay una página númer \&quot;%s\&quot; en este documento."/>
+<string id="2031" text="Copyright (C)"/>
+<string id="2032" text="Web: http://www.foxitsoftware.com"/>
+<string id="2033" text="Todos los derechos reservados"/>
+<string id="2034" text="Versión"/>
+<string id="2035" text="No se halló la cadena"/>
+<string id="2036" text="Foxit Reader terminó de buscar en el documento."/>
+<string id="2037" text="Lo sentimos, no puede imprimir este documento.\n\nRazón: los permisos de seguridad del documento prohíben imprimirlo."/>
+<string id="2038" text="Lo sentimos, no puede copiar texto de este documento.\n\nRazón: los permisos de seguridad del documento prohíben copiar texto."/>
+<string id="2039" text="Lo sentimos, no puede guardar este documento. Solo estaría guardando una copia del documento original\n\nRazón: los permisos de seguridad del documento prohíben guardar."/>
+<string id="2040" text="El documento no puede guardarse. El archivo ya está abierto."/>
+<string id="2041" text="Antes de poder ejecutar tareas relativas a impresión como configurar página\no imprimir, necesita instalar una impresora.\n"/>
+<string id="2042" text="El documento no puede ser guardado. El archivo puede ser de solo lectura u\notro usuario lo tiene abierto, guarde el documento con otro nombre o en\nuna carpeta diferente."/>
+<string id="2043" text="Documento"/>
+<string id="2044" text="Documento y anotaciones"/>
+<string id="2045" text="Documento y anotaciones"/>
+<string id="2046" text="Documento"/>
+<string id="2047" text="¿Quiere guardar los cambios a \'%s\' antes de cerrar?"/>
+<string id="2050" text="Una página"/>
+<string id="2051" text="Continuo"/>
+<string id="2052" text="Opuestas"/>
+<string id="2053" text="Continuas - Opuestas"/>
+<string id="2054" text="Tamaño actual"/>
+<string id="2055" text="Ajustar página"/>
+<string id="2056" text="Ajustar ancho"/>
+<string id="2057" text="Ajustar barra de herramientas"/>
+<string id="2058" text="Navegar"/>
+<string id="2059" text="Barra de Zoom"/>
+<string id="2060" text="Rotar la barra de ver"/>
+<string id="2061" text="Barra básica"/>
+<string id="2062" text="Visor de texto"/>
+<string id="2063" text="Pantalla completa"/>
+<string id="2064" text="Ayuda"/>
+<string id="2070" text="Falta un componente(%s) de foxit reader. Debe de descargar la actualización desde nuestra web para poder ver su documento correctamente"/>
+<string id="2072" text="Buscando actualizaciones..."/>
+<string id="2073" text="Descargando actualizaciones"/>
+<string id="2074" text="Instalando actualizaciones"/>
+<string id="2075" text="Pausa(&amp;P)"/>
+<string id="2076" text="Continuar(&amp;C)"/>
+<string id="2077" text="Hecho(&amp;D)"/>
+<string id="2078" text="horas"/>
+<string id="2079" text="minutos"/>
+<string id="2080" text="segundos"/>
+<string id="2081" text="Version Profesional"/>
+<string id="2082" text="Ocupado"/>
+<string id="2083" text="La puerta esta abierta"/>
+<string id="2084" text="Error"/>
+<string id="2085" text="Inicializando"/>
+<string id="2086" text="Cargando/descargando"/>
+<string id="2087" text="Modo manual"/>
+<string id="2088" text="Se ha acabado la tinta"/>
+<string id="2089" text="No disponible para imprimir"/>
+<string id="2090" text="desconectado"/>
+<string id="2091" text="El ordenador echa xispas"/>
+<string id="2092" text="La salida de la impresora no da mas de si"/>
+<string id="2093" text="No se puede imprimir la página actual"/>
+<string id="2094" text="El papel se ha atascado en la impresora"/>
+<string id="2095" text="Sin papel"/>
+<string id="2096" text="Problemas con el papel"/>
+<string id="2097" text="Pausado"/>
+<string id="2098" text="Borrando trabajo de impresión"/>
+<string id="2099" text="Ahorro de energia"/>
+<string id="2100" text="Imprimiendo"/>
+<string id="2101" text="Procesando el trabajo de impresión"/>
+<string id="2102" text="Estado desconocido"/>
+<string id="2103" text="Toner bajo"/>
+<string id="2104" text="Error que no puedo solucionar asi que llama a un amigo"/>
+<string id="2105" text="esperando"/>
+<string id="2106" text="Calentandose ;)"/>
+<string id="2107" text="listo"/>
+<string id="2108" text="marcas"/>
+<string id="2109" text="página"/>
+<string id="2110" text="Ocultar barra"/>
+<string id="2111" text="Mostrar barra"/>
+<string id="2112" text="archivo PDF"/>
+<string id="2113" text="Todos los archivos"/>
+<string id="2114" text="Herramientas básicas"/>
+<string id="2115" text="Herramientas de comentario"/>
+<string id="2116" text="Herramientas de formato"/>
+<string id="2117" text="Herramientas para dibujar"/>
+<string id="2118" text="Herramientas para modificar texto"/>
+<string id="2119" text="General"/>
+<string id="2120" text="Colores del documento"/>
+<string id="2121" text="Presentación de página"/>
+<string id="2122" text="Ajustar al papel"/>
+<string id="2123" text="Tamaño actual"/>
+<string id="2124" text="ninguno"/>
+<string id="2125" text="Multiples páginas por hoja"/>
+<string id="2126" text="normal"/>
+<string id="2127" text="Según las agujas del reloj"/>
+<string id="2128" text="Contra las agujas del reloj"/>
+<string id="2129" text="Pulgadas"/>
+<string id="2130" text="Todas las páginas del rango"/>
+<string id="2131" text="Páginas impares"/>
+<string id="2132" text="Páginas pares"/>
+<string id="2133" text="Personalizar..."/>
+<string id="2134" text="El valor del aumento ha de ser 'Página actual','Ajustar página','Ajustar ancho', o un valor entre %s y %s"/>
+<string id="2135" text="Por favor introduzca un valor entre %s y %s"/>
+<string id="2136" text="Archivo"/>
+<string id="2137" text="Sobre Foxit Reader...(&amp;A)"/>
+<string id="2138" text="&amp;Acerca de Foxit Reader Pro...  "/>
+<string id="2139" text="Horizontal"/>
+<string id="2140" text="Horizontal Invertido"/>
+<string id="2141" text="Vertical"/>
+<string id="2142" text="Vertical Invertido"/>
+<string id="2143" text="Buscando %d de %d"/>
+<string id="2144" text="Imprimiendo %d de : %d"/>
+<string id="2145" text="Convirtiendo archivos"/>
+<string id="16640" text="Click aqui para aprender mas!\nClick aqui"/>
+<string id="32773" text="Gracias por descargar Foxit Software\nOrder"/>
+<string id="32774" text="Visita la página de Foxit Software"/>
+<string id="32775" text="Recibe ayuda de Foxit Sowtware web"/>
+<string id="32776" text="Mostrar archivo de propiedades PDF\nProperties"/>
+<string id="32777" text="Primera Página\nFirst Page"/>
+<string id="32778" text="Página Previa\nPrevious Page"/>
+<string id="32779" text="Nueva Página\nNext Page"/>
+<string id="32780" text="Ultima Página\nLast Page"/>
+<string id="32782" text="Mostrar/Ocultar"/>
+<string id="32783" text="Pantalla Completa\nFull Screen"/>
+<string id="32784" text="Herramienta Mano\nHand"/>
+<string id="32785" text="Herramienta Alejar\nZoomOut"/>
+<string id="32786" text="Herramienta Acercar\nZoomIn"/>
+<string id="32787" text="Aumentar\nZoom In"/>
+<string id="32788" text="Alejar\nZoom Out"/>
+<string id="32789" text="Zoom de\nZoomTo"/>
+<string id="32790" text="Tamaño Actual\nActual Size"/>
+<string id="32791" text="Página Apta\n Fit Page"/>
+<string id="32792" text="Anchura Apta\nFit Width"/>
+<string id="32793" text="Visor de Textos\n Text Viewer"/>
+<string id="32795" text="Cerrar todos los documentos\nClose All"/>
+<string id="32796" text="Visor de Textos\nTextViewer"/>
+<string id="32802" text="Cambiar l documento con  nueva fuente\nFont"/>
+<string id="32862" text="Guardar el documento activo con un nombre nuevo\\nGuardar como"/>
+<string id="32898" text="Mostrar u ocultar la barra de menú\\nConmutar Barra de menú"/>
+<string id="32925" text="Una sóla Página\nSingle Page"/>
+<string id="32926" text="Continuos\nContinuous"/>
+<string id="32932" text="Guardar el documento activo con un nombre nuevo\\nGuardar como"/>
+<string id="32935" text="Girar en sentido de als agujas del reloj\nRotate Clockwise"/>
+<string id="32938" text="Revestimientos"/>
+<string id="32939" text="Revestimiento continuo"/>
+<string id="32941" text="Girar en sentido inverso al reloj"/>
+<string id="32942" text="Inverso\\nInverso"/>
+<string id="32977" text="Herramienta de selección de texto\\nSeleccionar texto"/>
+<string id="32985" text="Preferencias\\nPreferencias"/>
+<string id="32987" text="Herramienta de captura\\nCapturar"/>
+<string id="33060" text="Negrita\\nNegrita"/>
+<string id="33061" text="Cursiva\\nCursiva"/>
+<string id="33064" text="Guardar preferencias del Visor de Textos\nPreference Settings"/>
+<string id="33066" text="Fuente del texto\\nFuente"/>
+<string id="33069" text="Color\\nColor"/>
+<string id="33071" text="Fuente PDF\\nFuente PDF"/>
+<string id="33097" text="Ver anterior\\nVer anterior"/>
+<string id="33098" text="Ver siguiente"/>
+<string id="57344" text="Foxit Reader"/>
+<string id="57345" text="listo"/>
+<string id="57600" text="Crear un nuevo documento\\nNuevo"/>
+<string id="57601" text="Abrir un documento existente\\nAbrir"/>
+<string id="57602" text="Cerrar el documento activo\\nCerrar"/>
+<string id="57603" text="Guardar el documento activo\\nGuardar"/>
+<string id="57604" text="Guardar el documento activo con un nombre nuevo\\nGuardar como"/>
+<string id="57605" text="Cambiar las opciones de impresión\\nPrepara página"/>
+<string id="57606" text="Cambiar la impresora y las opciones de impresión\\nConfigurar impresora"/>
+<string id="57607" text="Imprimir el documento activo\\nImprimir"/>
+<string id="57609" text="Mostrar páginas completas\\nVista previa"/>
+<string id="57616" text="Abrir este documento"/>
+<string id="57617" text="Abrir este documento"/>
+<string id="57618" text="Abrir este documento"/>
+<string id="57619" text="Abrir este documento"/>
+<string id="57620" text="Abrir este documento"/>
+<string id="57621" text="Abrir este documento"/>
+<string id="57622" text="Abrir este documento"/>
+<string id="57623" text="Abrir este documento"/>
+<string id="57624" text="Abrir este documento"/>
+<string id="57625" text="Abrir este documento"/>
+<string id="57626" text="Abrir este documento"/>
+<string id="57627" text="Abrir este documento"/>
+<string id="57628" text="Abrir este documento"/>
+<string id="57629" text="Abrir este documento"/>
+<string id="57630" text="Abrir este documento"/>
+<string id="57631" text="Abrir este documento"/>
+<string id="57632" text="Borrar la selección\\nBorrar"/>
+<string id="57633" text="Borrar cada cosa\\nBorrar todo"/>
+<string id="57634" text="Copiar la selección y ponerla en el Portapapeles\\nCopiar"/>
+<string id="57635" text="Cortar la selección y ponerla en el Portapapeles\\nCortar"/>
+<string id="57636" text="Buscar el texto especificado\\nBuscar"/>
+<string id="57637" text="Insertar el contenido del Portapapeles\\nPegar"/>
+<string id="57640" text="Repetir la última acción\\nRepetir"/>
+<string id="57641" text="Reemplazar el texto especificado con texto diferente\\nReemplazar"/>
+<string id="57642" text="Seleccionar todo el documento\\nSeleccionar todo"/>
+<string id="57643" text="Deshacer la última acción\\nDeshacer"/>
+<string id="57644" text="Rehacer la acción deshecha anteriormente\\nRehacer"/>
+<string id="57648" text="Abrir otra ventana para el documento activo\\nNueva ventana"/>
+<string id="57649" text="Colocar los iconos y el botón de la ventana\\nColocar Iconos"/>
+<string id="57650" text="Organizar ventanas en superposición\\Cascada"/>
+<string id="57651" text="Organizar ventanas en mosaicos no superpuestos\\nMosaico"/>
+<string id="57652" text="Organizar ventanas en mosaicos no superpuestos\\nMosaico"/>
+<string id="57653" text="Dividir la ventana activa en paneles\\nDividir"/>
+<string id="57664" text="Mostrar información del programa, número de versión y derechos de producción\\n A cerca de"/>
+<string id="57665" text="Detener la aplicación;avisos para guardar documentos\\n Salir"/>
+<string id="57680" text="Cambiar a la nueva ventana del panel\\nNuevo Panel"/>
+<string id="57681" text="Cambiar a la anterior ventana del panel\\nPanel Anterior"/>
+<string id="59136" text="EXT"/>
+<string id="59137" text="MAY"/>
+<string id="59138" text="NUM"/>
+<string id="59139" text="DESP"/>
+<string id="59140" text="INS"/>
+<string id="59141" text="Grabar"/>
+<string id="59392" text="Mostrar u ocultar la barra de herramientas\\nConmutar Barra de herramientas"/>
+<string id="59393" text="Mostrar o ocultar la barra de estado\\nToogle Barra de Estado"/>
+<string id="61184" text="Cambiar el tamaño de la ventana"/>
+<string id="61185" text="Cambiar la posición de la ventana"/>
+<string id="61186" text="Reducir la ventana al tamaño de un icono"/>
+<string id="61187" text="Agrandar la ventana a tamaño completo"/>
+<string id="61188" text="Pasar a la ventana del siguiente documento"/>
+<string id="61189" text="Cambiar a la ventana del documento anterior"/>
+<string id="61190" text="Cerrar la ventana activa y preguntar para guardar los documentos"/>
+<string id="61202" text="Restaura la ventana a su tamaño normal"/>
+<string id="61203" text="Activa la Lista de Tareas"/>
+<string id="61215" text="Activar esta ventana"/>
+<string id="61445" text="Cerrar el modo de previsualización\nCancelar Previsualización"/>
+</Strings>
+</Reader>

@@ -1,0 +1,14 @@
+The following tools are required to work with and build this project, including support files:
+
+* Delphi 6, 7 or BDS 2006 - to build the application and plugins
+* HTML Help Workshop - to modify and compile the chm help file
+* HTML editor - to edit the help documents and the home page
+* Image editor - to edit images
+* Finalbuilder - to build all parts of the release
+* Inno Setup/ISTool - to build the setup program
+* TortoiseCVS/PageAnt - to download/upload files and changes from CVS (not used anymore)
+* TortoiseSVN - to download/upload files and changes from SVN
+* A diff and merge tool - to compare and update new and old files
+* WinSCP - to connect to the shell workspace to upload files etc
+
+

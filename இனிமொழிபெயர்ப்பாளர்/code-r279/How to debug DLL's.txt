@@ -1,0 +1,5 @@
+Having problem debugging the plugin DLL's? Read on.
+
+To be able to debug the DLL's and set breakpoints, set the "Include remote symbols" on the Options-Linker page for the project and then open the Run-Parameters dialog and specify <path>\translator.exe as the Host application for the DLL. Set the DLL as the active project and Run the DLL (F9). 
+
+Note that the import/export DLL's are not loaded until you choose the Import or Export menu item in IniTranslator, so will not see the DLL in the Event Log or the Modules window or any blue dots in the code window until you've done that.

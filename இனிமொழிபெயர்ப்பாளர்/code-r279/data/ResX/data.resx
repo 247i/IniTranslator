@@ -1,0 +1,1308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptChangesAndCloseDialogToolTip" xml:space="preserve">
+    <value>Accept my changes and close this dialog.</value>
+    <comment>Accept changes and close dialog ToolTip text.</comment>
+  </data>
+  <data name="ActionCategory" xml:space="preserve">
+    <value>Action</value>
+    <comment>Action category.</comment>
+  </data>
+  <data name="ActionListAppearanceCategory" xml:space="preserve">
+    <value>Appearance</value>
+    <comment>ActionList appearance category.</comment>
+  </data>
+  <data name="ActionListAppearanceTextItem" xml:space="preserve">
+    <value>Properties that affect how the control looks.</value>
+    <comment>ActionList appearance text item.</comment>
+  </data>
+  <data name="ActionListDisplayNameAntiAlias" xml:space="preserve">
+    <value>AntiAlias</value>
+    <comment>ActionList display name AntiAlias.</comment>
+  </data>
+  <data name="ActionListDisplayNameBumpCount" xml:space="preserve">
+    <value>Bump Count</value>
+    <comment>ActionList display name BumpCount.</comment>
+  </data>
+  <data name="ActionListDisplayNameDirection" xml:space="preserve">
+    <value>Direction</value>
+    <comment>ActionList display name Direction.</comment>
+  </data>
+  <data name="ActionListDisplayNameDock" xml:space="preserve">
+    <value>Dock</value>
+    <comment>ActionList display name Dock.</comment>
+  </data>
+  <data name="ActionListDisplayNameFont" xml:space="preserve">
+    <value>Font</value>
+    <comment>ActionList display name Font.</comment>
+  </data>
+  <data name="ActionListDisplayNameGradientHighColor" xml:space="preserve">
+    <value>Gradient High Color</value>
+    <comment>ActionList display name GradientHighColor.</comment>
+  </data>
+  <data name="ActionListDisplayNameGradientLowColor" xml:space="preserve">
+    <value>Gradient Low Color</value>
+    <comment>ActionList display name GradientLowColor.</comment>
+  </data>
+  <data name="ActionListDisplayNameGradientMode" xml:space="preserve">
+    <value>Gradient Mode</value>
+    <comment>ActionList display name GradientMode.</comment>
+  </data>
+  <data name="ActionListDisplayNameImage" xml:space="preserve">
+    <value>Image</value>
+    <comment>ActionList display name Image.</comment>
+  </data>
+  <data name="ActionListDisplayNameImageAlign" xml:space="preserve">
+    <value>Image Align</value>
+    <comment>ActionList display name ImageAlign.</comment>
+  </data>
+  <data name="ActionListDisplayNameName" xml:space="preserve">
+    <value>Name</value>
+    <comment>ActionList Display name Name.</comment>
+  </data>
+  <data name="ActionListDisplayNameRenderMode" xml:space="preserve">
+    <value>RenderMode</value>
+    <comment>ActionList RenderMode property display name.</comment>
+  </data>
+  <data name="ActionListDisplayNameText" xml:space="preserve">
+    <value>Text</value>
+    <comment>ActionList display name Text.</comment>
+  </data>
+  <data name="ActionListDisplayNameTextAlign" xml:space="preserve">
+    <value>Text Align</value>
+    <comment>ActionList display name TextAlign.</comment>
+  </data>
+  <data name="ActionListLayoutCategory" xml:space="preserve">
+    <value>Layout</value>
+    <comment>ActionList layout category.</comment>
+  </data>
+  <data name="ActionListLayoutTextItem" xml:space="preserve">
+    <value>Properties that affect how the control behaves during layout.</value>
+    <comment>ActionList layout text item.</comment>
+  </data>
+  <data name="ActiveChangedEventDescription" xml:space="preserve">
+    <value>Event raised when the Active property is changed on the control.</value>
+    <comment>ActiveChanged event description.</comment>
+  </data>
+  <data name="ActiveDescription" xml:space="preserve">
+    <value>The active state of the control, draws the control with different gradient colors.</value>
+    <comment>Active description.</comment>
+  </data>
+  <data name="ActiveGradientHighColorDescription" xml:space="preserve">
+    <value>High color of the gradient when active.</value>
+    <comment>ActiveGradientHighColor description.</comment>
+  </data>
+  <data name="ActiveGradientHighColorEventDescription" xml:space="preserve">
+    <value>Event raised when the ActiveGradientHighColor property is changed on the control.</value>
+    <comment>ActiveGradientHighColor event description.</comment>
+  </data>
+  <data name="ActiveGradientLowColorDescription" xml:space="preserve">
+    <value>Low color of the gradient when active.</value>
+    <comment>ActiveGradientLowColor description.</comment>
+  </data>
+  <data name="ActiveGradientLowColorEventDescription" xml:space="preserve">
+    <value>Event raised when the ActiveGradientLowColor property is changed on the control.</value>
+    <comment>ActiveGradientLowColor event description.</comment>
+  </data>
+  <data name="ActiveOnClickDescription" xml:space="preserve">
+    <value>Should the control become active if clicked.</value>
+    <comment>ActiveOnClick description.</comment>
+  </data>
+  <data name="ActiveOnClickEventDescription" xml:space="preserve">
+    <value>Event raised when the  ActiveOnClick property is changed on the control.</value>
+    <comment>ActiveOnClick event description.</comment>
+  </data>
+  <data name="AlignmentDescription" xml:space="preserve">
+    <value>Indicates the area of the control (for example, along the top) where the tabs are aligned.</value>
+    <comment>Alignment description.</comment>
+  </data>
+  <data name="AllowAddOrRemoveDescription" xml:space="preserve">
+    <value>Gets or sets if the add or remove menu item is visible on the control.</value>
+    <comment>Allow add or remove description.</comment>
+  </data>
+  <data name="AllowAnimationDescription" xml:space="preserve">
+    <value>Gets a value indicating whether the control is allowed to animate the image.</value>
+    <comment>AllowAnimation description.</comment>
+  </data>
+  <data name="AllowOptionsDescription" xml:space="preserve">
+    <value>Gets or sets if the options menu item is visible on the control.</value>
+    <comment>Allow options description.</comment>
+  </data>
+  <data name="AlphaChangedDescription" xml:space="preserve">
+    <value>Event raised when the Alpha property is changed on the control.</value>
+    <comment>AlphaChanged event description.</comment>
+  </data>
+  <data name="AlphaDescription" xml:space="preserve">
+    <value>The alpha level (0 - 255) of the fill of the control.</value>
+    <comment>Alpha property description.</comment>
+  </data>
+  <data name="AntiAliasChangedDescription" xml:space="preserve">
+    <value>Event raised when the AntiAlias property is changed on the control.</value>
+    <comment>AntiAliasChanged description.</comment>
+  </data>
+  <data name="AntiAliasDescription" xml:space="preserve">
+    <value>Should the control be anti-aliased.</value>
+    <comment>AntiAlias property description.</comment>
+  </data>
+  <data name="AppearanceCategory" xml:space="preserve">
+    <value>Appearance</value>
+    <comment>Appearance category.</comment>
+  </data>
+  <data name="AppearanceTextItem" xml:space="preserve">
+    <value>Properties that affect how the control looks.</value>
+    <comment>Action list appearance text item.</comment>
+  </data>
+  <data name="AutoSizeDescription" xml:space="preserve">
+    <value>Enables automatic resizing based on font size.</value>
+    <comment>AutoSize description.</comment>
+  </data>
+  <data name="BackColorDescription" xml:space="preserve">
+    <value>The background color of the component.</value>
+    <comment>BackColor description.</comment>
+  </data>
+  <data name="BehaviorCategory" xml:space="preserve">
+    <value>Behavior</value>
+    <comment>Behavior category.</comment>
+  </data>
+  <data name="BorderChangedDescription" xml:space="preserve">
+    <value>Event raised when the Border property is changed on the control.</value>
+    <comment>BorderChanged description.</comment>
+  </data>
+  <data name="BorderColorChangedDescription" xml:space="preserve">
+    <value>Event raised when the BorderColor property is changed on the control.</value>
+    <comment>BorderColorChanged description.</comment>
+  </data>
+  <data name="BorderColorDescription" xml:space="preserve">
+    <value>Specifies how the control border color should appear.</value>
+    <comment>BorderColor property description.</comment>
+  </data>
+  <data name="BorderDescription" xml:space="preserve">
+    <value>Specifies how the control border width should appear.</value>
+    <comment>Border property description.</comment>
+  </data>
+  <data name="BumpCountChangedDescription" xml:space="preserve">
+    <value>Event raised when the BumpCount property is changed on the control.</value>
+    <comment>Bump count changed description.</comment>
+  </data>
+  <data name="BumpCountDescription" xml:space="preserve">
+    <value>The number of bumps to draw on the bar.</value>
+    <comment>Bump count description.</comment>
+  </data>
+  <data name="ButtonDescription" xml:space="preserve">
+    <value>Properties associated with the buttons of the control.</value>
+    <comment>Button description.</comment>
+  </data>
+  <data name="ButtonFontDescription" xml:space="preserve">
+    <value>The font used to display text in the button of the control.</value>
+    <comment>ButtonFont description.</comment>
+  </data>
+  <data name="ButtonHeightDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating the height of the control's buttons.</value>
+    <comment>Button height description.</comment>
+  </data>
+  <data name="CancelChangesAndCloseDialogToolTip" xml:space="preserve">
+    <value>Cancel my changes and close this dialog.</value>
+    <comment>Cancel changes and close dialog ToolTip text.</comment>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Cancel text.</comment>
+  </data>
+  <data name="CaptionDescription" xml:space="preserve">
+    <value>Properties associated with the caption of the control.</value>
+    <comment>Caption description.</comment>
+  </data>
+  <data name="CaptionFontDescription" xml:space="preserve">
+    <value>The font used to display text in the caption of the control.</value>
+    <comment>CaptionFont description.</comment>
+  </data>
+  <data name="CaptionGradientModeDescription" xml:space="preserve">
+    <value>Specifies the direction of a linear gradient of the caption.</value>
+    <comment>CaptionGradientMode description.</comment>
+  </data>
+  <data name="CaptionHeightDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating the height of the control's caption.</value>
+    <comment>CaptionHeight description.</comment>
+  </data>
+  <data name="ConfigureButtonsToolTipText" xml:space="preserve">
+    <value>Configure buttons</value>
+    <comment>Configure buttons tooltiptext.</comment>
+  </data>
+  <data name="ControlColorDescription" xml:space="preserve">
+    <value>Gets or sets the color of the body of the control.</value>
+    <comment>ControlColor description.</comment>
+  </data>
+  <data name="CornerRadiusChangedDescription" xml:space="preserve">
+    <value>Event raised when the CornerRadius property is changed on the control.</value>
+    <comment>CornerRadiusChanged description.</comment>
+  </data>
+  <data name="CornerRadiusDescription" xml:space="preserve">
+    <value>Specifies how the control corner radius should appear.</value>
+    <comment>CornerRadius property description.</comment>
+  </data>
+  <data name="DehighlightedDescription" xml:space="preserve">
+    <value>Occurs when a control highlight is removed.</value>
+    <comment>Dehighlighted description.</comment>
+  </data>
+  <data name="DeselectedDescription" xml:space="preserve">
+    <value>Occurs when a control is deselected.</value>
+    <comment>Deselected description.</comment>
+  </data>
+  <data name="DeselectingDescription" xml:space="preserve">
+    <value>Occurs before a control is deselected, enabling a handler to cancel the control change.</value>
+    <comment>Deselecting description.</comment>
+  </data>
+  <data name="DirectionChangedDescription" xml:space="preserve">
+    <value>Event raised when the Direction property is changed on the control.</value>
+    <comment>Direction changed description.</comment>
+  </data>
+  <data name="DisplayButtonsInThisOrderText" xml:space="preserve">
+    <value>Display buttons in this order</value>
+    <comment>Display buttons in this order text.</comment>
+  </data>
+  <data name="DisplayNameActive" xml:space="preserve">
+    <value>Active</value>
+    <comment>Active property display name.</comment>
+  </data>
+  <data name="DisplayNameActiveChanged" xml:space="preserve">
+    <value>ActiveChanged</value>
+    <comment>ActiveChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameActiveGradientHighColor" xml:space="preserve">
+    <value>ActiveGradientHighColor</value>
+    <comment>ActiveGradientHighColor property display name.</comment>
+  </data>
+  <data name="DisplayNameActiveGradientHighColorChanged" xml:space="preserve">
+    <value>ActiveGradientHighColorChanged</value>
+    <comment>ActiveGradientHighColorChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameActiveGradientLowColor" xml:space="preserve">
+    <value>ActiveGradientLowColor</value>
+    <comment>ActiveGradientLowColor property display name.</comment>
+  </data>
+  <data name="DisplayNameActiveGradientLowColorChanged" xml:space="preserve">
+    <value>ActiveGradientLowColorChanged</value>
+    <comment>ActiveGradientLowColorChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameActiveOnClick" xml:space="preserve">
+    <value>ActiveOnClick</value>
+    <comment>ActiveOnClick property display name.</comment>
+  </data>
+  <data name="DisplayNameActiveOnClickChanged" xml:space="preserve">
+    <value>ActiveOnClickChanged</value>
+    <comment>ActiveOnClickChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameAlignment" xml:space="preserve">
+    <value>Alignment</value>
+    <comment>Alignment property display name.</comment>
+  </data>
+  <data name="DisplayNameAllowAddOrRemove" xml:space="preserve">
+    <value>AllowAddOrRemove</value>
+    <comment>AllowAddOrRemove property display name.</comment>
+  </data>
+  <data name="DisplayNameAllowAnimation" xml:space="preserve">
+    <value>AllowAnimation</value>
+    <comment>DisplayName AllowAnimation.</comment>
+  </data>
+  <data name="DisplayNameAllowOptions" xml:space="preserve">
+    <value>AllowOptions</value>
+    <comment>AllowOptions property display name.</comment>
+  </data>
+  <data name="DisplayNameAlpha" xml:space="preserve">
+    <value>Alpha</value>
+    <comment>Display name for Alpha property.</comment>
+  </data>
+  <data name="DisplayNameAlphaChanged" xml:space="preserve">
+    <value>AlphaChanged</value>
+    <comment>AlphaChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameAntiAlias" xml:space="preserve">
+    <value>AntiAlias</value>
+    <comment>AntiAlias property display name.</comment>
+  </data>
+  <data name="DisplayNameAntiAliasChanged" xml:space="preserve">
+    <value>AntiAliasChanged</value>
+    <comment>AntiAliasChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameAutoSize" xml:space="preserve">
+    <value>AutoSize</value>
+    <comment>AutoSize property display name.</comment>
+  </data>
+  <data name="DisplayNameBackColor" xml:space="preserve">
+    <value>BackColor</value>
+    <comment>BackColor property display name.</comment>
+  </data>
+  <data name="DisplayNameBorder" xml:space="preserve">
+    <value>Border</value>
+    <comment>Border property display name.</comment>
+  </data>
+  <data name="DisplayNameBorderChanged" xml:space="preserve">
+    <value>BorderChanged</value>
+    <comment>BorderChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameBorderColor" xml:space="preserve">
+    <value>BorderColor</value>
+    <comment>BorderColor property display name.</comment>
+  </data>
+  <data name="DisplayNameBorderColorChanged" xml:space="preserve">
+    <value>BorderColorChanged</value>
+    <comment>BorderColorChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameBumpCount" xml:space="preserve">
+    <value>BumpCount</value>
+    <comment>BumpCount property display name.</comment>
+  </data>
+  <data name="DisplayNameBumpCountChanged" xml:space="preserve">
+    <value>BumpCountChanged</value>
+    <comment>BumpCountChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameButton" xml:space="preserve">
+    <value>Button</value>
+    <comment>Button property display name.</comment>
+  </data>
+  <data name="DisplayNameButtonExpanding" xml:space="preserve">
+    <value>ButtonExpanding</value>
+    <comment>ButtonExpanding property display name.</comment>
+  </data>
+  <data name="DisplayNameButtonFont" xml:space="preserve">
+    <value>Font</value>
+    <comment>ButtonFont property display name.</comment>
+  </data>
+  <data name="DisplayNameButtonHeight" xml:space="preserve">
+    <value>ButtonHeight</value>
+    <comment>ButtonHeight property display name.</comment>
+  </data>
+  <data name="DisplayNameButtonVisible" xml:space="preserve">
+    <value>ButtonVisible</value>
+    <comment>ButtonVisible property display name.</comment>
+  </data>
+  <data name="DisplayNameCaption" xml:space="preserve">
+    <value>Caption</value>
+    <comment>Caption property display name.</comment>
+  </data>
+  <data name="DisplayNameCaptionFont" xml:space="preserve">
+    <value>Font</value>
+    <comment>CaptionFont property display name.</comment>
+  </data>
+  <data name="DisplayNameCaptionGradientMode" xml:space="preserve">
+    <value>GradientMode</value>
+    <comment>CaptionGradientMode property display name.</comment>
+  </data>
+  <data name="DisplayNameCaptionHeight" xml:space="preserve">
+    <value>Height</value>
+    <comment>CaptionHeight property display name.</comment>
+  </data>
+  <data name="DisplayNameControlColor" xml:space="preserve">
+    <value>ControlColor</value>
+    <comment>ControlColor property display name.</comment>
+  </data>
+  <data name="DisplayNameCornerRadious" xml:space="preserve">
+    <value>CornerRadious</value>
+    <comment>CornerRadious property display name.</comment>
+  </data>
+  <data name="DisplayNameCornerRadiusChanged" xml:space="preserve">
+    <value>CornerRadiusChanged</value>
+    <comment>CornerRadiusChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameDehighlighted" xml:space="preserve">
+    <value>Dehighlighted</value>
+    <comment>Dehighlighted event display name.</comment>
+  </data>
+  <data name="DisplayNameDeselected" xml:space="preserve">
+    <value>Deselected</value>
+    <comment>Deselected property display name.</comment>
+  </data>
+  <data name="DisplayNameDeselecting" xml:space="preserve">
+    <value>Deselecting</value>
+    <comment>Deselecting property display name.</comment>
+  </data>
+  <data name="DisplayNameDirection" xml:space="preserve">
+    <value>Direction</value>
+    <comment>Direction property display name.</comment>
+  </data>
+  <data name="DisplayNameDirectionChanged" xml:space="preserve">
+    <value>DirectionChanged</value>
+    <comment>DisplayNameDirectionChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameFocusHighlight" xml:space="preserve">
+    <value>FocusHighlight</value>
+    <comment>FocusHighlight property display name.</comment>
+  </data>
+  <data name="DisplayNameFooter" xml:space="preserve">
+    <value>Footer</value>
+    <comment>Footer property display name.</comment>
+  </data>
+  <data name="DisplayNameFooterHeight" xml:space="preserve">
+    <value>FooterHeight</value>
+    <comment>FooterHeight property display name.</comment>
+  </data>
+  <data name="DisplayNameForeColor" xml:space="preserve">
+    <value>ForeColor</value>
+    <comment>ForeColor property display name.</comment>
+  </data>
+  <data name="DisplayNameGradientHighColor" xml:space="preserve">
+    <value>GradientHighColor</value>
+    <comment>GradientHighColor property display name.</comment>
+  </data>
+  <data name="DisplayNameGradientHighColorChanged" xml:space="preserve">
+    <value>GradientHighColorChanged</value>
+    <comment>GradientHighColorChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameGradientLowColor" xml:space="preserve">
+    <value>GradientLowColor</value>
+    <comment>GradientLowColor property display name.</comment>
+  </data>
+  <data name="DisplayNameGradientLowColorChanged" xml:space="preserve">
+    <value>GradientLowColorChanged</value>
+    <comment>GradientLowColorChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameGradientMode" xml:space="preserve">
+    <value>GradientMode</value>
+    <comment>GradientMode property display name.</comment>
+  </data>
+  <data name="DisplayNameGradientModeChanged" xml:space="preserve">
+    <value>GradientModeChange</value>
+    <comment>GradientModeChange event display name.</comment>
+  </data>
+  <data name="DisplayNameGradientTabPages" xml:space="preserve">
+    <value>GradientTabPages</value>
+    <comment>GradientTabPages property display name.</comment>
+  </data>
+  <data name="DisplayNameHidePrefix" xml:space="preserve">
+    <value>HidePrefix</value>
+    <comment>HidePrefix property display name.</comment>
+  </data>
+  <data name="DisplayNameHighColorLuminance" xml:space="preserve">
+    <value>HighColorLuminance</value>
+    <comment>HighColorLuminance property display name.</comment>
+  </data>
+  <data name="DisplayNameHighlightBorder" xml:space="preserve">
+    <value>HighlightBorder</value>
+    <comment>HighlightBorder property display name.</comment>
+  </data>
+  <data name="DisplayNameHighlighted" xml:space="preserve">
+    <value>Highlighted</value>
+    <comment>Highlighted event display name.</comment>
+  </data>
+  <data name="DisplayNameHighlightGradientHighColor" xml:space="preserve">
+    <value>HighlightGradientHighColor</value>
+    <comment>HighlightGradientHighColor property display name.</comment>
+  </data>
+  <data name="DisplayNameHighlightGradientHighColorChanged" xml:space="preserve">
+    <value>HighlightGradientHighColorChanged</value>
+    <comment>HighlightGradientHighColorChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameHighlightGradientLowColor" xml:space="preserve">
+    <value>HighlightGradientLowColor</value>
+    <comment>HighlightGradientLowColor property display name.</comment>
+  </data>
+  <data name="DisplayNameHighlightGradientLowColorChanged" xml:space="preserve">
+    <value>HighlightGradientLowColorChanged</value>
+    <comment>HighlightGradientLowColorChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameHighlightTransitionPercent" xml:space="preserve">
+    <value>HighlightTransitionPercent</value>
+    <comment>HighlightTransitionPercent property display name.</comment>
+  </data>
+  <data name="DisplayNameHotTrack" xml:space="preserve">
+    <value>HotTrack</value>
+    <comment>HotTrack property display name.</comment>
+  </data>
+  <data name="DisplayNameImage" xml:space="preserve">
+    <value>Image</value>
+    <comment>Image property display name.</comment>
+  </data>
+  <data name="DisplayNameImageAlign" xml:space="preserve">
+    <value>ImageAlign</value>
+    <comment>ImageAlign property display name.</comment>
+  </data>
+  <data name="DisplayNameImageAlignChanged" xml:space="preserve">
+    <value>ImageAlignChanged</value>
+    <comment>ImageAlignChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameImageChanged" xml:space="preserve">
+    <value>ImageChanged</value>
+    <comment>ImageChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameImageInCaption" xml:space="preserve">
+    <value>DisplayImage</value>
+    <comment>ImageInCaption property display name.</comment>
+  </data>
+  <data name="DisplayNameImageIndex" xml:space="preserve">
+    <value>ImageIndex</value>
+    <comment>ImageIndex property display name.</comment>
+  </data>
+  <data name="DisplayNameImageIndexChanged" xml:space="preserve">
+    <value>ImageIndexChanged</value>
+    <comment>ImageIndexChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameImageIndexFooterChanged" xml:space="preserve">
+    <value>ImageIndexFooterChanged</value>
+    <comment>ImageIndexFooterChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameImageKey" xml:space="preserve">
+    <value>ImageKey</value>
+    <comment>ImageKey property display name.</comment>
+  </data>
+  <data name="DisplayNameImageList" xml:space="preserve">
+    <value>ImageList</value>
+    <comment>ImageList property display name.</comment>
+  </data>
+  <data name="DisplayNameImageListFooter" xml:space="preserve">
+    <value>ImageListFooter</value>
+    <comment>ImageListFooter property display name.</comment>
+  </data>
+  <data name="DisplayNameInterval" xml:space="preserve">
+    <value>Interval</value>
+    <comment>Interval property display name.</comment>
+  </data>
+  <data name="DisplayNameKey" xml:space="preserve">
+    <value>Key</value>
+    <comment>Key property display name.</comment>
+  </data>
+  <data name="DisplayNameLowColorLuminance" xml:space="preserve">
+    <value>LowColorLuminance</value>
+    <comment>LowColorLuminance property display name.</comment>
+  </data>
+  <data name="DisplayNameMouseOverHighlight" xml:space="preserve">
+    <value>MouseOverHighlight</value>
+    <comment>MouseOverHighlight property display name.</comment>
+  </data>
+  <data name="DisplayNameMouseOverHighlightChanged" xml:space="preserve">
+    <value>MouseOverHighlightChanged</value>
+    <comment>MouseOverHighlightChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameMultiline" xml:space="preserve">
+    <value>Multiline</value>
+    <comment>Multiline property display name.</comment>
+  </data>
+  <data name="DisplayNameNavigationPages" xml:space="preserve">
+    <value>NavigationPages</value>
+    <comment>NavigationPages property display name.</comment>
+  </data>
+  <data name="DisplayNameRenderMode" xml:space="preserve">
+    <value>RenderMode</value>
+    <comment>RenderMode display name.</comment>
+  </data>
+  <data name="DisplayNameSelected" xml:space="preserve">
+    <value>Selected</value>
+    <comment>Selected property display name.</comment>
+  </data>
+  <data name="DisplayNameSelectedIndexChanged" xml:space="preserve">
+    <value>SelectedIndexChanged</value>
+    <comment>SelectedIndexChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameSelecting" xml:space="preserve">
+    <value>Selecting</value>
+    <comment>DisplayName Selecting.</comment>
+  </data>
+  <data name="DisplayNameShowBackground" xml:space="preserve">
+    <value>ShowBackground</value>
+    <comment>ShowBackground property display name.</comment>
+  </data>
+  <data name="DisplayNameShowBorderOnHighlight" xml:space="preserve">
+    <value>ShowBorderOnHighlight</value>
+    <comment>ShowBorderOnHighlight property display name.</comment>
+  </data>
+  <data name="DisplayNameShowDisabledBackgroundColor" xml:space="preserve">
+    <value>ShowDisabledBackgroundColor</value>
+    <comment>ShowDisabledBackgroundColor property display name.</comment>
+  </data>
+  <data name="DisplayNameShowToolTips" xml:space="preserve">
+    <value>ShowToolTips</value>
+    <comment>ShowToolTips property display name.</comment>
+  </data>
+  <data name="DisplayNameSizeMode" xml:space="preserve">
+    <value>SizeMode</value>
+    <comment>SizeMode property display name.</comment>
+  </data>
+  <data name="DisplayNameSpeed" xml:space="preserve">
+    <value>Speed</value>
+    <comment>Speed property display name.</comment>
+  </data>
+  <data name="DisplayNameSplitBar" xml:space="preserve">
+    <value>SplitBar</value>
+    <comment>SplitBar property display name.</comment>
+  </data>
+  <data name="DisplayNameSplitBarHeight" xml:space="preserve">
+    <value>Height</value>
+    <comment>SplitBarHeight property display name.</comment>
+  </data>
+  <data name="DisplayNameStayActiveAfterClick" xml:space="preserve">
+    <value>StayActiveAfterClick</value>
+    <comment>StayActiveAfterClick property display name.</comment>
+  </data>
+  <data name="DisplayNameTab" xml:space="preserve">
+    <value>Tab</value>
+    <comment>Tab property display name.</comment>
+  </data>
+  <data name="DisplayNameTabFont" xml:space="preserve">
+    <value>Font</value>
+    <comment>TabFont property display name.</comment>
+  </data>
+  <data name="DisplayNameTabHeight" xml:space="preserve">
+    <value>Height</value>
+    <comment>TabHeight property display name.</comment>
+  </data>
+  <data name="DisplayNameTabSize" xml:space="preserve">
+    <value>TabSize</value>
+    <comment>TabSize property display name.</comment>
+  </data>
+  <data name="DisplayNameTabStop" xml:space="preserve">
+    <value>TabStop</value>
+    <comment>TabStop property display name.</comment>
+  </data>
+  <data name="DisplayNameTabVisible" xml:space="preserve">
+    <value>TabVisible</value>
+    <comment>TabVisible property display name.</comment>
+  </data>
+  <data name="DisplayNameTabWidth" xml:space="preserve">
+    <value>TabWidth</value>
+    <comment>TabWidth property display name.</comment>
+  </data>
+  <data name="DisplayNameText" xml:space="preserve">
+    <value>Text</value>
+    <comment>Text property display name.</comment>
+  </data>
+  <data name="DisplayNameTextAlign" xml:space="preserve">
+    <value>TextAlign</value>
+    <comment>TextAlign property display name.</comment>
+  </data>
+  <data name="DisplayNameTextAlignChanged" xml:space="preserve">
+    <value>TextAlignChanged</value>
+    <comment>TextAlignChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameToolTipText" xml:space="preserve">
+    <value>ToolTipText</value>
+    <comment>ToolTipText property display name.</comment>
+  </data>
+  <data name="DisplayNameUseCompatibleTextRendering" xml:space="preserve">
+    <value>UseCompatibleTextRendering</value>
+    <comment>Display name UseCompatibleTextRendering.</comment>
+  </data>
+  <data name="DisplayNameVisibleButtonCount" xml:space="preserve">
+    <value>VisibleButtonCount</value>
+    <comment>VisibleButtonCount property display name.</comment>
+  </data>
+  <data name="DisplayNameVisibleTabCount" xml:space="preserve">
+    <value>VisibleTabCount</value>
+    <comment>VisibleTabCount property display name.</comment>
+  </data>
+  <data name="DisplayNameWatermarkAlpha" xml:space="preserve">
+    <value>WatermarkAlpha</value>
+    <comment>WatermarkAlpha property display name.</comment>
+  </data>
+  <data name="DisplayNameWatermarkAlphaChanged" xml:space="preserve">
+    <value>WatermarkAlphaChanged</value>
+    <comment>WatermarkAlphaChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameWatermarkDisplayStyle" xml:space="preserve">
+    <value>WatermarkDisplayStyle</value>
+    <comment>Display name for WatermarkDisplayStyle property.</comment>
+  </data>
+  <data name="DisplayNameWatermarkDisplayStyleChanged" xml:space="preserve">
+    <value>WatermarkDisplayStyleChanged</value>
+    <comment>Display name for WatermarkDisplayStyleChanged event.</comment>
+  </data>
+  <data name="DisplayNameWatermarkImage" xml:space="preserve">
+    <value>WatermarkImage</value>
+    <comment>WatermarkImage property display name.</comment>
+  </data>
+  <data name="DisplayNameWatermarkImageAlign" xml:space="preserve">
+    <value>WatermarkImageAlign</value>
+    <comment>WatermarkImageAlign property display name.</comment>
+  </data>
+  <data name="DisplayNameWatermarkImageAlignChanged" xml:space="preserve">
+    <value>WatermarkImageAlignChanged</value>
+    <comment>WatermarkImageAlignChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameWatermarkImageChanged" xml:space="preserve">
+    <value>WatermarkImageChanged</value>
+    <comment>WatermarkImageChanged event display name.</comment>
+  </data>
+  <data name="DisplayNameWidth" xml:space="preserve">
+    <value>Width</value>
+    <comment>Width property display name.</comment>
+  </data>
+  <data name="DockedDescription" xml:space="preserve">
+    <value>Specifies the position and manner in which the control is docked.</value>
+    <comment>Action list docked description.</comment>
+  </data>
+  <data name="FailedParseFormatError" xml:space="preserve">
+    <value>Failed parse format error.</value>
+    <comment>Failed parse format error text.</comment>
+  </data>
+  <data name="FocusHighlightDescription" xml:space="preserve">
+    <value>Specifies if the control should highlight if it has focus.</value>
+    <comment>FocusHighlight description.</comment>
+  </data>
+  <data name="FontDescription" xml:space="preserve">
+    <value>The font used to display text in the control.</value>
+    <comment>Font description.</comment>
+  </data>
+  <data name="FooterDescription" xml:space="preserve">
+    <value>Properties associated with the footer of the control.</value>
+    <comment>Footer description.</comment>
+  </data>
+  <data name="FooterHeightDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating the height of the control's footer.</value>
+    <comment>Footer height description.</comment>
+  </data>
+  <data name="ForeColorDescription" xml:space="preserve">
+    <value>The foreground color of this component, wich is used to display text.</value>
+    <comment>ForeColor description.</comment>
+  </data>
+  <data name="GAPropertyNotFoundExceptionText" xml:space="preserve">
+    <value>Matching GradientAnimation property not found.</value>
+    <comment>GradientAnimation property not found exception text.</comment>
+  </data>
+  <data name="GCPropertyNotFoundExceptionText" xml:space="preserve">
+    <value>Matching GradientCaption property not found.</value>
+    <comment>GradientCaption property not found exception text.</comment>
+  </data>
+  <data name="GPPropertyNotFoundExceptionText" xml:space="preserve">
+    <value>Matching GradientPanel property not found.</value>
+    <comment>GradientPanel property not found exception text.</comment>
+  </data>
+  <data name="GradienTabPageCollectionDescription" xml:space="preserve">
+    <value>The collection of GradientTabPages in the control.</value>
+    <comment>GradienTabPageCollection description.</comment>
+  </data>
+  <data name="GradientAnimationDesription" xml:space="preserve">
+    <value>Gradient background with animation.</value>
+    <comment>GradientAnimation desription.</comment>
+  </data>
+  <data name="GradientCaptionDescription" xml:space="preserve">
+    <value>Caption panel with a gradient background.</value>
+    <comment>GradientCaption control description.</comment>
+  </data>
+  <data name="GradientHighColorChangedDescription" xml:space="preserve">
+    <value>Event raised when the GradientHighColor property is changed on the control.</value>
+    <comment>GradientHighColorChanged description.</comment>
+  </data>
+  <data name="GradientHighColorDescription" xml:space="preserve">
+    <value>Sets the gradient high (lighter) color for the control.</value>
+    <comment>GradientHighColor property description.</comment>
+  </data>
+  <data name="GradientLineDescription" xml:space="preserve">
+    <value>A gradient background line.</value>
+    <comment>GradientLine description.</comment>
+  </data>
+  <data name="GradientLowColorChangedDescription" xml:space="preserve">
+    <value>Event raised when the GradientLowColor property is changed on the control.</value>
+    <comment>GradientLowColorChanged description.</comment>
+  </data>
+  <data name="GradientLowColorDescription" xml:space="preserve">
+    <value>Sets the gradient low (darker) color for the control.</value>
+    <comment>GradientLowColor property description.</comment>
+  </data>
+  <data name="GradientModeChangedDescription" xml:space="preserve">
+    <value>Event raised when the GradientMode property is changed on the control.</value>
+    <comment>GradientModeChanged description.</comment>
+  </data>
+  <data name="GradientModeDescription" xml:space="preserve">
+    <value>Specifies the direction of a linear gradient.</value>
+    <comment>GradientMode property description.</comment>
+  </data>
+  <data name="GradientNavigationButtonDescription" xml:space="preserve">
+    <value>Navigation button with gradient background. Highlights on focus and mouse movement.</value>
+    <comment>GradientNavigationButton description.</comment>
+  </data>
+  <data name="GradientPanelDescription" xml:space="preserve">
+    <value>Panel control with a gradient background.</value>
+    <comment>GradientPanel control description.</comment>
+  </data>
+  <data name="GradientSplitBarDescription" xml:space="preserve">
+    <value>Split bar with gradient background and bumps.</value>
+    <comment>Gradient SplitBar description.</comment>
+  </data>
+  <data name="GradientSplitBarDirectionDescription" xml:space="preserve">
+    <value>Direction to draw the bar.</value>
+    <comment>GradientSplitBar direction description.</comment>
+  </data>
+  <data name="GradientSplitterDescription" xml:space="preserve">
+    <value>A gradient splitter control that enables the user to resize docked controls.</value>
+    <comment>GradientSplitter control description.</comment>
+  </data>
+  <data name="GradientTabAddVerbText" xml:space="preserve">
+    <value>Add gradient tab page</value>
+    <comment>GradientTabPane add verb text.</comment>
+  </data>
+  <data name="GradientTabDescription" xml:space="preserve">
+    <value>Manages and displays to the user a related collection of gradient tabs that can contain controls and components.</value>
+    <comment>GradientTab control description.</comment>
+  </data>
+  <data name="GradientTabRemoveVerbText" xml:space="preserve">
+    <value>Remove gradient tab page</value>
+    <comment>GradientTabPane remove verb text.</comment>
+  </data>
+  <data name="GSBPropertyNotFoundExceptionText" xml:space="preserve">
+    <value>Matching GradientSplitBar property not found.</value>
+    <comment>GradientSplitBar property not found exception text.</comment>
+  </data>
+  <data name="HidePrefixDescription" xml:space="preserve">
+    <value>Gets or sets a value indication whether to hide prefix in text.</value>
+    <comment>HidePrefix description</comment>
+  </data>
+  <data name="HighColorLuminanceDescription" xml:space="preserve">
+    <value>Sets how bright the high color will be starting at the highlight transition point.</value>
+    <comment>HighColorLuminance description.</comment>
+  </data>
+  <data name="HighlightBorderDescription" xml:space="preserve">
+    <value>Should the inside edge of the border be highlighted.</value>
+    <comment>HighlightBorder description.</comment>
+  </data>
+  <data name="HighlightedDescription" xml:space="preserve">
+    <value>Occurs when a control is highlighted.</value>
+    <comment>Highlighted description.</comment>
+  </data>
+  <data name="HighlightGradientHighColorDescription" xml:space="preserve">
+    <value>High color of the gradient when the mouse is over the control.</value>
+    <comment>HighlightGradientHighColor description.</comment>
+  </data>
+  <data name="HighlightGradientHighColorEventDescription" xml:space="preserve">
+    <value>Event raised when the  HighlightGradientHighColor property is changed on the control.</value>
+    <comment>HighlightGradientHighColor event description.</comment>
+  </data>
+  <data name="HighlightGradientLowColorDescription" xml:space="preserve">
+    <value>Low color of the gradient when mouse is over the control.</value>
+    <comment>HighlightGradientLowColor description.</comment>
+  </data>
+  <data name="HighlightGradientLowColorEventDescription" xml:space="preserve">
+    <value>Event raised when the  HighlightGradientLowColor property is changed on the control.</value>
+    <comment>HighlightGradientLowColor event description.</comment>
+  </data>
+  <data name="HighlightTransitionPercentDescription" xml:space="preserve">
+    <value>The location by percent(.01 to .99) of the control where the color will transition from high to low color.</value>
+    <comment>HighlightTransitionPercent description.</comment>
+  </data>
+  <data name="HotTrackDescription" xml:space="preserve">
+    <value>Indicates whether the control's tabs change in appearance when the mouse passes over them.</value>
+    <comment>HotTrack description.</comment>
+  </data>
+  <data name="ImageAlignChangedEventDescription" xml:space="preserve">
+    <value>Event raised when the ImageAlign property  is changed on the control.</value>
+    <comment>ImageAlignChanged event description.</comment>
+  </data>
+  <data name="ImageAlignmentDescription" xml:space="preserve">
+    <value>Specifies alignment of image on the drawing surface of the control.</value>
+    <comment>Image alignment description.</comment>
+  </data>
+  <data name="ImageChangedEventDescription" xml:space="preserve">
+    <value>Event raised when the Image property is changed on the control.</value>
+    <comment>ImageChanged event description.</comment>
+  </data>
+  <data name="ImageDescription" xml:space="preserve">
+    <value>The image to display in the control.</value>
+    <comment>Image description.</comment>
+  </data>
+  <data name="ImageInCaptionDescription" xml:space="preserve">
+    <value>Should the currently active image be shown in the caption.</value>
+    <comment>ImageInCaption description.</comment>
+  </data>
+  <data name="ImageIndexChangedEventDescription" xml:space="preserve">
+    <value>Event raised when the ImageIndex property is changed on the control.</value>
+    <comment>ImageIndexChanged event description.</comment>
+  </data>
+  <data name="ImageIndexDescription" xml:space="preserve">
+    <value>The index of the image in the ImageList to display in the face of the control.</value>
+    <comment>ImageIndex description.</comment>
+  </data>
+  <data name="ImageIndexFooterChangedEventDescription" xml:space="preserve">
+    <value>Occurs when the ImageIndexFooter property changes.</value>
+    <comment>ImageIndexFooterChanged event description.</comment>
+  </data>
+  <data name="ImageListDescription" xml:space="preserve">
+    <value>The ImageList to get the image to display in the face of the control.</value>
+    <comment>ImageList description.</comment>
+  </data>
+  <data name="ImageListFooterDescription" xml:space="preserve">
+    <value>The ImageList to get the footer image to display in the face of the control.</value>
+    <comment>ImageListFooter description.</comment>
+  </data>
+  <data name="IntervalDescription" xml:space="preserve">
+    <value>How often the animation loop should be run.</value>
+    <comment>Interval description.</comment>
+  </data>
+  <data name="IsAnimatingDescription" xml:space="preserve">
+    <value>Gets a value indicating whether the control is currently animating the image.</value>
+    <comment>IsAnimating description.</comment>
+  </data>
+  <data name="KeyDescription" xml:space="preserve">
+    <value>The unique key associated with the control.</value>
+    <comment>Key description.</comment>
+  </data>
+  <data name="LayoutCategory" xml:space="preserve">
+    <value>Layout</value>
+    <comment>Layout category.</comment>
+  </data>
+  <data name="LayoutTextItem" xml:space="preserve">
+    <value>Properties that affect how the control behaves during layout.</value>
+    <comment>Action list layout text item.</comment>
+  </data>
+  <data name="LowColorLuminanceDescription" xml:space="preserve">
+    <value>How bright the low color will be furthest from the highlight transition point.</value>
+    <comment>LowColorLuminance description.</comment>
+  </data>
+  <data name="MouseOverHighlightDescription" xml:space="preserve">
+    <value>Should the control highlight when the mouse is over it.</value>
+    <comment>MouseOverHighlight description.</comment>
+  </data>
+  <data name="MouseOverHighlightEventDescription" xml:space="preserve">
+    <value>Event raised when the  MouseOverHighlight property is changed on the control.</value>
+    <comment>MouseOverHighlight event description.</comment>
+  </data>
+  <data name="MoveDownText" xml:space="preserve">
+    <value>Move down</value>
+    <comment>Move down text.</comment>
+  </data>
+  <data name="MoveSelectedButtonDownInOrderToolTip" xml:space="preserve">
+    <value>Move the selected button item down in order.</value>
+    <comment>Move selected button down in order ToolTip text.</comment>
+  </data>
+  <data name="MoveSelectedButtonUpInOrderToolTip" xml:space="preserve">
+    <value>Move the selected button item up in order.</value>
+    <comment>Move selected button up in order ToolTip text.</comment>
+  </data>
+  <data name="MoveUpText" xml:space="preserve">
+    <value>Move Up</value>
+    <comment>Move up text.</comment>
+  </data>
+  <data name="MultilineDescription" xml:space="preserve">
+    <value>Indicates whether more than one row of tabs can be displayed.</value>
+    <comment>Multiline description.</comment>
+  </data>
+  <data name="NameDescription" xml:space="preserve">
+    <value>Indicates the name used in code to identify the control.</value>
+    <comment>Action list name description.</comment>
+  </data>
+  <data name="NavigationPageCollectionDescription" xml:space="preserve">
+    <value>The collection of NavigationPages in the control.</value>
+    <comment>NavigationPageCollection description.</comment>
+  </data>
+  <data name="NavigationPaneDescription" xml:space="preserve">
+    <value>Navigation pane that can contain mutiple panels.</value>
+    <comment>NavigationPane description.</comment>
+  </data>
+  <data name="NavigationPaneOptionsDialogAvialableListToolTip" xml:space="preserve">
+    <value>Available buttons</value>
+    <comment>NavigationPane options dialog avialable list ToolTip.</comment>
+  </data>
+  <data name="NavigationPaneOptionsDialogTitle" xml:space="preserve">
+    <value>Navigation Pane Options</value>
+    <comment>NavigationPane options dialog title.</comment>
+  </data>
+  <data name="NPAddVerbDescription" xml:space="preserve">
+    <value>Adds a new navigation pane panel to the control.</value>
+    <comment>NavigationPane add verb description.</comment>
+  </data>
+  <data name="NPAddVerbText" xml:space="preserve">
+    <value>Add navigation page</value>
+    <comment>NavigationPane add verb text.</comment>
+  </data>
+  <data name="NPMenuAddRemoveButtonsText" xml:space="preserve">
+    <value>&amp;Add or Remove Buttons</value>
+    <comment>NavigationPane add remove buttons menu item text.</comment>
+  </data>
+  <data name="NPMenuOptionsText" xml:space="preserve">
+    <value>Na&amp;vigation Pane Options...</value>
+    <comment>NavigationPane options menu item text.</comment>
+  </data>
+  <data name="NPMenuShowFewerButtonsText" xml:space="preserve">
+    <value>Show &amp;Fewer Buttons</value>
+    <comment>NavigationPane show fewer buttons menu item text.</comment>
+  </data>
+  <data name="NPMenuShowMoreButtonsText" xml:space="preserve">
+    <value>Show &amp;More Buttons</value>
+    <comment>NavigationPane show more buttons menu item text.</comment>
+  </data>
+  <data name="NPPPropertyNotFoundExceptionText" xml:space="preserve">
+    <value>Matching property not found.</value>
+    <comment>NavigationPanePage property not found exception text.</comment>
+  </data>
+  <data name="NPPropertyNotFoundExceptionText" xml:space="preserve">
+    <value>Matching property not found.</value>
+    <comment>NavigationPane property not found exception text.</comment>
+  </data>
+  <data name="NPRemoveVerbDescription" xml:space="preserve">
+    <value>Removes a navigation pane panel to the control.</value>
+    <comment>NavigationPane remove verb description.</comment>
+  </data>
+  <data name="NPRemoveVerbText" xml:space="preserve">
+    <value>Remove navigation page</value>
+    <comment>NavigationPane remove verb text.</comment>
+  </data>
+  <data name="OkText" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK text.</comment>
+  </data>
+  <data name="PropertyChangedCategory" xml:space="preserve">
+    <value>Property Changed</value>
+    <comment>Property Changed category.</comment>
+  </data>
+  <data name="RenderModeDescription" xml:space="preserve">
+    <value>Specifies the painting style applied to the background in a control.</value>
+    <comment>RenderMode description.</comment>
+  </data>
+  <data name="ResetButtonOrderAndVisibilityToOriginalText" xml:space="preserve">
+    <value>Reset the button order and visibility to their original settings.</value>
+    <comment>Reset button order and visibility to original Tooltip text</comment>
+  </data>
+  <data name="ResetText" xml:space="preserve">
+    <value>Reset</value>
+    <comment>Reset text.</comment>
+  </data>
+  <data name="SelectedDescription" xml:space="preserve">
+    <value>Occurs when a control is selected.</value>
+    <comment>Selected description.</comment>
+  </data>
+  <data name="SelectedIndexChangedDescription" xml:space="preserve">
+    <value>Event raised when the SelectedIndex property is changed on the control.</value>
+    <comment>SelectedIndex changed description.</comment>
+  </data>
+  <data name="SelectingDescription" xml:space="preserve">
+    <value>Occurs before a control is selected.</value>
+    <comment>Selecting description.</comment>
+  </data>
+  <data name="ShowBackgroundDescription" xml:space="preserve">
+    <value>Gets or sets if the background should be shown on the control.</value>
+    <comment>ShowBackground property description.</comment>
+  </data>
+  <data name="ShowBorderOnHighlightDescription" xml:space="preserve">
+    <value>Specifies if the control should add a 1 pixel border if the control is highlighted.</value>
+    <comment>ShowBorderOnHighlight description.</comment>
+  </data>
+  <data name="ShowDisabledBackgroundColorDescription" xml:space="preserve">
+    <value>Specifies if the background color(s) should be shown as disabled if the control's enabled property is set to false.</value>
+    <comment>ShowDisabledBackgroundColor description.</comment>
+  </data>
+  <data name="ShowToolTipsDescription" xml:space="preserve">
+    <value>Indicates whether a tab's ToolTip is shown when the mouse passes over the tab.</value>
+    <comment>ShowToolTips description.</comment>
+  </data>
+  <data name="SizeModeDescription" xml:space="preserve">
+    <value>Indicates the way that the control's tabs are sized.</value>
+    <comment>SizeMode description.</comment>
+  </data>
+  <data name="SpeedDescription" xml:space="preserve">
+    <value>The speed (gradient offset) the animation will run.</value>
+    <comment>Speed description.</comment>
+  </data>
+  <data name="SplitBarDescription" xml:space="preserve">
+    <value>Properties associated with the split bar of the control.</value>
+    <comment>SplitBar description.</comment>
+  </data>
+  <data name="SplitBarHeightDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating the height of the control's splitbar.</value>
+    <comment>SplitBarHeight description.</comment>
+  </data>
+  <data name="StayActiveAfterClickDescription" xml:space="preserve">
+    <value>Specifies if the button should stay active after it is clicked.</value>
+    <comment>StayActiveAfterClick property description.</comment>
+  </data>
+  <data name="TabDescription" xml:space="preserve">
+    <value>Properties associated with the tabs of the control.</value>
+    <comment>Tab property description.</comment>
+  </data>
+  <data name="TabFontDescription" xml:space="preserve">
+    <value>The font used to display text in the tab of the control.</value>
+    <comment>TabFont description.</comment>
+  </data>
+  <data name="TabHeightDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating the height of the control's tab.</value>
+    <comment>TabHeight description.</comment>
+  </data>
+  <data name="TabSizeDescription" xml:space="preserve">
+    <value>Determines the width of fixed-width tabs and the heights of all tabs.</value>
+    <comment>TabSize description.</comment>
+  </data>
+  <data name="TabStopDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating whether the user can give the focus to this control using the TAB key.</value>
+    <comment>TabStop description.</comment>
+  </data>
+  <data name="TabVisibleDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating whether the page tab is displayed.</value>
+    <comment>TabVisible description.</comment>
+  </data>
+  <data name="TabWidthDescription" xml:space="preserve">
+    <value>Gets or sets a value indicating the width of the control's tab.</value>
+    <comment>TabWidth description.</comment>
+  </data>
+  <data name="TextAlignChangedEventDescription" xml:space="preserve">
+    <value>Event raised when the TextAlign property  is changed on the control.</value>
+    <comment>TextAlignChanged event description.</comment>
+  </data>
+  <data name="TextAlignmentDescription" xml:space="preserve">
+    <value>Specifies alignment of text on the drawing surface of the control.</value>
+    <comment>Text alignment description.</comment>
+  </data>
+  <data name="TextDescription" xml:space="preserve">
+    <value>The text to display in the control.</value>
+    <comment>Text description.</comment>
+  </data>
+  <data name="ToolTipDescription" xml:space="preserve">
+    <value>The text to display in a tooltip.</value>
+    <comment>ToolTip description.</comment>
+  </data>
+  <data name="UseCompatibleTextRenderingDescription" xml:space="preserve">
+    <value>Specifies whether text rendering should be compatible with previous releases ofWindows Forms.</value>
+    <comment>UseCompatibleTextRendering description.</comment>
+  </data>
+  <data name="VisibleButtonCountDescription" xml:space="preserve">
+    <value>Sets the number of visible (not minimized) buttons on the control.</value>
+    <comment>VisibleButtonCount description.</comment>
+  </data>
+  <data name="VisibleTabCountDescription" xml:space="preserve">
+    <value>Sets the number of visible (not minimized) tabs on the control.</value>
+    <comment>VisibleTabCount description.</comment>
+  </data>
+  <data name="WatermarkAlphaChangedDescription" xml:space="preserve">
+    <value>Event raised when the WatermarkAlpha property is changed on the control.</value>
+    <comment>WatermarkAlphaChanged description.</comment>
+  </data>
+  <data name="WatermarkAlphaDescription" xml:space="preserve">
+    <value>The alpha level (0 - 255) of the watermark in the control.</value>
+    <comment>WatermarkAlpha description.</comment>
+  </data>
+  <data name="WatermarkDisplayStyleChangedDescription" xml:space="preserve">
+    <value>Event raised when the WatermarkDisplayStyle property is changed on the control.</value>
+    <comment>WatermarkDisplayStyleChanged description.</comment>
+  </data>
+  <data name="WatermarkDisplayStyleDescription" xml:space="preserve">
+    <value>Specifies how the watermark image will be displayed.</value>
+    <comment>WatermarkDisplayStyle description.</comment>
+  </data>
+  <data name="WatermarkImageAlignChangedEventDescription" xml:space="preserve">
+    <value>Specifies alignment of the watermark image on the drawing surface of the control.</value>
+    <comment>WatermarkImageAlignChangedEvent description.</comment>
+  </data>
+  <data name="WatermarkImageAlignmentDescription" xml:space="preserve">
+    <value>Specifies alignment of watermark image on the drawing surface of the control.</value>
+    <comment>WatermarkImageAlignment description.</comment>
+  </data>
+  <data name="WatermarkImageChangedDescription" xml:space="preserve">
+    <value>Event raised when the WatermarkImage property is changed on the control.</value>
+    <comment>WatermarkImageChanged description.</comment>
+  </data>
+  <data name="WatermarkImageDescription" xml:space="preserve">
+    <value>The watermark image to display in the control.</value>
+    <comment>WatermarkImage description.</comment>
+  </data>
+</root>

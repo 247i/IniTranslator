@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ini Translator Help">
+		<param name="Local" value="Introduction.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Local" value="Introduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Opening and Saving Files">
+			<param name="Local" value="Opening and Saving Files.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Importing and Exporting Data">
+			<param name="Local" value="Import and Export.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Editing Items">
+			<param name="Local" value="Editing Items.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Searching and Replacing">
+			<param name="Local" value="Searching and Replacing.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Trimming">
+			<param name="Local" value="Trim.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Suspicious translations">
+			<param name="Local" value="Configure Suspicious Translations.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Dictionaries">
+			<param name="Local" value="Dictionaries.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Spell checking">
+			<param name="Local" value="Spelling.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Moving Around">
+			<param name="Local" value="Moving around.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="External Tools">
+			<param name="Local" value="External Tools.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Bookmarks">
+			<param name="Local" value="Bookmarks.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The Preferences Dialog">
+			<param name="Local" value="Preferences dialog.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The Comments Dialog">
+			<param name="Local" value="Comments dialog.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The Configure Keyboard Dialog">
+			<param name="Local" value="Configure Keyboard Dialog.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Icons in the ListView">
+			<param name="Local" value="Icons in the ListView.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The Command-line Interface">
+			<param name="Local" value="Command-line interface.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Plugins">
+			<param name="Local" value="Plugins.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Known Issues">
+			<param name="Local" value="Known issues.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Appendix A">
+			<param name="Local" value="Appendix A.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="The ini file format">
+				<param name="Local" value="Appendix A.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Appendix B">
+			<param name="Local" value="Appendix B.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Description of menu commands">
+				<param name="Local" value="Appendix B.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Appendix C">
+			<param name="Local" value="Appendix C.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Tips and Tricks">
+				<param name="Local" value="Appendix C.html">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Create a new translation">
+					<param name="Local" value="Appendix C.html#T1">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Update an existing file with new items">
+					<param name="Local" value="Appendix C.html#T2">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Quickly find untranslated items">
+					<param name="Local" value="Appendix C.html#T3">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Retain trailing spaces">
+					<param name="Local" value="Appendix C.html#T4">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Information in the statusbar">
+					<param name="Local" value="Appendix C.html#T5">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Finding unmatched shortcut keys">
+					<param name="Local" value="Appendix C.html#T6">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Editing other types of files">
+					<param name="Local" value="Appendix C.html#T7">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Appendix D">
+			<param name="Local" value="Appendix D.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Command-file syntax">
+				<param name="Local" value="Appendix D.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tools">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="MS Terminology Translations Builder">
+				<param name="Local" value="MSTermBuild.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="MS Dictionary Builder">
+				<param name="Local" value="MSDictBuild.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SDF Split and Extract">
+				<param name="Local" value="SDFSplit.html">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mozilla Public License 1.1">
+		<param name="Local" value="..\MPL-1.1.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sourceforge Project Page">
+		<param name="Local" value="http://sourceforge.net/projects/initranslator">
+		<param name="URL" value="http://initranslator.sourceforge.net">
+		<param name="ImageNumber" value="13">
+		</OBJECT>
+</UL>
+</BODY></HTML>

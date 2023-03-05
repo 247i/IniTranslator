@@ -1,0 +1,147 @@
+{
+  Copyright © 2003-2006 by Peter Thornqvist; all rights reserved
+
+  Developer(s):
+    p3 - peter3 att users dott sourceforge dott net
+
+  Status:
+   The contents of this file are subject to the Mozilla Public License Version
+   1.1 (the "License"); you may not use this file except in compliance with the
+   License. You may obtain a copy of the License at http://www.mozilla.org/MPL/MPL-1.1.html
+
+   Software distributed under the License is distributed on an "AS IS" basis,
+   WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
+   the specific language governing rights and limitations under the License.
+}
+// $Id: $
+unit %unit%;
+
+interface
+uses
+  Classes, Types, TransIntf;
+
+type
+  %pluginclassname% = class(TInterfacedObject, IUnknown, IFileParser, ILocalizable)
+  private
+    FCount:integer;
+    FAppServices: IApplicationServices;
+    procedure LoadSettings;
+    procedure SaveSettings;
+    function Translate(const Value: WideString): WideString;
+  public
+    function Capabilities: integer; safecall;
+    function Configure(Capability: integer): HRESULT; safecall;
+    function DisplayName(Capability: integer): WideString; safecall;
+    function ExportItems(const Items, Orphans: ITranslationItems): HRESULT; safecall;
+    function ImportItems(const Items, Orphans: ITranslationItems): HRESULT; safecall;
+    procedure Init(const ApplicationServices: IApplicationServices); safecall;
+    function GetString(out Section, Name, Value: WideString): WordBool; safecall;
+  end;
+
+implementation
+uses
+  SysUtils, IniFiles;
+  
+const
+  cExportTitle = 'Export to %title%';
+  cImportTitle = 'Import from %title%';
+  cConfigure = 'Configure %title%';
+
+{ %pluginclassname% }
+
+function %pluginclassname%.Capabilities: integer;
+begin
+  Result := CAP_IMPORT or CAP_EXPORT or CAP_CONFIGURE;
+end;
+
+function %pluginclassname%.Configure(Capability: integer): HRESULT;
+begin
+  Result := S_OK;
+end;
+
+function %pluginclassname%.DisplayName(Capability: integer): WideString;
+begin
+  case Capability of
+    CAP_IMPORT:
+      Result := Translate(cImportTitle);
+    CAP_EXPORT:
+      Result := Translate(cExportTitle);
+    CAP_CONFIGURE:
+      Result := Translate(cConfigure);
+  end;
+end;
+
+function %pluginclassname%.ExportItems(const Items, Orphans: ITranslationItems): HRESULT;
+begin
+  Result := S_FALSE;
+  LoadSettings;
+  try
+  // TODO: implement export
+  finally
+    SaveSettings;
+  end;
+end;
+
+function %pluginclassname%.GetString(out Section, Name, Value: WideString): WordBool;
+begin
+  Result := true;
+  case FCount of
+    0: Value := cExportTitle;
+    1: Value := cImportTitle;
+    2: Value := cConfigure;
+    // TODO: add more strings if required
+  else
+    Result := false;
+    FCount := 0;
+  end;
+  if Result then
+    Inc(FCount);
+  Section := ClassName;
+  Name := Value;
+end;
+
+function %pluginclassname%.ImportItems(const Items, Orphans: ITranslationItems): HRESULT;
+begin
+  Result := S_FALSE;
+  LoadSettings;
+  try
+  // TODO: implement import
+  finally
+    SaveSettings;
+  end;
+end;
+
+procedure %pluginclassname%.Init(const ApplicationServices: IApplicationServices);
+begin
+  FAppServices := ApplicationServices;
+end;
+
+procedure %pluginclassname%.LoadSettings;
+begin
+  with TIniFile.Create(ChangeFileExt(GetModuleName(HInstance), '.ini')) do
+  try
+    // TODO: implement loading settings
+  finally
+    Free;
+  end;
+end;
+
+procedure %pluginclassname%.SaveSettings;
+begin
+  with TIniFile.Create(ChangeFileExt(GetModuleName(HInstance), '.ini')) do
+  try
+    // TODO: implement saving settings
+  finally
+    Free;
+  end;
+end;
+
+function %pluginclassname%.Translate(const Value: WideString): WideString;
+begin
+  if FAppServices <> nil then
+    Result := FAppServices.Translate(ClassName, Value, Value)
+  else
+    Result := Value;
+end;
+
+end.

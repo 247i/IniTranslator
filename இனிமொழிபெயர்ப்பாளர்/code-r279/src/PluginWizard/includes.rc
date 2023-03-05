@@ -1,0 +1,5 @@
+FILEPLUGINPROJECT RCDATA "FilePluginProject.txt"
+FILEPLUGINUNIT RCDATA "FilePluginUnit.txt"
+TOOLPLUGINPROJECT RCDATA "ToolPluginProject.txt"
+TOOLPLUGINUNIT RCDATA "ToolPluginUnit.txt"
+IDI_ICON1 ICON "..\..\data\MichaelKoganIcon2.ico"

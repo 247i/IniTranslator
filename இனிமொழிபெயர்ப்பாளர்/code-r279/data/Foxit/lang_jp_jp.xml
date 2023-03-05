@@ -1,0 +1,1062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Reader>
+<Menus>
+<menu id="128">
+<popup id="|0" text="ファイル(&amp;F)">
+<menuitem id="57601" text="開く(&amp;O)...\tCtrl+O"/>
+<menuitem id="57602" text="閉じる(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="上書き保存(&amp;S)\tCtrl+S"/>
+<menuitem id="32932" text="名前をつけて保存(&amp;A)...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="印刷(&amp;P)...\tCtrl+P"/>
+<menuitem id="57606" text="プリンタの設定(&amp;R)..."/>
+<menuitem id="57616" text="最近使ったファイル"/>
+<menuitem id="32776" text="文書のプロパティ(&amp;T)..."/>
+<menuitem id="57665" text="終了(&amp;X)\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="編集(&amp;E)">
+<menuitem id="57634" text="コピー(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="検索(&amp;F)...\tCtrl+F"/>
+<menuitem id="32903" text="次を検索(&amp;N)\tF3"/>
+<menuitem id="32985" text="環境設定(&amp;P)...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="表示(&amp;V)">
+<menuitem id="32782" text="しおり(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="フルスクリーン(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="ズームイン(&amp;I)\tCtrl+｢+｣"/>
+<menuitem id="32788" text="ズームアウト(&amp;O)\tCtrl+｢-｣"/>
+<menuitem id="32789" text="倍率指定(&amp;T)...\tCtrl+M"/>
+<menuitem id="32790" text="実際のサイズ(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="ページ全体(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="幅に合わせる(&amp;W)\tCtrl+3"/>
+<popup id="|2|12" text="ページレイアウト(&amp;Y)">
+<menuitem id="32925" text="単一ページ(&amp;G)"/>
+<menuitem id="32926" text="連続ページ(&amp;C)"/>
+<menuitem id="32938" text="見開きページ(&amp;F)"/>
+<menuitem id="32939" text="連続見開きページ(&amp;T)"/>
+</popup>
+<popup id="|2|14" text="表示の回転(&amp;V)">
+<menuitem id="32935" text="右に90度回転(&amp;C)\tShift+Ctrl+｢+｣"/>
+<menuitem id="32941" text="左に90度回転(&amp;W)\tShift+Ctrl+｢-｣"/>
+</popup>
+<menuitem id="32942" text="逆順に表示(&amp;R)"/>
+<menuitem id="32930" text="広告(&amp;A)"/>
+<popup id="|2|20" text="ツールバー(&amp;T)">
+<menuitem id="33043" text="ファイル(&amp;F)"/>
+<menuitem id="33044" text="ナビゲーション(&amp;V)"/>
+<menuitem id="33045" text="表示の回転(&amp;W)"/>
+<menuitem id="33046" text="ズーム(&amp;Z)"/>
+<menuitem id="33042" text="基本(&amp;S)"/>
+<menuitem id="33104" text="ヘルプ(&amp;H)"/>
+<menuitem id="33065" text="テキスト ビューワ(&amp;T)"/>
+<menuitem id="33048" text="ツールバーをリセット(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="すべてのツールバーを連結(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="ツールバーを非表示	F8"/>
+</popup>
+<menuitem id="32898" text="メニューバー(&amp;M)"/>
+<menuitem id="59393" text="ステータスバー(&amp;S)"/>
+</popup>
+<popup id="|3" text="言語(&amp;L)">
+<menuitem id="40801" text="デフォルト(&amp;D)"/>
+</popup>
+<popup id="|4" text="文書(&amp;D)">
+<menuitem id="32777" text="最初のページ(&amp;F)	Home"/>
+<menuitem id="32778" text="前のページ(&amp;P)	&lt;-"/>
+<menuitem id="32779" text="次のページ(&amp;N)	-&gt;"/>
+<menuitem id="32780" text="最後のページ(&amp;L)	End"/>
+<menuitem id="33097" text="前の画面(&amp;V)\tAlt+ &lt;-"/>
+<menuitem id="33098" text="次の画面(&amp;W)\tAlt+ -&gt;"/>
+<menuitem id="32781" text="ページ指定(&amp;G)...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|5" text="ツール(&amp;T)">
+<menuitem id="32784" text="手のひらツール(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="ズームアウト(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="ズームイン(&amp;I) \tAlt+5"/>
+<menuitem id="32977" text="テキスト選択(&amp;L)\tAlt+6"/>
+<menuitem id="32987" text="スナップショット(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="テキスト ビューワ(&amp;V)\tAlt+9"/>
+</popup>
+<popup id="|7" text="ウィンドウ(&amp;W)">
+<menuitem id="57648" text="新規ウィンドウ(&amp;N)"/>
+<menuitem id="57650" text="重ねて表示(&amp;C)"/>
+<menuitem id="57651" text="並べて表示(&amp;T)"/>
+<menuitem id="57649" text="アイコンの整列(&amp;A)"/>
+<menuitem id="57602" text="閉じる(&amp;O)"/>
+<menuitem id="32795" text="すべて閉じる(&amp;L)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|8" text="ヘルプ(&amp;H)">
+<menuitem id="32969" text="通常使うPDFリーダに設定(&amp;S)"/>
+<menuitem id="32774" text="Foxit Software Web ページ(&amp;H)"/>
+<menuitem id="57664" text="Foxit Readerについて(&amp;A)..."/>
+</popup>
+</menu>
+<menu id="159">
+<popup id="|0" text="Bars">
+<menuitem id="33043" text="ファイル(&amp;F)"/>
+<menuitem id="33044" text="ナビゲーション(&amp;V)"/>
+<menuitem id="33045" text="表示の回転(&amp;W)"/>
+<menuitem id="33046" text="ズーム(&amp;Z)"/>
+<menuitem id="33042" text="基本(&amp;S)"/>
+<menuitem id="33104" text="ヘルプ(&amp;H)"/>
+<menuitem id="33065" text="テキスト ビューワ(&amp;T)"/>
+<menuitem id="33048" text="ツールバーをリセット(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="すべてのツールバーを連結(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="ツールバーを非表示	F8"/>
+<menuitem id="32930" text="広告(&amp;A)"/>
+<menuitem id="32898" text="メニューバー(&amp;M)"/>
+<menuitem id="59393" text="ステータスバー(&amp;S)"/>
+</popup>
+</menu>
+<menu id="164">
+<popup id="|0" text="ヘルプ">
+<menuitem id="32969" text="通常使うPDFリーダに設定(&amp;S)"/>
+<menuitem id="32774" text="Foxit Software Web ページ(&amp;H)"/>
+<menuitem id="57664" text="Foxit Readerについて(&amp;A)..."/>
+</popup>
+</menu>
+<menu id="266">
+<popup id="|0" text="テキスト選択">
+<menuitem id="57634" text="コピー(&amp;C)              \tCtrl+C"/>
+</popup>
+</menu>
+<menu id="245">
+<popup id="|0" text="表示(&amp;V)">
+<menuitem id="32782" text="しおり(&amp;B)\tAlt+1"/>
+<popup id="|0|2" text="スクリーン ツール(&amp;C)">
+<menuitem id="32784" text="手のひらツール(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="ズームアウト(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="ズームイン(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="テキスト選択(&amp;L)\tAlt+6"/>
+<menuitem id="32987" text="スナップショット(&amp;S)\tAlt+7"/>
+</popup>
+<menuitem id="32930" text="広告(&amp;A)"/>
+<menuitem id="32787" text="ズームイン(&amp;I)\tCtrl+｢+｣"/>
+<menuitem id="32788" text="ズームアウト(&amp;O)\tCtrl+｢-｣"/>
+<menuitem id="32789" text="倍率指定(&amp;T)...\tCtrl+M"/>
+<menuitem id="32790" text="実際のサイズ(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="ページ全体(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="幅に合わせる(&amp;W)\tCtrl+3"/>
+<popup id="|0|14" text="ページレイアウト(&amp;Y)">
+<menuitem id="32925" text="単一ページ(&amp;G)"/>
+<menuitem id="32926" text="連続ページ(&amp;C)"/>
+<menuitem id="32938" text="見開きページ(&amp;F)"/>
+<menuitem id="32939" text="連続見開きページ(&amp;T)"/>
+</popup>
+<popup id="|0|16" text="表示の回転(&amp;V)">
+<menuitem id="32935" text="右に90度回転(&amp;C)\tShift+Ctrl+｢+｣"/>
+<menuitem id="32941" text="左に90度回転(&amp;W)\tShift+Ctrl+｢-｣"/>
+</popup>
+<menuitem id="32942" text="逆順に表示(&amp;R)"/>
+</popup>
+</menu>
+<menu id="623">
+<popup id="|0" text="テキスト表示">
+<menuitem id="57643" text="元に戻す(&amp;U)\tCtrl+Z"/>
+<menuitem id="57635" text="切り取り(&amp;T)\tCtrl+X"/>
+<menuitem id="57634" text="コピー(&amp;C)\tCtrl+C"/>
+<menuitem id="57637" text="貼り付け(&amp;P)\tCtrl+V"/>
+<menuitem id="32901" text="削除(&amp;D)\tDel"/>
+<menuitem id="57636" text="検索(&amp;F)...\tCtrl+F"/>
+<menuitem id="32903" text="次を検索(&amp;N)...\tF3"/>
+<menuitem id="57641" text="置換(&amp;R)...\tCtrl+H"/>
+<menuitem id="57642" text="すべてを選択(&amp;A)\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="720">
+<popup id="|0" text="テキスト表示">
+<menuitem id="57634" text="コピー(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="検索(&amp;F)...\tCtrl+F"/>
+<menuitem id="32903" text="次を検索(&amp;N)...\tF3"/>
+<menuitem id="57642" text="すべてを選択(&amp;A)\tCtrl+A"/>
+</popup>
+</menu>
+<menu id="653">
+<popup id="|0" text="ツールバー">
+<popup id="|0|0" text="ボタンのラベル表示">
+<menuitem id="33050" text="標準のラベル(&amp;D)"/>
+<menuitem id="33051" text="すべてのラベル(&amp;A)"/>
+<menuitem id="33052" text="ラベルなし(&amp;N)"/>
+</popup>
+</popup>
+</menu>
+<menu id="163">
+<popup id="|0" text="表示(&amp;V)">
+<menuitem id="32782" text="しおり(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="フルスクリーン(&amp;F)\tAlt+2"/>
+<popup id="|0|2" text="ツール(&amp;L)">
+<menuitem id="32784" text="手のひらツール(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="ズームアウト(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="ズームイン(&amp;I)\tAlt+5"/>
+<menuitem id="32977" text="テキスト選択(&amp;L)\tAlt+6"/>
+<menuitem id="32987" text="スナップショット(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="テキスト ビューワ(&amp;V)\tAlt+9"/>
+</popup>
+<menuitem id="32787" text="ズームイン(&amp;I)\tCtrl+｢+｣"/>
+<menuitem id="32788" text="ズームアウト(&amp;O)\tCtrl+｢-｣"/>
+<menuitem id="32789" text="倍率指定(&amp;T)...\tCtrl+M"/>
+<menuitem id="32790" text="実際のサイズ(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="ページ全体(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="幅に合わせる(&amp;W)\tCtrl+3"/>
+<popup id="|0|12" text="ページレイアウト(&amp;Y)">
+<menuitem id="32925" text="単一ページ(&amp;G)"/>
+<menuitem id="32926" text="連続ページ(&amp;C)"/>
+<menuitem id="32938" text="見開きページ(&amp;F)"/>
+<menuitem id="32939" text="連続見開きページ(&amp;T)"/>
+</popup>
+<popup id="|0|14" text="表示の回転(&amp;V)">
+<menuitem id="32935" text="右に90度回転(&amp;C)\tShift+Ctrl+｢+｣"/>
+<menuitem id="32941" text="左に90度回転(&amp;W)\tShift+Ctrl+｢-｣"/>
+</popup>
+<menuitem id="32942" text="逆順に表示(&amp;R)"/>
+<menuitem id="32930" text="広告(&amp;A)"/>
+<popup id="|0|20" text="ツールバー(&amp;T)">
+<menuitem id="33043" text="ファイル(&amp;F)"/>
+<menuitem id="33044" text="ナビゲーション(&amp;V)"/>
+<menuitem id="33045" text="表示の回転(&amp;W)"/>
+<menuitem id="33046" text="ズーム(&amp;Z)"/>
+<menuitem id="33042" text="基本(&amp;S)"/>
+<menuitem id="33104" text="ヘルプ(&amp;H)"/>
+<menuitem id="33065" text="テキスト ビューワ(&amp;X)"/>
+<menuitem id="33048" text="ツールバーをリセット(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="すべてのツールバーを連結(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="ツールバーを非表示	F8"/>
+</popup>
+<menuitem id="59393" text="ステータスバー(&amp;S)"/>
+<menuitem id="32898" text="メニューバー(&amp;M)"/>
+</popup>
+</menu>
+<menu id="160">
+<popup id="|0" text="ズームイン">
+<menuitem id="32865" text="1600%"/>
+<menuitem id="32866" text="800%"/>
+<menuitem id="32867" text="400%"/>
+<menuitem id="32868" text="200%"/>
+<menuitem id="32869" text="150%"/>
+<menuitem id="32870" text="125%"/>
+<menuitem id="32871" text="100%"/>
+</popup>
+</menu>
+<menu id="161">
+<popup id="|0" text="ズームアウト">
+<menuitem id="32871" text="100%"/>
+<menuitem id="32873" text="50%"/>
+<menuitem id="32874" text="25%"/>
+<menuitem id="32875" text="12.5%"/>
+<menuitem id="32876" text="8.33%"/>
+</popup>
+</menu>
+<menu id="129">
+<popup id="|1" text="ファイル(&amp;F)">
+<menuitem id="57601" text="開く(&amp;O)...\tCtrl+O"/>
+<menuitem id="57602" text="閉じる(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="上書き保存(&amp;S)\tCtrl+S"/>
+<menuitem id="32932" text="名前をつけて保存(&amp;A)...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="印刷(&amp;P)...\tCtrl+P"/>
+<menuitem id="57606" text="プリンタの設定(&amp;R)..."/>
+<menuitem id="57616" text="最近使ったファイル"/>
+<menuitem id="32776" text="文書のプロパティ(&amp;T)..."/>
+<menuitem id="57665" text="終了(&amp;X)\tCtrl+Q"/>
+</popup>
+<popup id="|2" text="編集(&amp;E)">
+<menuitem id="57634" text="コピー(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="検索(&amp;F)...\tCtrl+F"/>
+<menuitem id="32903" text="次を検索(&amp;N)\tF3"/>
+<menuitem id="32985" text="環境設定(&amp;P)...\tCtrl+K"/>
+</popup>
+<popup id="|3" text="表示(&amp;V)">
+<menuitem id="32782" text="しおり(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="フルスクリーン(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="ズームイン(&amp;I)\tCtrl+｢+｣"/>
+<menuitem id="32788" text="ズームアウト(&amp;O)\tCtrl+｢-｣"/>
+<menuitem id="32789" text="倍率指定(&amp;T)...\tCtrl+M"/>
+<menuitem id="32790" text="実際のサイズ(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="ページ全体(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="幅に合わせる(&amp;W)\tCtrl+3"/>
+<popup id="|3|12" text="ページレイアウト(&amp;Y)">
+<menuitem id="32925" text="単一ページ(&amp;G)"/>
+<menuitem id="32926" text="連続ページ(&amp;C)"/>
+<menuitem id="32938" text="見開きページ(&amp;F)"/>
+<menuitem id="32939" text="連続見開きページ(&amp;T)"/>
+</popup>
+<popup id="|3|14" text="表示の回転(&amp;V)">
+<menuitem id="32935" text="右に90度回転(&amp;C)\tShift+Ctrl+｢+｣"/>
+<menuitem id="32941" text="左に90度回転(&amp;W)\tShift+Ctrl+｢-｣"/>
+</popup>
+<menuitem id="32942" text="逆順に表示(&amp;R)"/>
+<menuitem id="32930" text="広告(&amp;A)"/>
+<popup id="|3|20" text="ツールバー(&amp;T)">
+<menuitem id="33043" text="ファイル(&amp;F)"/>
+<menuitem id="33044" text="ナビゲーション(&amp;V)"/>
+<menuitem id="33045" text="表示の回転(&amp;W)"/>
+<menuitem id="33046" text="ズーム(&amp;Z)"/>
+<menuitem id="33042" text="基本(&amp;S)"/>
+<menuitem id="33104" text="ヘルプ(&amp;H)"/>
+<menuitem id="33065" text="テキスト ビューワ(&amp;X)"/>
+<menuitem id="33048" text="ツールバーをリセット(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="すべてのツールバーを連結(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="ツールバーを非表示	F8"/>
+</popup>
+<menuitem id="32898" text="メニューバー(&amp;M)"/>
+<menuitem id="59393" text="ステータスバー(&amp;S)"/>
+</popup>
+<popup id="|4" text="言語(&amp;L)">
+<menuitem id="40801" text="デフォルト(&amp;D)"/>
+</popup>
+<popup id="|5" text="文書(&amp;D)">
+<menuitem id="32777" text="最初のページ(&amp;F)	Home"/>
+<menuitem id="32778" text="前のページ(&amp;P)	&lt;-"/>
+<menuitem id="32779" text="次のページ(&amp;N)	-&gt;"/>
+<menuitem id="32780" text="最後のページ(&amp;L)	End"/>
+<menuitem id="33097" text="前の画面(&amp;V)\tAlt+ &lt;-"/>
+<menuitem id="33098" text="次の画面(&amp;W)\tAlt+ -&gt;"/>
+<menuitem id="32781" text="ページ指定(&amp;G)...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|6" text="ツール(&amp;T)">
+<menuitem id="32784" text="手のひらツール(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="ズームアウト(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="ズームイン(&amp;I) \tAlt+5"/>
+<menuitem id="32977" text="テキスト選択(&amp;L)\tAlt+6"/>
+<menuitem id="32987" text="スナップショット(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="テキスト ビューワ(&amp;V)\tAlt+9"/>
+</popup>
+<popup id="|8" text="ウィンドウ(&amp;W)">
+<menuitem id="57648" text="新規ウィンドウ(&amp;N)"/>
+<menuitem id="57650" text="重ねて表示(&amp;C)"/>
+<menuitem id="57651" text="並べて表示(&amp;T)"/>
+<menuitem id="57649" text="アイコンの整列(&amp;A)"/>
+<menuitem id="57602" text="閉じる(&amp;O)"/>
+<menuitem id="32795" text="すべて閉じる(&amp;L)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|9" text="ヘルプ(&amp;H)">
+<menuitem id="32969" text="通常使うPDFリーダに設定(&amp;S)"/>
+<menuitem id="32774" text="Foxit Software Web ページ(&amp;H)"/>
+<menuitem id="57664" text="Foxit Readerについて(&amp;A)..."/>
+</popup>
+</menu>
+<menu id="209">
+<popup id="|0" text="ファイル(&amp;F)">
+<menuitem id="57601" text="開く(&amp;O)...\tCtrl+O"/>
+<menuitem id="57602" text="閉じる(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="上書き保存(&amp;S)\tCtrl+S"/>
+<menuitem id="32932" text="名前をつけて保存(&amp;A)...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="印刷(&amp;P)...\tCtrl+P"/>
+<menuitem id="57606" text="プリンタの設定(&amp;R)..."/>
+<menuitem id="57616" text="最近使ったファイル"/>
+<menuitem id="32776" text="文書のプロパティ(&amp;T)..."/>
+<menuitem id="57665" text="終了(&amp;X)\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="編集(&amp;E)">
+<menuitem id="57634" text="コピー(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="検索(&amp;F)...\tCtrl+F"/>
+<menuitem id="32903" text="次を検索(&amp;N)\tF3"/>
+<menuitem id="32985" text="環境設定(&amp;P)...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="表示(&amp;V)">
+<menuitem id="32782" text="しおり(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="フルスクリーン(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="ズームイン(&amp;I)\tCtrl+｢+｣"/>
+<menuitem id="32788" text="ズームアウト(&amp;O)\tCtrl+｢-｣"/>
+<menuitem id="32789" text="倍率指定(&amp;T)...\tCtrl+M"/>
+<menuitem id="32790" text="実際のサイズ(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="ページ全体(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="幅に合わせる(&amp;W)\tCtrl+3"/>
+<popup id="|2|12" text="ページレイアウト(&amp;Y)">
+<menuitem id="32925" text="単一ページ(&amp;G)"/>
+<menuitem id="32926" text="連続ページ(&amp;C)"/>
+<menuitem id="32938" text="見開きページ(&amp;F)"/>
+<menuitem id="32939" text="連続見開きページ(&amp;T)"/>
+</popup>
+<popup id="|2|14" text="表示の回転(&amp;V)">
+<menuitem id="32935" text="右に90度回転(&amp;C)\tShift+Ctrl+｢+｣"/>
+<menuitem id="32941" text="左に90度回転(&amp;W)\tShift+Ctrl+｢-｣"/>
+</popup>
+<menuitem id="32942" text="逆順に表示(&amp;R)"/>
+<menuitem id="32930" text="広告(&amp;A)"/>
+<popup id="|2|20" text="ツールバー(&amp;T)">
+<menuitem id="33043" text="ファイル(&amp;F)"/>
+<menuitem id="33044" text="ナビゲーション(&amp;V)"/>
+<menuitem id="33045" text="表示の回転(&amp;W)"/>
+<menuitem id="33046" text="ズーム(&amp;Z)"/>
+<menuitem id="33042" text="基本(&amp;S)"/>
+<menuitem id="33104" text="ヘルプ(&amp;H)"/>
+<menuitem id="33065" text="テキスト ビューワ(&amp;X)"/>
+<menuitem id="33048" text="ツールバーをリセット(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="すべてのツールバーを連結(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="ツールバーを非表示	F8"/>
+</popup>
+<menuitem id="32898" text="メニューバー(&amp;M)"/>
+<menuitem id="59393" text="ステータスバー(&amp;S)"/>
+</popup>
+<popup id="|3" text="文書(&amp;D)">
+<menuitem id="32777" text="最初のページ(&amp;F)	Home"/>
+<menuitem id="32778" text="前のページ(&amp;P)	&lt;-"/>
+<menuitem id="32779" text="次のページ(&amp;N)	-&gt;"/>
+<menuitem id="32780" text="最後のページ(&amp;L)	End"/>
+<menuitem id="33097" text="前の画面(&amp;V)\tAlt+ &lt;-"/>
+<menuitem id="33098" text="次の画面(&amp;W)\tAlt+ -&gt;"/>
+<menuitem id="32781" text="ページ指定(&amp;G)...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="ツール(&amp;T)">
+<menuitem id="32784" text="手のひらツール(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="ズームアウト(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="ズームイン(&amp;I) \tAlt+5"/>
+<menuitem id="32977" text="テキスト選択(&amp;L)\tAlt+6"/>
+<menuitem id="32987" text="スナップショット(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="テキスト ビューワ(&amp;V)\tAlt+9"/>
+</popup>
+<popup id="|5" text="ウィンドウ(&amp;W)">
+<menuitem id="57648" text="新規ウィンドウ(&amp;N)"/>
+<menuitem id="57650" text="重ねて表示(&amp;C)"/>
+<menuitem id="57651" text="並べて表示(&amp;T)"/>
+<menuitem id="57649" text="アイコンの整列(&amp;A)"/>
+<menuitem id="57602" text="閉じる(&amp;O)"/>
+<menuitem id="32795" text="すべて閉じる(&amp;L)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="ヘルプ(&amp;H)">
+<menuitem id="32969" text="通常使うPDFリーダに設定(&amp;S)"/>
+<menuitem id="32774" text="Foxit Software Web ページ(&amp;H)"/>
+<menuitem id="57664" text="Foxit Readerについて(&amp;A)..."/>
+</popup>
+</menu>
+<menu id="205">
+<popup id="|0" text="ファイル(&amp;F)">
+<menuitem id="57601" text="開く(&amp;O)...\tCtrl+O"/>
+<menuitem id="57602" text="閉じる(&amp;C)\tCtrl+W"/>
+<menuitem id="57603" text="上書き保存(&amp;S)"/>
+<menuitem id="32932" text="名前をつけて保存(&amp;A)...\tCtrl+Shift+S"/>
+<menuitem id="57607" text="印刷(&amp;P)...\tCtrl+P"/>
+<menuitem id="57606" text="プリンタの設定(&amp;R)..."/>
+<menuitem id="57616" text="最近使ったファイル"/>
+<menuitem id="32776" text="文書のプロパティ(&amp;T)..."/>
+<menuitem id="57665" text="終了(&amp;X)\tCtrl+Q"/>
+</popup>
+<popup id="|1" text="編集(&amp;E)">
+<menuitem id="57634" text="コピー(&amp;C)\tCtrl+C"/>
+<menuitem id="57636" text="検索(&amp;F)...\tCtrl+F"/>
+<menuitem id="32903" text="次を検索(&amp;N)\tF3"/>
+<menuitem id="32985" text="環境設定(&amp;P)...\tCtrl+K"/>
+</popup>
+<popup id="|2" text="表示(&amp;V)">
+<menuitem id="32782" text="しおり(&amp;B)\tAlt+1"/>
+<menuitem id="32783" text="フルスクリーン(&amp;F)\tAlt+2"/>
+<menuitem id="32787" text="ズームイン(&amp;I)\tCtrl+｢+｣"/>
+<menuitem id="32788" text="ズームアウト(&amp;O)\tCtrl+｢-｣"/>
+<menuitem id="32789" text="倍率指定(&amp;T)...\tCtrl+M"/>
+<menuitem id="32790" text="実際のサイズ(&amp;A)\tCtrl+1"/>
+<menuitem id="32791" text="ページ全体(&amp;P)\tCtrl+2"/>
+<menuitem id="32792" text="幅に合わせる(&amp;W)\tCtrl+3"/>
+<popup id="|2|12" text="ページレイアウト(&amp;Y)">
+<menuitem id="32925" text="単一ページ(&amp;G)"/>
+<menuitem id="32926" text="連続ページ(&amp;C)"/>
+<menuitem id="32938" text="見開きページ(&amp;F)"/>
+<menuitem id="32939" text="連続見開きページ(&amp;T)"/>
+</popup>
+<popup id="|2|14" text="表示の回転(&amp;V)">
+<menuitem id="32935" text="右に90度回転(&amp;C)\tShift+Ctrl+｢+｣"/>
+<menuitem id="32941" text="左に90度回転(&amp;W)\tShift+Ctrl+｢-｣"/>
+</popup>
+<menuitem id="32942" text="逆順に表示(&amp;R)"/>
+<menuitem id="32930" text="広告(&amp;A)"/>
+<popup id="|2|20" text="ツールバー(&amp;T)">
+<menuitem id="33043" text="ファイル(&amp;F)"/>
+<menuitem id="33044" text="ナビゲーション(&amp;V)"/>
+<menuitem id="33045" text="表示の回転(&amp;W)"/>
+<menuitem id="33046" text="ズーム(&amp;Z)"/>
+<menuitem id="33042" text="基本(&amp;S)"/>
+<menuitem id="33104" text="ヘルプ(&amp;H)"/>
+<menuitem id="33065" text="テキスト ビューワ(&amp;T)"/>
+<menuitem id="33048" text="ツールバーをリセット(&amp;R)\tAlt+F8"/>
+<menuitem id="33049" text="すべてのツールバーを連結(&amp;D)\tCtrl+F8"/>
+<menuitem id="33053" text="ツールバーを非表示	F8"/>
+</popup>
+<menuitem id="32898" text="メニューバー(&amp;M)"/>
+<menuitem id="59393" text="ステータスバー(&amp;S)"/>
+</popup>
+<popup id="|3" text="文書(&amp;D)">
+<menuitem id="32777" text="最初のページ(&amp;F)	Home"/>
+<menuitem id="32778" text="前のページ(&amp;P)	&lt;-"/>
+<menuitem id="32779" text="次のページ(&amp;N)	-&gt;"/>
+<menuitem id="32780" text="最後のページ(&amp;L)	End"/>
+<menuitem id="33097" text="前の画面(&amp;V)\tAlt+ &lt;-"/>
+<menuitem id="33098" text="次の画面(&amp;W)\tAlt+ -&gt;"/>
+<menuitem id="32781" text="ページ指定(&amp;G)...\tShift+Ctrl+N"/>
+</popup>
+<popup id="|4" text="ツール(&amp;T)">
+<menuitem id="32784" text="手のひらツール(&amp;H)\tAlt+3"/>
+<menuitem id="32785" text="ズームアウト(&amp;O)\tAlt+4"/>
+<menuitem id="32786" text="ズームイン(&amp;I) \tAlt+5"/>
+<menuitem id="32977" text="テキスト選択(&amp;L)\tAlt+6"/>
+<menuitem id="32987" text="スナップショット(&amp;S)\tAlt+7"/>
+<menuitem id="32793" text="テキスト ビューワ(&amp;V)\tAlt+9"/>
+</popup>
+<popup id="|5" text="ウィンドウ(&amp;W)">
+<menuitem id="57648" text="新規ウィンドウ(&amp;N)"/>
+<menuitem id="57650" text="重ねて表示(&amp;C)"/>
+<menuitem id="57651" text="並べて表示(&amp;T)"/>
+<menuitem id="57649" text="アイコンの整列(&amp;A)"/>
+<menuitem id="57602" text="閉じる(&amp;O)"/>
+<menuitem id="32795" text="すべて閉じる(&amp;L)\tCtrl+Shift+W"/>
+</popup>
+<popup id="|6" text="ヘルプ(&amp;H)">
+<menuitem id="32969" text="通常使うPDFリーダに設定(&amp;S)"/>
+<menuitem id="32774" text="Foxit Software Web ページ(&amp;H)"/>
+<menuitem id="57664" text="Foxit Readerについて(&amp;A)..."/>
+</popup>
+</menu>
+<menu id="9032">
+<popup id="|0" text="文字の拡大/縮小">
+<menuitem id="9061" text="200%"/>
+<menuitem id="9067" text="150%"/>
+<menuitem id="9066" text="125%"/>
+<menuitem id="9062" text="100%"/>
+<menuitem id="9063" text="75%"/>
+<menuitem id="9064" text="50%"/>
+<menuitem id="9065" text="その他..."/>
+</popup>
+</menu>
+</Menus>
+<Dialogs>
+<Dialog id="147">
+<dlgitem id="1002" text="文書すべてを保存"/>
+<dlgitem id="1003" text="現在のページを保存"/>
+<dlgitem id="1004" text="ページ指定範囲を保存:"/>
+<dlgitem id="1191" text="-"/>
+<dlgitem id="1191" text="保存の内容:"/>
+</Dialog>
+<Dialog id="727" text="プログレス">
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="1256" text="Progress1"/>
+<dlgitem id="1255" text="検索中..."/>
+</Dialog>
+<Dialog id="274" text="検索">
+<dlgitem id="1192" text="検索する語句(&amp;N):"/>
+<dlgitem id="1067" text="完全に一致する語だけ(&amp;W)"/>
+<dlgitem id="1068" text="大文字と小文字を区別(&amp;C)"/>
+<dlgitem id="1193" text="検索方向"/>
+<dlgitem id="1069" text="上(&amp;U)"/>
+<dlgitem id="1070" text="下(&amp;D)"/>
+<dlgitem id="1153" text="次を検索(&amp;F)"/>
+<dlgitem id="2" text="キャンセル(&amp;C)"/>
+</Dialog>
+<Dialog id="157" text="ページ指定">
+<dlgitem id="1194" text="ページ(&amp;P):"/>
+<dlgitem id="1195" text="/"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+</Dialog>
+<Dialog id="130" text="パスワード">
+<dlgitem id="1196" text="パスワードを入力:"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="1121" text="この文書は保護されています。文書を開くパスワードを入力してください。"/>
+</Dialog>
+<Dialog id="276">
+<dlgitem id="1197" text="色の設定"/>
+<dlgitem id="1074" text="文書の色を変更(&amp;R)"/>
+<dlgitem id="1075" text="Windowsの画面デザインを使用する(&amp;W)"/>
+<dlgitem id="1076" text="カ¹タム(&amp;C):"/>
+<dlgitem id="1102" text="背景(&amp;B):"/>
+<dlgitem id="1103" text="文字(&amp;T):"/>
+<dlgitem id="1078" text="黒と白のみ変更(&amp;)"/>
+</Dialog>
+<Dialog id="300">
+<dlgitem id="1198" text="選択"/>
+<dlgitem id="1108" text="スナップショットに固定の解像度を使用(&amp;N)"/>
+<dlgitem id="1200" text="解像度(&amp;U):"/>
+<dlgitem id="1199" text="プリンタ"/>
+<dlgitem id="1253" text="テキストを画像として印刷する(&amp;G) (フォントの代替は無視)"/>
+</Dialog>
+<Dialog id="278">
+<dlgitem id="1201" text="ページ表示"/>
+<dlgitem id="1202" text="ページレイアウト(&amp;A):"/>
+<dlgitem id="1101" text="グリッドを表示する(&amp;T)"/>
+<dlgitem id="1105" text="見開きページ(&amp;C)"/>
+<dlgitem id="1204" text="ページ"/>
+<dlgitem id="1252" text="マージン(&amp;M)"/>
+<dlgitem id="1205" text="ピクセル"/>
+<dlgitem id="1111" text="テキストをモニターに合わせて表示する"/>
+<dlgitem id="1203" text="拡大/縮小"/>
+<dlgitem id="1206" text="デフォルト ズーム(&amp;Z):"/>
+<dlgitem id="1207" text="最大値(&amp;V):"/>
+</Dialog>
+<Dialog id="275" text="環境設定">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="1104" text="項目:"/>
+</Dialog>
+<Dialog id="778" text="プログレス">
+<dlgitem id="1152" text="Progress1"/>
+<dlgitem id="1255" text="印刷中..."/>
+<dlgitem id="2" text="キャンセル"/>
+</Dialog>
+<Dialog id="530" text="印刷">
+<dlgitem id="1199" text="プリンタ"/>
+<dlgitem id="1208" text="名前(&amp;N):"/>
+<dlgitem id="1120" text="プロパティ(&amp;P)"/>
+<dlgitem id="1209" text="状態:"/>
+<dlgitem id="1141" text="準備完了"/>
+<dlgitem id="1122" text="ファイルへ出力(&amp;F)"/>
+<dlgitem id="1210" text="モデル:"/>
+<dlgitem id="1142" text="Foxit PDF Printer"/>
+<dlgitem id="1139" text="印刷のヒント(&amp;T)"/>
+<dlgitem id="1140" text="詳細設定(&amp;D)"/>
+<dlgitem id="1211" text="印刷範囲"/>
+<dlgitem id="1123" text="すべて(&amp;A)"/>
+<dlgitem id="1127" text="現在の表示(&amp;V)"/>
+<dlgitem id="1130" text="現在のページ(&amp;U)"/>
+<dlgitem id="1216" text="ページ指定"/>
+<dlgitem id="1191" text="-"/>
+<dlgitem id="1212" text="印刷(&amp;B):"/>
+<dlgitem id="1226" text="逆順に印刷(&amp;E)"/>
+<dlgitem id="1213" text="ページ処理"/>
+<dlgitem id="1214" text="部数(&amp;C):"/>
+<dlgitem id="1163" text="マージン(&amp;M):"/>
+<dlgitem id="1228" text="インチ"/>
+<dlgitem id="1229" text="部単位で印刷(&amp;O)"/>
+<dlgitem id="1215" text="ページの拡大/縮小(&amp;S):"/>
+<dlgitem id="1217" text="ページレイアウト(&amp;R):"/>
+<dlgitem id="1219" text="ページの回転(&amp;R):"/>
+<dlgitem id="1164" text="ページ順序(&amp;D):"/>
+<dlgitem id="1165" text="１枚あたりのページ数(&amp;S):"/>
+<dlgitem id="1166" text="×"/>
+<dlgitem id="1133" text="ページを自動回転(&amp;R)"/>
+<dlgitem id="1151" text="ページの中央に配置(&amp;T)"/>
+<dlgitem id="1156" text="ページ境界を印刷(&amp;B)"/>
+<dlgitem id="1221" text="印刷内容(&amp;W):"/>
+<dlgitem id="1135" text="PDFのページサイズに合わせてペーパーを選択(&amp;Z)"/>
+<dlgitem id="9014" text="プレビュー"/>
+<dlgitem id="1222" text="文書:"/>
+<dlgitem id="1223" text="紙:"/>
+<dlgitem id="1225" text="単位:"/>
+<dlgitem id="1144" text="Static"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="1143" text="ページを表示"/>
+</Dialog>
+<Dialog id="791" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1227" text="PDFにCJK(中国語/日本語/韓国語)の文字が含まれる場合、Foxit Reader
+をインストールしたホルダにFPDFCJK.BINをインストールしてください。
+FPDFCJK.BINがインストールされていないとCJK文字が正しく表示されないことがあります。"/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com/pdf/rd_intro.php"/>
+<dlgitem id="1228" text="FPDFCJK.BINはこちらからダウンロードできます。"/>
+</Dialog>
+<Dialog id="723" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1227" text="Foxit Reader をお使いいただきありがとうございます。 このソフトは評価版であり次の制限事項があります。:"/>
+<dlgitem id="1231" text="ライセンスの購入はこちらのWebサイトで行うことができます。"/>
+<dlgitem id="1232" text="また、メールで購入することもできます。sales@foxitsoftware.com."/>
+<dlgitem id="1148" text="http://www.foxitsoftware.com"/>
+<dlgitem id="1106" text="再びこのメッセージを表示しない"/>
+</Dialog>
+<Dialog id="252" text="Foxit Reader">
+<dlgitem id="1064" text="常にこのチェックをFoxit Reader起動時に行う。"/>
+<dlgitem id="1" text="はい(&amp;Y)"/>
+<dlgitem id="2" text="いいえ(&amp;N)"/>
+<dlgitem id="1065" text="現在、Foxit ReaderはデフォルトのPDFビューワではありません。 Foxit ReaderをデフォルトのPDFビューワに設定することができます。"/>
+<dlgitem id="1228" text="Foxit ReaderをデフォルトのPDFビューワに設定すると、PDFファイルをダブルクリックするとFoxit Readerが起動し、Internet ExplorerでのPDF閲覧はFoxit Readerで行えます。"/>
+<dlgitem id="1229" text="デフォルトのPDFビューワを他のビューワにするには他のビューワにて設定してください。"/>
+</Dialog>
+<Dialog id="285" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1065" text="選択されてた範囲はクリップボードにコピーされました。"/>
+<dlgitem id="1106" text="再びこのメッセージを表示しない"/>
+</Dialog>
+<Dialog id="150" text="文書のプロパティ">
+<dlgitem id="1244" text="概要"/>
+<dlgitem id="1032" text="Static"/>
+<dlgitem id="1201" text="Static"/>
+<dlgitem id="1241" text="詳細"/>
+<dlgitem id="1243" text="ページ数:"/>
+<dlgitem id="1057" text="PDFのバージョン:"/>
+<dlgitem id="1208" text="詳細..."/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="1242" text="ページサイズ:"/>
+<dlgitem id="1233" text="タイトル:"/>
+<dlgitem id="1234" text="サブタイトル:"/>
+<dlgitem id="1235" text="作成者:"/>
+<dlgitem id="1238" text="キーワード:"/>
+<dlgitem id="1236" text="アプリケーション:"/>
+<dlgitem id="1237" text="PDF変換:"/>
+<dlgitem id="1239" text="作成日時:"/>
+<dlgitem id="1240" text="更新日時:"/>
+<dlgitem id="1205" text="Static"/>
+<dlgitem id="1207" text="Static"/>
+<dlgitem id="1203" text="Static"/>
+</Dialog>
+<Dialog id="788" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1245" text="Foxit Reader をお使いいただきありがとうございます。 "/>
+<dlgitem id="1246" text="この機能はFoxit Reader(Professional Version)のものです。この機能をお使いいただくことはできますが、PDFを保存すると更新したページには評価版のマークがつきます。"/>
+<dlgitem id="1106" text="再びこのメッセージを表示しない"/>
+<dlgitem id="1057" text="(Standard Version)."/>
+<dlgitem id="9023" text="Foxit ReaderのProfessional Versionを購入いただけると、評価版のマークは簡単に取り除くことができます。"/>
+<dlgitem id="1270" text="Foxit ReaderのProfessional Version購入についての情報は弊社Webサイト(www.foxitsoftware.com)をご覧ください。"/>
+</Dialog>
+<Dialog id="786" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1245" text="Foxit Reader をお使いいただきありがとうございます。 "/>
+<dlgitem id="9023" text="この機能はFoxit Reader(Professional Version)のものです。Standard  Versionではお使いいただけません。"/>
+<dlgitem id="1106" text="再びこのメッセージを表示しない"/>
+<dlgitem id="1057" text="(Standard  Version)."/>
+<dlgitem id="1270" text="Foxit ReaderのProfessional Version購入についての情報は弊社Webサイト(www.foxitsoftware.com)をご覧ください。"/>
+</Dialog>
+<Dialog id="787" text="Foxit Reader">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="1245" text="Foxit Reader をお使いいただきありがとうございます。 "/>
+<dlgitem id="1246" text="文書が更新されました。文書は保存することはできますが、更新したページには評価版のマークがつきます。"/>
+<dlgitem id="1106" text="再びこのメッセージを表示しない"/>
+<dlgitem id="1057" text="(Standard  Version)."/>
+<dlgitem id="9023" text="Foxit ReaderのProfessional Versionを購入いただけると、評価版のマークは簡単に取り除くことができます。"/>
+<dlgitem id="1270" text="Foxit ReaderのProfessional Version購入についての情報は弊社Webサイト(www.foxitsoftware.com)をご覧ください。"/>
+</Dialog>
+<Dialog id="165" text="テキストビューワ 色設定">
+<dlgitem id="1254" text="前景"/>
+<dlgitem id="1251" text="赤:"/>
+<dlgitem id="1202" text="Slider1"/>
+<dlgitem id="1252" text="緑:"/>
+<dlgitem id="1206" text="Slider1"/>
+<dlgitem id="1253" text="青:"/>
+<dlgitem id="1204" text="Slider1"/>
+<dlgitem id="1084" text="背景"/>
+<dlgitem id="1255" text="赤:"/>
+<dlgitem id="1210" text="Slider1"/>
+<dlgitem id="1256" text="緑:"/>
+<dlgitem id="1212" text="Slider1"/>
+<dlgitem id="1257" text="青:"/>
+<dlgitem id="1214" text="Slider1"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+</Dialog>
+<Dialog id="708"/>
+<Dialog id="673" text="PDFフォント...">
+<dlgitem id="1048" text="List1"/>
+<dlgitem id="1258" text="ページ:"/>
+<dlgitem id="1051" text="プレビュー"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+</Dialog>
+<Dialog id="672" text="テキスト ビューワ 設定">
+<dlgitem id="1259" text="現在のページの幅"/>
+<dlgitem id="1264" text="最小の幅:"/>
+<dlgitem id="1043" text="幅の自動設定"/>
+<dlgitem id="1045" text="ページの自動回転"/>
+<dlgitem id="1242" text="行を維持"/>
+<dlgitem id="1260" text="現在の文書の幅"/>
+<dlgitem id="1263" text="最小の幅:"/>
+<dlgitem id="1058" text="幅の自動設定"/>
+<dlgitem id="1061" text="ページの自動回転"/>
+<dlgitem id="1060" text="行を維持"/>
+<dlgitem id="1261" text="システムのデフォルトの幅"/>
+<dlgitem id="1262" text="最小の幅:"/>
+<dlgitem id="1240" text="幅の自動設定"/>
+<dlgitem id="1062" text="ページの自動回転"/>
+<dlgitem id="1056" text="行を維持"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+</Dialog>
+<Dialog id="158" text="倍率指定">
+<dlgitem id="1203" text="倍率(&amp;M):"/>
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+</Dialog>
+<Dialog id="9026" text="文字の間隔">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="1230" text="拡大"/>
+<dlgitem id="1132" text="縮小"/>
+<dlgitem id="9027" text="間隔:"/>
+<dlgitem id="9029" text="間隔:"/>
+<dlgitem id="9014" text="プレビュー"/>
+<dlgitem id="9021" text="文字の間隔を変更することによってテキストを広げたり詰めることができます。:"/>
+<dlgitem id="9023" text="ポイント"/>
+<dlgitem id="9025" text="ポイント"/>
+</Dialog>
+<Dialog id="9024" text="文字の拡大/縮小">
+<dlgitem id="1" text="OK"/>
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="9008" text="プレビュー"/>
+<dlgitem id="9031" text="倍率(&amp;H):"/>
+<dlgitem id="9033" text="%"/>
+</Dialog>
+<Dialog id="9054" text="Symbolフォント">
+<dlgitem id="1" text="挿入(&amp;I)"/>
+<dlgitem id="2" text="キャンセル(&amp;C)"/>
+</Dialog>
+<Dialog id="9020" text="環境設定">
+<dlgitem id="1" text="OK(&amp;O)"/>
+<dlgitem id="2" text="キャンセル(&amp;C)"/>
+<dlgitem id="9035" text="デフォルト フォント名(&amp;N):"/>
+<dlgitem id="9039" text="デフォルト フォントサイズ(&amp;S):"/>
+<dlgitem id="9047" text="背景色(&amp;K):"/>
+<dlgitem id="9010" text="変更(&amp;G)"/>
+<dlgitem id="9041" text="デフォルト 文字拡大/縮小(&amp;H):"/>
+<dlgitem id="65535" text="%"/>
+<dlgitem id="9043" text="デフォルト 文字間隔(&amp;C):"/>
+<dlgitem id="9045" text="デフォルト 文字色(&amp;O):"/>
+<dlgitem id="9017" text="変更(&amp;A)"/>
+<dlgitem id="9037" text="デフォルト フォントスタイル:"/>
+<dlgitem id="9005" text="ボールド(&amp;B)"/>
+<dlgitem id="9019" text="イタリック(&amp;I)"/>
+</Dialog>
+<Dialog id="9022">
+<dlgitem id="9049" text="フォント:"/>
+</Dialog>
+<Dialog id="793" text="Foxit Reader アップデート マネージャ">
+<dlgitem id="1185" text="ダウンロード(&amp;D)"/>
+<dlgitem id="2" text="キャンセル(&amp;C)"/>
+<dlgitem id="1178" text="Progress1"/>
+<dlgitem id="1187" text="ファイル名:"/>
+<dlgitem id="1188" text="場所:"/>
+<dlgitem id="1189" text="残り時間:"/>
+<dlgitem id="1186" text="詳述:"/>
+</Dialog>
+<Dialog id="792" text="コンポーネントが見あたりません">
+<dlgitem id="1" text="はい(&amp;Y)"/>
+<dlgitem id="2" text="いいえ(&amp;N)"/>
+<dlgitem id="1186" text="PDFファイルを表示するためのコンポーネントが見あたりません。正しく表示するにはWebサイトからコンポーネントをダウンロードする必要があります。"/>
+<dlgitem id="1226" text="詳細な情報をWebサイトから入手しますか？"/>
+</Dialog>
+<Dialog id="796" text="Foxit Reader ">
+<dlgitem id="1" text="ダウンロード"/>
+<dlgitem id="2" text="キャンセル"/>
+<dlgitem id="1265" text="現在の更新:"/>
+<dlgitem id="1266" text="選択された更新"/>
+<dlgitem id="1269" text="(0.0 KB)"/>
+<dlgitem id="1169" text="追加(&amp;A)"/>
+<dlgitem id="1170" text="削除(&amp;R)"/>
+<dlgitem id="1186" text="詳述:"/>
+<dlgitem id="1209" text="ステータス:"/>
+<dlgitem id="1267" text="サイズ:"/>
+<dlgitem id="1174" text="Progress1"/>
+</Dialog>
+</Dialogs>
+<Strings>
+<string id="100" text="OLE の初期化に失敗しました。OLEライブラリが正しいバージョンか確認してください。"/>
+<string id="128" text="Foxit Reader 1.3"/>
+<string id="129" text="\nFoxit Reader\nPDF\nPDFファイル(*.pdf)\n.pdf\nFoxitReader.Document\nPDF文書"/>
+<string id="1022" text="                                                  "/>
+<string id="1209" text="現在のズーム "/>
+<string id="2017" text="デフォルトのPDFビューワを他のビューワにするには他のビューワにて設定してください。"/>
+<string id="2020" text=" は保護されています。開く為のパスワードを入力してください。"/>
+<string id="2021" text="便利な機能を使う方法を知るにはここをクリックしてください！"/>
+<string id="2022" text="PDF文書でタイプライタの機能を使う方法を知るにはここをクリックしてください！"/>
+<string id="2023" text="PDFファイルの変更方法を知るにはここをクリックしてください！"/>
+<string id="2024" text="PDF文書でタイプライタの機能を使うことが可能になりました。\n\nツールバーの&quot;タイプライタ&quot;ボタンをクリックするか、&quot;編集&quot; メニューから&quot;タイプライタ&quot;を選択してください。\n\nそして文書のどこかをクリックしタイプを開始してください！\n\nまたタイプした文書をを印刷することも可能です。"/>
+<string id="2025" text="印刷やプリンタの設定をする前にプリンタのインストールが必要です。"/>
+<string id="2026" text="文書のオープンに失敗しました。ファイルは壊れており修正することができませんでした。 "/>
+<string id="2027" text="ページを見つけることができません:"/>
+<string id="2028" text="アプリケーションを起動することができませんでした。"/>
+<string id="2029" text="この文書には&apos;%s&apos;と振られたページはありません。"/>
+<string id="2031" text="Copyright (C) 2005-2006 Foxit Software"/>
+<string id="2032" text="Webサイ:http://www.foxitsoftware.com"/>
+<string id="2033" text="All Rights Reserved"/>
+<string id="2034" text="Version"/>
+<string id="2035" text="語句を検索できませんでした。"/>
+<string id="2036" text="文書内の検索を終了しました。"/>
+<string id="2037" text="この文書を印刷することはできません。\n\n理由: この文書のセキュリティ権限として印刷が設定されています。"/>
+<string id="2038" text="この文書からテキストをコピーすることはできません。\n\n理由: この文書のセキュリティ権限としてテキストのコピーが設定されています。"/>
+<string id="2039" text="この文書を上書き保存することはできません。名前を付けて保存することはできます。\n\n理由: この文書のセキュリティ権限として文書の保存が設定されています。"/>
+<string id="2040" text="文書を保存することができませんでした。このファイルは開かれています。"/>
+<string id="2041" text="印刷やプリンタの設定をする前にプリンタのインストールが必要です。\n"/>
+<string id="2042" text="文書を保存することができませんでした。ファイルが読み取り専用か他のユーザによって開かれています。\n違う名前で保存するか、他のホルダに保存してください。"/>
+<string id="2043" text="文書"/>
+<string id="2044" text="文書と注釈"/>
+<string id="2045" text="文書と注釈"/>
+<string id="2046" text="文書"/>
+<string id="2047" text="閉じる前に&apos;%s&apos;への変更を保存しますか？"/>
+<string id="2050" text="単一ページ"/>
+<string id="2051" text="連続ページ"/>
+<string id="2052" text="見開きページ"/>
+<string id="2053" text="連続見開きページ"/>
+<string id="2054" text="実際のサイズ"/>
+<string id="2055" text="ページ全体"/>
+<string id="2056" text="幅に合わせる"/>
+<string id="2057" text="ファイル ツールバー"/>
+<string id="2058" text="ナビゲーション"/>
+<string id="2059" text="ズーム ツールバー"/>
+<string id="2060" text="表示の回転 ツールバー"/>
+<string id="2061" text="基本 ツールバー"/>
+<string id="2062" text="テキスト ビューワ"/>
+<string id="2063" text="フルスクリーン"/>
+<string id="2064" text="ヘルプ"/>
+<string id="2070" text="PDFファイルを表示するためのコンポーネント(%s)が見あたりません。正しく表示するにはWebサイトからコンポーネントをダウンロードする必要があります。"/>
+<string id="2072" text="更新があるかチェックしています..."/>
+<string id="2073" text="更新のダウンロードを行っています。"/>
+<string id="2074" text="更新のインストールを行っています。"/>
+<string id="2075" text="&amp;休止"/>
+<string id="2076" text="&amp;続ける"/>
+<string id="2077" text="&amp;終了"/>
+<string id="2078" text="時"/>
+<string id="2079" text="分"/>
+<string id="2080" text="秒"/>
+<string id="2081" text="Professional  Version"/>
+<string id="2082" text="ビジー"/>
+<string id="2083" text="トレイが開いています"/>
+<string id="2084" text="エラー状態"/>
+<string id="2085" text="初期化中"/>
+<string id="2086" text="入出力状態"/>
+<string id="2087" text="手差し状態"/>
+<string id="2088" text="トナーがありません"/>
+<string id="2089" text="印刷ができません"/>
+<string id="2090" text="オフライン"/>
+<string id="2091" text="メモリが不足しています"/>
+<string id="2092" text="出力場所が一杯です"/>
+<string id="2093" text="現在のページを印刷できません"/>
+<string id="2094" text="用紙がつまりました"/>
+<string id="2095" text="用紙がありません"/>
+<string id="2096" text="用紙に問題があります"/>
+<string id="2097" text="休止"/>
+<string id="2098" text="プリントジョブを削除中"/>
+<string id="2099" text="省電力モード"/>
+<string id="2100" text="印刷中"/>
+<string id="2101" text="プリントジョブを実行中"/>
+<string id="2102" text="不明のステータス"/>
+<string id="2103" text="トナーが少なくなりました"/>
+<string id="2104" text="ユーザが対処しなければならないエラーがあります"/>
+<string id="2105" text="待機中"/>
+<string id="2106" text="ウォーミングアップ"/>
+<string id="2107" text="レディ"/>
+<string id="2108" text="しおり"/>
+<string id="2109" text="ページ"/>
+<string id="2110" text="ツールバーを隠す"/>
+<string id="2111" text="ツールバーを表示する"/>
+<string id="2112" text="PDFファイル"/>
+<string id="2113" text="すべてのファイル"/>
+<string id="2114" text="基本ツール"/>
+<string id="2115" text="コメントツール"/>
+<string id="2116" text="フォームツール"/>
+<string id="2117" text="マークアップツール"/>
+<string id="2118" text="テキストツール"/>
+<string id="2119" text="概要"/>
+<string id="2120" text="文書の色"/>
+<string id="2121" text="ページ表示"/>
+<string id="2122" text="用紙に合わせる"/>
+<string id="2123" text="実際のサイズ"/>
+<string id="2124" text="いいえ"/>
+<string id="2125" text="１シート複数ページ"/>
+<string id="2126" text="ノーマル"/>
+<string id="2127" text="右に90度回転"/>
+<string id="2128" text="左に90度回転"/>
+<string id="2129" text="インチ"/>
+<string id="2130" text="範囲内の全てのページ"/>
+<string id="2131" text="奇数ページのみ"/>
+<string id="2132" text="偶数ページのみ"/>
+<string id="2133" text="カスタム..."/>
+<string id="2134" text="拡大/縮小は &apos;実際のサイズ&apos;,&apos;ページ全体&apos;,&apos;幅に合わせる&apos;、若しくは %s から %s の間の値でなければなりません。"/>
+<string id="2135" text="%s から %s の値を入力してください。"/>
+<string id="2136" text="ファイル"/>
+<string id="16640" text="もっと知りたい場合はここをクリックしてください。\nここをクリック"/>
+<string id="32773" text="Foxitソフトウェアの製品を注文頂きありがとうございます。\n注文"/>
+<string id="32774" text="Foxitソフトウェアのホームページへ"/>
+<string id="32775" text="Foxitソフトウェアのサポートページへ"/>
+<string id="32776" text="PDFファイルの文書プロパティを表示\n文書のプロパティ"/>
+<string id="32777" text="最初のページ\n最初のページ"/>
+<string id="32778" text="前のページ\n前のページ"/>
+<string id="32779" text="次のページ\n次のページ"/>
+<string id="32780" text="最後のページ\n最後のページ"/>
+<string id="32782" text="しおりを表示/非表示する\nしおりの表示/非表示"/>
+<string id="32783" text="フルスクリーン\nフルスクリーン"/>
+<string id="32784" text="ハンドツール\nハンド"/>
+<string id="32785" text="ズームアウト ツール\nズームアウト"/>
+<string id="32786" text="ズームイン ツール\nズームイン"/>
+<string id="32787" text="ズームイン\nズームイン"/>
+<string id="32788" text="ズームアウト\nズームアウト"/>
+<string id="32789" text="倍率指定\n倍率指定"/>
+<string id="32790" text="実際のサイズ\n実際のサイズ"/>
+<string id="32791" text="ページ全体\nページ全体"/>
+<string id="32792" text="幅に合わせる\n幅に合わせる"/>
+<string id="32793" text="テキスト ビューワ\nテキスト ビューワ"/>
+<string id="32795" text="全ての文書を閉じる\n全て閉じる"/>
+<string id="32796" text="テキスト ビューワ\nテキスト ビューワ"/>
+<string id="32802" text="文書を新しいフォントに変更する\nフォント"/>
+<string id="32862" text="新しい名前を付けて保存する\n名前を付けて保存"/>
+<string id="32898" text="メニューを表示/非表示する\nメニューの表示/非表示"/>
+<string id="32925" text="単一ページ\n単一ページ"/>
+<string id="32926" text="連続ページ\n連続ページ"/>
+<string id="32932" text="新しい名前を付けて保存する\n名前を付けて保存"/>
+<string id="32935" text="右に90度回転\n右に90度回転"/>
+<string id="32938" text="見開きページ\n見開きページ"/>
+<string id="32939" text="連続見開きページ\n連続見開きページ"/>
+<string id="32941" text="左に90度回転\n左に90度回転"/>
+<string id="32942" text="逆順に表示\n逆順に表示"/>
+<string id="32977" text="テキスト選択ツール\nテキスト選択"/>
+<string id="32985" text="環境設定\n環境設定"/>
+<string id="32987" text="スナップショット ツール\nスナップショット"/>
+<string id="33060" text="ボールド\nボールド"/>
+<string id="33061" text="イタリック\nイタリック"/>
+<string id="33064" text="テキスト ビューワ 環境設定\n環境設定"/>
+<string id="33066" text="テキスト フォント\nフォント"/>
+<string id="33069" text="色\n色"/>
+<string id="33071" text="PDFフォント\nPDFフォント"/>
+<string id="33097" text="前の画面\n前の画面"/>
+<string id="33098" text="次の画面\n次の画面"/>
+<string id="57344" text="Foxit Reader"/>
+<string id="57345" text="レディ"/>
+<string id="57600" text="新規にファイルを作成\n新規作成"/>
+<string id="57601" text="既存のファイルを開く\n開く"/>
+<string id="57602" text="作業中のファイルを閉じる\n閉じる"/>
+<string id="57603" text="作業中のファイルを上書きして保存\n保存"/>
+<string id="57604" text="作業中のファイルを新しい名前で保存\n名前を付けて保存"/>
+<string id="57605" text="印刷オプションの変更\nレイアウトの設定"/>
+<string id="57606" text="プリンタ/印刷オプションの変更\n印刷設定"/>
+<string id="57607" text="作業中のファイルを印刷\n印刷"/>
+<string id="57609" text="印刷イメージを表示\n印刷プレビュー"/>
+<string id="57616" text="指定のファイルを開く"/>
+<string id="57617" text="指定のファイルを開く"/>
+<string id="57618" text="指定のファイルを開く"/>
+<string id="57619" text="指定のファイルを開く"/>
+<string id="57620" text="指定のファイルを開く"/>
+<string id="57621" text="指定のファイルを開く"/>
+<string id="57622" text="指定のファイルを開く"/>
+<string id="57623" text="指定のファイルを開く"/>
+<string id="57624" text="指定のファイルを開く"/>
+<string id="57625" text="指定のファイルを開く"/>
+<string id="57626" text="指定のファイルを開く"/>
+<string id="57627" text="指定のファイルを開く"/>
+<string id="57628" text="指定のファイルを開く"/>
+<string id="57629" text="指定のファイルを開く"/>
+<string id="57630" text="指定のファイルを開く"/>
+<string id="57631" text="指定のファイルを開く"/>
+<string id="57632" text="選択範囲を消去\n消去"/>
+<string id="57633" text="すべて消去\nすべて消去"/>
+<string id="57634" text="選択範囲をコピーしてクリップボードに保存\nコピー"/>
+<string id="57635" text="選択範囲を切り取ってクリップボードに保存\n切り取り"/>
+<string id="57636" text="指定した文字列の検索\n検索"/>
+<string id="57637" text="クリップボードの内容を貼り付け\n貼り付け"/>
+<string id="57640" text="直前に行った動作を繰り返す\n繰り返し"/>
+<string id="57641" text="指定した文字列を他の文字列で置換\n置換"/>
+<string id="57642" text="文書内のすべてを選択\nすべて選択"/>
+<string id="57643" text="直前に行った動作を元に戻す\n元に戻す"/>
+<string id="57644" text="直前に行った動作を繰り返す\n繰り返す"/>
+<string id="57648" text="作業中のウィンドウを複写して表示\n新規ウィンドウ"/>
+<string id="57649" text="ウィンドウの下部にアイコンを整列\nアイコンの整列"/>
+<string id="57650" text="ウィンドウを重ねて表示\n重ねて表示"/>
+<string id="57651" text="ウィンドウを並べて表示\n並べて表示"/>
+<string id="57652" text="ウィンドウを並べて表示\n並べて表示"/>
+<string id="57653" text="作業中のウィンドウを分割\n分割"/>
+<string id="57664" text="プログラムの情報、バージョンそして著作権を表示\nバージョン情報"/>
+<string id="57665" text="アプリケーションを終了し、ファイルの保存を指示\n終了"/>
+<string id="57680" text="次のウィンドウに切り替える\n次のペイン"/>
+<string id="57681" text="前のウィンドウに切り替える\n前のペイン"/>
+<string id="59136" text="EXT"/>
+<string id="59137" text="CAP"/>
+<string id="59138" text="NUM"/>
+<string id="59139" text="SCRL"/>
+<string id="59140" text="上書"/>
+<string id="59141" text="記録"/>
+<string id="59392" text="ツール バーの 表示/非表示\nツール バーの表示切り替え"/>
+<string id="59393" text="ステータス バーの 表示/非表示\nステータス バーの表示切り替え"/>
+<string id="61184" text="ウィンドウのｻｲｽﾞを変更"/>
+<string id="61185" text="ウィンドウの位置を変更"/>
+<string id="61186" text="ウィンドウを最小化する"/>
+<string id="61187" text="ウィンドウを最大化する"/>
+<string id="61188" text="次のウィンドウに切り替える"/>
+<string id="61189" text="前のウィンドウに切り替える"/>
+<string id="61190" text="作業中のウィンドウを閉じ、変更したファイルの保存を指示"/>
+<string id="61202" text="ウィンドウを通常のｻｲｽﾞに戻す"/>
+<string id="61203" text="アプリケーションの切り替え"/>
+<string id="61215" text="指定のウィンドウを表示"/>
+<string id="61445" text="印刷プレビュー ﾓｰﾄﾞの終わり\nプレビューのキャンセル"/>
+</Strings>
+</Reader>
